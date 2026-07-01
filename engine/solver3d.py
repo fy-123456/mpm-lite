@@ -1,5 +1,6 @@
 import numpy as np
 import warp as wp
+from utils.utf8_compat import install_warp_cuda_utf8_open
 from icecream import ic
 from utils.sampling_utils import *
 from .types import *
@@ -44,6 +45,8 @@ from .boundary_utils import (
     paint_bc_kernel,
     boundary_projection_kernel,
 )
+
+install_warp_cuda_utf8_open()
 
 class MPMSolver:
     def __init__(

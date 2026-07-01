@@ -1,6 +1,6 @@
 # MPM Lite: Linear Kernels and Integration without Particles
 
-This is the opensource reference implementation of the SIGGRAPH 2026 paper [MPM Lite: Linear Kernels and Integration without Particles](https://mpmlite.github.io/).
+This is the open-source reference implementation of the SIGGRAPH 2026 paper [MPM Lite: Linear Kernels and Integration without Particles](https://mpmlite.github.io/).
 
 ![teaser](assets/banner.jpg)
 
@@ -19,14 +19,15 @@ uv sync
 
 | | | |
 | --- | --- | --- |
-| [<img src="assets/wheel.gif" width="280">](demos/)<br><sub>uv run -m demos.wheel</sub> | [<img src="assets/noodles.gif" width="280">](demos/)<br><sub>uv run -m demos.noodles</sub> | [<img src="assets/snow.gif" width="280">](demos/)<br><sub>uv run -m demos.snow</sub> |
+| [<img src="assets/wheel.gif" width="220">](demos/)<br>Run: <code>uv run -m demos.wheel</code> | [<img src="assets/noodles.gif" width="220">](demos/)<br>Run: <code>uv run -m demos.noodles</code> | [<img src="assets/snow.gif" width="220">](demos/)<br>Run: <code>uv run -m demos.snow</code> |
 
 ### 2D Demo
 
-Run a minimal, self-contained single-file 2D example with GUI for a pure elastic simulation.
+Run a minimal, self-contained single-file 2D example with GUI for a simulation on pure elasticity. Add `-X utf8` for UTF-8 characters compatibility.
 
 ```shell
-uv run mpmlite2d.py
+uv add glfw # for GUI
+uv run python -X utf8 mpmlite2d.py
 ```
 
 ## Acknowledgements
