@@ -39,7 +39,7 @@ If you find this repository useful in your project, please cite the following wo
 ```bibtex
 @article{feng2026mpmlite,
   title={MPM Lite: Linear kernels and integration without particles},
-  author={Feng, Xiang and Chen, Yunuo and Yu, Chang and Su, Hao and Terzopoulos, Demetri and Yang, Yin and Masterjohn, Joseph and Alejandro, Castro and Jiang, Chenfanfu},
+  author={Feng, Xiang and Chen, Yunuo and Yu, Chang and Su, Hao and Terzopoulos, Demetri and Yang, Yin and Masterjohn, Joseph and Castro, Alejandro and Jiang, Chenfanfu},
   journal={ACM Trans. Graph.},
   publisher = {Association for Computing Machinery},
   volume = {45},
