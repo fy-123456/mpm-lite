@@ -1,0 +1,92 @@
+{
+  "candidates": [
+    {
+      "dt": 0.01,
+      "amplitude_coefficient": -0.00625,
+      "eta_reaction": 0.004520345391269386,
+      "cases": {
+        "closed": {
+          "reaction": -0.00014383719677092842,
+          "pressure": [
+            3.296489306910302e-05,
+            3.526217120299359e-05
+          ]
+        },
+        "drained": {
+          "reaction": -0.00014318700296141185,
+          "pressure": [
+            1.5834235211745799e-06,
+            3.1294461332318816e-06
+          ]
+        }
+      }
+    },
+    {
+      "dt": 0.025,
+      "amplitude_coefficient": -0.0009999999999999998,
+      "eta_reaction": 0.0073925263154447545,
+      "cases": {
+        "closed": {
+          "reaction": -2.9377372607467274e-05,
+          "pressure": [
+            1.6237571095656822e-05,
+            1.680242766961536e-05
+          ]
+        },
+        "drained": {
+          "reaction": -2.9160199607387946e-05,
+          "pressure": [
+            4.650846112928261e-07,
+            8.430600532913216e-07
+          ]
+        }
+      }
+    }
+  ],
+  "selected": {
+    "dt": 0.025,
+    "amplitude_coefficient": -0.0009999999999999998,
+    "eta_reaction": 0.0073925263154447545,
+    "cases": {
+      "closed": {
+        "reaction": -2.9377372607467274e-05,
+        "pressure": [
+          1.6237571095656822e-05,
+          1.680242766961536e-05
+        ]
+      },
+      "drained": {
+        "reaction": -2.9160199607387946e-05,
+        "pressure": [
+          4.650846112928261e-07,
+          8.430600532913216e-07
+        ]
+      }
+    }
+  },
+  "scope": "linearized selection only; original solid, unchanged fluid constants; at most four final nonlinear steps",
+  "budget": {
+    "seconds": 7.897295851260424,
+    "counts": {
+      "geometry": 1
+    },
+    "component_seconds": {
+      "geometry": 7.720434803515673
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 0.09146569948643446
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.720434803515673,
+        "success": true
+      }
+    ]
+  }
+}

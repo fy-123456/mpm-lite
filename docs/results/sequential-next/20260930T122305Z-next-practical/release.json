@@ -1,0 +1,45 @@
+{
+  "schema": "sequential-next-practical-release-v1",
+  "utc": "2026-09-30T14:55:40.891067+00:00",
+  "physical_path": "/root/autodl-tmp/mpm-lite-sequential-next/20260930T122305Z-next-practical",
+  "mathematical_package": {
+    "path": "model/model-package.json",
+    "sha256": "d20f40a21c893831f9bf22504dea43a99eac29242b111e41e920e185cf66896e"
+  },
+  "baseline_sha256": "d347abe0e92dc1a64f93a1ff7c762719e1c41acc004d187842e975730b07fdca",
+  "numerical_sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "5e40a44299403ad3b2f1519af3847dc21d3e935656d8fce59b7879d8e4caa6e3"
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "7552be3776da2ede208d247d12d02cc94b9734444783372f8fd95dd13b99b6ac"
+  },
+  "default_case": "seg-q7-dt0025",
+  "cases": {
+    "seg-q7-dt0025": {
+      "protocol": "cases/seg-q7-dt0025/execution-protocol.json",
+      "protocol_file_sha256": "7ae6b330e4512f80fba4f728091938512cdbbc0c39a0e2845332cba3cd5d2d36",
+      "identity_sha256": "c3301ae9ec0e702fa2e59233b3713dcdb6cde2094949746366bff10367fcb800"
+    },
+    "seg-peak0075-q7": {
+      "protocol": "cases/seg-peak0075-q7/execution-protocol.json",
+      "protocol_file_sha256": "3f8717ada07ce27ff708b401709a987d97871795eae6cfcc27a9168be6426f59",
+      "identity_sha256": "8b4ec316b87f9e7a6884fb9f89d32b1fe628eb52fb9ebef0fe0ac90a27d28257"
+    },
+    "seg-peak0075-q5": {
+      "protocol": "cases/seg-peak0075-q5/execution-protocol.json",
+      "protocol_file_sha256": "a0a3e7e0b5ae49617565483a92e8b995c55cdad8d232b72f7a6678cb5e78dcde",
+      "identity_sha256": "bce8870bdfe2324f19cfc5e17e6e37189c0693c091a3f3d597d7b61c8815932f"
+    }
+  },
+  "operator": "segmented FP64 CSR",
+  "material_order_default": 7,
+  "mass_order": 5,
+  "linearization_cache_default": false,
+  "preconditioner_default": "original",
+  "temporal_accuracy": false,
+  "spatial_accuracy": false,
+  "independent_2D_physics": true,
+  "physical_3D_coupling": false
+}

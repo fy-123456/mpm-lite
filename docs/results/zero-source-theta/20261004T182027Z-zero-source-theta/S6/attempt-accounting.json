@@ -1,0 +1,122 @@
+{
+  "status": "passed_scoped",
+  "stage_attempts": {
+    "S0": 0,
+    "S1": 13,
+    "S2": 49,
+    "S3": 48,
+    "S4": 5,
+    "S5": 0,
+    "S6": 0
+  },
+  "total_attempts": 115,
+  "new_committed_steps": 112,
+  "inherited_coupled_prefix_steps": 36,
+  "injected_failure_attempts": 3,
+  "other_failed_or_interrupted_attempts": 0,
+  "records": [
+    {
+      "path": "S1/fault/attempt.json",
+      "attempts": 1,
+      "stage": "S1",
+      "sha256": "4588ed36428ddbd6b650a94d09b3d9d7a52a3f639f9826750e7d6b0f6fdb11eb"
+    },
+    {
+      "path": "S2/fault/attempt.json",
+      "attempts": 1,
+      "stage": "S2",
+      "sha256": "4588ed36428ddbd6b650a94d09b3d9d7a52a3f639f9826750e7d6b0f6fdb11eb"
+    },
+    {
+      "path": "S4/A0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/A1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/B0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/B1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/fault-B0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "36f1f3f2b64485f3bc786a3027d52fe3a7cf8177d486fdc43ec2911d3303ad8e"
+    },
+    {
+      "path": "cases/zero-backward-euler-coarse-h/attempts.json",
+      "attempts": 4,
+      "stage": "S1",
+      "sha256": "2ae3ea105c8afcfc24ccc36f9d9ceef7b856dcae827e6c39555a13494ed997dd"
+    },
+    {
+      "path": "cases/zero-backward-euler-coarse-half/attempts.json",
+      "attempts": 8,
+      "stage": "S1",
+      "sha256": "92d9212c771796e8acbbe8f3816b6bcde2bfdcc93014459d0cc5830df9a521d8"
+    },
+    {
+      "path": "cases/zero-startup-coarse-h/attempts.json",
+      "attempts": 16,
+      "stage": "S2",
+      "sha256": "c846685d338b0b8874c2dad9ece56074baf9cb4b6e653d371a0d98ab94390e92"
+    },
+    {
+      "path": "cases/zero-startup-coarse-half/attempts.json",
+      "attempts": 32,
+      "stage": "S2",
+      "sha256": "ccd42bfd75a4c84cbc307fe0c5d1f7e13fa3029e9df7b50db287fccc0da1e3a0"
+    },
+    {
+      "path": "cases/zero-startup-fine-h/attempts.json",
+      "attempts": 16,
+      "stage": "S3",
+      "sha256": "fd9ecf9a3cc07328fac13193abdcce84d41dd5cda14f6764edf0d31da1c6d4f7"
+    },
+    {
+      "path": "cases/zero-startup-fine-half/attempts.json",
+      "attempts": 32,
+      "stage": "S3",
+      "sha256": "31affaf2e391e78738ad67c26268bf639586aad6953fa00cd38d5f8c13959ae9"
+    }
+  ],
+  "max_attempts": 188,
+  "new_display_frames": 8,
+  "max_new_display_frames": 12,
+  "new_display_frame_paths": [
+    "cases/zero-backward-euler-coarse-h/generations/g-000016-1ea55e461b6048c9aab37ee40764b69f/frame.npz",
+    "cases/zero-backward-euler-coarse-half/generations/g-000032-a7e48f354b1b4d5895df78c04229ef13/frame.npz",
+    "cases/zero-startup-coarse-h/generations/g-000016-5d72ad4d346b4dd19429feb552e678ea/frame.npz",
+    "cases/zero-startup-coarse-half/generations/g-000032-914f6652e9284293b830aae87b8abf2a/frame.npz",
+    "cases/zero-startup-fine-h/generations/g-000016-c1be9f3b55b44a2dab583a12b278dc08/frame.npz",
+    "cases/zero-startup-fine-half/generations/g-000032-8f670bb542b1418b8f3322aea8f4522f/frame.npz",
+    "S4/A1/generations/g-000004-9c5d06f8796846539bcc93a5e8dda438/frame.npz",
+    "S4/B1/generations/g-000004-b349307f7cf94e23bb32959ea4f81793/frame.npz"
+  ],
+  "inherited_daily_steps": 252,
+  "inherited_daily_frames": 12,
+  "new_formal_steps": 0,
+  "new_static_solves": 0,
+  "new_spaces": 0,
+  "CPU_reference": {
+    "new_matrices": 4,
+    "spectral_calls": 4,
+    "matrix_steps": 0
+  },
+  "CPU_static_operator_H_evaluations": 4,
+  "source_mismatch_ancestor_excluded": true
+}

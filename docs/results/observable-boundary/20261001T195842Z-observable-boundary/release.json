@@ -1,0 +1,64 @@
+{
+  "schema": "observable-boundary-practical-v1",
+  "utc": "2026-10-01T20:30:58.635818+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/phase-boundary/20261001T183820Z-phase-boundary",
+  "application_parent_release_sha256": "5ac018b8e9e6cbce4df61614adc4ab28325cce1a7805f0555b44498df724cdd9",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "3f9c3ef92256c4e0b4af15137c4bad22ee71bc5816b3d4e038625694abc6c30e",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "b6266a0dcb94364fe516133efc1443542c77114cf14046b542e8aa7d679a6e23",
+    "count": 28
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "d7f3bf9f54394b02677f72c646f47e541a6e414592873f9e32340084c2a4c317",
+    "count": 3373
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "f7d69f55ddaefbf996b05dd463f267dccd5aa9570e5d6649e4424f6a9a4914b2"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "ae83d6911ba743c179f78c6006754fd3e905176cdd3bef3a8d1a6bf324c59f15"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "2e82876949867a4157e653ec7f21e6ce8055f557bc704ace6b1a12a01d802fc8"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "ca4c5b68afbd6c21ea8a468f82928cfd7e745828e94640a73774295ef9f091db"
+  },
+  "case_identity_sha256": "3451df0e076d29b39f0666ab852abce31df71b8681a62882d5cab340d4c981d4",
+  "case_protocol_sha256": "36f941d87f56976bc7941cee9a2475cda26d671a29615467af0b4f3f41a53245",
+  "steps": 252,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited",
+    "eligible_coupled": false,
+    "original_fixed_time_gate": false,
+    "grid_comparison_passed": true,
+    "corrected_start_passed": true,
+    "full_corrected_time_window_qualified": false,
+    "actual_coupled": false,
+    "pressure_spatial_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false,
+    "pure_solid_default": true,
+    "steps_per_grid": 62,
+    "reason": "corrected initial layer tested within remaining budget; full corrected time trajectory untested and required four-observation prefix is19steps beyond8 coupling cap"
+  }
+}

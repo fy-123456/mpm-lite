@@ -1,0 +1,23 @@
+{
+  "status": "passed_scoped",
+  "attempts": {
+    "S0": 4,
+    "S1": 256,
+    "S2": 6,
+    "S3": 48,
+    "S4": 0,
+    "S5": 0,
+    "S6": 0
+  },
+  "total": 314,
+  "max_total": 356,
+  "new_display_frames": 8,
+  "max_new_display_frames": 12,
+  "failed_publication_and_injected_failure_included": true,
+  "new_full_cycle_steps": 0,
+  "inherited_daily_steps": 252,
+  "inherited_daily_display_frames": 12,
+  "fixed_geometry_pressure_precheck_matrix_steps": 48,
+  "additional_grid_diagnosis": "66 exact matrix-exponential evaluations, no coupled steps",
+  "rejected_configuration_before_model_or_step": 1
+}

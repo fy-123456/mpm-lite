@@ -1,0 +1,21 @@
+{
+  "rows": [
+    {
+      "eps": 0.001,
+      "total_relative": 3.0168228840546854e-12,
+      "force_relative": 3.016822730417475e-12,
+      "mass_relative": 3.7840757178158257e-11
+    },
+    {
+      "eps": 0.0003,
+      "total_relative": 3.5148694666449504e-12,
+      "force_relative": 3.5148537779625646e-12,
+      "mass_relative": 4.114483528077224e-10
+    }
+  ],
+  "seconds": 296.2309862980619,
+  "material_calls": 6,
+  "material_seconds": 160.80515330657363,
+  "geometry_points": 373248,
+  "scope": "one mixed nonzero formal state, two epsilon directions; full q7 material and original stabilization; constant reference H"
+}

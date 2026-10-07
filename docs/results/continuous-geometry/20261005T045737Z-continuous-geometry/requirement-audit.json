@@ -1,0 +1,378 @@
+{
+  "count": 24,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "3c4833b6aef8f0b737247b7b7f6410e8949e2e4c2608c08f2db8d877965931c5"
+        },
+        {
+          "path": "input-lock.json",
+          "sha256": "9622fe89356ee154ba2e7b28c9ff561dd89abdaacab609e336007963d92175e2"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S0/physical-contract.json",
+          "sha256": "5268e0ff1f52b2ddba45ca125d632a629494d86ae6cf160059ff5bcdce30408c"
+        },
+        {
+          "path": "S0/state-contract.json",
+          "sha256": "d06f333d4f5fc0daf764325b75a44eb8ac0f84ffb1f859c9896fc951b8512f07"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "8d9054bb70cc52df1c97d042f078abd0637d19aa54b86477ac76e9c596490a04"
+        },
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "34e50535468f91d6a3ac3512a82d4e5da22824ce6abe759d28d273ab8d9aae08"
+        },
+        {
+          "path": "S0/storage-migration.json",
+          "sha256": "e1889c47d5c6da2ce12966f52e7150eb70b7c6f0166a7f4c3746bf61a016fcf7"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S1/continuous-protocol.json",
+          "sha256": "8e183736f0a7793c8006b8e681db6fdfd664b777c9bd397ec0e2df7f2ade3817"
+        },
+        {
+          "path": "cases/continuous-B/bridge.json",
+          "sha256": "7db3ee94249e874ddb4234fe496b7c13f3eb4f93a0d75e91c9e7651e34649e5d"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S1/continuous-comparison.json",
+          "sha256": "4f9a845e237d8b23c4d62091718c6e198552275acce30307c732df5fd3276f5a"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S1/transaction-check.json",
+          "sha256": "6e7f08055fc3795beb1b6c35baa20383d7fb48335e0a9d825bb3b2d00c528314"
+        },
+        {
+          "path": "S1/recovery-comparison.json",
+          "sha256": "8fb4d85fd936631ea4716549d55c2e0bc0140506bc2cc88d99e44ceb42f8bdf3"
+        },
+        {
+          "path": "cases/continuous-B/restart-8.json",
+          "sha256": "07989861c19162a4c08c870acdc370e6f341ab79727cc9aa746210bec01f622d"
+        }
+      ]
+    },
+    {
+      "step": "S1.4",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S1/backend-scope-decision.json",
+          "sha256": "1601ab3af8586b146b9633a22d92c36e5b7623c1781ccd03f55caefd86593b1c"
+        },
+        {
+          "path": "S1/resource-interruption.json",
+          "sha256": "4c115ac3fa3df52c0616b25de0be71f90a319cf903ab51beae11295338a6c209"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S2/optimization-protocol.json",
+          "sha256": "f364fd405bfae655d1e7da4ed0d68585576aa2dc325329f02c0bca368fbdf0e6"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "status": "passed_scoped",
+      "reason": "one bounded G1 candidate implemented and operator checked",
+      "evidence": [
+        {
+          "path": "S2/backend-decision.json",
+          "sha256": "f11c37ab3877c130899a092d39530b2cac7c543455a80f1d309ed9d4b6db162d"
+        },
+        {
+          "path": "S2/operator-check.json",
+          "sha256": "01660ab645e499ef046d4ed8aa13d7c03712fb7707b2b0a1fc8e9f744d19810a"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "status": "limited",
+      "reason": "single G1 candidate did not meet the registered whole-step performance gate",
+      "evidence": [
+        {
+          "path": "S2/backend-decision.json",
+          "sha256": "f11c37ab3877c130899a092d39530b2cac7c543455a80f1d309ed9d4b6db162d"
+        },
+        {
+          "path": "S2/paired-performance.json",
+          "sha256": "808544fc3d27cd55a60dc42923305f24d58227f35fefe149c3901d62dc5bd3cc"
+        }
+      ]
+    },
+    {
+      "step": "S2.4",
+      "status": "not_triggered",
+      "reason": "single G1 candidate did not meet the registered whole-step performance gate",
+      "evidence": [
+        {
+          "path": "S2/backend-decision.json",
+          "sha256": "f11c37ab3877c130899a092d39530b2cac7c543455a80f1d309ed9d4b6db162d"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S3/grid-protocol.json",
+          "sha256": "003ef9034def5c7d960e285b3b7c5aeb7793f87d48dfaeda47f4c04aa11122d1"
+        },
+        {
+          "path": "S3/frozen-preflight.json",
+          "sha256": "afb848c4498160d30a5f630e758b2397cad07cd56343b206e7c853d6114eab4f"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S3/topology-transfer-check.json",
+          "sha256": "0e6b4ffa738cfa5adc808a62761e80143379c17685ea196c672377bf4a834186"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "e5cfa28c8253923ef07f485f221e0e1c6294fc3ed928550de4222b592a2f32ce"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "status": "limited",
+      "reason": "two transverse resolutions diagnose change; they do not certify spatial convergence",
+      "evidence": [
+        {
+          "path": "S3/fixed-skeleton-comparison.json",
+          "sha256": "5398c82512e3f2ec6fcced0a4f9625b460cd548d97a7b750622eb161a67b0408"
+        },
+        {
+          "path": "S3/reference-status.json",
+          "sha256": "d5c14d4b097e9e88b240f2718726b158d775b329f72d18dd7ed8c483bdfc0624"
+        }
+      ]
+    },
+    {
+      "step": "S3.4",
+      "status": "passed_scoped",
+      "reason": "two frozen displacements and RT0 subspace only; no new fine-grid dynamics",
+      "evidence": [
+        {
+          "path": "S3/frozen-geometry-reference.json",
+          "sha256": "51cc67f4651acdf49721545711a4466a3c6aa75e65c8ac24764d7c645290f5e4"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S4/extension-protocol.json",
+          "sha256": "b442ade0a0ec9213ee5a9daa9288f67f4c0bfe451a50f1de4fcb3d92666adddc"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "cases/extension-h/bridge.json",
+          "sha256": "734740a46deae210ab1776dde82fbb9a187a1b10f77a4866b74dad0b5d97c0f7"
+        },
+        {
+          "path": "cases/extension-half/bridge.json",
+          "sha256": "b682a55a06cebd6240d4da3f84eab3008bc1051f6f52b6718e2811f5ed5e0958"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "e5cfa28c8253923ef07f485f221e0e1c6294fc3ed928550de4222b592a2f32ce"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S4/extension-comparison.json",
+          "sha256": "a12ce96cfc69eae97ff72e158ab845dc99839d6b52a21f8c2526f0ec921b2c23"
+        }
+      ]
+    },
+    {
+      "step": "S4.4",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S4/transaction-check.json",
+          "sha256": "c0972f35101c6ecf6cebe64a0e8359245b4851a1f2b54f64f2b59673ac03e285"
+        },
+        {
+          "path": "cases/extension-h/restart-36.json",
+          "sha256": "b519929dead74c6c1f518bae0cd40547ac3b343540e3059530d6396d9e6ff8d7"
+        },
+        {
+          "path": "S4/extension-decision.json",
+          "sha256": "cc865a5f9c47bb0459c2224e89d904c7d53bba49f942c6c8acb6e7535d40e1b2"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S5/space-entry-decision.json",
+          "sha256": "91ec1619d372198e98ab02700e300e11253647c5659eaaa1bba5f299d11576ae"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S5/bottleneck-review.md",
+          "sha256": "25cf33131a430b7cfbcdabf22615bcca0635b74d97bb7a76b02d1f0bfd610e5d"
+        },
+        {
+          "path": "implementation-report.md",
+          "sha256": "a2c75458f8fb14037013b4e8c387ab532cfde0349fdc9247a64422032c28bd25"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S6/test-report.json",
+          "sha256": "e5cfa28c8253923ef07f485f221e0e1c6294fc3ed928550de4222b592a2f32ce"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "b93cae05318e092de65230a6acf556dd093c2801de4c98374d4a9200f9a9b218"
+        },
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "8af8aef8b36e9a5bd9c0adfbf6670a1dc924e4db67213422621cbe8f46a1e995"
+        },
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "1977d808aa110c9355040a03723e5ce95e06b7d7c1b9663497e557aa9acf3067"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "0403ff10bb004ed9575a116a257659672ec34f75ba115e2662f19f777f3fe54c"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "ee1bada66a796d5c675d898027c8b27f830d12c5214c2088f42b967ecf977ce3"
+        },
+        {
+          "path": "S6/visualization-origin.json",
+          "sha256": "18d35c7a8fd09b48103777fdc63f53baed6df1128c177c6ee8d09929080418f6"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and acceptance complete",
+      "evidence": [
+        {
+          "path": "capability-matrix.json",
+          "sha256": "2c11f3e7123931bcc4450626269a89cf7745f901bab901604979e25de62ccb2d"
+        },
+        {
+          "path": "documentation.json",
+          "sha256": "2b0844516c88e2bd651906d78287bc2d5b76506af59e2cba18c128283c55e744"
+        },
+        {
+          "path": "S6/final-resources.json",
+          "sha256": "c71743a5af1006474365c08a539956b857d423a89dfac8928f78399d50ac5d58"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_accuracy_goals_passed": false,
+  "sequential": true,
+  "resource_interruption_reordering": "S3 CPU work while GPU unavailable; S1 then resumed",
+  "plan_sha256": "4bd020de16f91cf79e6e2377a4b3b54079e41c4dc8ade736801490a43fb14411"
+}

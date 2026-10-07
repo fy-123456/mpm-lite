@@ -1,0 +1,12 @@
+{
+  "latest": "/root/workspace/mpm-lite/docs/results/absolute-state-next/20261007T140413Z-absolute-state-next",
+  "release_sha256": "97e75ff3a5e58bd8d8cce72df4aedacf2ad49e6b4b68e65ca1ea72f34a446e61",
+  "release_count": 31,
+  "source_count": 1360,
+  "git": "absent",
+  "disk": {
+    "total": 32212254720,
+    "used": 26653941760,
+    "free": 5558312960
+  }
+}

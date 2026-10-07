@@ -1,0 +1,434 @@
+{
+  "count": 27,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S0/preimplementation-version-audit.json",
+          "sha256": "d70dc48b62272c0ab0bc3c91c6dbfc6cfa466f2fdf1c27145150db706e1c1944"
+        },
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "6038478682cfbdd5567e2e25458b0e9b1d614443535693a3a79ca5bb7c1f2073"
+        },
+        {
+          "path": "input-lock.json",
+          "sha256": "f50ddf9d4db1e8947600d4046dc1c7c8a213b12f1451195a95b4269a27f9c396"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S0/physical-contract.json",
+          "sha256": "ccdc8e6dff2c47b33ad5ea1d57b8826f96adc564a27b808d2b222e1cee1941e1"
+        },
+        {
+          "path": "S0/initial-condition-protocol.json",
+          "sha256": "340880daf45caa397db7cbe86b62d6d9fdc5049958ed8afa88e89fa1e60a6a7e"
+        },
+        {
+          "path": "S0/observation-contract.json",
+          "sha256": "5426a1e92fe4742e1eb649c536d5cbdc057edd5ed143bc73e9be484f72773ff4"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "2c032e16de845059fcd2954f1c8c5964289909a46a657727fe1c8c62ee40f84a"
+        },
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "222a7ad78beb527bc85484d7f86eb55586ae01b4f8578f93354fbaa869fefe72"
+        },
+        {
+          "path": "S0/storage-migration.json",
+          "sha256": "734a24eb3eb7703a6ec2fcad75996d8f92d1140dc90537ee1fa48333bff6c830"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S1/initialization-check.json",
+          "sha256": "81beac1851f4c5bbde76af5aea6d5ac5940d5041ec4a69e0e8fd0ac39e29691b"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S1/directional-operator-check.json",
+          "sha256": "e043a415c3470036759f8652043a88c93d5a5664b7157302fef5e28533b078d6"
+        },
+        {
+          "path": "S1/memory-preflight.json",
+          "sha256": "52a904b74018e7775d9dcba01db8f4ce74f0fea5060db774300ba29e4698afae"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S1/observable-check.json",
+          "sha256": "0017c3a96305d43bbf5d129ed467096b0698acebb7a159baceb7aff2b0ab6f23"
+        },
+        {
+          "path": "S1/projection-contract.json",
+          "sha256": "a077b15b7e7b41cb57cd9bee98515c12f4a2532a665aa97309ccd4618978e2a9"
+        }
+      ]
+    },
+    {
+      "step": "S1.4",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S1/publication-contract.json",
+          "sha256": "034e9a12e4a708dcf74acc615712bff3538abddb8b7a9ed3ed705d101c79e642"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "f2d9679cfe3e4c447465962b732883f081f538d72a7cd5c3e500fa4c79033ce9"
+        }
+      ]
+    },
+    {
+      "step": "S1.5",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S1/legacy-bridge-check.json",
+          "sha256": "a3605eab86228d1f23f78caf1b84c33996d0a1222bfea252f9eb0b3480731c34"
+        },
+        {
+          "path": "S1/legacy-complete-payload-check.json",
+          "sha256": "0df3ca29737a902c6860232da31a588059a379c37e2f1385f88382165bf254e3"
+        },
+        {
+          "path": "S1/dynamic-entry-decision.json",
+          "sha256": "604dcfefa3b2b1c929978ae593a2597a457acbbaf0b6e2390c4c515379a2b234"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "cases/Y64/summary.json",
+          "sha256": "4ccc7e947858d4c9848e5203115800b92a143ad3a5cf95d032ecc8b9e18e5e95"
+        },
+        {
+          "path": "S2/Y64-review.json",
+          "sha256": "7de6e25ad247f92c63703364de7db60bc29e4f2b49d584318fc8e087163bf818"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "cases/Y128/summary.json",
+          "sha256": "450023dc99e79b9186124e830911dd224856ce4a47828bfa47be761b964fdad6"
+        },
+        {
+          "path": "S2/transverse-grid-comparison.json",
+          "sha256": "eadd32bb8487cc0f42b42416a20c81d8bc0992daa6cb62bf807722e29f97a89c"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "status": "limited",
+      "reason": "mixed response stable; displacement below engineering absolute floor, relative mechanical accuracy unqualified",
+      "evidence": [
+        {
+          "path": "cases/YZ128/summary.json",
+          "sha256": "fd958d4a25a59b4625b32ed96b4445be187148c916f7603e86c9b8548461e2f2"
+        },
+        {
+          "path": "S2/mixed-direction-review.json",
+          "sha256": "38b5685446d1efdcf81689a826c7f27b818bb6783087dda78327f60bdbb022e1"
+        }
+      ]
+    },
+    {
+      "step": "S2.4",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "cases/YZ128/restart-8.json",
+          "sha256": "07989861c19162a4c08c870acdc370e6f341ab79727cc9aa746210bec01f622d"
+        },
+        {
+          "path": "S2/transaction-check.json",
+          "sha256": "a88b8bd313c89e74f7589df9c0dc2a4394439117f8f4e797a8bc44bedb1ef9f9"
+        }
+      ]
+    },
+    {
+      "step": "S2.5",
+      "status": "limited",
+      "reason": "specified z subdivision sensitivity only; no continuum/dynamic reference",
+      "evidence": [
+        {
+          "path": "S2/scope-decision.json",
+          "sha256": "e889d4de1127bfe7ce572d3a2ff2b9f15513cba0227cd3e6231227b6089b94cb"
+        },
+        {
+          "path": "S3/time-entry-decision.json",
+          "sha256": "39f02275578ef333781a55ced910a0afa3ba704daf28dd5e5d182113e6cbfb05"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S3/time-entry-decision.json",
+          "sha256": "39f02275578ef333781a55ced910a0afa3ba704daf28dd5e5d182113e6cbfb05"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "status": "not_triggered",
+      "reason": "time refinement not triggered by registered criteria",
+      "evidence": [
+        {
+          "path": "S3/time-protocol.json",
+          "sha256": "47205ac2cf618e9db7ba88f9a4cf9e2ce1a916254c3153f8db8bc60e3e35069e"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "status": "not_triggered",
+      "reason": "time refinement not triggered by registered criteria",
+      "evidence": [
+        {
+          "path": "S3/time-comparison.json",
+          "sha256": "47205ac2cf618e9db7ba88f9a4cf9e2ce1a916254c3153f8db8bc60e3e35069e"
+        }
+      ]
+    },
+    {
+      "step": "S3.4",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S3/time-scope-decision.json",
+          "sha256": "47205ac2cf618e9db7ba88f9a4cf9e2ce1a916254c3153f8db8bc60e3e35069e"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "status": "limited",
+      "reason": "adjoint includes gather/download; P includes volume; mixed solve and validation combined",
+      "evidence": [
+        {
+          "path": "S4/hotspot-profile.json",
+          "sha256": "963a89c29cc4553ac72dcf712dca38b44bb350ea991daf5326073f12ba68bfb8"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S4/candidate-protocol.json",
+          "sha256": "5ae368dd9b8d9f475196e0196e0e097f9646b88f8d0fcd95d44435186cb62216"
+        },
+        {
+          "path": "S4/operator-check.json",
+          "sha256": "6e1a20a8b97481e9f1e6e099e2863e4f56cf04820151a44274003b0896886bdf"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S4/paired-performance.json",
+          "sha256": "bf814a28ec3439e7c2f47ca17bb4adabe98809ece586d2232e8883306505d897"
+        },
+        {
+          "path": "S4/setup-cost.json",
+          "sha256": "970469ad4e339054ceccc72e3a3dd143d599ab7bbaab417ce71e0b80a5a5316e"
+        },
+        {
+          "path": "S4/timing-attribution.json",
+          "sha256": "d216daacbe02319153cae2dc9ec3ab83f59a0c7770cab8dd64f4b43d94c52323"
+        }
+      ]
+    },
+    {
+      "step": "S4.4",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S4/backend-decision.json",
+          "sha256": "a4d328205b29df84259eff52371b6e19b79cb4127cc370b4ff618451d63d22aa"
+        },
+        {
+          "path": "S4/continuous-check.json",
+          "sha256": "c1dfdfbdf486a2dc4abf5da695fdfe1da982c74c49de27a42240d7b6494b123e"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "status": "limited",
+      "reason": "R6 inherited static loading only",
+      "evidence": [
+        {
+          "path": "S5/reference-applicability.json",
+          "sha256": "1c17db5ebc0564ec09e6dffdaca39f221049db35dce99ce00fab5f410f273031"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "status": "not_triggered",
+      "reason": "no matched dynamic reference or important over-budget region; retain144",
+      "evidence": [
+        {
+          "path": "S5/space-entry-decision.json",
+          "sha256": "4ba5ba864dbfe058fc4f49370aa3f66e140ceec34d174b93a927d6f8dfabd72e"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "status": "limited",
+      "reason": "entry requirements documented, production extensions not executed",
+      "evidence": [
+        {
+          "path": "S5/extension-entry-decision.json",
+          "sha256": "bf43a9b8188b1239538f1b0f9409c6c365c24f5985e5785b4ca513bb228196c3"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S6/test-report.json",
+          "sha256": "f2d9679cfe3e4c447465962b732883f081f538d72a7cd5c3e500fa4c79033ce9"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "61c2418381fc1297386cfa352193c6dfee9e3f731dbe806024024fd01757983b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "3433fb0b74951391cecfa78399d4db7f0634d3df318adb0b6fec973ed65ef59a"
+        },
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "7e912753d7313ad53d5e1c182b8fdbd09b75f81eba6cec5db3f97649b0dbae83"
+        },
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "54f1a673979e7f142cfe63c62b382721d2b939d027ee2069b9b01cdea2a75337"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "7441086e4987433a6d53ed2e8c7c08b4ab1fd465db2a861f047134a7e41fe56c"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "2accea68ee73ecb0092dd4ca5273b03a76e27f74181c92329ee04d55f3c93721"
+        },
+        {
+          "path": "S6/visualization-origin.json",
+          "sha256": "848fce5d8bfcf0a082b1a16d20748aaa14b070a71641e97bdd1822a0fbee838d"
+        },
+        {
+          "path": "S6/visualization-readout-fix.json",
+          "sha256": "36819f10021d9ae86c0d9d8519ef01e6010b2e63800ce947d9ca5102fd37b094"
+        },
+        {
+          "path": "S6/small-displacement-visual-diagnostic.json",
+          "sha256": "ccef698583bb2e3d02bad537ee3fb8aaef86667cc0ca611dace6dd986c829fea"
+        },
+        {
+          "path": "S6/cli-http-check.json",
+          "sha256": "80d4314a0e22143c753cb28dec1bb70f1795e50983fdbbd1922fc0e22996a083"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "status": "passed_scoped",
+      "reason": "registered scope checked",
+      "evidence": [
+        {
+          "path": "capability-matrix.json",
+          "sha256": "f8a03c2651b7c80d8cc25c01cd6d4c8c91948e2b605f2fb392ade76a0a6c58e1"
+        },
+        {
+          "path": "documentation.json",
+          "sha256": "7f7e216b00860ac4fc0fd8822e471502ef1102e76c7f8abe19cfe64ae0494752"
+        },
+        {
+          "path": "S6/final-resources.json",
+          "sha256": "f19c6cbebe3fd267fde9e2c12c0ffb0843d821b50e28a3bf991d725e64678454"
+        },
+        {
+          "path": "S6/numerical-source-audit.json",
+          "sha256": "168c720c82f02033d16678029c61acb67691b60405e64380ecfe80b78d111f3f"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_accuracy_goals_passed": false,
+  "sequential": true,
+  "plan_sha256": "88fa76e895c8080e311f52c29bdbf7f8e8727871f724671b47093977fe8a155d"
+}

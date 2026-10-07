@@ -1,0 +1,357 @@
+{
+  "count": 28,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工时重新确认直接父版",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed"
+      ],
+      "evidence": [
+        "S0/version-audit.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立独立实现与身份边界",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "evidence_record",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S0/interface-contract.json",
+        "S0/compatibility.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "冻结资源和预算管理规则",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered",
+        "evidence_record"
+      ],
+      "evidence": [
+        "S0/resource-policy.json",
+        "S0/experiment-budget.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "使显存保护事件可以被准确解释",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed"
+      ],
+      "evidence": [
+        "S1/memory-observer-check.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "构建经过来源验证的第 62 步续算入口",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/checkpoint-bridge.json",
+        "S1/prefix-witness.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "完成粗窗最后两步",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/candidate-coarse-check.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "从原始投影初态执行 h/2 参照",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "evidence_record",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/candidate-half-protocol.json",
+        "cases/candidate-half/summary.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "分开报告时间差与跨空间差",
+      "status": "limited",
+      "reported_statuses": [
+        "limited",
+        "limited"
+      ],
+      "evidence": [
+        "S1/time-vs-space-comparison.json",
+        "S1/candidate-reference-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "核对投影、边界与能量拆分",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/projection-energy-audit.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "分解材料力、稳定化力与交叉惯性",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "diagnostic",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/physical-force-acceleration-decomposition.json",
+        "S2/directional-energy-check.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "比较模态子空间与真实输出影响",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "diagnostic"
+      ],
+      "evidence": [
+        "S2/modal-output-diagnostic.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "用证据选择下一轮空间工作",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S2/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "先做物理尺度筛选，再登记一个参数组",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "evidence_record"
+      ],
+      "evidence": [
+        "S3/physical-scale-screening.json",
+        "S3/new-scene-protocol.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "把协议参数真正接到独立耦合适配",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/model-parameter-binding.json",
+        "S3/initial-state-check.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "检查新参数下的算子与时间安排",
+      "status": "limited",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped",
+        "limited"
+      ],
+      "evidence": [
+        "S3/operator-check.json",
+        "S3/pressure-schedule-check.json",
+        "S3/quasi-newton-scope.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "先试跑两步，再完成一个网格的主窗与细参照",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/observable-coupled-check.json",
+        "S3/coupled-time-comparison.json"
+      ]
+    },
+    {
+      "step": "S3.5",
+      "title": "有必要时再做第二个网格，并检查事务",
+      "status": "limited",
+      "reported_statuses": [
+        "limited",
+        "limited"
+      ],
+      "evidence": [
+        "S3/grid-and-transaction-review.json",
+        "S3/coupling-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "用已有记录选一个值得细化的窗口",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "diagnostic",
+        "registered"
+      ],
+      "evidence": [
+        "S4/output-phase-attribution.json",
+        "S4/window-selection.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "仅在有实质影响时补一个 h/4 参照",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S4/local-phase-check.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "保持本轮正式时间表，提出有条件的后续调整",
+      "status": "limited",
+      "reported_statuses": [
+        "retain_252_scoped"
+      ],
+      "evidence": [
+        "S4/time-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "测两个真实接受步，区分建模、推进与输出",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S5/profile.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "选择并实现最多一个静态 RT0 元数据候选",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "not_triggered",
+        "not_triggered",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S5/performance-candidate.json",
+        "S5/compact-performance-candidate.json",
+        "S5/operator-equivalence.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "用配对顺序判断收益",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/paired-performance.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "冻结最终实现，并清楚标识证据属于哪个实现",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "retain_original",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S5/performance-decision.json",
+        "S5/final-numeric-lock.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "做受影响的检查与回归决策",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/tests-result.json",
+        "S6/regression-impact.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "仅受影响时运行一次正式周期并重新授予 q5 许可",
+      "status": "inherited_passed_scoped",
+      "reported_statuses": [
+        "inherited_passed_scoped",
+        "retain_inherited_default",
+        "inherited_passed_scoped"
+      ],
+      "evidence": [
+        "S6/inherited-solid-evidence.json",
+        "S6/default-scene-decision.json",
+        "S6/fallback-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "生成真实范围明确的可视化与 CLI",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/visual-review.json",
+        "S6/load-check.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "封存结果及全部受限结论",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/publication-preflight.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "plan_sha256": "240330a3125d4c6b8dc1cd6f24ba46a1154d5597c5e77957ff4832d3fee09c87",
+  "sequential": true,
+  "not_all_physical_gates_passed": true
+}

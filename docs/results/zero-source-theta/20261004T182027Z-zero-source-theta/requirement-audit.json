@@ -1,0 +1,345 @@
+{
+  "count": 21,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工前重查发布身份",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "6b4514e179f6554d60c827e53f2e2c2988bcee27cb5c6d952e6a322a1d2e3137"
+        },
+        {
+          "path": "S0/source-map.json",
+          "sha256": "ac39eaa53f68989a5cb16d41ebc062789509f7285b0d192bfb67b0d21ebe6324"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立独立后代与执行协议",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "input-lock.json",
+          "sha256": "83827cdcbadbd8326e38000d007ce77401761694770e99777486f738cc35aa09"
+        },
+        {
+          "path": "S0/impact-and-compatibility.json",
+          "sha256": "0f00196d663cf891549b7b0c67159e9369ff4a1dddd3d5c029d5c3d1efb70a85"
+        },
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "45209e90d78c7d3b532c783c731c1e28b41b4fe934a8060d65a8a2bc1c5c367e"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "把零体源检查前移到构造阶段",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S0/input-contract.json",
+          "sha256": "83532fc5c313d2cfc1daf99849b6f26de70831b66d01d1ec12e05776ae303b3d"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "11d7a5337ebe2b762b870a446fd0d04c32068bdf8c000d024423ee879643ca58"
+        },
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "df315e3585b48e334f02cb014b4d15ccdae091dcf2fe7b416c56990f0f3070f9"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "先判定前缀能否合法复用",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S1/continuation-audit.json",
+          "sha256": "5648ddf7ba5912007d003e88aa3a5371bfa969f9807c0c804ee73eb62525644d"
+        },
+        {
+          "path": "S1/full-window-protocol.json",
+          "sha256": "273a5329d0a2c9c3d3f2618c490b351e9229cf9abe4da406cf38d75271891e1a"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "执行16单元完整200微秒对照",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S1/full-window-comparison.json",
+          "sha256": "196c236076563fd4ca836484a377520496de0fb3ac609cf486467361d938c108"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "验证能量、质量与新延续事务",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S1/energy-and-transaction.json",
+          "sha256": "1ee1100ba109226c418f54599fa1756c12f41464ba388f5c2a0936e528dde331"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "冻结唯一候选及离散方程",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S2/theta-protocol.json",
+          "sha256": "a4d3b53aa4ad750601584d34f284b2d817a706c14b87cacf293bbcb16b98ec2b"
+        },
+        {
+          "path": "S2/work-contract.md",
+          "sha256": "5256e4095864aff38a5a298e63e16159ede6cd83fc417ab5b8260af5e4a5451f"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "11d7a5337ebe2b762b870a446fd0d04c32068bdf8c000d024423ee879643ca58"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "跑实际耦合并检查切换附近行为",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S2/startup-comparison.json",
+          "sha256": "c0e74e0b0f8f5064eb892589b18604fb8fb73844b0af484b6373f4f23321ac07"
+        },
+        {
+          "path": "S2/switch-window.json",
+          "sha256": "aae3cb9dab2d2d7f75035c501fdf8a9dbab6dea700121df8377319727c05f2b1"
+        },
+        {
+          "path": "S2/energy-and-transaction.json",
+          "sha256": "790392a3135a419ae32f38a716f40267f81d8abddda7bc8fe8b37a3e612e6cb9"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "冻结后续唯一方法",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S2/method-decision.json",
+          "sha256": "e025c1311d86d94665d9a02a05d563a2d771d0aef6ec2579223f77d56745f267"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "验证32单元算子和守恒映射",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S3/grid-protocol.json",
+          "sha256": "800f5036e71ab74fde11cef026dd5ae2ca3c7efc69217f34a6124cfc8bfe3f55"
+        },
+        {
+          "path": "S3/operator-check.json",
+          "sha256": "5d199f19ff64a0034feb859aa8cc889d41f00b57f3efee50406a1ce3686236f5"
+        },
+        {
+          "path": "S3/transfer-check.json",
+          "sha256": "e2476b17678a9a439a199416a2cdaf279c50168810512e42347f283163f1e401"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "先完成32单元时间对照，再做网格对照",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S3/coupled-comparison.json",
+          "sha256": "9fa1e73744a7f19f60fccf131e8ce0ebb150e3e2649fc121da8d2c7212e5886f"
+        },
+        {
+          "path": "S3/energy-and-transaction.json",
+          "sha256": "0013d4d1fe1311c5f20f35244a315f07f1b587c261429f4d00c8ca7e716ae3ae"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "对未过项做一次有边界的诊断并限定资格",
+      "status": "limited_spatial_certification",
+      "evidence": [
+        {
+          "path": "S3/diagnosis.json",
+          "sha256": "51baa0d9934ec3ce844de8b86b48fef44b553b46f3ae156ce991c31acdd4523f"
+        },
+        {
+          "path": "S3/grid-decision.json",
+          "sha256": "3745bde267676cf98ba001c054885350a046c918356a3b1c25b5d352e1338aeb"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "冻结A/B的同一输入与适用网格",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S4/integration-protocol.json",
+          "sha256": "03bd12158e25c8a9072dd35e8f0c664eadd9decbf1f03461f03665cb638b47f8"
+        },
+        {
+          "path": "S4/memory-estimate.json",
+          "sha256": "21f2ae98ee5fe553ef010b544cb963a2578b724443c453c36bf1983e95e19649"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "检查算子等价和实现身份转换",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S4/operator-equivalence.json",
+          "sha256": "ab607347680170b6e4c790567e3589a44ec15173a3e5f0d60aeb2a565e94b5dc"
+        },
+        {
+          "path": "S4/implementation-bridge.json",
+          "sha256": "a6bf78360483cde7daec49575b4e6714e7dbe8e6b26830c07e290776ff8c4efd"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "两状态实步、回滚与性能判定",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S4/paired-performance.json",
+          "sha256": "0f8df022b0fe76b05526f893d63126b82fffb867d6fd4dcfc347a75a0f83631d"
+        },
+        {
+          "path": "S4/performance-decision.json",
+          "sha256": "7b929f14fa6634d0e3cc03dbd546a6147ec8eb8f3d0035cf6bf1ce02995e647a"
+        },
+        {
+          "path": "S4/full-build-cost-check.json",
+          "sha256": "a00278f9b76a46a382086ad294cf2959e195d2cc30fc0e4215f0d061697234fc"
+        },
+        {
+          "path": "S4/fault-B0/failure.json",
+          "sha256": "f09301fa9ac99e6e036aa3a7168ff7a4b7762aa4c8cf79c6aa854dd1066f117f"
+        },
+        {
+          "path": "S4/restart.json",
+          "sha256": "ab0acda8ebf77c39eaf17f2dd87d901adc9d6d256e01d4705da1787bf12f5bf0"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "审核参考资格与需要改善的量",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S5/objective-audit.json",
+          "sha256": "4765e19371e1fb4ebcf8beb1fbe3743883b13c2e7b60a25f03ed6f34d71723d6"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "条件满足时只构造一个均衡候选",
+      "status": "not_triggered",
+      "evidence": [
+        {
+          "path": "S5/design-decision.json",
+          "sha256": "97bb436cd32ff7e90d47d8b5a39a8daf399b213dfee26650523c6db5b6bec073"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "静态收益通过后才做最小动态检查",
+      "status": "not_triggered",
+      "evidence": [
+        {
+          "path": "S5/static-comparison.json",
+          "sha256": "8182b7ebe3ac2b26e01093bc597cbd4b9067cd7033995a7be16303d39138d1f6"
+        },
+        {
+          "path": "S5/space-decision.json",
+          "sha256": "97bb436cd32ff7e90d47d8b5a39a8daf399b213dfee26650523c6db5b6bec073"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "只补受影响的必要检查",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S6/test-report.json",
+          "sha256": "11d7a5337ebe2b762b870a446fd0d04c32068bdf8c000d024423ee879643ca58"
+        },
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "df315e3585b48e334f02cb014b4d15ccdae091dcf2fe7b416c56990f0f3070f9"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "cc2a4c16667ea03185bb3536418eb14ec50d50388b6647d45b79b2982680ba3a"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "更新实施记录和实际可视化入口",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "87d1acea14d8eb4783bfc55370df4e35b8bc9f28837b33ab3acefb20bfac96f3"
+        },
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "5b039798f51f5b1e3dc3c298844f27631cb8429fd5bb26715fc4884b6c682187"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "封存独立后代并保持默认范围清晰",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "8061227ad12941faa4fba9b9fe89a0bb1f356730c1c63346ac7288a6e44d0098"
+        },
+        {
+          "path": "S6/fallback-and-restart.json",
+          "sha256": "ab23811bb516cbb49d20673b4ab6b81522fcc7d31ffa303795905ddb504af221"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_requirements_passed": false,
+  "scope_limit_reason": "true coupled continuum spatial accuracy, global temporal/phase accuracy and full-cycle production coupling remain uncertified; conditional space work not triggered",
+  "plan_sha256": "60f163b91fffc4ee99457c2f873336227ab9c4a643eb49b1916b680454064ab2",
+  "sequential": true
+}

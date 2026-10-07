@@ -1,0 +1,26 @@
+{
+  "reference_volume": [
+    0.0234375,
+    0.0234375
+  ],
+  "analytic_volume": [
+    0.0234375,
+    0.0234375
+  ],
+  "volume_error": 0.0,
+  "order_volume_relative": 1.4655925765469426e-15,
+  "order_gradient_relative": 6.182446980047495e-14,
+  "derivative_relative": 4.964495839074934e-10,
+  "hessian_relative": 1.2168841827111068e-09,
+  "chain_defect": [
+    2.077636294343238e-16,
+    1.3408870368214476e-16
+  ],
+  "omitted_boundary_defect": [
+    -3.906202541051957e-08,
+    -5.857835419620294e-07
+  ],
+  "geometry_points": 373248,
+  "seconds": 72.56350072380155,
+  "peak_rss_bytes": 2531868672
+}

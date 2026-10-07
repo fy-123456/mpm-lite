@@ -1,0 +1,55 @@
+{
+  "schema": "common-kinematics-next-scoped-v1",
+  "utc": "2026-10-07T12:53:32.156152+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/eulerian-poro-next/20261005T140238Z-eulerian-poro-next",
+  "application_parent_release_sha256": "7e7b6640bbbd6fbb11e0dff004bf1078c52a3f4364b332953abfbf952fcd2e46",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "793ae8cf06eac29952525674a2ec3902a6f174cff672f37fcaa4178f5586ebcb",
+    "count": 14
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "b3a21163890a95b4d091bdbb189d10ca4efe2a9b6eb1c291b47dbfe98f18fb7a",
+    "count": 83
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "b212225bceee900f3222c669b6108e7697a5c0c1bf0230e42fe050cdef655316"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "84e58bbc0eb734de3369bbc984db54890f82ed08925947cd3e238c4287193ece"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "db3c184b711feda858480a639779db9917c62b9e9b19a54e38372233d723c9c8"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU updated SH modal carrier + material local functions; separate real Warp transfer adapter",
+  "research_rule": "director-log (smooth single-direction scope)",
+  "original_kernel_transfer_tested": true,
+  "common_transfer_candidate": true,
+  "bounded_coupled_package": true,
+  "eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "particle_decoupling_scope": "particle-free full frozen coupled step at fixed budgets; Prepare and Load remain particle-dependent",
+  "scope": "shared mapping transfer + bounded updated modal coupling; formal144 boundary integration pending; no production replacement",
+  "audit": {
+    "ancestor_releases": 28,
+    "frozen_sources": 1322,
+    "new_sources": 14,
+    "unique_files_verified": 47507
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "scoped_coupled_reference_delivery",
+  "coupled_affine_reference": true,
+  "reference_scope": "mass-projected r8/r12 diagnostic, full128 pressure, true geometric derivatives and affine drift",
+  "full_space_reference_certified": false,
+  "coupled_temporal_accuracy": false,
+  "spatial_continuum_accuracy": false,
+  "mechanical_relative_accuracy": false,
+  "new_coupled_extension": false,
+  "inherited_coupled_window_s": [
+    0,
+    7.5e-05
+  ],
+  "selected_backend": {
+    "status": "retained",
+    "selected": false,
+    "candidate_eligible": false,
+    "backend": "BD",
+    "reason": "speed/setup/isolation gate not met; retain certified BD"
+  },
+  "loadable_interface": "benchmarks.research_coupled_reference_next.selected.selected_setup",
+  "implementation_equivalence": true,
+  "controlled_transaction_recovery_inherited": true,
+  "new_local_buffer_recovery": true,
+  "real_driver_loss_recovery": false,
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "coupled_q5": false,
+  "production_C_E": false,
+  "full_coupled_cycle": false,
+  "new_formal_steps": 0,
+  "new_display_frames": 0
+}

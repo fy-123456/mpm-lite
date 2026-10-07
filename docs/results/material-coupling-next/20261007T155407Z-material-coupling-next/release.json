@@ -1,0 +1,51 @@
+{
+  "schema": "material-coupling-next-scoped-v1",
+  "utc": "2026-10-07T16:31:18.958259+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next",
+  "application_parent_release_sha256": "2243316cce47c8d871cda69e153b4fc0c3e62877a28b619cd8e44d08c59be8ef",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "f3392a6158c969541885d1f3df0d19256ba6e7238937d7db9f37edb41a6f35bd",
+    "count": 20
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "02be0498c3dfbbd8c01dfeff1fa3d7f4998c4d3889999737f0982668a1e47f98",
+    "count": 95
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "e1a16201ab8b4b471902ce4e1ffb8b5f95458fc702e290ff6694fc9cd47f8345"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "8e36f65e3782097908891a1f66a6016e91c2f495456c421d109201f37afaa7a0"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "6e7a4ccea6864cbae868a710e73e2029a557b3c8c6241edc051f28702ba02e58"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU original formal material coordinates; budgeted q5/q7 midpoint and constant SPD hydraulic network",
+  "formal_space_changed": false,
+  "original_kernel_transfer_tested": false,
+  "eulerian_lite_integration": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "scope": "qualification scope in capability-matrix and requirement-audit; no production or GPU replacement",
+  "audit": {
+    "ancestor_releases": 32,
+    "frozen_sources": 1377,
+    "new_sources": 20,
+    "unique_files_verified": 47829
+  }
+}

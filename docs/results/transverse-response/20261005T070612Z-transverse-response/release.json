@@ -1,0 +1,58 @@
+{
+  "schema": "transverse-response-practical-v1",
+  "utc": "2026-10-05T07:45:06.655588+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/pressure3d/20261005T055744Z-pressure3d",
+  "application_parent_release_sha256": "569eca0781cc48fd76aa73ccbcc20d4c69259a7ecf946197d7d0e560fcadcec5",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "f50ddf9d4db1e8947600d4046dc1c7c8a213b12f1451195a95b4269a27f9c396",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "f4be784fb37c3f1fcde6183cad21aaf86cc978aa21c4d8133c1492a51596b084",
+    "count": 31
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "64913186eeb792aa30ea9565dae4bb6690a8371c6429aecb87c3d724f99da516",
+    "count": 727
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "f8a03c2651b7c80d8cc25c01cd6d4c8c91948e2b605f2fb392ade76a0a6c58e1"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "55cb71f3aa28ebbe44465e8a1a67cf8a97b75c50ff331d730edb829b57b0d14d"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "3433fb0b74951391cecfa78399d4db7f0634d3df318adb0b6fec973ed65ef59a"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "new_display_frames": 6,
+  "inherited_display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited pure-solid q5; coupled fullq7",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "engineering_z_subdivision_consistency": true,
+  "engineering_window_s": [
+    0,
+    7.5e-05
+  ],
+  "selected_geometry": "DV: device-cell-volume, specified research window"
+}

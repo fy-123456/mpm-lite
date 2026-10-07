@@ -1,0 +1,92 @@
+{
+  "status": "limited",
+  "scene_stability": "inherited_passed_scoped",
+  "formal_space_changed": false,
+  "functions": 144,
+  "mass_order": 7,
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "reference": {
+    "status": "reference_limited",
+    "same_space_time_passed": false,
+    "cross_space_passed": false,
+    "ratios": {
+      "x": 0.000779018585739375,
+      "velocity": 4.516633619617956,
+      "PK1": 0.007503420181397228,
+      "fiber": 0.005174781522558155,
+      "reaction": 7.964269363836665
+    },
+    "shrinkage": {
+      "velocity": 0.47676526777108696,
+      "reaction": 0.44736517730835607
+    },
+    "new_steps": 256,
+    "formal_space_changed": false,
+    "global_spatial_accuracy": false,
+    "global_temporal_accuracy": false,
+    "spatial_retraining_eligible": false
+  },
+  "coupling": {
+    "status": "limited",
+    "two_grid_short_window_passed": false,
+    "complete_grids": 2,
+    "time_passed": true,
+    "grid_passed": false,
+    "actual_new_process_restart": true,
+    "checkpoint_reload": true,
+    "actual_observable_coupling": true,
+    "full_coupled_cycle": false,
+    "coupled_q5": false,
+    "production_C_E_integration": false,
+    "physically_calibrated": false,
+    "spatial_refinement_axes": "x only"
+  },
+  "research_space": {
+    "status": "not_triggered",
+    "dependency": "S1 same-space temporal gate failed",
+    "dependency_sha256": "bc64f6799e87df4a7afd798be7afbcb40098c6404ae8ad6f4a87efc5e011a909",
+    "new_spaces": 0,
+    "new_static_solves": 0,
+    "new_dynamic_attempts": 0,
+    "formal_space_changed": false,
+    "next_minimum_experiment": "Diagnose stabilization-dominated acceleration on the retained five nodes before designing another reference; no R6 or 512/1024-step expansion in this round."
+  },
+  "time": {
+    "status": "retain_252_scoped",
+    "formal_steps": 252,
+    "new_steps": 0,
+    "raw_event_status": "unresolved_or_shifted",
+    "engineering_output_status": "passed_scoped",
+    "global_temporal_accuracy": false,
+    "q5_scope": "original parent only",
+    "next_segment": null
+  },
+  "performance": {
+    "status": "research_device_qualified",
+    "selected": true,
+    "backend": "device",
+    "formal_solid_changed": false,
+    "production_default_changed": false,
+    "scope": "same observable fixture; second-grid operator must be checked",
+    "source_sha256": {
+      "benchmarks/research_restoring_rt0_next/__init__.py": "325e03e7dd8a760e2579ee7e97970fa41bdff6e5170e087afb56a6bce0f1f959",
+      "benchmarks/research_restoring_rt0_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+      "benchmarks/research_restoring_rt0_next/config.py": "0f7eedd55d97fb99ffcfef7aaab686086144c83e8381b0f36951dd66a0bcd2ec",
+      "benchmarks/research_restoring_rt0_next/physics.py": "9c01c93b31e3bdf92bed948d65254dbc3b1b6905c9052e3bf3b6fe4090153d8d",
+      "benchmarks/research_restoring_rt0_next/provenance.py": "a454a4450f25eec92c4561e4420b55763a707ecf5f8e95a789ca334c52c08e8d",
+      "benchmarks/research_restoring_rt0_next/run.py": "0848b0981a7b4fe7d53f97a9fd7bb959d8cef01e60333f29de949c2ec1ad2b4e",
+      "benchmarks/research_restoring_rt0_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+      "engine/aniso_phase1/research_restoring_rt0_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/aniso_phase1/research_restoring_rt0_next/device_rt0.py": "e81205a1fb68cf488e106156d44086f30c00c98f0a622f8445bcdb29f8a530cf",
+      "engine/aniso_phase1/research_restoring_rt0_next/fixture.py": "872524caeb3a7ab9cbcf62860d37853e9d88499f1aa6a87649a6b23164300b9d"
+    }
+  },
+  "main_q5": "original solid certificate only",
+  "sensitive_full_cycle_q5": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "pure_solid_default": true
+}

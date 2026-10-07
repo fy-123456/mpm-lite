@@ -31,3 +31,47 @@ surface.vtk
 test.png
 
 backup
+# Authenticated inputs and sealed short-window evidence shipped with this branch.
+!/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/arrays.npz
+!/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/prolong0.npz
+!/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/prolong1.npz
+!/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/prolong2.npz
+!/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/raw.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/closed/checkpoint.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/closed/frames.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/closed/replay-probes.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/drained/checkpoint.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/drained/frames.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/drained/replay-probes.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/dry/checkpoint.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/dry/frames.npz
+!/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next/S4/dry/replay-probes.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S1/inherited.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S1/local.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S1/mixed.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S2/retry-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed-half-dt/checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed-half-dt/first-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed-half-dt/frames.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed-half-dt/replay-probes.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed/checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed/first-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed/frames.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-compressed/replay-probes.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-full/checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-full/first-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-full/frames.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/closed-full/replay-probes.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/drained-compressed/checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/drained-compressed/first-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/drained-compressed/frames.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/drained-compressed/replay-probes.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/dry-compressed/checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/dry-compressed/first-checkpoint.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/dry-compressed/frames.npz
+!/docs/results/material-coupling-next/20261007T155407Z-material-coupling-next/S4/dry-compressed/replay-probes.npz
+
+/portable-smoke-output/
+
+# Rebuilt from authenticated data/research-space-cache parts.
+/docs/results/cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/qualified-array-cache/raw.npz

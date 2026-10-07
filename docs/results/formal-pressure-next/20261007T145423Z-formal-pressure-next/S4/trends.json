@@ -1,0 +1,22 @@
+{
+  "closed_p": [
+    6.31352518040867e-05,
+    7.575187430533039e-05
+  ],
+  "drained_p": [
+    7.642511335725602e-06,
+    1.631966472636924e-05
+  ],
+  "dry_p": [
+    0.0,
+    0.0
+  ],
+  "closed_reaction": -0.0018313269322357034,
+  "drained_reaction": -0.0018296081751415498,
+  "dry_reaction": -0.0018291405585034448,
+  "drained_volume": 2.995272007761855e-08,
+  "reaction_closed_vs_drained_relative": 0.0009385309984249038,
+  "reaction_closed_vs_dry_relative": 0.0011953011058086524,
+  "pressure_reduced_with_drain": true,
+  "scope": "single matched first step; mechanical reaction signal is weak, not a strong-coupling accuracy qualification"
+}

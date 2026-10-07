@@ -1,0 +1,55 @@
+{
+  "schema": "phase-reference-practical-v1",
+  "utc": "2026-10-01T15:18:50.267769+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/local-span/20261001T130726Z-local-span",
+  "application_parent_release_sha256": "7211bfe7efa8c9ca66389a056bdb466f6fe8dc05563b6fcb088b3ca5bb388d2c",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "6d9e234e3a05d6f4002ddebc33dafdd74c6a54dc8bd7bb6c97db88ff77a3f833",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "cdea5b130998990989a0295c73c5b1b19baa5721e73d8ec48d199897d0e7d918",
+    "count": 24
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "b67f0e3fe069ddaa8d0c22b44d8a0f5f18e857c0e5c61cee10820b4b7b24344c",
+    "count": 2242
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "3f7963c792704e65e757a8d855265ec542ad53b07765b14eeefabc1583b28ae8"
+  },
+  "window_qualification": {
+    "path": "S5/continuous-window-qualification.json",
+    "sha256": "34e5f1a367bd98fc8f72b236f35db43406ed02c267e180ce7c123ae9881b942d"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "6bd61f6feec2f9b30eee2ad8257ea7b8e069a08f692b29cbeddafcec713adbf2"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "db01053880f63e7ff26d63b67b6464d7b691f94d22beb379ab739acf1fce9803"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "55757f949f9c15564b6358a401abbd61adb5be151ebafabc23f1db51891f37ea"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "53ee454dc9d1339922454af7ebd3606ec698a9c08a654b68f8e0daf002c8deab"
+  },
+  "case_identity_sha256": "6447f44a5174e44d6d381fa310248722e5ab08182f704c9f4a326d8791c5b97a",
+  "case_protocol_sha256": "d9f606037fa4daea79da68836a8b577bc94bd3d90a41e136940f054aa9b292d8",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": "two-cell scaled full-tensor RT0 eight-step fixture; not general production coupling"
+}

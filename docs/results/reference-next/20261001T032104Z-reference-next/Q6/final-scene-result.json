@@ -1,0 +1,118 @@
+{
+  "status": "passed_scoped",
+  "default_case": "daily-q5-retry-dt0125",
+  "steps": 128,
+  "generations": 129,
+  "frames": 12,
+  "source_verified": true,
+  "parent_unchanged": {
+    "parent_sources": 39,
+    "historical_sources": 683,
+    "inputs": 25,
+    "parent_source_snapshot": 39,
+    "parent_artifacts": 1946,
+    "application_sources": 18,
+    "application_snapshot": 18,
+    "application_artifacts": 2145,
+    "python_inventory": 687
+  },
+  "scene": {
+    "status": "passed_scoped",
+    "utc": "2026-10-01T04:07:22.571317+00:00",
+    "case": "daily-q5-retry-dt0125",
+    "steps": 128,
+    "end_s": 1.6,
+    "source_sha256": {
+      "engine/aniso_phase1/research_reference_next/__init__.py": "ceef763e98b9b1bcf13b43902b917639d0f4af4ed425e922b06f1f1ba2fa454c",
+      "engine/aniso_phase1/research_reference_next/coupling.py": "8dd7170458160ac0674cc209ad2f5d2f933efedf096d039319abd43decc394e5",
+      "engine/aniso_phase1/research_reference_next/force_only.py": "a5aec611e5467df24aeea28aeb694e79bef988c44f7b4d6115ac229be4f45c0b",
+      "engine/aniso_phase1/research_reference_next/reference.py": "eee077525de4b43d434275885c2a3b1f3739e1358607155f5d29b37598713c58",
+      "benchmarks/research_reference_next/__init__.py": "cadcbecb7ddba58ae8285cd233122b0e90d8538258a68d2422f8fed2aa3e89cf",
+      "benchmarks/research_reference_next/config.py": "1549f0f539350689c404515c642280a803b0d3b6625833ff928e115349167347",
+      "benchmarks/research_reference_next/provenance.py": "bd6f37408415527dbef87453f05e9e1ec4c97837c12d1375dec1758d14807919",
+      "benchmarks/research_reference_next/run.py": "73a315e4d5182e6ffc33d3d34a8d40362202be54b870faa6b04cef41390c4e56"
+    },
+    "protocol_sha256": "4cce54c4dde00189d0acea14ca4f0dc471601fdc7f88a9bd2056bbe2a50554fb",
+    "min_detF": 0.9922812732215488,
+    "max_ledger_closure_J": 5.8550299448946816e-21,
+    "max_true_residual": 5.2277299893413737e-08,
+    "rule_policy": "q5_with_full_retry",
+    "active_rule": "6ee553664ddb83c0eff3de8a59c774801d555077d7661e2d62935d40e2dbcc54",
+    "material_attempts": 128,
+    "cumulative_rule_switch_error_J": 0.0,
+    "display_frames": 12,
+    "checkpoint_reload": true,
+    "temporal_certified": false,
+    "spatial_certified": false,
+    "this_segment": {
+      "build_seconds": 5.827001597266644,
+      "advance_and_publish_seconds": 12.082476547453552,
+      "includes_fields_and_checkpoint": true,
+      "wall_seconds": 17.9753332673572,
+      "accepted_steps": 128,
+      "peak_rss_GiB": 1.3670463562011719
+    },
+    "field_cache": {
+      "bytes": 19132344,
+      "build_seconds": 0.14543721033260226,
+      "signature": "9180e82a3745c1de886bd099481f2cbc15ddee346a9f85a3922cc9fa9819ff40"
+    },
+    "gpu_memory": {
+      "initial_free_bytes": 33138868224,
+      "budget_bytes": 23197207756,
+      "cuda_async_pool_current_bytes": 1003035000,
+      "cuda_async_pool_process_high_bytes": 2510502532,
+      "initial_cuda_async_pool_high_bytes": 0,
+      "observed_device_free_decrease_bytes": 2384461824,
+      "conservative_peak_required_bytes": 3503905024,
+      "samples": 6411,
+      "peak_process_rss_GiB": 1.3670463562011719,
+      "scope": "CUDA allocator reports exact process async-pool high water; free-memory samples additionally include non-pool/shared-device usage. Pool high water is process-wide, not per model; preallocation reserve is conservative."
+    }
+  },
+  "comparison_maxima": {
+    "displacement_m": 1.8624331775868086e-09,
+    "velocity_m_s": 9.552271707168255e-08,
+    "PK1_Pa": 9.992968811736054e-06,
+    "fiber_Pa": 9.918433475640452e-06,
+    "reaction_N": 4.330435495088214e-08
+  },
+  "sentinels": [
+    {
+      "time_s": 0.5,
+      "energy_difference_J": 2.473095190550119e-11,
+      "energy_budget_J": 1.121608719881252e-06,
+      "force_difference_N": 9.05735781574338e-09,
+      "force_budget_N": 0.0002946668770588073,
+      "passed": true
+    },
+    {
+      "time_s": 0.6,
+      "energy_difference_J": 2.509963530148828e-11,
+      "energy_budget_J": 1.1209654918801655e-06,
+      "force_difference_N": 9.1725399592383e-09,
+      "force_budget_N": 0.00029951730371980436,
+      "passed": true
+    },
+    {
+      "time_s": 1.1,
+      "energy_difference_J": 1.3360234795174318e-15,
+      "energy_budget_J": 5.672619845413883e-09,
+      "force_difference_N": 9.270564991694604e-11,
+      "force_budget_N": 1.6733661094313753e-05,
+      "passed": true
+    }
+  ],
+  "fallback_count": 0,
+  "actual_rules": [
+    "6ee553664ddb83c0eff3de8a59c774801d555077d7661e2d62935d40e2dbcc54"
+  ],
+  "time_accuracy": false,
+  "spatial_accuracy": false,
+  "physical_3D_coupling": true,
+  "resources": {
+    "system_free_GiB": 6.272396087646484,
+    "data_free_GiB": 124.82500076293945,
+    "cgroup_memory_max": "96636764160"
+  }
+}

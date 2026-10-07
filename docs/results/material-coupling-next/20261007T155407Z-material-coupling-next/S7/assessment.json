@@ -1,0 +1,183 @@
+{
+  "cases": {
+    "closed-compressed": {
+      "steps": 4,
+      "seconds": 372.1139178937301,
+      "components": {
+        "geometry": 132.3280096007511,
+        "material": 233.70240946672857
+      },
+      "material_calls": 17,
+      "minJ": 0.9998487926908974,
+      "jv_calls": 0,
+      "peak_rss_bytes": 2345140224,
+      "max_mass_defect": 8.31882061500876e-13,
+      "max_energy_defect": 1.4400403952865773e-14,
+      "min_dissipation": 1.9941513516309995e-15,
+      "max_free_residual_ratio": 0.33989969287815636,
+      "max_rule_error": 8.34602217165973e-09,
+      "final_reaction": -8.171316383127653e-05,
+      "final_pressure": [
+        0.00014286481536945588,
+        0.00014315238850255688
+      ]
+    },
+    "closed-full": {
+      "steps": 1,
+      "seconds": 119.12095311749727,
+      "components": {
+        "geometry": 37.91248124092817,
+        "material": 75.64885345846415
+      },
+      "material_calls": 4,
+      "minJ": 0.9999594659883557,
+      "jv_calls": 0,
+      "peak_rss_bytes": 2325655552,
+      "max_mass_defect": 2.5676319513662248e-14,
+      "max_energy_defect": 1.24897223262327e-16,
+      "min_dissipation": 1.994151351629971e-15,
+      "max_free_residual_ratio": 0.005111128099726153,
+      "max_rule_error": 0,
+      "final_reaction": -2.9377383110986352e-05,
+      "final_pressure": [
+        1.6237576290545443e-05,
+        1.6802433986129734e-05
+      ]
+    },
+    "drained-compressed": {
+      "steps": 1,
+      "seconds": 108.37079609930515,
+      "components": {
+        "geometry": 37.15766870416701,
+        "material": 65.68028710782528
+      },
+      "material_calls": 5,
+      "minJ": 0.9999691546552167,
+      "jv_calls": 0,
+      "peak_rss_bytes": 2340171776,
+      "max_mass_defect": 2.045634915433365e-14,
+      "max_energy_defect": 1.665261795159343e-16,
+      "min_dissipation": 6.686992707840608e-15,
+      "max_free_residual_ratio": 0.005496349282418317,
+      "max_rule_error": 1.5444069291531094e-10,
+      "final_reaction": -2.916021069840039e-05,
+      "final_pressure": [
+        4.650840272657454e-07,
+        8.430598694847349e-07
+      ]
+    },
+    "dry-compressed": {
+      "steps": 1,
+      "seconds": 132.52612650487572,
+      "components": {
+        "geometry": 37.14770513959229,
+        "material": 89.82313755713403
+      },
+      "material_calls": 7,
+      "minJ": 0.9999691594095768,
+      "jv_calls": 0,
+      "peak_rss_bytes": 2340970496,
+      "max_mass_defect": 0.0,
+      "max_energy_defect": 2.0681654636180536e-16,
+      "min_dissipation": 0.0,
+      "max_free_residual_ratio": 0.0055153609121591125,
+      "max_rule_error": 1.1385136594204462e-10,
+      "final_reaction": -2.9149131750798095e-05,
+      "final_pressure": [
+        0.0,
+        0.0
+      ]
+    },
+    "closed-compressed-half-dt": {
+      "steps": 2,
+      "seconds": 193.0878811068833,
+      "components": {
+        "geometry": 67.1653865557164,
+        "material": 120.18155428953469
+      },
+      "material_calls": 9,
+      "minJ": 0.9999665554933634,
+      "jv_calls": 0,
+      "peak_rss_bytes": 2343985152,
+      "max_mass_defect": 1.5671031035760086e-14,
+      "max_energy_defect": 1.4063055656919972e-16,
+      "min_dissipation": 5.3682268699726735e-16,
+      "max_free_residual_ratio": 0.003938877136936104,
+      "max_rule_error": 1.1809309866313229e-10,
+      "final_reaction": -3.6244572850692575e-05,
+      "final_pressure": [
+        1.6931284368230997e-05,
+        1.7353498638643056e-05
+      ]
+    }
+  },
+  "material_comparison": {
+    "reaction_relative": 1.4904263917603655e-12,
+    "pressure_relative": 2.4436335695396723e-12,
+    "states": {
+      "q": {
+        "max_absolute": 2.357936437248631e-16,
+        "relative": 9.432611631369959e-12
+      },
+      "velocity": {
+        "max_absolute": 1.8863816758640795e-14,
+        "relative": 9.432619013616349e-12
+      },
+      "p": {
+        "max_absolute": 4.044751729728735e-17,
+        "relative": 2.4436335695396723e-12
+      }
+    },
+    "compressed_first_accept_seconds": 113.58586712088436,
+    "full_first_accept_seconds": 118.93704233784229,
+    "compressed_solver_seconds": 88.51284648105502,
+    "full_solver_seconds": 113.58366025052965,
+    "scope": "one matched step; q5 cost includes q7 endpoint guard, timings are single samples"
+  },
+  "mechanical_comparison": {
+    "eta_reaction": 0.007392503672707488,
+    "closed_pressure": [
+      1.6237576290585745e-05,
+      1.680243398617018e-05
+    ],
+    "drained_pressure": [
+      4.650840272657454e-07,
+      8.430598694847349e-07
+    ],
+    "stress_relative": 0.06529782028541553,
+    "scope": "same dt/target, step-average grip reaction"
+  },
+  "time_comparison": {
+    "probes": {
+      "max_displacement_gap_m": 6.128681144151479e-08,
+      "relative_displacement_L2": 0.0765848336793116,
+      "max_F_gap": 8.351660766292568e-07
+    },
+    "impulse_relative": 0.029144044733125624,
+    "coarse_impulse": -7.344345777735642e-07,
+    "half_step_impulse": -7.564815087029864e-07,
+    "fields": {
+      "q": {
+        "max_absolute": 5.126761383816283e-06,
+        "relative": 0.1556294868457373
+      },
+      "velocity": {
+        "max_absolute": 0.0013087806536957063,
+        "relative": 0.47852497642954944
+      },
+      "p": {
+        "max_absolute": 6.937080776452521e-07,
+        "relative": 0.03654169587518427
+      }
+    },
+    "scope": "same endpoint time and target; compare integrated reaction, never compare different midpoint reactions as same-time values"
+  },
+  "limitations": [
+    "single45deg material",
+    "two material pressure volumes",
+    "constant reference hydraulic network",
+    "no independent spatial reference",
+    "no production transfer or GPU",
+    "no temporal accuracy certificate"
+  ]
+}

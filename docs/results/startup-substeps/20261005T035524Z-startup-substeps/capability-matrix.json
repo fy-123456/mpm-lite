@@ -1,0 +1,247 @@
+{
+  "status": "engineering_window_and_scoped_geometry_delivery",
+  "engineering_window_accuracy": true,
+  "fixed_skeleton_engineering_reference": "passed_scoped",
+  "raw_substep_accuracy": false,
+  "actual_coupled_spatial_accuracy": false,
+  "geometry_correctness": true,
+  "exclusive_performance": {
+    "legacy": true,
+    "boundary32": true
+  },
+  "research_backends": {
+    "legacy": {
+      "status": "shared_midpoint_qualified",
+      "selected": true,
+      "backend": "shared-midpoint-exact-volume-gradient",
+      "formal_solid_changed": false,
+      "production_default_changed": false,
+      "preoptimization_trajectories_not_relabelled": true,
+      "scope": "legacy",
+      "origin_times_s": [
+        1.25e-05,
+        3.7500000000000003e-05
+      ],
+      "attempts_completed_at_decision": 4,
+      "max_all_S4_attempts": 11,
+      "operators": {
+        "status": "inherited",
+        "path": "/root/workspace/mpm-lite/docs/results/boundary-reference/20261005T030025Z-boundary-reference/R4/operator-equivalence.json",
+        "sha256": "ddd15fac3b20db96146a98ba1b8dea28e6b07305aa38ec34793734cdbdf8d59d"
+      }
+    },
+    "boundary32": {
+      "status": "shared_midpoint_qualified",
+      "selected": true,
+      "backend": "shared-midpoint-exact-volume-gradient",
+      "formal_solid_changed": false,
+      "production_default_changed": false,
+      "preoptimization_trajectories_not_relabelled": true,
+      "scope": "boundary32",
+      "origin_times_s": [
+        2.5e-05,
+        5e-05
+      ],
+      "attempts_completed_at_decision": 4,
+      "max_all_S4_attempts": 11,
+      "operators": {
+        "status": "passed_scoped",
+        "records": [
+          {
+            "state": "rest",
+            "checks": {
+              "H": {
+                "absolute": 0.0,
+                "reference_norm": 139468976089780.88,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 2789379521.7956176,
+                "passed": true
+              },
+              "volume": {
+                "absolute": 0.0,
+                "reference_norm": 0.023385764194997962,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 4.777152838999592e-07,
+                "passed": true
+              },
+              "gradient": {
+                "absolute": 0.0,
+                "reference_norm": 37.03113707203758,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 0.0007406327414407518,
+                "passed": true
+              }
+            },
+            "passed": true
+          },
+          {
+            "state": "manufactured",
+            "checks": {
+              "H": {
+                "absolute": 0.0,
+                "reference_norm": 139468976089775.52,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 2789379521.795511,
+                "passed": true
+              },
+              "volume": {
+                "absolute": 0.0,
+                "reference_norm": 0.023379368859190217,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 4.775873771838044e-07,
+                "passed": true
+              },
+              "gradient": {
+                "absolute": 0.0,
+                "reference_norm": 37.05752878703025,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 0.0007411605757406051,
+                "passed": true
+              }
+            },
+            "passed": true
+          },
+          {
+            "state": "saved-1",
+            "checks": {
+              "H": {
+                "absolute": 0.0,
+                "reference_norm": 139468976089780.88,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 2789379521.7956176,
+                "passed": true
+              },
+              "volume": {
+                "absolute": 0.0,
+                "reference_norm": 0.023385765587603417,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 4.777153117520683e-07,
+                "passed": true
+              },
+              "gradient": {
+                "absolute": 0.0,
+                "reference_norm": 37.031139006626915,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 0.0007406327801325384,
+                "passed": true
+              }
+            },
+            "passed": true
+          },
+          {
+            "state": "saved-3",
+            "checks": {
+              "H": {
+                "absolute": 0.0,
+                "reference_norm": 139468976089780.88,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 2789379521.7956176,
+                "passed": true
+              },
+              "volume": {
+                "absolute": 0.0,
+                "reference_norm": 0.023385769758565083,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 4.777153951713017e-07,
+                "passed": true
+              },
+              "gradient": {
+                "absolute": 0.0,
+                "reference_norm": 37.03114480136226,
+                "relative": 0.0,
+                "near_zero": false,
+                "budget": 0.0007406328960272453,
+                "passed": true
+              }
+            },
+            "passed": true
+          }
+        ],
+        "paths": [
+          {
+            "path": "actual",
+            "gradient": {
+              "absolute": 8.581426150029517e-14,
+              "reference_norm": 37.03114190399451,
+              "relative": 2.3173539104674077e-15,
+              "near_zero": false,
+              "budget": 0.0007406328380798903,
+              "passed": true
+            },
+            "work_error_m3": 1.3041583275163935e-17,
+            "passed": true
+          },
+          {
+            "path": "manufactured",
+            "gradient": {
+              "absolute": 6.552723001553304e-14,
+              "reference_norm": 37.04432004229165,
+              "relative": 1.7688873743862452e-15,
+              "near_zero": false,
+              "budget": 0.0007408964008458332,
+              "passed": true
+            },
+            "work_error_m3": 5.726170998818355e-15,
+            "passed": true
+          },
+          {
+            "path": "reverse",
+            "gradient": {
+              "absolute": 6.313431935208549e-14,
+              "reference_norm": 37.044320042291645,
+              "relative": 1.7042914886818868e-15,
+              "near_zero": false,
+              "budget": 0.000740896400845833,
+              "passed": true
+            },
+            "work_error_m3": 5.726170575301882e-15,
+            "passed": true
+          }
+        ],
+        "pressure_work_error_J_per_Pa": 5.726170998818355e-15,
+        "metadata_bytes": 131502560,
+        "cap_bytes": 268435456,
+        "JSON_roundtrip": true,
+        "own_results": true,
+        "host_weight_source_mutation_isolated": true,
+        "current_F_always_used": true,
+        "sources": {
+          "benchmarks/research_startup_substeps_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "benchmarks/research_startup_substeps_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+          "benchmarks/research_startup_substeps_next/config.py": "0f7eedd55d97fb99ffcfef7aaab686086144c83e8381b0f36951dd66a0bcd2ec",
+          "benchmarks/research_startup_substeps_next/physics.py": "9c01c93b31e3bdf92bed948d65254dbc3b1b6905c9052e3bf3b6fe4090153d8d",
+          "benchmarks/research_startup_substeps_next/provenance.py": "0a57534298e6b8c1c0a8d1011cd8ccbbfa79c7bf61184b03479ea045eb4f0813",
+          "benchmarks/research_startup_substeps_next/run.py": "0848b0981a7b4fe7d53f97a9fd7bb959d8cef01e60333f29de949c2ec1ad2b4e",
+          "benchmarks/research_startup_substeps_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+          "benchmarks/research_startup_substeps_next/performance.py": "5a4cb33888c55aa34dc00135163b12fe660e9ba5a34327cd247bc9e9778bbc5b",
+          "benchmarks/research_startup_substeps_next/fixture.py": "523f581fee2d9f333cda6fa04bec95d879bb9e042c46e05b9e6aa9c21247f301",
+          "engine/aniso_phase1/research_boundary_reference_next/geometry.py": "b107907965ecd9b0ff3cbd6af83b3a16c8ae6aff1fbd9e51875e739cd7b1fa74",
+          "benchmarks/research_startup_substeps_next/coupling.py": "8e40dfc12844b2e4265aa3d52085769c982cb75a6ff4f2b2cadcec691934c11b",
+          "engine/aniso_phase1/research_startup_substeps_next/schedule.py": "7d0e899ab699ab381f56f5a79d34c8abe3b2115c82bd31148f81bd2b3b58f26e"
+        }
+      }
+    }
+  },
+  "production_default": "inherited daily-q5-retry pure solid; 252steps1.6s",
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "new_formal_steps": 0,
+  "global_temporal_accuracy": false,
+  "full_coupled_cycle": false,
+  "three_dimensional_reference_certified": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false
+}

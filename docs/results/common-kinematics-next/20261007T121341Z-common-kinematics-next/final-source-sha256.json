@@ -1,0 +1,16 @@
+{
+  "benchmarks/research_common_kinematics_next/__init__.py": "1a10eae88818a19483d683f5d35518f436801add7e2a001148ba79b61688cab6",
+  "benchmarks/research_common_kinematics_next/analyze.py": "56d8a09544756fa9f431a991dd05d4dae9f82630e5d2b63e080e420912be3583",
+  "benchmarks/research_common_kinematics_next/publication.py": "39ad488d592243ac063f6838d707190e5740128bcb1c6f93d3f71b72df54407b",
+  "benchmarks/research_common_kinematics_next/replay.py": "2f74892559993fc6e391155dedf42c3311e8e69119cbb3fc685a8dc3debb5b49",
+  "benchmarks/research_common_kinematics_next/run.py": "7a4214255f5e75d39e197e043ee873dafbe0b2df18d356aecd6726fc08b01778",
+  "benchmarks/research_common_kinematics_next/transfer_probe.py": "54db573effd38b42c4ffc73d30675e3b64777693e0e532302b02944de1b695b4",
+  "benchmarks/research_common_kinematics_next/visualize.py": "0937e7d5ed4e2d94a4981910bbcf0c548db39592b48b34e254c727d880863112",
+  "engine/aniso_phase1/research_common_kinematics_next/__init__.py": "ad6ff57ad833284ec9025749f7549bcb3642a9d68962573e6d1b56482a8936e2",
+  "engine/aniso_phase1/research_common_kinematics_next/checkpoint.py": "e50bcd1fe634cd4e90a35e1b75ab69c54fd91a5b7527264cde49d3d8b7b48c81",
+  "engine/aniso_phase1/research_common_kinematics_next/mapping.py": "165ebb468d4fd26afebcd85b3f8f4a7df487c8c01b1305e9c6d7e0c90f1f9cc7",
+  "engine/aniso_phase1/research_common_kinematics_next/model.py": "0c9d7e0c53046317ac546b6888d124625ddbf1601f7734cf90c6e7114b245b08",
+  "engine/aniso_phase1/research_common_kinematics_next/transfer.py": "4ae9c726d2f7ddff581f405c39394638e5956a42d15536baab4cba7a7f56f72e",
+  "tests/research_common_kinematics_next/__init__.py": "829134ada3ab5b2c65d5596e13fd090aedfad07559dd03198cc974c04ec01c8d",
+  "tests/research_common_kinematics_next/test_contracts.py": "3a126eb3a6dfcdb87b406d5177eac8e0a0489569cc384f39d734c841f2d4e626"
+}

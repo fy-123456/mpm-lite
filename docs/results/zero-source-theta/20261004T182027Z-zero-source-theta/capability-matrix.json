@@ -1,0 +1,168 @@
+{
+  "status": "qualified_short_window_with_limits",
+  "zero_source_full_window": "passed_scoped",
+  "startup_method": {
+    "status": "qualified_scoped",
+    "method": "startup",
+    "grid": "coarse",
+    "window_s": [
+      0.0,
+      0.0002
+    ],
+    "source_m3_s": 0.0,
+    "switch_s": 2.5e-05,
+    "numerical_benefit": [
+      {
+        "fine": false,
+        "Dnum_reduction": 0.9979363466354079,
+        "Dnum_drop_J": 1.2577638974927877e-10,
+        "BE_seconds": 22.69658985733986,
+        "startup_seconds": 43.03214744850993,
+        "BE_inherited_steps": 12,
+        "timings_have_different_reuse_and_not_speedup": true
+      },
+      {
+        "fine": true,
+        "Dnum_reduction": 0.9978445167890512,
+        "Dnum_drop_J": 6.312065831916754e-11,
+        "BE_seconds": 36.533506859093904,
+        "startup_seconds": 76.63842074945569,
+        "BE_inherited_steps": 24,
+        "timings_have_different_reuse_and_not_speedup": true
+      }
+    ],
+    "scope": "16-cell actual two-way coupling; 16/32 temporal engineering agreement",
+    "global_time_accuracy": false,
+    "utc": "2026-10-04T18:32:08.912383+00:00",
+    "application_release_sha256": "67ed5b403421fb8e833bc810f55e7c0518e18063e99185f7f1ab999beb33a100",
+    "source_sha256": {
+      "benchmarks/research_zero_source_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "benchmarks/research_zero_source_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+      "benchmarks/research_zero_source_next/bootstrap.py": "877224b39265b832ce986b0dcf92846f014a74e82c413d71dbd245e3e10f5c59",
+      "benchmarks/research_zero_source_next/config.py": "0f7eedd55d97fb99ffcfef7aaab686086144c83e8381b0f36951dd66a0bcd2ec",
+      "benchmarks/research_zero_source_next/continuation.py": "3fad7eee56cbbe9e29255a38e246449bf7ab7ae6ffc141346aeb2134c80827e2",
+      "benchmarks/research_zero_source_next/coupling.py": "65935937fdb9165bf2506c5165d48e8a6627f17e292279f3ce22b48ca6b34c6d",
+      "benchmarks/research_zero_source_next/finalize.py": "88b0967ea70cce58f9c129f14dde1978cd7631724ebfc38644b613507dedeca8",
+      "benchmarks/research_zero_source_next/inspect.py": "eb9098ee56d9180cb908928f10557ab50e98b764d419753483ceed107fa9c55d",
+      "benchmarks/research_zero_source_next/lineage.py": "ae2c774806965a4b066001ab25faca8095fc48ad3f6c69c5d00e6ed444447b5f",
+      "benchmarks/research_zero_source_next/performance.py": "3d7a0136775a969c5c4b026eb1fb50c328d9e955800028fd0b5ca20253f88e35",
+      "benchmarks/research_zero_source_next/physics.py": "9c01c93b31e3bdf92bed948d65254dbc3b1b6905c9052e3bf3b6fe4090153d8d",
+      "benchmarks/research_zero_source_next/provenance.py": "c0a3ab4f42547ec4ac7ffaab06b7b1ccd92bcae0e7def7c0217f1a15bfd59a15",
+      "benchmarks/research_zero_source_next/publication.py": "53e57e06264a006f535871340f5778e9db63d9e4f9d00e33a3a24d647a3529a9",
+      "benchmarks/research_zero_source_next/review.py": "59baf0940a61f03f5bc39b5e3ebde1b9671828ec01b5c129095d9d4048d3bd70",
+      "benchmarks/research_zero_source_next/run.py": "0848b0981a7b4fe7d53f97a9fd7bb959d8cef01e60333f29de949c2ec1ad2b4e",
+      "benchmarks/research_zero_source_next/space_review.py": "920cd443a267aec055c92799aba3ad46e3ce4e52a805983415ca90909218380b",
+      "benchmarks/research_zero_source_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+      "benchmarks/research_zero_source_next/visualize.py": "fc1bd78f8adc077df314d20367c558ec7c463c13fb7bd8d316e6dafb12e58bcb",
+      "engine/aniso_phase1/research_zero_source_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/aniso_phase1/research_zero_source_next/coupled.py": "97b375dfbeaad5e340363c9420aabebee08721c114cf81d688b1d60b45d8c1d1",
+      "tests/research_zero_source_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/research_zero_source_next/test_contract.py": "e584e55df52725d134335726f9e98a96389a5a25e3b5eb454851c287a019bc3f"
+    }
+  },
+  "pressure_grid": {
+    "status": "limited",
+    "method": "startup",
+    "coarse_time_passed": true,
+    "fine_time_passed": true,
+    "nested_grid_agreement": false,
+    "true_coupled_spatial_accuracy": "uncertified",
+    "production_C_E": false,
+    "coupled_q5": false,
+    "full_cycle": false,
+    "performance_grid": "coarse",
+    "fixed_skeleton_reference_reliable": false,
+    "diagnosis": "same-grid actual time checks pass; grid discrepancy persists in time-exact fixed-skeleton equations, indicating pressure spatial/boundary resolution limits",
+    "spatial_accuracy": false
+  },
+  "performance": {
+    "status": "research_reduced_adjoint_qualified",
+    "selected": true,
+    "backend": "bounded-raw-column-cell-gradient",
+    "formal_solid_changed": false,
+    "production_default_changed": false,
+    "preoptimization_trajectories_not_relabelled": true,
+    "scope": "selected actual zero-source theta, original16-cell x-only grid, states at12.5/37.5us; no full-cycle performance claim",
+    "attempts_completed_at_decision": 5,
+    "max_attempts": 8
+  },
+  "transactions": {
+    "status": "passed_scoped",
+    "solid_q5": {
+      "path": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window/S6/fallback-and-restart.json",
+      "sha256": "e910810cd07f369370e82e1d425aab560a8349c9be76bb47579b748e42d36810"
+    },
+    "performance_fault": {
+      "status": "passed_scoped",
+      "rollback_exact": true,
+      "cache_cleared": true,
+      "error": "registered failure before commit",
+      "attempts": 1
+    },
+    "performance_restart": {
+      "status": "passed_scoped",
+      "full_digest": "8a0fef98875bb9fcfa0def37ff9b1bd8cd722821829adc7386f337318ae6be4f",
+      "same_digest": true,
+      "generations": 2,
+      "new_process": true,
+      "new_attempts": 0,
+      "all_fluid_history_in_digest": true
+    },
+    "BE_fault": {
+      "status": "passed_scoped",
+      "full_rollback": true,
+      "cache_cleared": true,
+      "numerical_ledger_rolled_back": true,
+      "new_attempts": 1
+    },
+    "BE_restart": {
+      "status": "passed_scoped",
+      "same_digest": true,
+      "digest": "e3ce1c7ec122cf98b4f0d5ec440266f10156038b5163dc3029b8c39e930cf591",
+      "numerical_dissipation_J": 1.2603648536636643e-10,
+      "new_process": true,
+      "new_steps": 0
+    },
+    "startup_fault": {
+      "status": "passed_scoped",
+      "full_rollback": true,
+      "cache_cleared": true,
+      "numerical_ledger_rolled_back": true,
+      "new_attempts": 1
+    },
+    "startup_restart": {
+      "status": "passed_scoped",
+      "same_digest": true,
+      "digest": "ac322f82f924c2bf3251fdec1d793e7b6bd4f45d018e7d9bbc32b5e0536a182f",
+      "numerical_dissipation_J": 2.600956170876703e-13,
+      "new_process": true,
+      "new_steps": 0
+    },
+    "new_S6_dynamic_attempts": 0
+  },
+  "space_candidate": {
+    "status": "not_triggered",
+    "reason": "no resolved continuum solid reference and no demonstrated above-budget solid spatial target; inherited static errors below0.02Pa",
+    "new_spaces": 0,
+    "new_static_solves": 0,
+    "new_dynamic_attempts": 0,
+    "formal_space_changed": false,
+    "functions": 144,
+    "candidate_limit": 1,
+    "historical48_75deg_is_not_hidden": true
+  },
+  "formal_space_changed": false,
+  "functions": 144,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "new_formal_steps": 0,
+  "true_coupled_spatial_accuracy": false,
+  "global_temporal_accuracy": false,
+  "full_coupled_cycle": false,
+  "fixed_skeleton_reference": "inherited same-grid evidence; no new continuum certification",
+  "main_q5": "inherited original solid certificate only",
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "pure_solid_default": true,
+  "phase_events": "unobserved in current pressure window"
+}

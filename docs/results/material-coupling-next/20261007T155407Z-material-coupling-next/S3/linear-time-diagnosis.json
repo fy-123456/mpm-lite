@@ -1,0 +1,58 @@
+{
+  "coarse": [
+    {
+      "reaction": -2.9377372607467277e-05,
+      "pressure": [
+        1.62375710956568e-05,
+        1.6802427669615355e-05
+      ],
+      "free_residual": 1.068049015096034e-17
+    }
+  ],
+  "half_steps": [
+    {
+      "reaction": -2.4273949003012285e-05,
+      "pressure": [
+        6.955685331701142e-06,
+        7.370152586010061e-06
+      ],
+      "free_residual": 1.9851546869953256e-18
+    },
+    {
+      "reaction": -3.6244603481741075e-05,
+      "pressure": [
+        1.693127305313471e-05,
+        1.7353485855799957e-05
+      ],
+      "free_residual": 1.1168993885930804e-17
+    }
+  ],
+  "linear_impulse_relative": 0.0291449018094602,
+  "actual_impulse_relative": 0.029144044733125624,
+  "difference": 8.57076334577489e-07,
+  "budget": {
+    "seconds": 7.628163375891745,
+    "counts": {
+      "geometry": 1
+    },
+    "component_seconds": {
+      "geometry": 7.500624060630798
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 0.09568633884191513
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.500624060630798,
+        "success": true
+      }
+    ]
+  },
+  "scope": "rest-linearized original space with full M/K and same hydraulic network; identifies time-discretization sensitivity without added physical frames; no modal convergence certificate"
+}

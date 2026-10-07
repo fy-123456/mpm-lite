@@ -1,0 +1,426 @@
+{
+  "count": 27,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S0/preimplementation-version-audit.json",
+          "sha256": "23720ec0dadfbe7d8a86d864208fbe4f71c52a27050bf3d351943d1492e96ee6"
+        },
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "8e98a4dbd43b01fb94069106428d83b33c3c880dbcacb950d8fa5188011bae15"
+        },
+        {
+          "path": "input-lock.json",
+          "sha256": "8721c7a03f2ae3748408deadd1b4c565fc9da57a2320c522c9409c5d0fdd4826"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S0/physical-contract.json",
+          "sha256": "5268e0ff1f52b2ddba45ca125d632a629494d86ae6cf160059ff5bcdce30408c"
+        },
+        {
+          "path": "S0/observation-contract.json",
+          "sha256": "5b6a959771f7fd5dbcb6778c23bc56aee35d1596d12204998ecadeec1a6fd4be"
+        },
+        {
+          "path": "S0/source-states.json",
+          "sha256": "a0742900b43efa79090194ff70e4ef93b78497fe8232006debf5a63cb3fbc08f"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "c55911aa12d5a6419d4897498c3e5f8aa361595afd1eb7cea1d24811d61af119"
+        },
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "2a861f63990a84a59d384251dbf469d6a2261c45d6176776b8349be93f407e20"
+        },
+        {
+          "path": "S0/storage-migration.json",
+          "sha256": "e3ccc3bee053cb9cb073b46f5b102eac6186a68dc94197c8f7d5d32ebb6a74c1"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S1/partition-check.json",
+          "sha256": "11962acbbc7e953aef785462c7437aa7a7ae1c1ee00fe56302bd6dae527134c5"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S1/construction-contract.json",
+          "sha256": "9f8c4e1c87e25dfcdeded539a3873a5c133847370d79f66baddb56d87575f73a"
+        },
+        {
+          "path": "S1/memory-preflight.json",
+          "sha256": "d55cfc597bc2742dd2e5e03f2f53e9150cda7a0306bf88ffa8f28ba850204237"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S1/adjoint-check.json",
+          "sha256": "0921ea6acce3a195644472c198a19f33b7280e1071fa3053b3cef0ba1db13d0d"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "3b92738218f53d923e4e94ef6aa0696347410fced038d11393d1f28485b28ae5"
+        }
+      ]
+    },
+    {
+      "step": "S1.4",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S1/operator-equivalence.json",
+          "sha256": "74e062c7ca7d6953c25ada3d81073fae334d83cac89333cc21d816dbc17ded32"
+        },
+        {
+          "path": "S1/cache-work-check.json",
+          "sha256": "2bd01018e4c2eac6cf179f3977dd8d18de6412ef145b3962a6e6ff05a7b49637"
+        }
+      ]
+    },
+    {
+      "step": "S1.5",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S1/dynamic-entry-decision.json",
+          "sha256": "0fff3d286a8ef4d77d09fa8016c00d05abaa0d829d952a680e6bbb0f29e963ef"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S2/trajectory-protocol.json",
+          "sha256": "586538c118464b70eda5b44a0490fc62e8d2029e01fb388f153e610ae7281d01"
+        },
+        {
+          "path": "S0/source-states.json",
+          "sha256": "a0742900b43efa79090194ff70e4ef93b78497fe8232006debf5a63cb3fbc08f"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S2/coarse-equivalence.json",
+          "sha256": "643abddb25dc42a5e79ebb3f3abf64f8756de4029c9bb9686ca8df2bc60625fa"
+        },
+        {
+          "path": "S2/source-normalization-fix.json",
+          "sha256": "582a11353d9d2e51dd7adce13b47b8493b05bbe24291be8dcf8b54aad20ec697"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S2/transaction-check.json",
+          "sha256": "970423ce80fff4395d003fa494ec6d71d5ff5d69f2e19ac017c9cd67728ed8e8"
+        },
+        {
+          "path": "cases/pressure128-D3/restart-8.json",
+          "sha256": "55c5b3056fc4094285d8544205929b6834ebaf45d1b086916ee020d49f4c05ab"
+        }
+      ]
+    },
+    {
+      "step": "S2.4",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S2/spatial-comparison.json",
+          "sha256": "753b06c416b6332325555eb8c45de4cf3d6415f3189e908db705ce750722dd6a"
+        },
+        {
+          "path": "S2/time-entry-decision.json",
+          "sha256": "01402daad825f2bc79f044da4de59895549b037eedc18144912d8641b28e7438"
+        }
+      ]
+    },
+    {
+      "step": "S2.5",
+      "status": "limited",
+      "reason": "specified two grids only; no continuum or full-cycle certificate",
+      "evidence": [
+        {
+          "path": "S2/spatial-scope-decision.json",
+          "sha256": "1074137ed5bbf9e02ef18527704c9b17b8feda94444d896cc7391831a4a34732"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S3/solid-reference-audit.json",
+          "sha256": "84fa74bcdd00572b39f93b686db65cfd7cb87d48fc39e74ae7f477e29fcc2053"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S3/refinement-protocol.json",
+          "sha256": "232f161b3ad04e4fb63e7a0817cfad2e5145cb448254a9c148f36c2cb0ffed14"
+        },
+        {
+          "path": "S3/R6-definition.json",
+          "sha256": "2de987762b61b63371a73dd96cd322b686bc83916dc75ee4829ecd8264ca4513"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S3/solid-reference-comparison.json",
+          "sha256": "c0cfbed5d3274f112d9c63736cd03a9aaaacd3d439336ad562961f41e58b3811"
+        },
+        {
+          "path": "S3/R6-package.json",
+          "sha256": "138a2d6d1ccbf20e6b5ed4e217f48b4730a7a576ffd88c04e85c93d1dd372346"
+        }
+      ]
+    },
+    {
+      "step": "S3.4",
+      "status": "passed_scoped",
+      "reason": "retain formal144; regional errors within engineering budget; no training",
+      "evidence": [
+        {
+          "path": "S3/allocation-entry-decision.json",
+          "sha256": "b194b177b95718a6cfa910e5360d674ed03187054c2665e6b038e058553cd708"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "status": "limited",
+      "reason": "local adjoint and P contraction timed together; no independent LU/material/IO breakdown",
+      "evidence": [
+        {
+          "path": "S4/hotspot-profile.json",
+          "sha256": "ea2664ed0e281ee228cb8b282f574a35fe4c44a1f35087722447c42bcb5af3d6"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S4/candidate-protocol.json",
+          "sha256": "c2b437f54fe6f3c1bbececc314405a5f4a32486c5cf3a673034786bd1683ba91"
+        },
+        {
+          "path": "S4/operator-check.json",
+          "sha256": "dad9207f26faf794650989261a873f658874767ae4c515af6693afc2b6effde5"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "status": "limited",
+      "reason": "G2 correct but below 5 percent speed gate and beyond 16-step setup recovery",
+      "evidence": [
+        {
+          "path": "S4/paired-performance.json",
+          "sha256": "318c5c931c0549e2ba0b5a3fa9131169d77d518e46d90d21926e95cf270f5202"
+        },
+        {
+          "path": "S4/postprocess-fix.json",
+          "sha256": "8e1ad38bcba3c3ca0b45bcc3ccf83bae211ff4d6dd38c5f90290a226375d48a5"
+        },
+        {
+          "path": "S4/setup-cost.json",
+          "sha256": "b5712f158ba5d64ccca70f7cab35b5d98cf5b92b8bea1c9978d3cabf9ede1aa1"
+        }
+      ]
+    },
+    {
+      "step": "S4.4",
+      "status": "not_triggered",
+      "reason": "candidate not selected; four additional continuity steps not triggered",
+      "evidence": [
+        {
+          "path": "S4/backend-decision.json",
+          "sha256": "45f4ca3bdad9011d066549138415c76abe145e81954b2954013354e7e4d9f986"
+        },
+        {
+          "path": "S4/continuous-check.json",
+          "sha256": "d1fd404286f6905d41b36edff3a9c9d81c8285bfd5f423c0d6318578f06a2e8e"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S5/recovery-contract.json",
+          "sha256": "05199d1c48913d8d648da6f04226286202ffffadc51090c606e584bc7a1dd061"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "3b92738218f53d923e4e94ef6aa0696347410fced038d11393d1f28485b28ae5"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S5/resource-fault-check.json",
+          "sha256": "745a054cbc1bffb236861d132ae895dd2b130c7a77a5e2410e08c846ac45a55a"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S5/recovery-scope-decision.json",
+          "sha256": "77e41f89b9effdc8a8773e9a054db0d7ff77e667a3013bd27d1021c49e74f6c9"
+        },
+        {
+          "path": "S5/new-process-load.json",
+          "sha256": "ac336c47290b0f4de585d53a961b94329df66a7081d6898526c4bfb487be384a"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S6/test-report.json",
+          "sha256": "3b92738218f53d923e4e94ef6aa0696347410fced038d11393d1f28485b28ae5"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "5ddcd925c840a679ec65fba028a9d475eedd32b1eca340806da657f1180c49f5"
+        },
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "7e912753d7313ad53d5e1c182b8fdbd09b75f81eba6cec5db3f97649b0dbae83"
+        },
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "8b8d87c220e29fc13caffcc988336f74b41eb980601dda8eead077adaa4d0c06"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "50c0563ad8278f24fcef0974774d8148c57ac79caf5ce42ef87aafee89047cd7"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "2f7bb92cb25f0465e8e7f3bf4df737dec9722e2270fa48f562bd2c26b67313d0"
+        },
+        {
+          "path": "S6/visualization-origin.json",
+          "sha256": "6625d10ce8ec20dfd20a78f61f5e3e703158fe3a8e67ff75f66b741853566cd7"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "status": "passed_scoped",
+      "reason": "scoped evidence and checks complete",
+      "evidence": [
+        {
+          "path": "capability-matrix.json",
+          "sha256": "af5494496146345587069ce3ec1569cb60c99c42751f18146878c94217e8291a"
+        },
+        {
+          "path": "documentation.json",
+          "sha256": "800127c78eb09308fedaf78a0dfb45c8f4d72a3694e180f14d3a97ba564e39a6"
+        },
+        {
+          "path": "S6/final-resources.json",
+          "sha256": "4d258536010a6d969d7ba8af085add78d93da912d6eb75ce656e3b967ee4abd8"
+        },
+        {
+          "path": "S6/numerical-source-audit.json",
+          "sha256": "3cfc0c84a17623ef9e2770f206468ac72f3b5aae5290d559d3e63dda53279d81"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_accuracy_goals_passed": false,
+  "sequential": true,
+  "plan_sha256": "25a5bec37455212ebca8975d9e1790b169653f082f26c33dd2ff37ea28342c2e"
+}

@@ -1,0 +1,16 @@
+{
+  "material_direction_correction": "smooth local single-direction fields only",
+  "original_kernel_transfer": "actual cross-cell/block probes passed",
+  "eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "G1": false,
+  "G2": false,
+  "G3": false,
+  "original_default_unchanged": true,
+  "new_complete_coupled_replay": false,
+  "material_bridge_checkpoint": true,
+  "inner_particle_free_operator": true
+}

@@ -1,0 +1,12 @@
+{
+  "latest": "/root/workspace/mpm-lite/docs/results/formal-pressure-next/20261007T145423Z-formal-pressure-next",
+  "release_sha256": "2243316cce47c8d871cda69e153b4fc0c3e62877a28b619cd8e44d08c59be8ef",
+  "release_count": 32,
+  "old_source_count": 1377,
+  "git": "absent",
+  "system_disk": {
+    "total": 32212254720,
+    "used": 26765905920,
+    "free": 5446348800
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "phase-stress-practical-v1",
+  "utc": "2026-10-01T07:59:44.446633+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/cost-phase/20261001T062026Z-cost-phase",
+  "application_parent_release_sha256": "46a3dcd54a30508143185aac06a791e68fb65a2e62eba9245ad30872631fce48",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "b05000eab9ccba8d3930f774be2e6b3c94d1e0815bd0ba4321b47713e3204189",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "78acf92021cf1419641ca67b3e13735efa2a95b620955c45754990cf0c79a476",
+    "count": 19
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "1c8aaa20cad0fe6c578c787fd0a7d09e3ff96568875f300f5712109800d3c799",
+    "count": 1981
+  },
+  "qualification": {
+    "path": "S5/qualification-final.json",
+    "sha256": "7e70c7de3626408aea21c4587275258e901f10110c4bac7dd63c2b1ca316f7a6"
+  },
+  "sensitive_scope": {
+    "path": "S5/sensitive-scope.json",
+    "sha256": "bd4565648c04c52cd8c0cc934d6c431266d563464bdf04162255f94b58c20aa1"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "0e1b9b81d2bddc5c641009077725ee513c06ced5e4ef6961da4b91265c210292"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "1de7ce7a5f123f57bff583aadc16c7549e1342b687325f11d0ab90464140c218"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "2bf4354b3f8cd8a945d7874b9ff28fda8947a245f6c34f962c0dd7e2c9429c06"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "3f853d6f013ca2ab7a8387fe31908351015c1a8eeb92870b8be9bc96b1a7c877"
+  },
+  "case_identity_sha256": "decc3fa9b5c7e9cafb4c1091bff02da2be635a8347a4d69c5fe98012a228e040",
+  "case_protocol_sha256": "97c57a30ab8ca6cf9e32240f92aa32817ada21805a5e1fc83baea98ae6e38563",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "coarse_instrumentation": true,
+  "shared_reduction": true,
+  "space_array_cache": true,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": "x-only half-cell pressure, normal and small storage four-step fixtures"
+}

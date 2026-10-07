@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "producer": "research_e",
+  "baseline_source_zip_sha256": "136529c866133aac10af77126c839f12a2769073ee5ec964f46dcadeca7adee4",
+  "seed": 20260930,
+  "dtype": "float64",
+  "device": "cpu",
+  "units": {"length": "m", "time": "s", "pressure": "Pa", "permeability": "m^2", "viscosity": "Pa s", "density": "kg/m^3", "flux": "m/s"},
+  "model": "saturated single-fluid low-Re Darcy; separate inertial drag blocks; linear quasistatic Biot Q2/RT0/P0; finite-deformation state tests do not claim nonlinear moving Lite support",
+  "coordinates": "x=X+u; F=I+grad_X(u); reference material directions; positive integrated face flux along positive coordinate axis",
+  "volume_convention": "reference Cartesian cell volumes, 2D unit out-of-plane thickness",
+  "physics": {"saturation": 1, "porosity0": 0.35, "mu_f": 1.0, "rho_f": 1000.0, "rho_s": 2000.0, "solid_mu": 10.0, "solid_lam": 20.0, "solid_k_f": 200.0, "alpha": 1.0},
+  "acceptance": {
+    "material_directional_relative": 0.0001,
+    "darcy_finest_cell_mean_relative": 0.03,
+    "darcy_finest_full_field_relative": 0.08,
+    "consolidation_finest_relative": 0.04,
+    "cycle_finest_relative": 0.05,
+    "balance_scaled_absolute": 0.000001,
+    "true_residual_scaled_absolute": 0.00000001,
+    "roundoff_sign_allowance": 0.0000000001,
+    "required": ["finite fields", "refinement improves reference error", "phase exchange balances", "nonnegative physical dissipation", "no extra pressure null modes", "invalid trials never commit", "restart matches continuous run"]
+  },
+  "scales": {"length": 1.0, "pressure": 0.1, "volume": 1.0, "momentum": 1.0, "energy": 1.0},
+  "darcy_grids": [8, 16, 32],
+  "consolidation_grids": [8, 16, 32],
+  "cycle_dt": [0.04, 0.02, 0.01, 0.005],
+  "scope_limits": ["no GPU certification", "no compressed fluid states", "no production Lite integration", "no moving particles, contact, free surface, unsaturated flow, damage or plasticity"],
+  "resource_policy": {"threads": 1, "system_disk_min_gib": 5, "move_only_verified_noncritical_data": true, "estimated_output_mb": 20}
+}

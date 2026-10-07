@@ -1,0 +1,38 @@
+{
+  "status": "scoped_continuous_and_extension_delivery",
+  "continuous_B": "continuous_B_qualified",
+  "continuous_B_window_s": [
+    1.25e-05,
+    7.5e-05
+  ],
+  "G1": {
+    "status": "limited",
+    "selected": false,
+    "backend": "B",
+    "reason": "single G1 candidate did not meet the registered whole-step performance gate",
+    "new_dynamic_attempts": 4,
+    "new_exclusive_performance": false,
+    "continuous_G1_qualified": false
+  },
+  "extension": {
+    "status": "extended_window_qualified",
+    "backend": "B",
+    "scope": "same BASE coarse 200us initial state, 200..300us engineering window only",
+    "original_residual_budget_window_s": 0.0002,
+    "global_0_to_300_time_accuracy": false,
+    "actual_spatial_accuracy": false
+  },
+  "frozen_geometry": "passed_scoped",
+  "actual_coupled_spatial_accuracy": false,
+  "raw_substep_accuracy": false,
+  "exclusive_new_performance": false,
+  "production_default": "inherited daily-q5-retry; pure solid,252steps,1.6s",
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "new_formal_steps": 0,
+  "full_coupled_cycle": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false
+}

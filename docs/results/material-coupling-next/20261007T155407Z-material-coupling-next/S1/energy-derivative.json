@@ -1,0 +1,146 @@
+{
+  "relative": 2.1399814092967085e-09,
+  "fd": -0.0001276086900551675,
+  "analytic": -0.00012760868978208727,
+  "budget": {
+    "seconds": 238.93742957804352,
+    "counts": {
+      "material": 10
+    },
+    "component_seconds": {
+      "material": 233.64082568511367
+    },
+    "events": [
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "begin",
+        "at": 5.28791656345129
+      },
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "end",
+        "seconds": 38.81683361902833,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "begin",
+        "at": 44.10478319507092
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "end",
+        "seconds": 23.92313519399613,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "begin",
+        "at": 68.0302040334791
+      },
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "end",
+        "seconds": 38.83112135250121,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "begin",
+        "at": 106.86135682556778
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "end",
+        "seconds": 24.14405510108918,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "begin",
+        "at": 131.00806795991957
+      },
+      {
+        "kind": "material",
+        "label": "q7:jv",
+        "event": "end",
+        "seconds": 38.367632140405476,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "begin",
+        "at": 169.37572847958654
+      },
+      {
+        "kind": "material",
+        "label": "q5:jv",
+        "event": "end",
+        "seconds": 23.85041187517345,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q2:response",
+        "event": "begin",
+        "at": 193.22705475986004
+      },
+      {
+        "kind": "material",
+        "label": "q2:response",
+        "event": "end",
+        "seconds": 8.015463659539819,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 201.24511036928743
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.599856281653047,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 213.84500425308943
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.625009941868484,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 226.47005360666662
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.467306519858539,
+        "success": true
+      }
+    ]
+  }
+}

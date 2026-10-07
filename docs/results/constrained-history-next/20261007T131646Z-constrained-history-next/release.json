@@ -1,0 +1,58 @@
+{
+  "schema": "constrained-history-next-scoped-v1",
+  "utc": "2026-10-07T13:46:10.263585+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/common-kinematics-next/20261007T121341Z-common-kinematics-next",
+  "application_parent_release_sha256": "dedf2792ceb38a642900e06c81e9f6e81a19eeec29f54e74adaa03524246319f",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "f2c06b3468c9c5888676f79ce3b2e0382f2ffadc5532055d39826eebf737431d",
+    "count": 12
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "c7948f67569a4ec9093d9e306d9b3ae334c4d7192c1059fa0586834d134be424",
+    "count": 59
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "6dde3944d72b85b4d7c21f8ec52b9275616d3baf35ebaa45612367e67322f741"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "13015dcb2122e8fb831a91a69c1a9c53aea08e8319793b1d7cf025ef5da9fac9"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "193ea608cb3f28521dd64a034e9ef231c26e796bd3dc2502f22d12f0f8b9916a"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU common modal coupling with bounded material-only retry; formal144 static candidate only",
+  "research_rule": "q4 material, q6 reserve; q4 geometry and mass; director-log smooth single direction",
+  "original_kernel_transfer_tested": false,
+  "common_transfer_candidate": true,
+  "bounded_coupled_package": true,
+  "eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "formal_static_candidate": true,
+  "formal_dynamic_gate_A": false,
+  "bounded_retry_small_model_gate_B": true,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "particle_decoupling_scope": "particle-free full frozen coupled step at fixed budgets; Prepare and Load remain particle-dependent",
+  "scope": "formal144 constrained static mass verified, dynamic absolute stabilization unresolved; bounded history and whole-step material retry in small model; no production replacement",
+  "audit": {
+    "ancestor_releases": 29,
+    "frozen_sources": 1336,
+    "new_sources": 12,
+    "unique_files_verified": 47607
+  }
+}

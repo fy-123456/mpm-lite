@@ -1,0 +1,10 @@
+{
+  "state": "matched first drained q7 endpoint",
+  "errors": {
+    "force": 0.0027479074393702385,
+    "weak_moments": 0.006015233150937405
+  },
+  "budget": 0.03,
+  "would_reject": false,
+  "seconds": 28.001442450098693
+}

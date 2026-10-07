@@ -1,0 +1,17 @@
+{
+  "absolute_state_original_material": true,
+  "corrected_SH_CPU_query_contract": true,
+  "gate_S_original_material_route": true,
+  "gate_M_original_material_small_window": true,
+  "updated_C1_physical_space": false,
+  "formal_pressure_coupling": false,
+  "gate_C": false,
+  "gate_R": false,
+  "production_kernel_transfer": false,
+  "gpu_tested": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "production_default_replaced": false,
+  "inherited_small_model_retry": true
+}

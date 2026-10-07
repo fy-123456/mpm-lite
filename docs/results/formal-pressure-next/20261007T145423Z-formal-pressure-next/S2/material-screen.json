@@ -1,0 +1,9 @@
+{
+  "force": 5.150463450683509e-07,
+  "weak_moments": 6.0685919453375355e-09,
+  "tangent_action": 9.431760249636285e-07,
+  "energy_absolute": 2.656124461813871e-11,
+  "reference_calls": 4917248,
+  "candidate_calls": 1792000,
+  "candidate_accepted": true
+}

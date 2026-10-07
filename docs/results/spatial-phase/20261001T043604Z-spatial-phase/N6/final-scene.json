@@ -1,0 +1,119 @@
+{
+  "status": "passed_scoped",
+  "default_case": "daily-q5-retry-dt0125",
+  "steps": 128,
+  "frames": 12,
+  "generations": 129,
+  "summary": {
+    "status": "passed_scoped",
+    "utc": "2026-10-01T05:40:09.767701+00:00",
+    "case": "daily-q5-retry-dt0125",
+    "steps": 128,
+    "end_s": 1.6,
+    "source_sha256": {
+      "benchmarks/research_spatial_phase_next/__init__.py": "1fd890c47b4d1ad29aca3af35f586bce737974abee35c493e280d4f7caebc221",
+      "benchmarks/research_spatial_phase_next/provenance.py": "764e9aff9fb11a97de44e14d6b151e8b9f1ee404cbe66e5431476275cc115077",
+      "benchmarks/research_spatial_phase_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+      "benchmarks/research_spatial_phase_next/config.py": "e14359ee94dcc5b7d8cf3babc6cf1722aecaf8e752912799900f1b680b9707ab",
+      "benchmarks/research_spatial_phase_next/spaces.py": "2665219e8a9b823c5c07440ab5d0cbbf557e768cde58b320bd59721971d1f32e",
+      "benchmarks/research_spatial_phase_next/run.py": "7de9bd26c040eb4b84a6236fd3f288f064c898a266fcef59df8cb7b1283f3a62",
+      "engine/aniso_phase1/research_spatial_phase_next/__init__.py": "1fd890c47b4d1ad29aca3af35f586bce737974abee35c493e280d4f7caebc221",
+      "engine/aniso_phase1/research_spatial_phase_next/space.py": "2850dc97a939f79bd9a56f8baf2af972f5a06222cf602624148a56e4676b5958",
+      "engine/aniso_phase1/research_spatial_phase_next/multicell.py": "c0a1b63013616f58a7afc0c703ea62edce75ca304921967190ecbd1b1dfd5a92",
+      "engine/aniso_phase1/research_spatial_phase_next/performance.py": "f0e0ab07f2f431dfdbdc69f7dc4665b8107f26c31ef1a02cf7be843a23a33656"
+    },
+    "protocol_sha256": "ceabe7f3bd86d780cfa20cc510e7b4bdd200efcf0e647d4ab7fe9f49ed3601fc",
+    "min_detF": 0.9935628579211895,
+    "max_ledger_closure_J": 5.6315947933245206e-21,
+    "max_true_residual": 1.0404491643586586e-07,
+    "rule_policy": "q5_with_full_retry",
+    "active_rule": "f9526a35d65bf6bad356abb92b4fac9062a6a2ea8400fb5563ff716ba4a8af9f",
+    "material_attempts": 128,
+    "cumulative_rule_switch_error_J": 0.0,
+    "display_frames": 12,
+    "checkpoint_reload": true,
+    "temporal_certified": false,
+    "spatial_certified": false,
+    "this_segment": {
+      "build_seconds": 19.72745580598712,
+      "advance_and_publish_seconds": 22.15714969765395,
+      "includes_fields_and_checkpoint": true,
+      "wall_seconds": 41.987801439128816,
+      "accepted_steps": 128,
+      "peak_rss_GiB": 4.834564208984375
+    },
+    "field_cache": {
+      "bytes": 19132344,
+      "build_seconds": 0.5939805628731847,
+      "signature": "8968fa3ffc4a2168210a0cc97c7765d1db31403b7b2094c0c6cb789956c3a841"
+    },
+    "gpu_memory": {
+      "initial_free_bytes": 33138868224,
+      "budget_bytes": 23197207756,
+      "cuda_async_pool_current_bytes": 5884104312,
+      "cuda_async_pool_process_high_bytes": 7679962116,
+      "initial_cuda_async_pool_high_bytes": 0,
+      "observed_device_free_decrease_bytes": 7350517760,
+      "conservative_peak_required_bytes": 9079755008,
+      "samples": 8871,
+      "peak_process_rss_GiB": 4.834564208984375,
+      "scope": "CUDA allocator reports exact process async-pool high water; free-memory samples additionally include non-pool/shared-device usage. Pool high water is process-wide, not per model; preallocation reserve is conservative."
+    }
+  },
+  "comparison_maxima": {
+    "displacement_m": 1.7898352900260082e-09,
+    "velocity_m_s": 9.252110183668364e-08,
+    "PK1_Pa": 1.0314319240548469e-05,
+    "fiber_Pa": 1.0244732295067559e-05,
+    "reaction_N": 4.241012502683231e-08
+  },
+  "sentinels": [
+    {
+      "time_s": 0.5,
+      "energy_difference_J": 2.6939042786593408e-11,
+      "energy_budget_J": 1.123165604927354e-06,
+      "force_difference_N": 1.1540750496563206e-08,
+      "force_budget_N": 0.00038051536323356296,
+      "passed": true
+    },
+    {
+      "time_s": 0.6,
+      "energy_difference_J": 2.726158735604292e-11,
+      "energy_budget_J": 1.1224869961537188e-06,
+      "force_difference_N": 1.1833533338397592e-08,
+      "force_budget_N": 0.00033429980148034664,
+      "passed": true
+    },
+    {
+      "time_s": 1.1,
+      "energy_difference_J": 6.709592026569241e-16,
+      "energy_budget_J": 5.806843754978162e-09,
+      "force_difference_N": 1.0399073744019145e-10,
+      "force_budget_N": 0.0003753105111881775,
+      "passed": true
+    }
+  ],
+  "fallback_count": 0,
+  "source_verified": true,
+  "parents_unchanged": {
+    "parent_sources": 39,
+    "historical_sources": 683,
+    "inputs": 25,
+    "parent_source_snapshot": 39,
+    "parent_artifacts": 1946,
+    "previous_application_sources": 18,
+    "previous_application_snapshots": 18,
+    "previous_application_artifacts": 2145,
+    "application_sources": 20,
+    "application_snapshots": 20,
+    "application_artifacts": 2254,
+    "python_inventory": 707
+  },
+  "temporal_accuracy": false,
+  "spatial_accuracy": false,
+  "resources": {
+    "system_free_GiB": 6.217552185058594,
+    "data_free_GiB": 120.87564849853516,
+    "cgroup_memory_max": "96636764160"
+  }
+}

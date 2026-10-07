@@ -1,0 +1,17 @@
+{
+  "status": "passed_scoped",
+  "attempts": {
+    "S0": 4,
+    "S1": 132,
+    "S2": 0,
+    "S3": 50,
+    "S4": 256,
+    "S5": 2,
+    "S6": 0
+  },
+  "total": 444,
+  "max_total": 1026,
+  "includes_failed_and_witness_steps": true,
+  "fixed_geometry_pressure_matrix_probes_separate": 64,
+  "inherited_formal_steps_not_new": true
+}

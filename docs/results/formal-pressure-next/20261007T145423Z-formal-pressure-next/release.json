@@ -1,0 +1,51 @@
+{
+  "schema": "formal-pressure-next-scoped-v1",
+  "utc": "2026-10-07T15:37:51.488091+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/absolute-state-next/20261007T140413Z-absolute-state-next",
+  "application_parent_release_sha256": "97e75ff3a5e58bd8d8cce72df4aedacf2ad49e6b4b68e65ca1ea72f34a446e61",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "1f090b4cabd5eba23fadaded92801e26536863e0bbc357835c051a1831b39216",
+    "count": 17
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "7b4e7a56b146a07e45fde636e7c929313c3bb97abb9ec94ab3f9b6c94f1b2b92",
+    "count": 64
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "a0d13c0de9410988756dabee484019b41745d87d3208e143596011f4f65f3ddc"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "aa2e34f23803601c4cb1b683ee238aa0a7ecfe18fb56032a6c2719952c09bfca"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "db11af187fc4cc9f45201050e7e4b034631356db444444fef6b11b1269e66a6a"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU original formal material coordinates; q7 midpoint and reference hydraulic network",
+  "formal_space_changed": false,
+  "original_kernel_transfer_tested": false,
+  "eulerian_lite_integration": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "scope": "qualification scope in capability-matrix and requirement-audit; no production or GPU replacement",
+  "audit": {
+    "ancestor_releases": 31,
+    "frozen_sources": 1360,
+    "new_sources": 17,
+    "unique_files_verified": 47745
+  }
+}

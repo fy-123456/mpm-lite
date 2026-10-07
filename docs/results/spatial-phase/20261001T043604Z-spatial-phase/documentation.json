@@ -1,0 +1,9 @@
+{
+  "progress_path": "docs/MPM_LITE_SPATIAL_PHASE_PROGRESS_20261001_ZH.md",
+  "progress_sha256": "0c5482b1ef0e62ec1d365aa9cd4fd80548abef8a5425d6b484b50eb4b3c2cbed",
+  "coupling_path": "docs/MPM_LITE_SPATIAL_PHASE_COUPLING_20261001_ZH.md",
+  "coupling_sha256": "010a974dcb710e9e941ec6f1ede1c0aee5e59d4cc5b08d7e99b423d22ac303fa",
+  "current_plan_path": "docs/MPM_LITE_NONLINEAR_SPACE_PHASE_COUPLING_PLAN_20261001_ZH.md",
+  "current_plan_sha256": "6288e00c81f000fb879147b41534d9e082c4c9d1c26cf4b778562a3d44ef6a9a",
+  "original_plan_sha256": "04eadd19d29d463ed45d42e9826669ec4ca0a0cba9c31dc0e45e03540140b129"
+}

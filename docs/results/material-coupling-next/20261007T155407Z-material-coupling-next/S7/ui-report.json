@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "arcs": 4785,
+  "frames": [
+    0,
+    2,
+    4
+  ],
+  "modes": [
+    "p",
+    "u",
+    "J"
+  ],
+  "scales": [
+    1,
+    1000,
+    10000
+  ],
+  "playback": true,
+  "real_browser": false,
+  "http": {
+    "index.html": {
+      "status": 200,
+      "bytes": 50106
+    },
+    "diagnostics.png": {
+      "status": 200,
+      "bytes": 143900
+    },
+    "implementation-report.md": {
+      "status": 200,
+      "bytes": 11998
+    },
+    "requirement-audit.json": {
+      "status": 200,
+      "bytes": 4391
+    },
+    "S4/closed-compressed/metrics.json": {
+      "status": 200,
+      "bytes": 231066
+    }
+  },
+  "initial_http_failure": "environment proxy 502 resolved by loopback proxy bypass"
+}

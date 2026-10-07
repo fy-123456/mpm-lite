@@ -1,0 +1,64 @@
+{
+  "schema": "pressure-window-practical-v1",
+  "utc": "2026-10-04T12:48:30.442086+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/observable-boundary/20261001T195842Z-observable-boundary",
+  "application_parent_release_sha256": "2c417342a35fb7d24e07e72f628ed42d43e80525d17cc0945f0e631f941385fa",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "fc7cf4c34e4f5cf54d3fd0c817958187e34571e7e0db2137ea2c80096db4c3da",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "dee2a7c6d1ccef842464503d348094f487fce1f38efe8068cf2fc4d13ba3fa82",
+    "count": 31
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "21c5a13d09beacb7b3966208459045eac09ed36295eb86d9dbc21956e4263d12",
+    "count": 2472
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "b1dc80945b97de8bd9a6c8775777c9090920d1248fb991edb750c57bee1b70de"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "aa4aa6fe5cd959d7f877016f7b751b9cc07521fba9c65c7f6e9c155aa6fdd022"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "55257e18794d2826088f4d03d7fa014b46919b95df4f3ef617422c35b16c3780"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "9d6fab03f43d002f7b120df7608b79e8c587413dcf2af9c4e565c2e571b6a4a4"
+  },
+  "case_identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+  "case_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5",
+  "steps": 252,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited",
+    "stable_short_window": true,
+    "actual_coupled": true,
+    "mechanical_response_unresolved": true,
+    "resolved_dynamic_accuracy": false,
+    "main_steps": 38,
+    "transaction_steps": 9,
+    "resource_failed_attempts": 1,
+    "pressure_time_window_qualified": true,
+    "coupled_q5": false,
+    "production_C_E_integration": false,
+    "pure_solid_default": true,
+    "resource_root_cause_fully_isolated": false
+  }
+}

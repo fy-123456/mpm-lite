@@ -1,0 +1,115 @@
+{
+  "plan": "MPM_LITE_FORMAL_PRESSURE_WORK_AND_SOLVER_PLAN_20261007_ZH.md",
+  "whole_plan_complete": false,
+  "first_batch": "P0-P4 with explicit limited/deferred gates",
+  "steps": [
+    {
+      "step": "P0.1",
+      "status": "passed-scoped",
+      "evidence": "S0/version-audit.json; input-lock.json",
+      "scope_or_reason": "31 releases rediscovered; 1360 old sources frozen; latest BASE unchanged"
+    },
+    {
+      "step": "P0.2",
+      "status": "passed-scoped",
+      "evidence": "S0/protocol.json; S0/physical-contract.json",
+      "scope_or_reason": "two material volumes, constant reference hydraulic network; no current-geometry permeability claim"
+    },
+    {
+      "step": "P1.1",
+      "status": "passed-scoped",
+      "evidence": "S1/geometry.json; S7/tests.txt",
+      "scope_or_reason": "exact piecewise-Q6 boundary-volume integration; q9/q10 and analytic affine check"
+    },
+    {
+      "step": "P1.2",
+      "status": "passed-scoped",
+      "evidence": "S1/geometry.json; S4/closed/metrics.json",
+      "scope_or_reason": "complete free and prescribed volume change; actual pressure work and mass use identical chain"
+    },
+    {
+      "step": "P2.1",
+      "status": "passed-scoped",
+      "evidence": "S2/operator-check.json",
+      "scope_or_reason": "full mixed Jv verified at one nonzero mixed state with two epsilons; not all proposed deformation states"
+    },
+    {
+      "step": "P2.2",
+      "status": "passed-scoped",
+      "evidence": "S4/closed/summary.json",
+      "scope_or_reason": "block predictor passes mild window; analytic Jv implemented; Krylov nonlinear path not exercised in q7 window, no general convergence claim"
+    },
+    {
+      "step": "P3.1",
+      "status": "passed-scoped",
+      "evidence": "S2/material-screen.json; S3/rule-diagnosis.json",
+      "scope_or_reason": "q5 screened at one mixed state only; production/default formal trajectory retains full q7, no compressed-rule qualification"
+    },
+    {
+      "step": "P3.2",
+      "status": "passed-scoped",
+      "evidence": "S3/replay.json; S7/tests.txt",
+      "scope_or_reason": "q/v/p and cumulative ledgers independently restored; foreign/corrupt checkpoint rejected"
+    },
+    {
+      "step": "P3.3",
+      "status": "deferred",
+      "evidence": "S3/transaction.json; S7/tests.txt",
+      "scope_or_reason": "q2 passed 3% criterion; runtime rejection/fault control tested synthetically, actual formal material-failure retry remains unqualified; no automatic time subdivision"
+    },
+    {
+      "step": "P4.1",
+      "status": "passed-scoped",
+      "evidence": "S4/trends.json; S4/dry/dry-reduction.json",
+      "scope_or_reason": "alpha=0 dry reduction and drainage signs pass; reaction difference only 0.094%, strong mechanical coupling not certified"
+    },
+    {
+      "step": "P4.2",
+      "status": "passed-scoped",
+      "evidence": "S4/closed/; S3/replay.json",
+      "scope_or_reason": "4 q7 nonlinear midpoint steps and actual fields; no long-window or time-convergence claim"
+    },
+    {
+      "step": "P5.1",
+      "status": "deferred",
+      "evidence": "S7/dependency-review.md",
+      "scope_or_reason": "CPU material-coordinate Load works; production APIC point-history ownership not adapted"
+    },
+    {
+      "step": "P5.2",
+      "status": "passed-scoped",
+      "evidence": "S4/closed/summary.json; S3/replay.json",
+      "scope_or_reason": "material/total and small point-query costs only; no production SH comparison or speedup claim"
+    },
+    {
+      "step": "P6.1",
+      "status": "deferred",
+      "evidence": "S7/dependency-review.md",
+      "scope_or_reason": "independent same-stabilization h/p references outside first batch; existing geometry/rule checks are not spatial truth"
+    },
+    {
+      "step": "P6.2",
+      "status": "not-started",
+      "evidence": "S7/dependency-review.md",
+      "scope_or_reason": "single45deg material retained; mixed distributions and additional internal history not extended"
+    },
+    {
+      "step": "P6.3",
+      "status": "deferred",
+      "evidence": "S7/dependency-review.md",
+      "scope_or_reason": "credible reference and generalized direction contract required before 72/144/288 and joint unseen ablations"
+    },
+    {
+      "step": "P7.1",
+      "status": "passed-scoped",
+      "evidence": "S3/replay.json",
+      "scope_or_reason": "finite state and 16/54/128 point Load; no three-size solve timing or general production decoupling certificate"
+    },
+    {
+      "step": "P7.2",
+      "status": "passed-scoped",
+      "evidence": "release.json; implementation-report.md",
+      "scope_or_reason": "scoped descendant publication and immutable ancestry audit"
+    }
+  ]
+}

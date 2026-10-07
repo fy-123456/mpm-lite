@@ -1,0 +1,57 @@
+{
+  "schema": "startup-substeps-practical-v1",
+  "utc": "2026-10-05T04:23:09.217308+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/boundary-reference/20261005T030025Z-boundary-reference",
+  "application_parent_release_sha256": "1f926dbf1c6bd7d2cacdff407d74929399b235e89cfd203fcd63951b342bcffd",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "68cd29b4dda1f45c547cf4c4e463700c856bed3ecf24a955e45cbc3b34c5e1d5",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "7dbf4e7acea36988c3c5b386511fe78fe5f1e5ec6326f383d6400aeaf37086ec",
+    "count": 24
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "e5a70807c6ac24cbf7419f3134a43699e59b15648b79b6b6c355eaa6e8e7d1d5",
+    "count": 875
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "5aa5f769af446ecee48078a41136859ed2b2dd1598ce88ad315ba364318f60e2"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "12e5cf0353c68ec39c7100aee2f568b4e36a3aa2517b396d81597cec2270a983"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "02bb52e189b8dc44e88504072f0a43a44232348d2d5370962f8cf2e4b6580fe7"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "inherited_display_frames": 12,
+  "new_display_frames": 6,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited solid q5_with_full_retry; coupled fullq7 only",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "engineering_window_accuracy": true,
+  "selected_geometry_by_scope": {
+    "legacy": "shared-midpoint-exact-volume-gradient",
+    "boundary32": "shared-midpoint-exact-volume-gradient"
+  }
+}

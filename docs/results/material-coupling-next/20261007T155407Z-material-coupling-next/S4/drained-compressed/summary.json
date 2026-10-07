@@ -1,0 +1,158 @@
+{
+  "label": "drained-compressed",
+  "steps": 1,
+  "dt": 0.025,
+  "coefficient": -0.0009999999999999998,
+  "state_digest": "3abb9409741f0b883b93972a0238cd221ae8922cf928b9d981f682667fce7fba",
+  "rule": 5,
+  "minJ": 0.9999691546552167,
+  "max_pressure": 8.430598694847349e-07,
+  "jv_calls": 0,
+  "fallbacks": 0,
+  "dry_check": null,
+  "peak_rss_bytes": 2340171776,
+  "budget": {
+    "seconds": 108.37079609930515,
+    "counts": {
+      "geometry": 5,
+      "material": 5
+    },
+    "component_seconds": {
+      "geometry": 37.15766870416701,
+      "material": 65.68028710782528
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 5.32521234638989
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.453183365054429,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 12.778432250022888
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.394870626740158,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 20.17334055621177
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.420245887711644,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 27.607690726406872
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.33965677022934,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 38.949498041532934
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.800594127736986,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 50.75015160162002
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.449832892045379,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 58.20001867227256
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.439535932615399,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 65.6412110524252
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.16247536521405,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 76.80371555313468
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.791424858383834,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 88.5990842571482
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.58613598626107,
+        "success": true
+      }
+    ]
+  },
+  "production": false
+}

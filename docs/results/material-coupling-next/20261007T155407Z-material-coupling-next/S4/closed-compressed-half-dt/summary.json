@@ -1,0 +1,262 @@
+{
+  "label": "closed-compressed-half-dt",
+  "steps": 2,
+  "dt": 0.0125,
+  "coefficient": -0.0009999999999999998,
+  "state_digest": "3c56208d927c9bd2c7276b279409e27d52d02f7731d63938483c943bdd2eafde",
+  "rule": 5,
+  "minJ": 0.9999665554933634,
+  "max_pressure": 1.7353498638643056e-05,
+  "jv_calls": 0,
+  "fallbacks": 0,
+  "dry_check": null,
+  "peak_rss_bytes": 2343985152,
+  "budget": {
+    "seconds": 193.0878811068833,
+    "counts": {
+      "geometry": 9,
+      "material": 9
+    },
+    "component_seconds": {
+      "geometry": 67.1653865557164,
+      "material": 120.18155428953469
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 5.3517700573429465
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.574622876010835,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 12.926429132930934
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.558776756748557,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 20.48524526320398
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.430216051638126,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 27.929544370621443
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.161743837408721,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 39.0934722693637
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.73028237838298,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 50.82380886469036
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.385162548162043,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 58.20900690834969
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.5152206448838115,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 65.72590348124504
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.071686446666718,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 76.7976157180965
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.703050455078483,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 88.50451436825097
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.70921015739441,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 108.37273173499852
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.429852684959769,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 115.80261395685375
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.457360818050802,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 123.2732707625255
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.713152005337179,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 134.98850574623793
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.730482417158782,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 146.71904094796628
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.426719986833632,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 154.14578860718757
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.387454188428819,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 161.5349284335971
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.710109574720263,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 173.24938152264804
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.65183701738715,
+        "success": true
+      }
+    ]
+  },
+  "production": false
+}

@@ -255,6 +255,7 @@ def lite_c2g_kernel_1(
     grid_m: wp.array(dtype=real, ndim=4),         # [grid_size, grid_size]
     grid_v: wp.array(dtype=vec3, ndim=4),
     grid_v_new: wp.array(dtype=vec3, ndim=4),
+    grid_v_raw: wp.array(dtype=vec3, ndim=4),
     grid_size: wp.vec3i,  
     center_size: wp.vec3i,  
     gravity: real,
@@ -262,7 +263,8 @@ def lite_c2g_kernel_1(
     dt: real,
     n_psi: int,
     explicit_force: bool,
-    enable_apic: bool = True,
+    enable_apic: bool,
+    capture_raw: bool,
 ):
     bid, li, lj, lk = wp.tid()
     if bid >= block_count[0]: return
@@ -314,6 +316,8 @@ def lite_c2g_kernel_1(
     mi = grid_m[bid, li, lj, lk]
     if mi > _0:
         grid_v[bid, li, lj, lk] = grid_v[bid, li, lj, lk] / mi
+        if capture_raw:
+            grid_v_raw[bid, li, lj, lk] = grid_v[bid, li, lj, lk]
         # apply boundary condition
         bct, bcn, bcv = query_bc_sp(node, bc_block2bid, bc_type, bc_norm, bc_velo, hf_bc_p, hf_bc_n, hf_bc_v, hf_bc_type, num_hf, dx)
         if bct > 0:
@@ -324,6 +328,8 @@ def lite_c2g_kernel_1(
             if bct > 0:
                 grid_v_new[bid, li, lj, lk] = proj_boundary_vel(grid_v_new[bid, li, lj, lk], bct, bcn, bcv)
     else:
+        if capture_raw:
+            grid_v_raw[bid, li, lj, lk] = vec3(_0)
         grid_v[bid, li, lj, lk] = vec3(_0)
         grid_v_new[bid, li, lj, lk] = vec3(_0)
 
@@ -358,6 +364,7 @@ def lite_c2g(
     device: str,
     explicit_force: bool = False,
     enable_apic: bool = True,
+    grid_v_raw=None,
 ):
     wp.launch(
         kernel=lite_c2g_kernel_1,
@@ -367,8 +374,9 @@ def lite_c2g(
             bc_block2bid, bc_type, bc_norm, bc_velo,
             hf_bc_p, hf_bc_n, hf_bc_v, hf_bc_type, num_hf,
             center_m, center_v, center_G, center_vol, center_tau,
-            grid_m, grid_v, grid_v_new, grid_size, center_size,
-            gravity, dx, dt, n_psi, explicit_force, enable_apic,
+            grid_m, grid_v, grid_v_new,
+            grid_v if grid_v_raw is None else grid_v_raw, grid_size, center_size,
+            gravity, dx, dt, n_psi, explicit_force, enable_apic, grid_v_raw is not None,
         ],
         device=device,
     )

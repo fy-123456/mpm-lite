@@ -1,0 +1,39 @@
+{
+  "schema": "post-release-practical-v1",
+  "utc": "2026-10-01T02:20:37.621562+00:00",
+  "parent_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "parent_lock_sha256": "943e371e9c1e361b1027d27ff909073fa21b2c4ea04493876c5fb24b721f3b6c",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "ca461fc210068781f76c2bbba377e1a48757a0f5c7db0d32d198d9735a0c0f65",
+    "count": 18
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "a3d78cee78266fb05767eccaa03ca5908ec493270f2869710b1be29fdd7eaf66",
+    "count": 2145
+  },
+  "qualification": {
+    "path": "S4/qualification.json",
+    "sha256": "182adba91f7770a3bbe00d2fec7ab458f66447b22659621049064693c17e600d"
+  },
+  "scene": {
+    "path": "S5/final-scene-result.json",
+    "sha256": "ddacbcf420e523541ea99f0574f9ef39d57fd84405b7a33646b8b0649f4bc424"
+  },
+  "case_identity_sha256": "44645734d1e5ec100a95971b20d276d5a131157d3aba2dfef4d1c3c68350e764",
+  "case_protocol_sha256": "a66502fa7e518d7cde8f7096411ce4ac47be24c4fe36a265265b5340c70a1d23",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "material_policy": "q5_with_full_retry",
+  "full_material_order": 7,
+  "mass_order": 5,
+  "field_cache": true,
+  "tangent_cache": false,
+  "preconditioner": "original",
+  "temporal_accuracy": false,
+  "spatial_accuracy": false,
+  "physical_3D_coupling": false
+}

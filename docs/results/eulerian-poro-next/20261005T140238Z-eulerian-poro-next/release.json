@@ -1,0 +1,53 @@
+{
+  "schema": "eulerian-poro-next-scoped-v1",
+  "utc": "2026-10-05T14:32:34.128159+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/unified-lite-poro/20261005T123342Z-unified-lite-poro",
+  "application_parent_release_sha256": "905c39b5fcebfeb561d7279b5a82d19d0bb5e4a8a818e5aa47ff85052f6c713c",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "986652944dab2e386c2cfa0dad344d291b600e73e6295412bdb34695d8a74d6d",
+    "count": 15
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "f49766674606d5c56bfb8078348bb44cdb1cd2734898b3e196f2c6ecd6c87309",
+    "count": 119
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "3f6ffb84c4d7b7225b0ced94c01e75a83c069872da4654129bd04856bdcdc1fd"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "fe9516054cbff58d2989144d8e5f9575ea23239db695cbc65b4660d4171f319e"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "a7b80646e9f3fea947220f045c0a61810e1c6fbc70029f47e1f4430ae80dbef4"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU material-coordinate particle bridge",
+  "research_rule": "director-log (smooth single-direction scope)",
+  "original_kernel_transfer_tested": true,
+  "eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "particle_decoupling_scope": "per-call material/geometry frozen CPU operator; preparation remains particle-dependent",
+  "scope": "scoped material correction and original-kernel diagnostics; no production replacement",
+  "audit": {
+    "ancestor_releases": 27,
+    "frozen_sources": 1307,
+    "new_sources": 15,
+    "unique_files_verified": 47370
+  }
+}

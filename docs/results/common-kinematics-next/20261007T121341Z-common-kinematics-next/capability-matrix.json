@@ -1,0 +1,18 @@
+{
+  "common_mapping": true,
+  "real_elastic_transfer": true,
+  "updated_modal_coupling": true,
+  "particles_in_independent_frozen_solve": false,
+  "full_mass_cross_terms": true,
+  "transactional_restore": true,
+  "smooth_rank_one_direction": true,
+  "explicit_moments_operator": true,
+  "distribution_particle_import": false,
+  "prepare_director_to_positive_fallback": true,
+  "dynamic_higher_order_fallback": false,
+  "production_eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false
+}

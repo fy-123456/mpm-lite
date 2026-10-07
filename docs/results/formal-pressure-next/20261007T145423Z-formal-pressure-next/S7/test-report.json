@@ -1,0 +1,13 @@
+{
+  "successful": true,
+  "tests": 5,
+  "engine_sources": {
+    "engine/aniso_phase1/research_formal_pressure_next/__init__.py": "0d84d3c4c0ad9546a589e3aa5d9c2308afaa1bfccbfcc2c540a4fc5463909871",
+    "engine/aniso_phase1/research_formal_pressure_next/geometry.py": "562299173d7f4663590187a36d99bfcfd6defcc98e545a4c582132428d5a5fcc",
+    "engine/aniso_phase1/research_formal_pressure_next/material.py": "f646ed613b3c5711d51dccd3152c7beb3b5b9dedc271faf3d24ad6d4be771488",
+    "engine/aniso_phase1/research_formal_pressure_next/state.py": "291dda300b56d095795ffd17b3b9526298bc48157e39a56c22f3149237346ef1",
+    "engine/aniso_phase1/research_formal_pressure_next/solver.py": "8dcd422fb9e96e2b17a7dd97015d350a26059e45519ae800e1fc885b402eb8d3",
+    "engine/aniso_phase1/research_formal_pressure_next/transaction.py": "56511be81071ee7f8041213ffca995a1b029b044470eca3792b620469534bb8a"
+  },
+  "seconds": 13.585429467260838
+}

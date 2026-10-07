@@ -1,0 +1,23 @@
+{
+  "actual_material_failure": false,
+  "attempts": [
+    {
+      "rule": 2,
+      "accepted": true,
+      "comparison": {
+        "force": 0.003105156269208807,
+        "weak_moments": 0.005827577328263762
+      }
+    }
+  ],
+  "unchanged_digest": "22f645b5a049fe75ddc1f20d09da6106b336974bb11ee21d6c031867598c388e",
+  "direct_q_gap": null,
+  "direct_p_gap": null,
+  "delta_U_rule": 0.0,
+  "seconds": 273.8256813790649,
+  "calls": {
+    "q2": 8,
+    "q7": 1
+  },
+  "scope": "one first formal coupled step; q2 diagnostic only; direct q7 equality required only after actual retry; fault control covered separately"
+}

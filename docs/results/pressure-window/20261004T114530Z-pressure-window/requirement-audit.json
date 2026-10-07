@@ -1,0 +1,323 @@
+{
+  "count": 26,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "重新确认最新发布并冻结输入",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/frozen-inputs.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "创建新入口、来源清单与能力边界",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "evidence_record",
+        "evidence_record"
+      ],
+      "evidence": [
+        "S0/interface-contract.json",
+        "S0/scope-map.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "做四步兼容性及进程恢复检查",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S0/compatibility.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "冻结 47 步表并核对早期节点",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/full-window-protocol.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "建立同网格的时间参照",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/exact-discrete-reference.json",
+        "S1/operator-check.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "顺序执行两个完整 47 步案例",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/full-window-check.json",
+        "S1/grid-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "决定是否进入实际耦合",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "固定共同模型和短窗身份",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/common-model-lock.json",
+        "S2/coupled-protocol.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "审查极小步长下的收敛与时间判断",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/residual-and-time-scale-audit.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "核对体积梯度、压力功及应力输出",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/volume-gradient-check.json",
+        "S2/mixed-operator-check.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "运行每网格 19 步的实际短窗",
+      "status": "limited",
+      "reported_statuses": [
+        "passed_scoped",
+        "not_triggered"
+      ],
+      "evidence": [
+        "S2/coupled-scene-check.json",
+        "S2/coupled-time-reference.json"
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "验证整步提交、回滚和跨进程恢复",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/transaction-and-restart.json"
+      ]
+    },
+    {
+      "step": "S2.6",
+      "title": "发布有限耦合能力结论",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S2/coupling-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "复核同一物理初态的约束投影",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/projection-audit.json",
+        "S3/operator-check.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "比较力、加速度与模态子空间",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/force-acceleration-modal-diagnostic.json",
+        "S3/mass-modal-check.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "对一个候选窗口做 64/128 步比较",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S3/candidate-time-check.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "决定下一轮应改映射、空间还是参考",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S3/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "分析模态对完整反力和区域应力的作用",
+      "status": "limited",
+      "reported_statuses": [
+        "limited"
+      ],
+      "evidence": [
+        "S4/observable-phase-review.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "固定本轮正式时间表并登记后续触发条件",
+      "status": "limited",
+      "reported_statuses": [
+        "retain_252_scoped"
+      ],
+      "evidence": [
+        "S4/time-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "重新测量实际接受步的成本",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S5/profile.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "实现并比较一个有证据的候选",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/performance-candidate.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "锁定最终实现与缓存规则",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "retain_current"
+      ],
+      "evidence": [
+        "S5/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "运行受影响检查与一条 q7 完整周期",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/raw-physical-check.json",
+        "S6/parent-trajectory-comparison.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "重新认证材料规则及 q5 整步回退",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "evidence_record",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/fallback-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "核查可视化并更新进度文档",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/physical-review.json",
+        "S6/load-check.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "审计 26 步结果并封存",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/publication-preflight.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "plan_sha256": "5e966638762f820297eb43c696e73807267e327edf6221d3b13ef9b429575d5f",
+  "sequential": true,
+  "not_all_physical_gates_passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "scoped_3D_pressure_and_reference_delivery",
+  "implementation_equivalence": "passed specified D3 grids and actual states",
+  "engineering_spatial_consistency": "passed 32x1x1 versus 32x2x2, 0..75us only",
+  "solid_static_reference": "R5 to R6 actual h refinement, F45/0.005m only",
+  "resource_recovery": "controlled resource refusal and authenticated new-process load passed",
+  "exclusive_performance": "measured G2 failed selection gate; retain D3",
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "full_mass_order": 7,
+  "full_material_order": 7,
+  "selected_geometry": "D3 in qualified research windows",
+  "G2": {
+    "status": "limited",
+    "selected": false,
+    "backend": "D3",
+    "continuous_qualified": false,
+    "reason": "registered performance or setup gate not met; retain D3"
+  },
+  "spatial_continuum_accuracy": false,
+  "temporal_accuracy": false,
+  "raw_substep_accuracy": false,
+  "full_coupled_cycle": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "real_driver_loss_recovery": false,
+  "production_default": "inherited pure-solid daily-q5-retry,252steps,1.6s",
+  "new_formal_steps": 0
+}

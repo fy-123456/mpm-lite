@@ -1,0 +1,63 @@
+{
+  "status": "fixed_skeleton_reference_and_shared_geometry_correctness_passed_with_limits",
+  "independent_scalar_reference": "passed_scoped",
+  "full_tensor_fixed_skeleton_reference": "64/128 x-only refinement passes at uniform engineering intervals, quarter-budget gate",
+  "fixed_skeleton_32cell_spatial_comparison": "passes against128 at uniform engineering intervals",
+  "raw_startup_temporal_accuracy": false,
+  "new_grid_actual_coupling": {
+    "status": "not_triggered",
+    "reason": "neither registered boundary grid/time pair jointly passes reference, spatial and raw first-interval temporal gates",
+    "new_attempts": 0,
+    "retained_original16_scope": true,
+    "production": false
+  },
+  "shared_geometry_correctness": "passed_scoped",
+  "performance": {
+    "status": "retain_BASE_bounded_Gauss",
+    "selected": false,
+    "backend": "BASE-bounded-Gauss",
+    "formal_solid_changed": false,
+    "production_default_changed": false,
+    "preoptimization_trajectories_not_relabelled": true,
+    "scope": "selected actual zero-source theta, original16-cell x-only grid, states at12.5/37.5us; no full-cycle performance claim",
+    "attempts_completed_at_decision": 5,
+    "max_attempts": 7
+  },
+  "transactions": {
+    "status": "passed_scoped",
+    "performance_fault": {
+      "status": "passed_scoped",
+      "rollback_exact": true,
+      "cache_cleared": true,
+      "error": "registered failure before commit",
+      "attempts": 1
+    },
+    "performance_restart": {
+      "status": "passed_scoped",
+      "full_digest": "168fd025e695890fbd9b63bb00b1954c8ba9b26d25efda1461aaf7f77569def9",
+      "same_digest": true,
+      "generations": 2,
+      "new_process": true,
+      "new_attempts": 0,
+      "all_fluid_history_in_digest": true
+    },
+    "solid_q5": {
+      "path": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window/S6/fallback-and-restart.json",
+      "sha256": "e910810cd07f369370e82e1d425aab560a8349c9be76bb47579b748e42d36810"
+    },
+    "new_S6_dynamic_attempts": 0
+  },
+  "formal_space_changed": false,
+  "functions": 144,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "new_formal_steps": 0,
+  "true_coupled_spatial_accuracy": false,
+  "global_temporal_accuracy": false,
+  "full_coupled_cycle": false,
+  "three_dimensional_reference_certified": false,
+  "main_q5": "inherited original solid certificate only",
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "pure_solid_default": true
+}

@@ -1,0 +1,368 @@
+{
+  "count": 30,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工时再次确认最新有效输入。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立继承当前能力的新命名空间。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "登记预算、阈值和异常处理。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "定位固定预算的瓶颈并复用参考。",
+      "status": "retained_baseline_candidate_worse",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "先验证设计评分确实能代表应力。",
+      "status": "retained_baseline_candidate_worse",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "生成最多两个能归因的144函数候选。",
+      "status": "retained_baseline_candidate_worse",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "用真正的平衡解决定主状态是否值得晋级。",
+      "status": "retained_baseline_candidate_worse",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "仅对主状态合格者打开0.00425 m。",
+      "status": "condition_not_triggered_heldout_unaccessed",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.6",
+      "title": "冻结空间选择与后续来源。",
+      "status": "inherited_unchanged_space",
+      "evidence": [
+        "S1/design-memory-recovery.json",
+        "S1/reference-audit.json",
+        "S1/score-resolution-check.json",
+        "S1/main-decision.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "在选定空间确定真实输出相关方向。",
+      "status": "retained_dt_event_reference_limits",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/event-diagnostic.json",
+        "S2/window-initials.json",
+        "S2/reference-resolution.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "改进事件诊断，先重评已有数据。",
+      "status": "retained_dt_event_reference_limits",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/event-diagnostic.json",
+        "S2/window-initials.json",
+        "S2/reference-resolution.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "确认两个窗口是否有足够参考。",
+      "status": "retained_dt_event_reference_limits",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/event-diagnostic.json",
+        "S2/window-initials.json",
+        "S2/reference-resolution.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "最多验证一个有新增信息的时间表。",
+      "status": "condition_not_triggered_no_independent_new_schedule",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/event-diagnostic.json",
+        "S2/window-initials.json",
+        "S2/reference-resolution.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "冻结空间—时间组合。",
+      "status": "retained_dt_event_reference_limits",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/event-diagnostic.json",
+        "S2/window-initials.json",
+        "S2/reference-resolution.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "区分研究证据、运行许可和最终轨迹资格。",
+      "status": "adopted_contiguous_window_permission",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-check.json",
+        "S3/scope-contract.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "准备同状态充分性和压缩检查。",
+      "status": "adopted_contiguous_window_permission",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-check.json",
+        "S3/scope-contract.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "接通最小的敏感短窗许可与整步回退。",
+      "status": "adopted_contiguous_window_permission",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-check.json",
+        "S3/scope-contract.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "冻结本轮材料政策和待完成项。",
+      "status": "adopted_contiguous_window_permission",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-check.json",
+        "S3/scope-contract.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "重新定位当前启动及运行成本。",
+      "status": "retain_measured_current_implementation",
+      "evidence": [
+        "S4/startup-profile.json",
+        "S4/warm-profile.json",
+        "S4/performance-decision.json",
+        "S4/operator-equivalence.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "只实现一个成本候选。",
+      "status": "condition_not_triggered_no_low_risk_10pct_candidate",
+      "evidence": [
+        "S4/startup-profile.json",
+        "S4/warm-profile.json",
+        "S4/performance-decision.json",
+        "S4/operator-equivalence.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "验证非零算子、场和事务等价。",
+      "status": "inherited_unchanged_kernel_plus_final_transaction",
+      "evidence": [
+        "S4/startup-profile.json",
+        "S4/warm-profile.json",
+        "S4/performance-decision.json",
+        "S4/operator-equivalence.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S4.4",
+      "title": "用独立配对成本决定是否采用。",
+      "status": "condition_not_triggered_no_candidate",
+      "evidence": [
+        "S4/startup-profile.json",
+        "S4/warm-profile.json",
+        "S4/performance-decision.json",
+        "S4/operator-equivalence.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "先做同一物理时间的压力敏感性检查。",
+      "status": "passed_scoped_common_time_and_tensor_fixture",
+      "evidence": [
+        "S5/pressure-time-vs-space.json",
+        "S5/coupled-closure.json",
+        "S5/three-dimensional-interface.md",
+        "S5/three-dimensional-manufactured.json",
+        "S5/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "在最终选定固体空间复核交换功和完整历史。",
+      "status": "passed_scoped_common_time_and_tensor_fixture",
+      "evidence": [
+        "S5/pressure-time-vs-space.json",
+        "S5/coupled-closure.json",
+        "S5/three-dimensional-interface.md",
+        "S5/three-dimensional-manufactured.json",
+        "S5/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "写清一般三维压力的最小数学接口。",
+      "status": "passed_scoped_common_time_and_tensor_fixture",
+      "evidence": [
+        "S5/pressure-time-vs-space.json",
+        "S5/coupled-closure.json",
+        "S5/three-dimensional-interface.md",
+        "S5/three-dimensional-manufactured.json",
+        "S5/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "只在接口闭合后做一个独立三维制造解夹具。",
+      "status": "passed_scoped_common_time_and_tensor_fixture",
+      "evidence": [
+        "S5/pressure-time-vs-space.json",
+        "S5/coupled-closure.json",
+        "S5/three-dimensional-interface.md",
+        "S5/three-dimensional-manufactured.json",
+        "S5/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S5.5",
+      "title": "冻结物理范围与失败后的交付基线。",
+      "status": "passed_scoped_common_time_and_tensor_fixture",
+      "evidence": [
+        "S5/pressure-time-vs-space.json",
+        "S5/coupled-closure.json",
+        "S5/three-dimensional-interface.md",
+        "S5/three-dimensional-manufactured.json",
+        "S5/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "冻结最终数值源码，完成唯一充分周期与最终材料资格。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "运行日常周期并核查实际场景与最新CLI。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "逐步结案与新版本封存。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "5b398ab9f6f34bb4e21286a7bc232daeb638554f1d739808b7a4a1237aef5bc7",
+  "deviations": [
+    "first dense design hit memory cap; streaming recovery on same four predictions, one actual nonlinear candidate",
+    "heldout and second candidate not triggered",
+    "no new time trajectory: existing field failures and unresolved event reference",
+    "no unproven performance candidate; two fresh-process baseline profiles",
+    "general 3D manufactured fixture only; no production integration"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "spatial-phase-practical-v1",
+  "utc": "2026-10-01T05:51:55.790378+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/reference-next/20261001T032104Z-reference-next",
+  "application_parent_release_sha256": "fd730ea63ceff7c63570d3600a2932272b645dfeb650930ac7fd882c0aced4b0",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "bce90e356fd92bd4a1d229390e6a26cee4e28c45f8866fc6c2b93e2291687189",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "24b55298c8bf9e22935ae6f96447e82ef4f129fef07a1a7bdbffddefd59f48ec",
+    "count": 20
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "ad2b3add5f67d7c9bd6014ef228500abbdc619f0ba94c7a51b8ca0bb69b23043",
+    "count": 2642
+  },
+  "qualification": {
+    "path": "N3/qualification.json",
+    "sha256": "499d8bb17ec955a5cb7a4b0256ad3292240916f1393d8ed2bca0be6e5e5d59dd"
+  },
+  "sensitive_qualification": {
+    "path": "N3/qualification-peak0075.json",
+    "sha256": "294b83f047af871f2a51f4fd3666cafe975f50c4b8f62ccd139cdad36fa5fabf"
+  },
+  "scene": {
+    "path": "N6/final-scene.json",
+    "sha256": "2c4a6fba92fbd3480fff7767cc84036dc8611ec46dd9ccec6d04354de788de4a"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "6b01e60630514af79fb6cb6b8d599915b5304a9053c3ecee140e85429e590b3f"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "73506fdb24df520c4ffa53fe2cff1e5259468f21c9186653bb3479143198a063"
+  },
+  "case_identity_sha256": "ee50804516220ffa680755e3906fd78007bd9c3acc94448ffd6ad3b34304c36b",
+  "case_protocol_sha256": "ece66fc42869b9ea523169b1b33bbdadb513ec27091f47d2b5d39a8f607b7107",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "material_policy": "q5_with_full_retry",
+  "mass_order": 7,
+  "full_material_order": 7,
+  "field_cache": true,
+  "space_array_cache": true,
+  "force_only": false,
+  "tangent_cache": false,
+  "temporal_accuracy": false,
+  "spatial_accuracy": false,
+  "physical_3D_coupling": true,
+  "coupling_scope": "independent conservative two-pressure-cell four-step fixture; nonmonotone early drainage transient; no continuum pore-pressure prediction; pure-solid default"
+}

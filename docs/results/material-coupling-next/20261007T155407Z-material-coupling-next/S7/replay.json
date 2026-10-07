@@ -1,0 +1,32 @@
+{
+  "digest": "3909b82c13bf720d94cbc0ac73d3c5e7ccb9d297e305bb51f0c6b83771ace2f9",
+  "gaps": {
+    "x": 0.0,
+    "F": 0.0,
+    "v": 0.0
+  },
+  "observations": [
+    {
+      "points": 16,
+      "load_seconds": 0.032700760290026665,
+      "min_probe_J": 0.9999945123086348,
+      "state_bytes": 17584,
+      "state_digest": "3909b82c13bf720d94cbc0ac73d3c5e7ccb9d297e305bb51f0c6b83771ace2f9"
+    },
+    {
+      "points": 54,
+      "load_seconds": 0.06326474156230688,
+      "min_probe_J": 0.9999865281936358,
+      "state_bytes": 17584,
+      "state_digest": "3909b82c13bf720d94cbc0ac73d3c5e7ccb9d297e305bb51f0c6b83771ace2f9"
+    },
+    {
+      "points": 128,
+      "load_seconds": 0.1217717519029975,
+      "min_probe_J": 0.9999823645649226,
+      "state_bytes": 17584,
+      "state_digest": "3909b82c13bf720d94cbc0ac73d3c5e7ccb9d297e305bb51f0c6b83771ace2f9"
+    }
+  ],
+  "scope": "absolute coupled q/v/p and cumulative ledgers; particle-count independent state, no solve timing claim"
+}

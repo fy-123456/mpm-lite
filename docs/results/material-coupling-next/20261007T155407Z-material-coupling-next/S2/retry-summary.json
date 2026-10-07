@@ -1,0 +1,122 @@
+{
+  "actual_material_rejection": true,
+  "rejection_stage": "initial-state preflight before nonlinear primary solve",
+  "full_step_recomputed": true,
+  "post_trial_actual_rejection": false,
+  "fault_rollback": true,
+  "direct_gaps": {
+    "q": 0.0,
+    "v": 0.0,
+    "p": 0.0
+  },
+  "old_digest": "3b658d94309e007940dc889be20b8b367f51b7c749b0b5e01bf6ec4ab2dcf1d8",
+  "new_digest": "67211e299c45f9ad3e4837d673f8980496f3d148936342c3b257e9a9a705d2a1",
+  "dt": 1e-05,
+  "initial_state": "registered non-equilibrium local elastic state, pressure zero, initial content based on V(q)",
+  "minJ": 0.7725190762476742,
+  "jv_calls": 0,
+  "budget": {
+    "seconds": 97.49700324609876,
+    "counts": {
+      "material": 4,
+      "geometry": 3
+    },
+    "component_seconds": {
+      "material": 68.62588841468096,
+      "geometry": 23.484902895987034
+    },
+    "events": [
+      {
+        "kind": "material",
+        "label": "q2:response",
+        "event": "begin",
+        "at": 5.320042003877461
+      },
+      {
+        "kind": "material",
+        "label": "q2:response",
+        "event": "end",
+        "seconds": 8.08721870277077,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 13.40729211550206
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 20.1220748340711,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 33.53101349622011
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.798772267997265,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 41.34552459884435
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 20.05372285656631,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 61.399315774440765
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.804197967983782,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 69.20354788284749
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.881932660005987,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 77.0887404633686
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 20.36287202127278,
+        "success": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "status": "limited",
+  "scene_stability": "inherited_passed_scoped",
+  "formal_space_changed": false,
+  "functions": 144,
+  "mass_order": 7,
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "local_reference": {
+    "status": "passed_scoped",
+    "local_prefix_time_passed": true,
+    "old_full_window_time_passed": false,
+    "global_temporal_accuracy": false,
+    "spatial_retraining_eligible": true,
+    "new_steps": 16,
+    "inherited_steps": 16,
+    "window_s": [
+      1.075,
+      1.0751953125
+    ],
+    "max_budget_fractions": {
+      "x": 1.3059756003819181e-05,
+      "velocity": 0.06581172121034955,
+      "PK1": 0.00012037607335529977,
+      "fiber": 7.75415936714968e-05,
+      "reaction": 0.09475597519027004
+    }
+  },
+  "fixed_skeleton_pressure_time": {
+    "status": "passed_scoped",
+    "selected": {
+      "family": "original",
+      "method": "backward-euler",
+      "cuts": {
+        "coarse": [
+          [
+            0.125,
+            0.12575,
+            0.12725,
+            0.13025,
+            0.13625,
+            0.1475,
+            0.1775,
+            0.275,
+            0.5,
+            0.7250000000000001,
+            0.8225,
+            0.8525,
+            0.86375,
+            0.86975,
+            0.87275,
+            0.87425,
+            0.875
+          ],
+          [
+            0.375,
+            0.625
+          ],
+          [
+            0.375,
+            0.625
+          ]
+        ],
+        "fine": [
+          [
+            0.125,
+            0.12537500000000001,
+            0.12575,
+            0.1265,
+            0.12725,
+            0.12875,
+            0.13025,
+            0.13325,
+            0.13625,
+            0.141875,
+            0.1475,
+            0.16249999999999998,
+            0.1775,
+            0.22625,
+            0.275,
+            0.3875,
+            0.5,
+            0.6125,
+            0.7250000000000001,
+            0.77375,
+            0.8225,
+            0.8375,
+            0.8525,
+            0.858125,
+            0.86375,
+            0.86675,
+            0.86975,
+            0.8712500000000001,
+            0.87275,
+            0.8734999999999999,
+            0.87425,
+            0.874625,
+            0.875
+          ],
+          [
+            0.375,
+            0.625
+          ],
+          [
+            0.375,
+            0.625
+          ]
+        ]
+      },
+      "parameters": {
+        "alpha": 0.8,
+        "storage": 0.0002,
+        "reservoir_Pa": 0.002,
+        "source_density_s_inv": 0.0,
+        "pressure0_Pa": 0.2,
+        "mobility_scale": 1e-07
+      },
+      "times_s": [
+        0.0,
+        1.25e-05,
+        2.5e-05,
+        3.7500000000000003e-05,
+        5e-05,
+        6.25e-05,
+        7.500000000000001e-05,
+        8.75e-05,
+        0.0001,
+        0.00011250000000000001,
+        0.000125,
+        0.0001375,
+        0.00015000000000000001,
+        0.00016250000000000002,
+        0.000175,
+        0.0001875,
+        0.0002
+      ],
+      "theta_h": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "theta_half": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fine_eligible": true,
+      "grid_accuracy_passed": false
+    },
+    "same_grid_time_passed": true,
+    "reference_reliable": true,
+    "grid_accuracy_passed": false,
+    "no_clipping": true,
+    "no_new_dynamic_steps": true
+  },
+  "actual_coupling": {
+    "status": "passed_time_prefix_space_unchecked",
+    "same_grid_time_passed": true,
+    "window_s": [
+      0.0,
+      0.00015
+    ],
+    "coarse_steps": 12,
+    "fine_steps": 24,
+    "zero_source": true,
+    "full_original_window_passed": false,
+    "grid_comparison_passed": false,
+    "certified_spatial_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false,
+    "full_cycle": false,
+    "new_accepted_zero_source_steps": 36,
+    "invalid_protocol_attempts": 60,
+    "scope": "corrected zero-source original16-cell prefix 0..1.5e-4 s, 12/24 steps"
+  },
+  "space_candidate": {
+    "status": "not_triggered",
+    "reason": "no_material_benefit: all inherited static regional stress errors are below 0.02 Pa; the extended same-space time window passes but does not certify continuum dynamic spatial error or supply a resolved retraining objective",
+    "new_spaces": 0,
+    "new_static_solves": 0,
+    "new_dynamic_attempts": 0,
+    "formal_space_changed": false,
+    "global_spatial_accuracy": false,
+    "dynamic_eligibility": false,
+    "reviewed_existing_138_plus_6_selection": true,
+    "historical_48_75_not_hidden": true
+  },
+  "performance": {
+    "status": "research_bounded_raw_qualified",
+    "selected": true,
+    "backend": "bounded-raw-column-cell-gradient",
+    "attempts": 8,
+    "formal_solid_changed": false,
+    "production_default_changed": false,
+    "scope": "original16-cell midpoint research fixture only",
+    "new_pressure_scheme_uses_BASE_geometry": true
+  },
+  "raw_event_status": "inherited_limited",
+  "main_q5": "original solid certificate only",
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "transactions": {
+    "status": "passed_scoped",
+    "solid_q5": {
+      "path": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window/S6/fallback-and-restart.json",
+      "sha256": "e910810cd07f369370e82e1d425aab560a8349c9be76bb47579b748e42d36810"
+    },
+    "performance_fault": {
+      "status": "passed_scoped",
+      "rollback_exact": true,
+      "cache_cleared": true,
+      "error": "registered failure before commit",
+      "attempts": 1
+    },
+    "performance_restart": {
+      "status": "passed_scoped",
+      "full_digest": "6d7fe7403b23d43f6f2365595e65285aff9f3ab7741c5074a632f18cac81a09f",
+      "same_digest": true,
+      "generations": 2,
+      "new_process": true,
+      "new_attempts": 0,
+      "all_fluid_history_in_digest": true
+    },
+    "theta_fault": {
+      "status": "passed_scoped",
+      "full_rollback": true,
+      "cache_cleared": true,
+      "numerical_ledger_rolled_back": true,
+      "new_attempts": 1
+    },
+    "theta_restart": {
+      "status": "passed_scoped",
+      "same_digest": true,
+      "digest": "0494c8c787fa0a2b6d0ef98f2ee701fb2e12b59d5125e77f1b95194c6a2766d8",
+      "numerical_dissipation_J": 5.478208956714775e-11,
+      "new_process": true,
+      "new_steps": 0
+    },
+    "new_S6_dynamic_attempts": 0
+  },
+  "pure_solid_default": true
+}

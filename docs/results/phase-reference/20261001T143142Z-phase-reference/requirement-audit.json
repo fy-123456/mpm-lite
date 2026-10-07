@@ -1,0 +1,415 @@
+{
+  "count": 32,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工当天重核最新正式发布。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "创建明确继承local-span的新命名空间。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "让最终配置真正决定实现。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S0.4",
+      "title": "先登记样本、预算与分支条件。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "先修复可以定位的浮点边界误判。",
+      "status": "finer_reference_dt_retained",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "按实际输出确定窄窗和公共初态。",
+      "status": "finer_reference_dt_retained",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "建立两个真正新增的细层。",
+      "status": "finer_reference_dt_retained",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "区分匹配算法问题与真实相位／冲量问题。",
+      "status": "finer_reference_dt_retained",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "条件满足才登记一张分段时间表。",
+      "status": "not_adopted_unloading_high_frequency_event_count_unresolved",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.6",
+      "title": "冻结时间表并划清初态与全周期限制。",
+      "status": "finer_reference_dt_retained",
+      "evidence": [
+        "S1/event-roundoff-audit.json",
+        "S1/reference-resolution.json",
+        "S1/event-resolution.json",
+        "S1/impulse-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "先量化剩余误差是否已落入参考不确定性。",
+      "status": "reference_R5_extended_formal_unchanged",
+      "evidence": [
+        "S2/reference-audit.json",
+        "S2/refinement-protocol.json",
+        "S2/reference-convergence.json",
+        "S2/generalization-check.json",
+        "S2/current-vs-R5.json",
+        "S2/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "只设计一条有预算的局部参考加密路线。",
+      "status": "one_R5_level_sufficient_no_second_level_triggered",
+      "evidence": [
+        "S2/reference-audit.json",
+        "S2/refinement-protocol.json",
+        "S2/reference-convergence.json",
+        "S2/generalization-check.json",
+        "S2/current-vs-R5.json",
+        "S2/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "真实求解参考并检查逐级接近。",
+      "status": "reference_R5_extended_formal_unchanged",
+      "evidence": [
+        "S2/reference-audit.json",
+        "S2/refinement-protocol.json",
+        "S2/reference-convergence.json",
+        "S2/generalization-check.json",
+        "S2/current-vs-R5.json",
+        "S2/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "用一个事先登记的材料工况检查泛化。",
+      "status": "reference_R5_extended_formal_unchanged",
+      "evidence": [
+        "S2/reference-audit.json",
+        "S2/refinement-protocol.json",
+        "S2/reference-convergence.json",
+        "S2/generalization-check.json",
+        "S2/current-vs-R5.json",
+        "S2/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "冻结空间结论，避免研究结果悄悄替换日常输入。",
+      "status": "reference_R5_extended_formal_unchanged",
+      "evidence": [
+        "S2/reference-audit.json",
+        "S2/refinement-protocol.json",
+        "S2/reference-convergence.json",
+        "S2/generalization-check.json",
+        "S2/current-vs-R5.json",
+        "S2/space-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "从当前真实入口重新测成本。",
+      "status": "measured_retained_current_implementation",
+      "evidence": [
+        "S3/current-startup-profile.json",
+        "S3/current-warm-profile.json",
+        "S3/candidate-protocol.json",
+        "S3/operator-equivalence.json",
+        "S3/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "只为确定的新热点实现一个候选。",
+      "status": "no_candidate_with_justified_10percent_gain",
+      "evidence": [
+        "S3/current-startup-profile.json",
+        "S3/current-warm-profile.json",
+        "S3/candidate-protocol.json",
+        "S3/operator-equivalence.json",
+        "S3/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "检查物理等价与配对净收益。",
+      "status": "no_new_performance_candidate_no_speedup_claim",
+      "evidence": [
+        "S3/current-startup-profile.json",
+        "S3/current-warm-profile.json",
+        "S3/candidate-protocol.json",
+        "S3/operator-equivalence.json",
+        "S3/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "将性能决定纳入来源和事务检查。",
+      "status": "measured_retained_current_implementation",
+      "evidence": [
+        "S3/current-startup-profile.json",
+        "S3/current-warm-profile.json",
+        "S3/candidate-protocol.json",
+        "S3/operator-equivalence.json",
+        "S3/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "冻结混合未知量、原始残差和缩放定义。",
+      "status": "scaled_actual_RT0_eight_steps",
+      "evidence": [
+        "S4/scaling-protocol.json",
+        "S4/scaling-validation.json",
+        "S4/config-correction-check.json",
+        "S4/original-equation-equivalence.json",
+        "S4/fixed-common-time.json",
+        "S4/coupled-closure.json",
+        "S4/rollback-restart.json",
+        "S4/coupled-eight-step.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "接入实际每次线性修正调用。",
+      "status": "scaled_actual_RT0_eight_steps",
+      "evidence": [
+        "S4/scaling-protocol.json",
+        "S4/scaling-validation.json",
+        "S4/config-correction-check.json",
+        "S4/original-equation-equivalence.json",
+        "S4/fixed-common-time.json",
+        "S4/coupled-closure.json",
+        "S4/rollback-restart.json",
+        "S4/coupled-eight-step.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "先在同一物理时间验证固定固体。",
+      "status": "scaled_actual_RT0_eight_steps",
+      "evidence": [
+        "S4/scaling-protocol.json",
+        "S4/scaling-validation.json",
+        "S4/config-correction-check.json",
+        "S4/original-equation-equivalence.json",
+        "S4/fixed-common-time.json",
+        "S4/coupled-closure.json",
+        "S4/rollback-restart.json",
+        "S4/coupled-eight-step.json"
+      ]
+    },
+    {
+      "step": "S4.4",
+      "title": "复验真实四步耦合和完整提交。",
+      "status": "scaled_actual_RT0_eight_steps",
+      "evidence": [
+        "S4/scaling-protocol.json",
+        "S4/scaling-validation.json",
+        "S4/config-correction-check.json",
+        "S4/original-equation-equivalence.json",
+        "S4/fixed-common-time.json",
+        "S4/coupled-closure.json",
+        "S4/rollback-restart.json",
+        "S4/coupled-eight-step.json"
+      ]
+    },
+    {
+      "step": "S4.5",
+      "title": "通过后才扩一个小范围，单独声明能力。",
+      "status": "scaled_actual_RT0_eight_steps",
+      "evidence": [
+        "S4/scaling-protocol.json",
+        "S4/scaling-validation.json",
+        "S4/config-correction-check.json",
+        "S4/original-equation-equivalence.json",
+        "S4/fixed-common-time.json",
+        "S4/coupled-closure.json",
+        "S4/rollback-restart.json",
+        "S4/coupled-eight-step.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "区分证据复用、旧许可与新许可。",
+      "status": "continuous_eight_step_window_qualified",
+      "evidence": [
+        "S5/evidence-vs-permission.json",
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/junction-check.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "为连续[0.6,0.7]窗口建立独立新资格。",
+      "status": "continuous_eight_step_window_qualified",
+      "evidence": [
+        "S5/evidence-vs-permission.json",
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/junction-check.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "真实跑连续8步并验证0.65 s衔接。",
+      "status": "continuous_eight_step_window_qualified",
+      "evidence": [
+        "S5/evidence-vs-permission.json",
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/junction-check.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "检查边界请求和整步回退。",
+      "status": "continuous_eight_step_window_qualified",
+      "evidence": [
+        "S5/evidence-vs-permission.json",
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/junction-check.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "冻结最终源码与可执行验收器。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "唯一充分周期完成后再决定主q5资格。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "条件日常周期、物理检查与实际可视化。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "32步逐项结案，完整审计后封存。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "9e32808b592241c7d79e349b8a3a4afad165bdb86a6d4f697aeeb69b9616fccc",
+  "deviations": [
+    "formal solid time grid retained: mode523 event counts differ in unloading window despite small field differences",
+    "one R5 reference level suffices under registered conditional budget; no R6 solve",
+    "material k_f=220 is a pre-registered variation, not claimed historically unseen",
+    "material static solves use original stiffness only as quasi-Newton search matrix, with new physical energy/force and unchanged original Ks",
+    "pressure fixture inactive constructor flag corrected to match its actual unchanged SegmentedModel; old source snapshot preserved, final declaration checked by zero-step reload/field equivalence",
+    "final main-certificate rollback faults executed after its S6 qualification to avoid using stale permission"
+  ]
+}

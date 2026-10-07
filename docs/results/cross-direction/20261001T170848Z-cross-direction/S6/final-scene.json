@@ -1,0 +1,133 @@
+{
+  "status": "passed_scoped",
+  "default_case": "daily-q5-retry",
+  "steps": 252,
+  "frames": 12,
+  "summary": {
+    "status": "passed_scoped",
+    "utc": "2026-10-01T17:57:42.034088+00:00",
+    "case": "daily-q5-retry",
+    "steps": 252,
+    "end_s": 1.6,
+    "source_sha256": {
+      "benchmarks/research_cross_direction_next/__init__.py": "cd47f37a96365e62ab95d1d5bf412364c3b6a5e6b02c04283c86ac6d9b1265ef",
+      "benchmarks/research_cross_direction_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+      "benchmarks/research_cross_direction_next/config.py": "f10081043866d418908e3ab7885bd250da9b4d2e96a2b6bc618ac086eee3a5fe",
+      "benchmarks/research_cross_direction_next/performance_study.py": "939060450e4b2cbb5c1d1fdf602c23ad70a27e1c74194f393fa5ac6e88f96f84",
+      "benchmarks/research_cross_direction_next/physics.py": "7f91f079d3578d17c77b499de52913e04a6d46993b93b5aeeed4f554c2157208",
+      "benchmarks/research_cross_direction_next/pressure_runtime.py": "59b8ff6a0a5b9d237134c7602ae884c6c3b9a6a9dfa8f9f85d29f7cc37e7b389",
+      "benchmarks/research_cross_direction_next/pressure_study.py": "e8ef49cb2ae6d444233e066d7c84a3c191b498eaaad5ee6118999a5ed07ef403",
+      "benchmarks/research_cross_direction_next/provenance.py": "5d72982d5e97c26066607d34826c88152505caeaa0f5cf657e901d81ef6d3898",
+      "benchmarks/research_cross_direction_next/reserved_study.py": "8294d67f61626cd800a62f69ee9b2ff36dc8151c2c9451fd872afdd2a5d58dd0",
+      "benchmarks/research_cross_direction_next/rule_study.py": "0cfda7c6387da06ca7579251f1e6ee1ffef22c737f9bf7861400619d9a46fb9f",
+      "benchmarks/research_cross_direction_next/run.py": "12a63f72fea5a440ec3606f772ad659ff528acc52d44e871698218fc9aa9111b",
+      "benchmarks/research_cross_direction_next/solver.py": "6db2d6236ac67b4ef398016a4b6990fe2a9ce0ad17d06c8d791177070ced70d6",
+      "benchmarks/research_cross_direction_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+      "benchmarks/research_cross_direction_next/spatial_study.py": "a096f80ca213021490a4966d9fd1eec07cbf4b9c1dc18a27e6fd76c577d32771",
+      "benchmarks/research_cross_direction_next/time_study.py": "ceab4a43c9432306c7e41c908d0d97561f8204af79fe8525614283467d3fb485",
+      "engine/aniso_phase1/research_cross_direction_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/aniso_phase1/research_cross_direction_next/det_rt0.py": "4cfb0cef2d9a7beca848bbbc1ada17eea8457d466b1b4850f1a0f120a3b816a6",
+      "engine/aniso_phase1/research_cross_direction_next/geometry.py": "b601262c49b49b2bc7c0c4e9fdd0bcf5a25f7c21b2a8d6dc15a9f5ec3bc354ff",
+      "engine/aniso_phase1/research_cross_direction_next/rt0.py": "b0d59f66f6a633c61f605d0cfe703c506dddafb89eddf3989cc3e32ae38cafcd"
+    },
+    "protocol_sha256": "d295cd8be98b5d57561f954058163a7f2bdb45912ee71de765da305e52bbc1d8",
+    "min_detF": 0.9919399185485036,
+    "max_ledger_closure_J": 6.1953612821908785e-21,
+    "max_true_residual": 2.7205805677767795e-07,
+    "rule_policy": "q5_with_full_retry",
+    "active_rule": "f9526a35d65bf6bad356abb92b4fac9062a6a2ea8400fb5563ff716ba4a8af9f",
+    "material_attempts": 252,
+    "cumulative_rule_switch_error_J": 0.0,
+    "display_frames": 12,
+    "checkpoint_reload": true,
+    "temporal_certified": false,
+    "spatial_certified": false,
+    "this_segment": {
+      "build_seconds": 7.663902692962438,
+      "advance_and_publish_seconds": 35.107379575725645,
+      "includes_fields_and_checkpoint": true,
+      "wall_seconds": 42.92589442478493,
+      "accepted_steps": 252,
+      "peak_rss_GiB": 3.3151512145996094
+    },
+    "field_cache": {
+      "bytes": 19132344,
+      "build_seconds": 0.3433241178281605,
+      "signature": "191845258c4037e99518e907c77b234dedb93d9f08920778ec1c5ceaafba4e79"
+    },
+    "gpu_memory": {
+      "initial_free_bytes": 33138868224,
+      "budget_bytes": 23197207756,
+      "cuda_async_pool_current_bytes": 5884156152,
+      "cuda_async_pool_process_high_bytes": 7680013956,
+      "initial_cuda_async_pool_high_bytes": 0,
+      "observed_device_free_decrease_bytes": 7853834240,
+      "conservative_peak_required_bytes": 9583071488,
+      "samples": 3159,
+      "peak_process_rss_GiB": 3.3151512145996094,
+      "scope": "CUDA allocator reports exact process async-pool high water; free-memory samples additionally include non-pool/shared-device usage. Pool high water is process-wide, not per model; preallocation reserve is conservative."
+    }
+  },
+  "comparison_maxima": {
+    "displacement_m": 1.7472300151653854e-09,
+    "velocity_m_s": 8.805346109076169e-08,
+    "PK1_Pa": 1.026376463162865e-05,
+    "fiber_Pa": 1.0192476493016432e-05,
+    "reaction_N": 4.22950790270331e-08
+  },
+  "fallback_count": 0,
+  "sentinels": [
+    {
+      "time_s": 0.5,
+      "energy_difference_J": 2.679110552112826e-11,
+      "energy_budget_J": 1.1229599068474367e-06,
+      "force_difference_N": 5.612485766556707e-07,
+      "force_budget_N": 0.002585532738548661,
+      "passed": true
+    },
+    {
+      "time_s": 0.6,
+      "energy_difference_J": 2.6895741757598356e-11,
+      "energy_budget_J": 1.1223567483522995e-06,
+      "force_difference_N": 5.150023196744203e-07,
+      "force_budget_N": 0.001000312507781278,
+      "passed": true
+    },
+    {
+      "time_s": 1.1,
+      "energy_difference_J": 3.719107266178859e-16,
+      "energy_budget_J": 5.48826093566374e-09,
+      "force_difference_N": 3.4011657375105107e-08,
+      "force_budget_N": 0.003222054495268361,
+      "passed": true
+    }
+  ],
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "resources": {
+    "system_free_GiB": 5.028537750244141,
+    "data_free_GiB": 91.16498565673828,
+    "cgroup_memory_max": "96636764160"
+  },
+  "source_sha256": {
+    "benchmarks/research_cross_direction_next/__init__.py": "cd47f37a96365e62ab95d1d5bf412364c3b6a5e6b02c04283c86ac6d9b1265ef",
+    "benchmarks/research_cross_direction_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+    "benchmarks/research_cross_direction_next/config.py": "f10081043866d418908e3ab7885bd250da9b4d2e96a2b6bc618ac086eee3a5fe",
+    "benchmarks/research_cross_direction_next/performance_study.py": "939060450e4b2cbb5c1d1fdf602c23ad70a27e1c74194f393fa5ac6e88f96f84",
+    "benchmarks/research_cross_direction_next/physics.py": "7f91f079d3578d17c77b499de52913e04a6d46993b93b5aeeed4f554c2157208",
+    "benchmarks/research_cross_direction_next/pressure_runtime.py": "59b8ff6a0a5b9d237134c7602ae884c6c3b9a6a9dfa8f9f85d29f7cc37e7b389",
+    "benchmarks/research_cross_direction_next/pressure_study.py": "e8ef49cb2ae6d444233e066d7c84a3c191b498eaaad5ee6118999a5ed07ef403",
+    "benchmarks/research_cross_direction_next/provenance.py": "5d72982d5e97c26066607d34826c88152505caeaa0f5cf657e901d81ef6d3898",
+    "benchmarks/research_cross_direction_next/reserved_study.py": "8294d67f61626cd800a62f69ee9b2ff36dc8151c2c9451fd872afdd2a5d58dd0",
+    "benchmarks/research_cross_direction_next/rule_study.py": "0cfda7c6387da06ca7579251f1e6ee1ffef22c737f9bf7861400619d9a46fb9f",
+    "benchmarks/research_cross_direction_next/run.py": "12a63f72fea5a440ec3606f772ad659ff528acc52d44e871698218fc9aa9111b",
+    "benchmarks/research_cross_direction_next/solver.py": "6db2d6236ac67b4ef398016a4b6990fe2a9ce0ad17d06c8d791177070ced70d6",
+    "benchmarks/research_cross_direction_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+    "benchmarks/research_cross_direction_next/spatial_study.py": "a096f80ca213021490a4966d9fd1eec07cbf4b9c1dc18a27e6fd76c577d32771",
+    "benchmarks/research_cross_direction_next/time_study.py": "ceab4a43c9432306c7e41c908d0d97561f8204af79fe8525614283467d3fb485",
+    "engine/aniso_phase1/research_cross_direction_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/aniso_phase1/research_cross_direction_next/det_rt0.py": "4cfb0cef2d9a7beca848bbbc1ada17eea8457d466b1b4850f1a0f120a3b816a6",
+    "engine/aniso_phase1/research_cross_direction_next/geometry.py": "b601262c49b49b2bc7c0c4e9fdd0bcf5a25f7c21b2a8d6dc15a9f5ec3bc354ff",
+    "engine/aniso_phase1/research_cross_direction_next/rt0.py": "b0d59f66f6a633c61f605d0cfe703c506dddafb89eddf3989cc3e32ae38cafcd"
+  }
+}

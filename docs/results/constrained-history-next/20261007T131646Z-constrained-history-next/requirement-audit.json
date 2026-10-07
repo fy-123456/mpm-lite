@@ -1,0 +1,150 @@
+{
+  "plan": "MPM_LITE_CONSTRAINED_CARRIER_AND_BOUNDED_HISTORY_PLAN_20261007_ZH.md",
+  "whole_plan_complete": false,
+  "steps": [
+    {
+      "step": "P0.1",
+      "status": "completed",
+      "evidence": "input-lock.json; S0/ancestor-releases.json; S0/version-audit.json",
+      "reason": "Latest published input was rediscovered and hashed; no Git metadata available."
+    },
+    {
+      "step": "P0.2",
+      "status": "completed-for-run-scope",
+      "evidence": "S0/physical-contract.json",
+      "reason": "Small-model physical constants inherited; formal dynamic constants remain unset because no formal dynamics were run."
+    },
+    {
+      "step": "P0.3",
+      "status": "completed",
+      "evidence": "S0/protocol.json; S7/attempt-log.json",
+      "reason": "Short windows and two formal mass orders; no excessive frame campaign."
+    },
+    {
+      "step": "P1.1",
+      "status": "partial",
+      "evidence": "S1-formal/report.json",
+      "reason": "Original grip leakage reproduced; both grip volumes sampled. Full support plot and production boundary adapter not delivered."
+    },
+    {
+      "step": "P1.2",
+      "status": "partial",
+      "evidence": "S1-formal/static-operators.npz",
+      "reason": "Reproducible C1 carrier with original fixed/local material fields. Moving prescribed lift not dynamically qualified."
+    },
+    {
+      "step": "P1.3",
+      "status": "partial",
+      "evidence": "S1-formal/report.json",
+      "reason": "Transition derivatives and three-step shadow histories pass; formal backend support/time-layer transaction not integrated."
+    },
+    {
+      "step": "P2.1",
+      "status": "completed-static-scope",
+      "evidence": "S1-formal/report.json; S1-formal/static-operators.npz",
+      "reason": "All changed mass rows reassembled including cross terms; unchanged fixed/local blocks inherited. New nullspace, spectrum and stationary reduction verified."
+    },
+    {
+      "step": "P2.2",
+      "status": "blocked-original-model-compatibility",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Same coefficient potential is not a verified absolute-state physical energy for the updated mapping."
+    },
+    {
+      "step": "P2.3",
+      "status": "blocked-by-P2.2",
+      "evidence": "S1-formal/report.json",
+      "reason": "No formal boundary impulse/equilibrium or reaction claim; gate A false."
+    },
+    {
+      "step": "P3.1",
+      "status": "completed-small-model",
+      "evidence": "S3/baseline-cycle-comparison.json; S7/tests.txt",
+      "reason": "Material-only change leaves q4 mass and geometry bitwise unchanged; q4 matches saved BASE cycle."
+    },
+    {
+      "step": "P3.2",
+      "status": "completed-small-model",
+      "evidence": "S7/tests.txt; S6/scaling.json; S7/old-checkpoint-rejection.json",
+      "reason": "Continuous q6 histories from initialization; cross-grid shadow derivative and checkpoint verified; fixed point budget."
+    },
+    {
+      "step": "P3.3",
+      "status": "completed-small-model",
+      "evidence": "S3/retry/",
+      "reason": "Real diagnostic q2 rejection, rollback, direct-q6 equivalence, frozen particle-free subprocess retry and evolved checkpoint subprocess recovery. q4 default did not fail."
+    },
+    {
+      "step": "P4.1",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P4.2",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P4.3",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P5.1",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P5.2",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P5.3",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P6.1",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P6.2",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P6.3",
+      "status": "not-started-dependent-gate",
+      "evidence": "S1-formal/stabilization-decision.md",
+      "reason": "Formal dynamic model/independent reference is not qualified; no formal coupling, spatial accuracy, budget sweep or generalization claim."
+    },
+    {
+      "step": "P7.1",
+      "status": "completed-small-model",
+      "evidence": "S6/scaling.json; S3/retry/subprocess.json",
+      "reason": "Fixed inner operator dimensions across 16/54/128/1024 particles and actual frozen coupled retry; Prepare/Load remain particle dependent."
+    },
+    {
+      "step": "P7.2",
+      "status": "profiled-no-optimization-adopted",
+      "evidence": "S6/profile4.json",
+      "reason": "Final prepare includes both packages; selected short profile is not a speedup benchmark. No unsupported cache/GPU change."
+    },
+    {
+      "step": "P7.3",
+      "status": "completed-scoped-delivery",
+      "evidence": "release.json; S7/visualization-check.json; implementation-report.md",
+      "reason": "Separate immutable descendant evidence, explicit gates, CLI and production default unchanged."
+    }
+  ]
+}

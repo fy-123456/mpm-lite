@@ -1,0 +1,12 @@
+test_checkpoint_rejects_changed_hydraulic_identity (tests.research_material_coupling_next.test_contracts.Contracts.test_checkpoint_rejects_changed_hydraulic_identity) ... ok
+test_controller_endpoint_retry_and_rule_ledger (tests.research_material_coupling_next.test_contracts.Contracts.test_controller_endpoint_retry_and_rule_ledger) ... ok
+test_four_step_driver_matches_time_layers (tests.research_material_coupling_next.test_contracts.Contracts.test_four_step_driver_matches_time_layers) ... ok
+test_nonunit_H_flux_mass_energy_and_jvp (tests.research_material_coupling_next.test_contracts.Contracts.test_nonunit_H_flux_mass_energy_and_jvp) ... ok
+test_pressure_relaxation_and_invalid_parameters (tests.research_material_coupling_next.test_contracts.Contracts.test_pressure_relaxation_and_invalid_parameters) ... ok
+test_shared_budget_counts_and_clock (tests.research_material_coupling_next.test_contracts.Contracts.test_shared_budget_counts_and_clock) ... ok
+test_unit_resistance_matches_parent (tests.research_material_coupling_next.test_contracts.Contracts.test_unit_resistance_matches_parent) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.337s
+
+OK

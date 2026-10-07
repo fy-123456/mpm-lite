@@ -1,0 +1,90 @@
+{
+  "status": "limited",
+  "scene_stability": "inherited_passed_scoped",
+  "formal_space_changed": false,
+  "functions": 144,
+  "mass_order": 7,
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "local_reference": {
+    "status": "passed_scoped",
+    "local_prefix_time_passed": true,
+    "old_full_window_time_passed": false,
+    "global_temporal_accuracy": false,
+    "spatial_retraining_eligible": true,
+    "new_steps": 16,
+    "window_s": [
+      1.075,
+      1.07509765625
+    ],
+    "max_budget_fractions": {
+      "x": 7.078614490150685e-06,
+      "velocity": 0.019493528624093634,
+      "PK1": 6.444067692472457e-05,
+      "fiber": 4.153697504049537e-05,
+      "reaction": 0.06522605711934115
+    }
+  },
+  "coupling": {
+    "status": "not_triggered",
+    "reason": "neither pre-registered grid/time pair meets separated reference, grid and time gates",
+    "new_dynamic_steps": 0,
+    "old_actual_grid_accuracy": false,
+    "new_actual_grid_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false
+  },
+  "space": {
+    "status": "space_limited",
+    "reasons": [
+      "regression global_domain/PK1",
+      "regression global_domain/fiber_PK1",
+      "regression transition/PK1",
+      "regression transition/fiber_PK1",
+      "regression interior/PK1",
+      "regression interior/fiber_PK1",
+      "regression global_domain/PK1",
+      "regression global_domain/fiber_PK1",
+      "regression transition/PK1",
+      "regression transition/fiber_PK1",
+      "regression interior/PK1",
+      "regression interior/fiber_PK1",
+      "regression global_domain/PK1",
+      "regression global_domain/fiber_PK1",
+      "regression transition/PK1",
+      "regression transition/fiber_PK1",
+      "regression interior/PK1",
+      "regression interior/fiber_PK1",
+      "primary stress gain not resolved above 10% and twice reference difference",
+      "primary static error already below absolute engineering scale; percentage gain alone is insufficient"
+    ],
+    "new_spaces": 1,
+    "new_static_solves": 4,
+    "new_dynamic_attempts": 0,
+    "static_passed": false,
+    "formal_space_changed": false,
+    "global_spatial_accuracy": false,
+    "dynamic_eligibility": false,
+    "original_stabilization_preserved": true,
+    "resource_failure_fixed_by_serial_processes": true
+  },
+  "performance": {
+    "status": "research_local_gradient_qualified",
+    "selected": true,
+    "backend": "local-cell-adjoint",
+    "formal_solid_changed": false,
+    "production_default_changed": false,
+    "preoptimization_trajectories_not_relabelled": true,
+    "scope": "original16-cell observable short fixture; x-only layout; no new grid accuracy",
+    "attempts_completed_at_decision": 8,
+    "max_attempts": 8
+  },
+  "raw_event_status": "inherited_limited",
+  "engineering_output_status": "inherited_formal_passed_scoped",
+  "main_q5": "original solid certificate only",
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "pure_solid_default": true
+}

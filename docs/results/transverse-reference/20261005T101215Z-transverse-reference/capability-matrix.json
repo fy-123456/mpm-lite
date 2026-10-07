@@ -1,0 +1,45 @@
+{
+  "status": "scoped_transverse_reference_delivery",
+  "fixed_skeleton_reference": true,
+  "fixed_skeleton_engineering_time_checks": true,
+  "fixed_skeleton_time_window_s": [
+    0,
+    0.0002
+  ],
+  "transverse_relative_decay_accuracy": false,
+  "signal_limited": true,
+  "coupled_temporal_accuracy": false,
+  "spatial_continuum_accuracy": false,
+  "mechanical_relative_accuracy": false,
+  "raw_startup_peak_accuracy": false,
+  "new_coupled_extension": false,
+  "inherited_coupled_window_s": [
+    0,
+    7.5e-05
+  ],
+  "selected_backend": {
+    "status": "selected_scoped",
+    "selected": true,
+    "candidate_eligible": true,
+    "backend": "BD: batched gradient download, specified research window",
+    "gains": [
+      0.06090954354267675,
+      0.07937956779565192
+    ],
+    "reason": "operator, paired steps and four continuous steps passed"
+  },
+  "loadable_interface": "benchmarks.research_transverse_reference_next.selected.selected_setup",
+  "implementation_equivalence": true,
+  "frame_aware_recovery_inherited": true,
+  "new_call_local_failure_recovery": true,
+  "real_driver_loss_recovery": false,
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "full_mass_order": 7,
+  "full_material_order": 7,
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "full_coupled_cycle": false,
+  "production_default": "inherited pure-solid daily-q5-retry,252steps,1.6s",
+  "new_display_frames": 0
+}

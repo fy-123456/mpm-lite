@@ -1,0 +1,61 @@
+{
+  "schema": "cross-direction-practical-v1",
+  "utc": "2026-10-01T18:07:10.808110+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/observable-pressure/20261001T154616Z-observable-pressure",
+  "application_parent_release_sha256": "0ee1da8b6973bf6757d565149372addbded5c02ac16f2f4478e48412affa9812",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "8bdebaef53adc39514e5dcc6a139aef7059688d02edde2951035c9a7afeee674",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "30326fb289a040e61b501f8f91546340d40177598184be962d1d2175ba16b6e9",
+    "count": 35
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "b0e175f782bd3df42adbabc380e15242344b043cc05c0bd25c43eba89896b2df",
+    "count": 3196
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "f888ae37661a3ddc08b741a85cfd7ddd4fd85c79d727e9638bbc26efd91a2753"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "7fdf2b5ce8f2101d9b832ac9cd9e1a496e3b74ac326f1b5f1347daa003e5715d"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "59ee1b6de0d998312a8eb13c0277d5e17ded5118d88b2ad0af21fd4b093dc5df"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "0696ee68dceb1240780ca609744b64fa735067f331eb0086c646e38ea67f036f"
+  },
+  "case_identity_sha256": "b9e84033161f023d0224e79284f71ac40d7a804b2a98f49e687f78c9a11e309d",
+  "case_protocol_sha256": "2510c228d99f404e33434d526fb62546558c62eb281e64ad413faf9d29a27edd",
+  "steps": 252,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited_research_scope",
+    "four_eight_fixed": false,
+    "four_eight_coupled": false,
+    "pressure_spatial_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false,
+    "pure_solid_default": true,
+    "solid": "BASELINE",
+    "actual_end_s": 7.594308444221303e-06,
+    "old_2_4_failure_retained": true
+  }
+}

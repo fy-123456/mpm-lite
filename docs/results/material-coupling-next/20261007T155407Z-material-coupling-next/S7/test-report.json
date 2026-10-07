@@ -1,0 +1,13 @@
+{
+  "successful": true,
+  "tests": 7,
+  "engine_sources": {
+    "engine/aniso_phase1/research_material_coupling_next/__init__.py": "4cbd2fc1ecb4ad8339bce019ad7dbd4d37f732a599fe8dd23ef5a660d5960a96",
+    "engine/aniso_phase1/research_material_coupling_next/budget.py": "93057ef3c913eb7a4b5f4ddd38763ad468cac563ab7c2974ef22a9473afdfe66",
+    "engine/aniso_phase1/research_material_coupling_next/operators.py": "3f1a8893fd8e6551a25b387eac0a4b8156f39120b29828acea571b1ccad51d19",
+    "engine/aniso_phase1/research_material_coupling_next/solver.py": "ca063b4f5b7835e9007747f8009cb52acc25bc3d7a3724a6192b1de8d1509bf2",
+    "engine/aniso_phase1/research_material_coupling_next/controller.py": "2b99f819f66a9d386f6419872387b000b76960f3add39d1f4d3f12036b332b6c",
+    "engine/aniso_phase1/research_material_coupling_next/driver.py": "5211430f5a9f385bccd16797b3324a4807e123e3d697a47268ce68bd85ccbecb"
+  },
+  "seconds": 5.343671061098576
+}

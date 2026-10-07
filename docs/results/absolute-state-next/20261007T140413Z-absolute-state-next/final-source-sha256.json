@@ -1,0 +1,14 @@
+{
+  "benchmarks/research_absolute_state_next/__init__.py": "e48b53bfc46e7fdb339ff37d505e172aa2f5f3789f1a9f6e71193856804fb73e",
+  "benchmarks/research_absolute_state_next/dry_cycle.py": "87b72a7bcef59754a50d91dab65fafc32824622692c65546e512df1f78b695aa",
+  "benchmarks/research_absolute_state_next/nonlinear.py": "f50b3109871b456958d542fead5a48ef8f5d7f5228f0978c41dc6aa8030caa37",
+  "benchmarks/research_absolute_state_next/publication.py": "d15934a5ab25510f28a19083443061ea4e2bcd492ab0177196c88dab217a04f4",
+  "benchmarks/research_absolute_state_next/replay.py": "0a0dc44488b34b370ea28324c1cd577dfaa9c10aaceb8df57da2b5bc348bf679",
+  "benchmarks/research_absolute_state_next/run.py": "8db8035160113bbae809390fe462374d110cdab1da956caf21e04011439310a5",
+  "benchmarks/research_absolute_state_next/visualize.py": "890eecc2915fc257b1adf7ec807b67b1fea8dcd4e195a653aca37237c8f3d6fa",
+  "engine/aniso_phase1/research_absolute_state_next/__init__.py": "41cf8252179b7578125749fb9e5ea1585ad452f480ff6f15e59f42282a9f83c6",
+  "engine/aniso_phase1/research_absolute_state_next/dynamics.py": "ca75c8992bc8a0ad053bffc0421483b0863d1ffd46c9ea5b08a1e3e95f9f86ea",
+  "engine/aniso_phase1/research_absolute_state_next/state.py": "27abac9f3404735f8a5737fbd71a47c627342922bd9936d29d6a96e983cfa5b4",
+  "tests/research_absolute_state_next/__init__.py": "450a86049fbdbb9c420c559a0fe24b7f0ca5e303bc520ae5d06014e9a8c55788",
+  "tests/research_absolute_state_next/test_contracts.py": "585e5594cd6fcc0b3ab7f40a1bbd8c8cd3e189632599fe1219d05a9f65b4df2c"
+}

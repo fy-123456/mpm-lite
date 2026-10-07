@@ -1,0 +1,120 @@
+{
+  "status": "passed_scoped",
+  "stage_attempts": {
+    "S0": 0,
+    "S1": 0,
+    "S2": 0,
+    "S3": 85,
+    "S4": 9,
+    "S5": 0,
+    "S6": 0
+  },
+  "total_attempts": 94,
+  "new_committed_steps": 92,
+  "injected_failure_attempts": 2,
+  "other_failed_or_interrupted_attempts": 0,
+  "records": [
+    {
+      "path": "cases/boundary32-h/attempts.json",
+      "sha256": "3762f71c5e1d84e6743fcdf1528075e5d09a158b612cc025c2f778dab216b6f6",
+      "attempts": 28,
+      "stage": "S3"
+    },
+    {
+      "path": "cases/boundary32-half/attempts.json",
+      "sha256": "87b426627354a71a495a987d511956b61a7e3765c5f28b1d850a1fb907b5433e",
+      "attempts": 56,
+      "stage": "S3"
+    },
+    {
+      "path": "S3/fault/attempt.json",
+      "sha256": "896a81f492953086d0ad7a7863456d975f7a117684f91f3d2cafa677f7ed84c4",
+      "attempts": 1,
+      "stage": "S3"
+    },
+    {
+      "path": "S4/boundary32/A0/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/boundary32/A1/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/boundary32/B0/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/boundary32/B1/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/boundary32/fault-B0/attempt.json",
+      "sha256": "36f1f3f2b64485f3bc786a3027d52fe3a7cf8177d486fdc43ec2911d3303ad8e",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/legacy/A0/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/legacy/A1/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/legacy/B0/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    },
+    {
+      "path": "S4/legacy/B1/attempt.json",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0",
+      "attempts": 1,
+      "stage": "S4"
+    }
+  ],
+  "max_attempts": 100,
+  "new_display_frames": 6,
+  "new_display_frame_paths": [
+    "cases/boundary32-h/generations/g-000028-3279ea7f581b41cb9c3b38cdc09a9012/frame.npz",
+    "cases/boundary32-half/generations/g-000056-5782f107ccf44964abc9a8cfa99b0e88/frame.npz",
+    "S4/legacy/B1/generations/g-000004-4fb3f8f9a600491d89d9a152d94a2fad/frame.npz",
+    "S4/legacy/A1/generations/g-000004-65f274290ec8461694c827cb1651c575/frame.npz",
+    "S4/boundary32/B1/generations/g-000017-19b9f7169716427c804510b33d00ea3b/frame.npz",
+    "S4/boundary32/A1/generations/g-000017-4377434e24bd4fec83e2889e9b66b78e/frame.npz"
+  ],
+  "max_new_display_frames": 6,
+  "inherited_daily_steps": 252,
+  "inherited_daily_frames": 12,
+  "new_formal_steps": 0,
+  "new_grid_coupled_trajectory_steps": 84,
+  "new_spaces": 0,
+  "CPU_reference": {
+    "new_matrices": 3,
+    "spectral_calls": 7,
+    "matrix_steps": 144,
+    "seconds": 2.507450383156538,
+    "new_GPU_steps": 0
+  },
+  "peak_RSS_GiB": 5.538898468017578,
+  "initial_in_process_seconds": 199.5206650942564,
+  "initial_wall_strict_upper_seconds": 679.835366487503,
+  "later_complete_process_wall_seconds": 363.4170458316803,
+  "all_GPU_related_wall_upper_seconds": 1043.2524123191833,
+  "wall_bound_notes": "Initial bound spans registration to last of two trajectory summaries, thus also contains idle and CPU time; later logs include construction/import/fault/restart/review. No failed process excluded.",
+  "output_bytes_at_check": 224259731
+}

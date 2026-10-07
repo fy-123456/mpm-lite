@@ -1,0 +1,351 @@
+{
+  "count": 30,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工时再次确认最新有效发布。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/resources.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立新来源与兼容入口。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/resources.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "冻结预算、资源和异常处理规则。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/resources.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "从实际失败项重建时间问题，而不是重跑三档。",
+      "status": "retained_dt_joint_gate_not_met",
+      "evidence": [
+        "S1/time-decision.json",
+        "S1/observable-modal-contribution.json",
+        "S1/reference-resolution.json",
+        "S1/window-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "确定真正影响场与反力的频段。",
+      "status": "retained_dt_joint_gate_not_met",
+      "evidence": [
+        "S1/time-decision.json",
+        "S1/observable-modal-contribution.json",
+        "S1/reference-resolution.json",
+        "S1/window-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "用一个受控线性问题区分相位与采样影响。",
+      "status": "retained_dt_joint_gate_not_met",
+      "evidence": [
+        "S1/time-decision.json",
+        "S1/observable-modal-contribution.json",
+        "S1/reference-resolution.json",
+        "S1/window-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "只验证一个有新增信息的时间方案。",
+      "status": "retained_dt_joint_gate_not_met",
+      "evidence": [
+        "S1/time-decision.json",
+        "S1/observable-modal-contribution.json",
+        "S1/reference-resolution.json",
+        "S1/window-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "冻结暂定时间决定。",
+      "status": "retained_dt_joint_gate_not_met",
+      "evidence": [
+        "S1/time-decision.json",
+        "S1/observable-modal-contribution.json",
+        "S1/reference-resolution.json",
+        "S1/window-comparison.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "先重载 R4，并判断候选是否受参考张成空间限制。",
+      "status": "retained_swap6_no_resolved_gain",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "明确应力目标、联合评分与保留工况。",
+      "status": "retained_swap6_no_resolved_gain",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "生成至多两个 144 函数候选并核对完整算子。",
+      "status": "retained_swap6_no_resolved_gain",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "求真正的非线性平衡并决定是否晋级。",
+      "status": "retained_swap6_no_resolved_gain",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "只对主状态合格者打开一个保留幅值。",
+      "status": "condition_not_triggered_heldout_unaccessed",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S2.6",
+      "title": "闭合空间、时间和性能的依赖。",
+      "status": "inherited_same_space_no_new_dynamic_prefix",
+      "evidence": [
+        "S2/reference-reload.json",
+        "S2/span-diagnostic.json",
+        "S2/main-decision.json",
+        "S2/space-decision.json",
+        "S2/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "测最终所选空间的暖运行热点。",
+      "status": "adopted_coarse_instrumentation",
+      "evidence": [
+        "S3/warm-profile.json",
+        "S3/performance-decision.json",
+        "S3/operator-equivalence.json",
+        "S3/transaction-check.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "依据测量只实现一个候选。",
+      "status": "adopted_coarse_instrumentation",
+      "evidence": [
+        "S3/warm-profile.json",
+        "S3/performance-decision.json",
+        "S3/operator-equivalence.json",
+        "S3/transaction-check.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "用同输入验证算子与事务等价。",
+      "status": "adopted_coarse_instrumentation",
+      "evidence": [
+        "S3/warm-profile.json",
+        "S3/performance-decision.json",
+        "S3/operator-equivalence.json",
+        "S3/transaction-check.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "以独立成本决定是否采用。",
+      "status": "adopted_coarse_instrumentation",
+      "evidence": [
+        "S3/warm-profile.json",
+        "S3/performance-decision.json",
+        "S3/operator-equivalence.json",
+        "S3/transaction-check.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "建立小储存的独立压力时间诊断。",
+      "status": "passed_scoped_explicit_small_storage_grid",
+      "evidence": [
+        "S4/small-storage-diagnostic.json",
+        "S4/explicit-grid-check.json",
+        "S4/coupled-checks.json",
+        "S4/publication-check.json",
+        "S4/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "让实际驱动使用显式、可审计的小步长。",
+      "status": "passed_scoped_explicit_small_storage_grid",
+      "evidence": [
+        "S4/small-storage-diagnostic.json",
+        "S4/explicit-grid-check.json",
+        "S4/coupled-checks.json",
+        "S4/publication-check.json",
+        "S4/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "恢复三维固体耦合并检查交换功。",
+      "status": "passed_scoped_explicit_small_storage_grid",
+      "evidence": [
+        "S4/small-storage-diagnostic.json",
+        "S4/explicit-grid-check.json",
+        "S4/coupled-checks.json",
+        "S4/publication-check.json",
+        "S4/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S4.4",
+      "title": "验证新时间表下的完整提交与恢复。",
+      "status": "passed_scoped_explicit_small_storage_grid",
+      "evidence": [
+        "S4/small-storage-diagnostic.json",
+        "S4/explicit-grid-check.json",
+        "S4/coupled-checks.json",
+        "S4/publication-check.json",
+        "S4/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S4.5",
+      "title": "划清三维扩展边界。",
+      "status": "passed_scoped_explicit_small_storage_grid",
+      "evidence": [
+        "S4/small-storage-diagnostic.json",
+        "S4/explicit-grid-check.json",
+        "S4/coupled-checks.json",
+        "S4/publication-check.json",
+        "S4/coupling-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "冻结最终数值实现并准备唯一充分周期。",
+      "status": "main_qualified_sensitive_windows_only",
+      "evidence": [
+        "S5/final-model-lock.json",
+        "S5/qualification-final.json",
+        "S5/retry-restart.json",
+        "S5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "先确认充分性，再确认主场景 q5。",
+      "status": "main_qualified_sensitive_windows_only",
+      "evidence": [
+        "S5/final-model-lock.json",
+        "S5/qualification-final.json",
+        "S5/retry-restart.json",
+        "S5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "重新核对范围拒绝和整步回退。",
+      "status": "main_qualified_sensitive_windows_only",
+      "evidence": [
+        "S5/final-model-lock.json",
+        "S5/qualification-final.json",
+        "S5/retry-restart.json",
+        "S5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "按缺失状态补一个敏感幅值范围。",
+      "status": "main_qualified_sensitive_windows_only",
+      "evidence": [
+        "S5/final-model-lock.json",
+        "S5/qualification-final.json",
+        "S5/retry-restart.json",
+        "S5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "完成与最终源码一致的针对性回归。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "完成日常周期、可视化和最终成本核对。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "逐步结案、更新能力并封存新版本。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json",
+        "S6/cache-retry-check.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "3543579f5aa25a6eedc01f3f369c452f361c87a6d4b55dd36eaf95681d4d1b5d",
+  "limits": [
+    "time and continuum space accuracy not certified",
+    "only one stress candidate; second and heldout conditions not triggered",
+    "midpoint pressure positivity only fixed solid no source; general 3D pressure not certified",
+    "sensitive .0075 full cycle remains full_only"
+  ]
+}

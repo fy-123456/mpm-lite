@@ -1,0 +1,139 @@
+{
+  "plan": "MPM_LITE_ABSOLUTE_STATE_AND_FORMAL_COUPLING_PLAN_20261007_ZH.md",
+  "whole_plan_complete": false,
+  "first_delivery": "P0-P2 original-material-route scope",
+  "steps": [
+    {
+      "step": "P0.1",
+      "status": "completed",
+      "evidence": "input-lock.json; S0/version-audit.json",
+      "scope_or_reason": "BASE 525a7d77 rediscovered and full audit passed; 1348 prior Python sources frozen."
+    },
+    {
+      "step": "P0.2",
+      "status": "completed-for-dry-scope",
+      "evidence": "S0/physical-contract.json",
+      "scope_or_reason": "Original source package fixes solid parameters; nonlinear boundary and midpoint protocol registered before run. Formal fluid parameters not selected."
+    },
+    {
+      "step": "P0.3",
+      "status": "completed",
+      "evidence": "S0/protocol.json; S0/protocol-v2.json",
+      "scope_or_reason": "One material-state route; static and linearized probe followed by measured-cost four-step nonlinear qualification. No long experiment."
+    },
+    {
+      "step": "P1.1",
+      "status": "completed-material-route",
+      "evidence": "S1/closure.json; S3/replay.json",
+      "scope_or_reason": "q/v owns finite absolute state. Point x/F derived from original fixed material map, no unexplained point-history projection."
+    },
+    {
+      "step": "P1.2",
+      "status": "completed-scoped-selection",
+      "evidence": "S1/route-decision.md",
+      "scope_or_reason": "Original material space retained; raw SH requires explicit correction. C1 updated physical space is not adopted. Production correction cost/interface not certified."
+    },
+    {
+      "step": "P1.3",
+      "status": "completed-original-stabilization",
+      "evidence": "S1/closure.json; S7/tests.txt",
+      "scope_or_reason": "Original affine Y(q), energy/force/tangent, null stationarity and rigid-motion stabilization checks; full material field independently matches original tensor reconstruction."
+    },
+    {
+      "step": "P2.1",
+      "status": "completed-fixed-material-scope",
+      "evidence": "S1/closure.json",
+      "scope_or_reason": "M is constant because the selected physical basis is fixed in X. Original authenticated full mass inherited, including all cross terms. Not an updated-C1 mass certificate."
+    },
+    {
+      "step": "P2.2",
+      "status": "completed-probe-scope",
+      "evidence": "S1/support.png; S2/dry-probe.json; S2/nonlinear4/metrics.json",
+      "scope_or_reason": "Grip volume probes and carrier slice, prescribed acceleration, full fixed/free inertia and fixed-row reactions; complete local support atlas and production kernel absent."
+    },
+    {
+      "step": "P2.3",
+      "status": "completed-four-step-dry-scope",
+      "evidence": "S2/nonlinear4/",
+      "scope_or_reason": "Full q7 nonlinear residual checked midpoint, small moving grip window; material/stabilization/kinetic/boundary/path/residual work separated. No pressure or AVF cycle claim."
+    },
+    {
+      "step": "P3.1",
+      "status": "not-started-beyond-first-delivery",
+      "evidence": "S1/route-decision.md",
+      "scope_or_reason": "First delivery is P0-P2 per plan. Formal pressure identity, bounded rule qualification and production corrected transfer not yet integrated; small-model retry remains inherited only."
+    },
+    {
+      "step": "P3.2",
+      "status": "not-started-beyond-first-delivery",
+      "evidence": "S1/route-decision.md",
+      "scope_or_reason": "First delivery is P0-P2 per plan. Formal pressure identity, bounded rule qualification and production corrected transfer not yet integrated; small-model retry remains inherited only."
+    },
+    {
+      "step": "P3.3",
+      "status": "not-started-beyond-first-delivery",
+      "evidence": "S1/route-decision.md",
+      "scope_or_reason": "First delivery is P0-P2 per plan. Formal pressure identity, bounded rule qualification and production corrected transfer not yet integrated; small-model retry remains inherited only."
+    },
+    {
+      "step": "P3.4",
+      "status": "not-started-beyond-first-delivery",
+      "evidence": "S1/route-decision.md",
+      "scope_or_reason": "First delivery is P0-P2 per plan. Formal pressure identity, bounded rule qualification and production corrected transfer not yet integrated; small-model retry remains inherited only."
+    },
+    {
+      "step": "P4.1",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P4.2",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P4.3",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P5.1",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P5.2",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P5.3",
+      "status": "not-started-dependent-qualification",
+      "evidence": "requirement-audit.json",
+      "scope_or_reason": "No new formal coupled reference, budget selection, mixed-direction extension or combined ablation evidence."
+    },
+    {
+      "step": "P6.1",
+      "status": "cost-recorded-no-speedup-claim",
+      "evidence": "S2/nonlinear-endpoint.json; S2/nonlinear4/summary.json",
+      "scope_or_reason": "4,917,248 full material points per call. Nonlinear solve uses a rest chord and at most three owned full response cache entries; no general performance benchmark."
+    },
+    {
+      "step": "P6.2",
+      "status": "partial-state-bound",
+      "evidence": "S3/replay.json",
+      "scope_or_reason": "17568-byte absolute q/v, no particle arrays in replay. Full coupled scaling and production Load cost not measured; old small-model evidence is separate."
+    },
+    {
+      "step": "P6.3",
+      "status": "completed-scoped-delivery",
+      "evidence": "release.json; implementation-report.md; S7/visualization-check.json",
+      "scope_or_reason": "Immutable descendant, honest capability flags and actual dry-solid visualization. Production daily-q5-retry unchanged."
+    }
+  ]
+}

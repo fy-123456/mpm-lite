@@ -1,0 +1,176 @@
+{
+  "count": 28,
+  "all_steps_accounted_for": true,
+  "all_steps_completed": false,
+  "paper_complete": false,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "26 releases rechecked; full source/snapshot/artifact ancestor audit passed",
+      "evidence": "input-lock.json"
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "existing physical contract and new model identity separated",
+      "evidence": "S0/inherited-physical-contract.json"
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "exact new namespace; frozen old sources; scoped budgets",
+      "evidence": "S0/source-map.json"
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "explicit material-reference particle and fluid state",
+      "evidence": "S1/state-contract.json"
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "owned frozen inner interface and whole-step commit",
+      "evidence": "S1/interface-contract.md"
+    },
+    {
+      "step": "S1.3",
+      "status": "limited",
+      "reason": "engineering protocol frozen; paper heldout matrix not activated",
+      "evidence": "S1/protocol.json"
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "moment8 diagnosed; fixed positive 128-site candidate selected for structured particles",
+      "evidence": "S3/adoption-decision.json"
+    },
+    {
+      "step": "S2.2",
+      "status": "limited",
+      "reason": "small enriched consistent-mass model passed; formal 144 adapter not integrated",
+      "evidence": "S7/test-report.json"
+    },
+    {
+      "step": "S2.3",
+      "status": "passed_scoped",
+      "reason": "shared finite-deformation volume and inherited full RT0 assembly",
+      "evidence": "S7/test-report.json"
+    },
+    {
+      "step": "S2.4",
+      "status": "passed_scoped",
+      "reason": "independent process coupled solve loads no particle arrays",
+      "evidence": "S2/independent-coupled-replay.json"
+    },
+    {
+      "step": "S3.1",
+      "status": "limited",
+      "reason": "real particle history feedback in material coordinates; Eulerian relocation remains unvalidated",
+      "evidence": "S1/interface-contract.md"
+    },
+    {
+      "step": "S3.2",
+      "status": "passed_scoped",
+      "reason": "12-step load/hold/unload engineering cycle, observable displacement",
+      "evidence": "S3/fixed-cycle-ppc3/summary.json"
+    },
+    {
+      "step": "S3.3",
+      "status": "passed_scoped",
+      "reason": "complete rollback/retry and identity-bound new-process checkpoint load",
+      "evidence": "S7/fresh-load.json"
+    },
+    {
+      "step": "S3.4",
+      "status": "limited",
+      "reason": "CPU bridge gate passed; full Eulerian Lite production gate not passed",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S4.1",
+      "status": "limited",
+      "reason": "0.06 s mechanical signal is visible; no full drainage or temporal accuracy claim",
+      "evidence": "S3/fixed-cycle-ppc3/summary.json"
+    },
+    {
+      "step": "S4.2",
+      "status": "limited",
+      "reason": "independent fixed-skeleton time reference, no full moving-solid spatial reference",
+      "evidence": "S4/fixed-skeleton-reference.json"
+    },
+    {
+      "step": "S4.3",
+      "status": "limited",
+      "reason": "same-space material order5/7 convergence only",
+      "evidence": "S4/material-reference.json"
+    },
+    {
+      "step": "S5.1",
+      "status": "not_triggered",
+      "reason": "full spatial reference and original-Lite adapter gates are unmet",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S5.2",
+      "status": "not_triggered",
+      "reason": "do not train or replace formal144 against unqualified reference",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S5.3",
+      "status": "not_triggered",
+      "reason": "formal space never replaced; no transfer of q5 licenses",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S6.1",
+      "status": "limited",
+      "reason": "bounded CPU operator and short same-site PPC comparison; no general Eulerian claim",
+      "evidence": "S6/operator-scaling.json"
+    },
+    {
+      "step": "S6.2",
+      "status": "passed_scoped",
+      "reason": "per-call work and scoped short-run costs reported separately",
+      "evidence": "S6/dynamic-scaling.json"
+    },
+    {
+      "step": "S6.3",
+      "status": "limited",
+      "reason": "representation correction compared; full three-contribution ablation deferred with integration gate",
+      "evidence": "S6/common-site-ppc.json"
+    },
+    {
+      "step": "S6.4",
+      "status": "not_triggered",
+      "reason": "no paper heldout generalization claim before independent spatial reference",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S6.5",
+      "status": "limited",
+      "reason": "raw costs include preparation; higher Nq costs more, no speedup claim",
+      "evidence": "S6/dynamic-scaling.json"
+    },
+    {
+      "step": "S7.1",
+      "status": "passed_scoped",
+      "reason": "12 unique final contract tests and fresh-process recovery",
+      "evidence": "S7/test-report.json"
+    },
+    {
+      "step": "S7.2",
+      "status": "limited",
+      "reason": "claim/evidence limitations documented; paper results not complete",
+      "evidence": "capability-matrix.json"
+    },
+    {
+      "step": "S7.3",
+      "status": "passed_scoped",
+      "reason": "independent scoped release, original source unchanged, viewer and CLI",
+      "evidence": "S7/visual-review.json"
+    }
+  ]
+}

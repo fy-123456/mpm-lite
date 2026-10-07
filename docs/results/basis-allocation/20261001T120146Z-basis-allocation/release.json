@@ -1,0 +1,55 @@
+{
+  "schema": "basis-allocation-practical-v1",
+  "utc": "2026-10-01T12:38:00.844346+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/phase-stress/20261001T072129Z-phase-stress",
+  "application_parent_release_sha256": "018453bda56a570d48482e8f6ee84131d70a9943d524155ea2bb7260b63698a5",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "b4eec08ad16ac175875b349841cb6b6901e5dd83b59edf8ffd69de75507abdbe",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "93877b39d1d11c08347fdc0e0a95bfe0e8522e3e6ba35302e6ca5216ca49dc5c",
+    "count": 18
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "a6ec70f02900a1054c9f8e439b593d2ac349d07dbcbfc5c43c473b89e298d591",
+    "count": 1428
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "a0808a305110b92d85de916142aa918b36bc25de9889cb1698e64c0ac38acb49"
+  },
+  "window_qualification": {
+    "path": "S3/window-final-0060-0065.json",
+    "sha256": "49205aa23d9bc4565552200bf5fbbf05cb27c598a115bd6b77b45da752a0ab8e"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "1ee097f4753d030bf6bb98a4b06c15027303e5a1987825dd1384c476a2eaf1c8"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "1de7ce7a5f123f57bff583aadc16c7549e1342b687325f11d0ab90464140c218"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "4c7fcce8e37f9d5dd3bf6ba284d28cfd5c5351266bd7e2e6313446111cd18abc"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "caae11fe84ac495836fc081cfbc1e2b380a3feea7cfeebbb4219cae358956629"
+  },
+  "case_identity_sha256": "f69de28874757027478127924d97583fdc45c68a779f580a072acd85f9744f5d",
+  "case_protocol_sha256": "d9dd7e83655a6ad6472ff836fe6b25f9517c79d1adf74271ad3d5832f3063a3d",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": "x-only half-cell production research; independent 3D RT0 fixture"
+}

@@ -1,0 +1,20 @@
+{
+  "engine/aniso_phase1/research_post_release/__init__.py": "c29aaabb2a5706c8ec0731abbcf7541af2f2103ff7511a2856d5868316162431",
+  "engine/aniso_phase1/research_post_release/ambient_reference.py": "6f5ccd31e8db43349a56bf0383c78b4bf11f259cd690c94e74dd5ea199a9da1d",
+  "engine/aniso_phase1/research_post_release/fields.py": "51070c622747c37e5f467e7d0e041d4ca74aae911b5050ee49e68f6e67800b62",
+  "engine/aniso_phase1/research_post_release/runtime_rules.py": "bc73fd8eb8b36ac06bd0b0daecfdc5fa939bde0775d4bb5a0519c5b69e182b83",
+  "benchmarks/research_post_release/__init__.py": "49a1e1680238bba0e26a4ebd78d07a71ecf0c34bd386204faea7b21829185b29",
+  "benchmarks/research_post_release/budget_study.py": "85a2400ba82368d5e2233c5033f425421fb77e1234151772c657d44642ad0615",
+  "benchmarks/research_post_release/config.py": "1fab8b3cd63a8aa9335f45e446a1e37dd728f71209d12314a767fc16b7dceb72",
+  "benchmarks/research_post_release/coupling_check.py": "a5bfcd7d3b89a2b55f08c24242f011d5a2c5ffcf719ecf503583e1c5e6d6bb06",
+  "benchmarks/research_post_release/finalize.py": "07773088cb2d8bc6fd67cbd70fecf93284ca4820dc6cb491143e1d8c1041add5",
+  "benchmarks/research_post_release/performance_study.py": "5154140d36691c24d787c7972c40a5bc5a0d1c0ac2ab9c056587c41897df51c3",
+  "benchmarks/research_post_release/provenance.py": "25f81dd79174070f02733785245d281cf5c17b7dc46e76b84cc2bdcb535c523d",
+  "benchmarks/research_post_release/reference_study.py": "d459ece335253e967fd6f7ec6b85369e2b59e249688bf24aeab702448540161c",
+  "benchmarks/research_post_release/rule_study.py": "74613b4cce3cf7dab8c041289fe9341082e506ff8bc7909d7462de05dbcdcc93",
+  "benchmarks/research_post_release/run.py": "819499a60818a94717465caf49fa13f48439e340ff6f7060cf91100bb1f10bc6",
+  "benchmarks/research_post_release/time_study.py": "56e337eee7dd4304fc022108a15956cdd2f61f4e5662c2c04c0b9fa0ab7ca986",
+  "benchmarks/research_post_release/visualize.py": "8b0e9e56d2743031f3c449bb706dd47c49b1fe9676a9118ce162965843ed15d6",
+  "tests/research_post_release/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests/research_post_release/test_runtime.py": "1dac997414cc9bf8f93da9a8ee042c5aa42c6782a235b8cd72599614c7d6b59f"
+}

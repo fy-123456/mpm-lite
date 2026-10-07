@@ -1,0 +1,254 @@
+"""Write the Chinese v16 report from measured, independently audited data."""
+from pathlib import Path
+from benchmarks.aniso_v16_experiments import OUT,ROOT,load
+
+
+def main():
+    a=load(OUT/'summary.json');b=load(OUT/'avf/summary.json')
+    assert a['completed'] and b['completed']
+    doc=r'''# v16：支撑变化后的静态刚度与恢复力—速度联合更新
+
+本轮完成了两个请求，并追加了由对照结果直接支持的时间居中实验。**材料自由度方案通过本轮支撑变化的去质量刚度与运动保持检查；联合更新的能量交换明显改善。应力时间精度仍未整体通过，默认算法不切换。** 新实现是小规模 CPU float64 研究原型，不是生产 Lite 的默认替代方案。
+
+## 本轮解决了什么，尚未解决什么
+
+v15 的共同 F/Y 势能能够保留局部历史，但所有变形都通过标记插值 N。网格支撑从 64 个节点扩张到 80 个时，N 的零空间给出了 48 个额外零刚度模式。v16 保留原材料标记作为独立自由度，用一个保留二次场的映射表示网格速度。没有重置 F/Y，没有增加弹簧或质量，也没有调低稳定化系数。
+
+恢复力—速度对照表明：只替换回传梯度作用很小；同时匹配粒子动能、速度投影、力和回传，才消除了主要的固定几何力—动能交换缺陷。但联合后向欧拉有明显数值耗散，应力时间差反而变大。用相同离散系统的精确线性时间参考确认这一点后，新增沿变形路径平均力的时间居中方案 AVF。它显著减轻了联合后向欧拉的时间误差，但没有达到全部 2% 门槛。
+
+## 1. 支撑变化：保留材料自由度，消除冗余网格表示
+
+保持 v15 的材料与稳定化势能：
+
+\[
+F_p=(G_0Y)_pR_p,\qquad
+U(Y)=\sum_pV_p\psi(F_p)+\frac12\sum_cw_c\|P_cY_c\|^2.
+\]
+
+G₀、逐粒子局部历史 R、投影 P 和权重都不变。令 w 为材料标记速度，u 为网格速度。构造 E，使
+
+\[
+u=Ew,\qquad NE=I.
+\]
+
+若 S 是当前网格上全部次数不超过二次的多项式场，则进一步要求 E N S=S。使用
+
+\[
+E=N^\dagger+(S-N^\dagger NS)(NS)^\dagger.
+\]
+
+这里要求 N 满行秩，且 NS 的十个多项式列独立。代码检查秩和重现误差；支撑缺失、秩不足或超过小规模上限时明确失败，不清空历史。
+
+在这个模型中，网格只提供速度的表示，不再引入材料历史看不到的独立自由度。将三分量映射简写为 N、E，有
+
+\[
+K_{\rm grid}=N^TK_YN,\qquad E^TK_{\rm grid}E=K_Y.
+\]
+
+因此受限系统恢复了原材料坐标的静态刚度，**没有靠质量或附加对角刚度填补零模态**。原始完整网格空间仍然有零模态；本轮通过的是保留材料自由度后的系统，不能把两者混为一谈。
+
+E N S=S 保证网格的正常仿射、剪切及二次弯曲场仍可完整表达。初始二次弯曲的稳定化能量保持为零，材料弯曲能量保留。有限转动下 F 和作用力协变，势能不变；两种联合时间方案均完成实际移动 x/Y/v/C 的 180 步刚体平移，跨越 1.44 个网格单元，并复核移动状态下的去质量刚度。
+
+**范围限制：** 这是一种自由度选择，不是标记加密或新增空间分辨率。对非二次的细节运动，它限制了网格的独立变化；尚未证明任意高阶弯曲、复杂边界或大变形都足够准确。满行秩条件不满足时仍会拒绝。本轮没有解决任意支撑收缩，也没有重新认证空间精度。
+
+## 2. 让材料变形、标记位移与粒子速度使用匹配的运动
+
+记 Bₖw 为逐粒子 F 的第 k 列增量率，来自同一个 F=(G₀Y)R。位置速度映射为 T=T_grid E。空间梯度映射为
+
+\[
+L_j=\sum_k B_k(F^{-1})_{kj},\qquad
+J=\begin{bmatrix}T\\L_1\\L_2\\L_3\end{bmatrix},\qquad
+z=\begin{bmatrix}v_p\\C_{p,:,1}\\C_{p,:,2}\\C_{p,:,3}\end{bmatrix}.
+\]
+
+同一步内，F/Y 与 v/C 的增量都通过这套匹配的运动映射。粒子原有速度历史仍作为独立状态保留；这不等于声称所有 APIC C 都必须等于重构速度场的梯度。
+
+M_z 是当前 APIC 的联合动能度量，包含粒子质量及局部二阶矩。相应的材料坐标质量为
+
+\[
+M_c=J^TM_zJ.
+\]
+
+它由现有粒子动能推导，没有加质量或调质量参数。夹具静止时，令 Q 的列张成 (Ew)_grip=0 的允许速度空间，w=Qc，J_r=JQ。
+
+把旧速度分成可表达部分和剩余历史：
+
+\[
+z=\Pi_rz+z_\perp,\qquad
+\Pi_r\text{ 是 }M_z\text{ 度量下到 }\operatorname{range}(J_r)\text{ 的正交投影}.
+\]
+
+z_perp 始终保留。一次失败的早期对照按未约束空间保留剩余历史，会在初始边界投影时耗掉有限动能，即使 Δt→0 也不消失；该方案未被采用。最终版本保留的是相对**允许速度空间**的剩余历史，小时间步测试确认没有这类初始能量清空。
+
+### 联合后向欧拉对照
+
+\[
+c^{n+1}=\arg\min_c\left[
+\frac12\|J_rc-z^n\|_{M_z}^2+U(Y^n+\Delta tQc)\right],
+\]
+\[
+Y^{n+1}=Y^n+\Delta tQc^{n+1},\qquad
+z^{n+1}=z_\perp^n+J_rc^{n+1}.
+\]
+
+力与切线都从该势能求导。固定几何下，能量账本为
+
+\[
+\Delta(K+U)=
+-\frac12\|\Delta z\|_{M_z}^2
+-\left[f^{n+1}\!:\Delta Y-\Delta U\right]+\epsilon_{\rm solve}.
+\]
+
+方括号在局部凸区域是后向欧拉的势能耗散。**没有增加耗散参数，不代表时间积分没有数值耗散。** 本轮明确记录了这两项，不能把应力下降直接当成更准确的恢复。
+
+### 时间居中 AVF：沿同一次变形路径平均恢复力
+
+令 α₁,₂=1/2∓√3/6，权重均为 1/2；用同一原势能计算
+
+\[
+\bar f=\frac12\sum_{i=1}^2\nabla U(Y^n+\alpha_i\Delta Y).
+\]
+
+中点速度 c 满足
+
+\[
+2J_r^TM_z(J_rc-z^n)+\Delta tQ^T\bar f=0,
+\]
+\[
+Y^{n+1}=Y^n+\Delta tQc,\qquad
+z^{n+1}=z^n+2(J_rc-\Pi_rz^n).
+\]
+
+求解残差和原始切线来自同一个增量势能：
+
+\[
+\Phi(c)=\|J_rc-z^n\|_{M_z}^2+
+\sum_i\frac{w_i}{\alpha_i}U(Y^n+\alpha_i\Delta tQc).
+\]
+
+其 Hessian 为 2J_rᵀM_zJ_r + Δt² Σᵢwᵢαᵢ QᵀK(Yᵢ)Q，没有正定截断或对角补偿。时间更新只在成功求解及全部检查后提交。
+
+固定几何下：
+
+\[
+\Delta(K+U)=\underbrace{\Delta U-\bar f:\Delta Y}_{\epsilon_{\rm path}}
++\epsilon_{\rm solve}.
+\]
+
+两点高斯对二次稳定化和四次纤维能量的路径功积分是精确的；Hencky 材料的非多项式部分存在积分误差，本轮逐步测量它，未用能量常数抵消。移动粒子还改变 APIC 二阶矩，需要额外计入 ΔK_metric。因此不宣称任意移动几何下精确守恒。
+
+## 3. 同一输入下的归因设计
+
+使用 v14 第四档 t=1.1、1.6 s 的同一保存状态。每组起点 x/F/Y/v/C、材料能、稳定化能、动能都相同；不进行应力归零或静态预松弛。每条续算 0.05 s，时间步为 0.001、0.0005、0.00025、0.000125 s，分别固定几何映射和真正移动粒子。
+
+隔离对照中各方案都关闭 PIC 混合和额外零空间/弱模式滤波，使用纯增量速度回传。这是为分离更新规则的影响，**这些数值不能直接替代 v15 原配置完整循环的指标**。分步基线已与现有 Warp 求解器在相同输入、相同无滤波参数下做一步 x/F/Y/v/C 交叉核验。
+
+| 对照 | 改动 | 回答的问题 |
+|---|---|---|
+| 原分步更新 | 网格集总惯性、原 P2G 和梯度回传 | 隔离实验的基线 |
+| 共同梯度分步 | 只将 C 回传改为与材料变形匹配的 J | 单改梯度是否有效 |
+| 投影单改对照 | 使用伴随投影，却保留不匹配的网格惯性 | 局部拼接是否足够；单步出现能量增长/求解失败，未推广 |
+| 联合后向欧拉 | 同时匹配 J、粒子动能与投影 | 恢复力—动能交换能否闭合 |
+| 联合 AVF | 保留相同空间势能和联合动能，只改时间更新 | 分离后向欧拉积分误差 |
+
+阶段一 48 条轨迹、9000 步；AVF 补充 16 条、3000 步。合计 **64 条正式轨迹、12000 步、64 份独立终态复算**。这不是四档完整加载循环，也不是空间收敛验收。
+
+## 4. 测得的应力、能量与静态结果
+
+以下应力差是 11 个相同物理采样时刻、全部粒子 Piola 应力张量的 RMS 差，除以较细时间步的 RMS；包含共同起点。最细相邻档为 0.00025 / 0.000125 s，不能等同于真解误差。
+
+'''
+    lines=['| 起点 / 几何 | 原分步 | 共同梯度分步 | 联合后向欧拉 | 联合 AVF |','|---|---:|---:|---:|---:|']
+    for label,t in [('early_hold',1.1),('late_hold',1.6)]:
+        for geom,title in [('frozen','固定几何'),('moving','移动粒子')]:
+            vals=[a['refinement'][f'{label}-{geom}-{mode}'][-1]['P_relative'] for mode in ('legacy_split','common_split','joint')]+[b['refinement'][f'{label}-{geom}-avf'][-1]['P_relative']]
+            lines.append(f'| {t:.2f} s / {title} | '+' | '.join(f'{100*v:.4f}%' for v in vals)+' |')
+    lines+=['','移动粒子的终态应力差单独检查：','','| 起点 | 原分步 | 联合后向欧拉 | 联合 AVF |','|---|---:|---:|---:|']
+    for label,t in [('early_hold',1.1),('late_hold',1.6)]:
+        vals=[a['refinement'][f'{label}-moving-{mode}'][-1]['P_terminal_relative'] for mode in ('legacy_split','joint')]+[b['refinement'][f'{label}-moving-avf'][-1]['P_terminal_relative']]
+        lines.append(f'| {t:.2f} s | '+' | '.join(f'{100*v:.4f}%' for v in vals)+' |')
+    lines+=['','**AVF 显著改善了联合后向欧拉的时间误差，但相对原分步方案并非所有区间都更小。末端保持的区间差与终态差仍超标，不能宣布 F45 时间精度通过。**','','![最细相邻时间步应力差](results/lite-aniso-mainline/v16/time-comparison.png)','',
+        '第四档的绝对状态如下。关闭额外耗散后，系统会保留真实与离散振动；应力升高或末态不为零都不能单独作为失效或塑性残余证据。','','| 区间终点 / s | 方案 | 应力 RMS / Pa | 材料能 / J | 稳定化能 / J | 动能 / J |','|---|---|---:|---:|---:|---:|']
+    for label,t in [('early_hold',1.15),('late_hold',1.65)]:
+        for mode,title in [('legacy_split','原分步'),('joint','联合后向欧拉'),('avf','联合 AVF')]:
+            v=(b if mode=='avf' else a)['cases'][f'{label}-moving-{mode}-fourth']['terminal']
+            lines.append(f'| {t:.2f} | {title} | {v["stress_rms_Pa"]:.7f} | {v["material_J"]:.6e} | {v["stabilization_J"]:.6e} | {v["kinetic_J"]:.6e} |')
+    lines+=['','![应力响应与总能量变化](results/lite-aniso-mainline/v16/energy-response.png)','',
+        '第四档 0.05 s 能量账本：','','| 区间 / 几何 | 方案 | 总能量变化 / J | 速度—力交换缺陷累计 / J | 动能度量变化累计 / J |','|---|---|---:|---:|---:|']
+    for label,title in [('early_hold','早期保持'),('late_hold','末端保持')]:
+        for geom,gtitle in [('frozen','固定'),('moving','移动')]:
+            for mode,mt in [('legacy_split','原分步'),('joint','联合 BE'),('avf','联合 AVF')]:
+                r=(b if mode=='avf' else a)['cases'][f'{label}-{geom}-{mode}-fourth']
+                de=r.get('sum_total_change_J',r['sum_work_defect_J']-r.get('sum_kinetic_increment_J',0)-r.get('sum_potential_BE_loss_J',0)+r['sum_metric_change_J'])
+                lines.append(f'| {title} / {gtitle} | {mt} | {de:.6e} | {r["sum_work_defect_J"]:.6e} | {r["sum_metric_change_J"]:.6e} |')
+    lines+=['','联合 BE 虽然交换缺陷很小，但还有上文两项数值耗散；AVF 的相应耗散项由路径积分误差代替。对移动粒子，正负能量变化还包含动能二阶矩变化，已经单独记账，没有归入材料或参考重建。','',
+        '## 5. 为什么 AVF 的改善可归因于时间更新','',
+        '对同一快照、同一约束、同一个原始材料刚度 K 与联合质量 M，求解局部线性系统 M q̈+Kq=−f₀ 的精确模态时间演化。每个模态使用正弦、余弦解析演化；另使用后向欧拉及时间居中公式的精确离散放大因子。它们提供**同一个离散线性系统**的时间参考，不是连续体或完整非线性真解。','',
+        '| 起点 / s | 最细联合 BE 对精确线性时间参考 | 最细 AVF 对精确线性时间参考 | AVF 非线性与线性居中模型差 |','|---|---:|---:|---:|']
+    for i,t in enumerate((1.1,1.6)):
+        be=a['modal_controls'][i]['time_comparison'][-1];av=b['exact_linear_controls'][i]['records'][-1]
+        lines.append(f'| {t:.2f} | {100*be["nonlinear_vs_linear_exact_relative"]:.4f}% | {100*av["nonlinear_vs_linear_exact_relative"]:.4f}% | {100*av["nonlinear_vs_linear_centered_relative"]:.4f}% |')
+    lines += [r'''
+相同时间步下，非线性结果与对应线性积分模型只差约 0.1%，而 BE 与精确线性演化差约 18.9%；这为“该对照中主要差别来自时间积分”提供了直接证据。AVF 降至约 1.24%–1.34%。这个结论只适用于本轮同态、小变形、冻结映射的对照。 精确模态参考还通过了另一条加权速度映射 SVD 分解路线的交叉验证，应力相对差最大 2.27×10⁻⁹，排除了小质量模态导致的明显参考数值误差。
+
+联合动能还暴露了更快的离散模态：最短周期约 1.34×10⁻⁵–1.54×10⁻⁵ s，当前最细 Δt=1.25×10⁻⁴ s。最短周期只是极端值，不能拿它解释全部应力差；模态加权数据也已保存。当前四档还未证明进入理想二阶渐近收敛区间。
+
+![相同离散线性系统的时间参考](results/lite-aniso-mainline/v16/linear-time-control.png)
+
+## 6. 验收、失败记录与复现范围
+
+| 检查 | 结果 |
+|---|---|
+| 既有与共同更新回归 | 124 项完整回归通过，包含 8 项本轮新增检查 |
+| AVF 补充回归 | 4 项通过；合计 128 个不同测试，不表述为单次 128 项完整运行 |
+| 四方向支撑静态检查 | ISO/F0/F45/F90，共 24 组通过受限材料空间去质量门槛 |
+| 相同原卸载快照静态检查 | 3 组通过 |
+| 两种联合更新实际跨支撑平移 | 各 180 步；各 5 个实际状态通过去质量刚度检查 |
+| 正式轨迹 | 64 条、12000 步全部完成 |
+| 独立终态复算 | 64 份通过能量、映射、历史、力学检查；保存帧与即时快照一致 |
+| 终态静态刚度 | 64 组去质量检查通过，解析切线与独立有限差分交叉核验 |
+| 时间与空间完整验收 | 四档完整加载—卸载循环与新空间收敛未执行；整体精度未通过 |
+
+首轮长程刚体平移的标记误差约 10⁻⁹，未满足原门槛。定位为弱惯性方向中初始迭代的数值误差后，改用良态的仿射预测初值；势能、质量、残差、切线和验收阈值均未改变。完整重跑阶段一的 48 条正式轨迹与 124 项回归，长程误差降到约 10⁻¹⁴–10⁻¹³。首轮 9000 步、测试、源码和失败日志全部保存在 `initial-start-attempt`。
+
+伴随投影与不匹配惯性拼接的单步对照出现能量增长或求解失败；保存在 70 个单步消融记录中，没有算入成功候选或正式轨迹。初始边界投影产生有限耗能的方案同样只作为反例保留。没有通过降低阈值、附加质量、降低稳定化系数或增加耗散来获得通过。
+
+阶段一完成后，新增独立的 AVF 模块；阶段一执行源码已单独封存，其已有源文件未改动。交付源码另行整体封存。正式试验在独立临时存储上运行，新结果经 SHA256 校验复制回项目；原归档保留，5 GiB 保护阈值未修改。
+
+新算法入口是研究求解器 `CarrierJointSolver` 与 `CarrierAVFSolver`，不接入默认 `demos.aniso` 选项。以下命令重算汇总前须在独立工作副本使用对应协议及输入；驱动拒绝覆盖已存在的协议、轨迹目录和汇总。
+
+```bash
+# 阶段一：支撑门槛、冻结协议、回归、四档对照
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_carrier_joint gates
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_experiments freeze
+# 设置 TMPDIR / MPM_LITE_DATA_ROOT 到空间充足的临时目录后：
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_experiments tests
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_experiments run --jobs 6
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_experiments crossing
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_experiments small
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_analysis
+
+# 阶段二：相同空间模型的时间居中对照
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_avf freeze
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_avf tests
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_avf run --jobs 6
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_avf crossing
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m benchmarks.aniso_v16_avf_analysis
+```
+
+`phase1-executed-source.zip` 保存阶段一执行算法的指纹文件；独立复现使用包含辅助脚本的 `phase1-reproduction-source.zip`，另提供 v14 输入归档。`source-delivered.zip` 是包含 AVF、辅助脚本和最终文档的完整交付源码。阶段一复现包排除 AVF 算法文件，保持冻结协议的源文件集合；包内说明文档采用本轮终版。CPU float64 为本轮验收环境，CUDA 未运行。四方向门槛覆盖静态受限空间；动态对照为 F45，同输入短程结果不能推广为四方向完整动态验收。
+
+## 下一步应优先验证
+
+保留已经通过的材料空间静态门槛和局部历史，优先处理移动几何时动能度量及映射的时间一致性，并进一步分辨快模态是当前空间离散产生的，还是物理上必须保留的运动。AVF 的应力时间差仍约 2.3%–2.4%，末端保持终态差约 5%；应在相同几何、材料和采样下继续做时间收敛检查，不能通过耗散把振动压平来获得表面上的应力接近。
+
+这些局部门槛通过后，再恢复完整物理加载与既有耗散对照，完成四档拉伸—保持—卸载循环及独立空间精度验证。不能只凭能量账本闭合或某个终态应力更小就宣布成功。
+
+源码：[材料自由度与联合求解](../engine/aniso_phase1/carrier_joint.py)、[AVF 时间更新](../engine/aniso_phase1/carrier_avf.py)。数据：[支撑门槛](results/lite-aniso-mainline/v16/support-gates/summary.json)、[阶段一汇总](results/lite-aniso-mainline/v16/summary.json)、[AVF 汇总](results/lite-aniso-mainline/v16/avf/summary.json)、[单步反例](results/lite-aniso-mainline/v16/small-step-controls.json)、[最终归档检查](results/lite-aniso-mainline/v16/completion-check.json)。
+''']
+    (ROOT/'docs/ANISO_LITE_CARRIER_JOINT_ZH.md').write_text(doc+'\n'.join(lines))
+    entry='''> **v16 支撑刚度与联合时间更新：** [实现、公式与测试结果](docs/ANISO_LITE_CARRIER_JOINT_ZH.md)。保留材料自由度并使用二次场保持的网格映射，24 组四方向支撑检查、两种联合方案各 180 步跨支撑检查通过。完成 124 项完整回归、4 项 AVF 补充测试、64 条正式轨迹 12000 步和 64 份独立终态复算。AVF 将联合后向欧拉的移动粒子最细应力差约 15.6%–16.4% 降至 2.3%–2.4%，但末端保持终态差仍约 5%；原分步方案在部分区间的相邻差仍更小。**仅为受限 CPU 研究原型，完整时间/空间精度未通过，默认未切换。**\n\n'''
+    for name in ('README.md','RUNNING_RESTORED.md'):
+        p=ROOT/name;s=p.read_text();assert '**v16 支撑刚度' not in s;i=s.index('\n\n')+2;p.write_text(s[:i]+entry+s[i:])
+
+if __name__=='__main__':main()

@@ -1,0 +1,16 @@
+{
+  "selected": "nonlinear-modes-swap6",
+  "package": {
+    "path": "/root/autodl-tmp/mpm-lite-spatial-phase/20261001T043604Z-spatial-phase/N1/candidates/nonlinear-modes-swap6/space-package.json",
+    "sha256": "a271acf22f6efcca888b601df819aed3385a14973eba9d3ece43fd030d7c585d",
+    "cache": {
+      "path": "/root/autodl-tmp/mpm-lite-spatial-phase/20261001T043604Z-spatial-phase/N5/space-cache/cache.json",
+      "sha256": "e7a33571c368f3ac7cccc6e96604ccb458d7e069592ba4d76f8a46607a14bfcd"
+    }
+  },
+  "mass_order": 7,
+  "full_order": 7,
+  "status": "promoted_scoped",
+  "scope": "F45 .005 and heldout .00375 static plus eight dynamic qualification steps; no continuum accuracy certificate",
+  "performance": "authenticated exact array cache"
+}

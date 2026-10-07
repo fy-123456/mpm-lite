@@ -1,0 +1,22 @@
+{
+  "case": "closed",
+  "steps": 4,
+  "state_digest": "f6569d4aabecd1855f13bee83b813e510958f61598c23b2e941f53dfb7004936",
+  "seconds": 389.44656142778695,
+  "material_calls": 13,
+  "material_seconds": 254.4796259496361,
+  "jv_calls": 0,
+  "minJ": 0.9985907770342336,
+  "max_pressure": 0.0006588954991721079,
+  "peak_rss_bytes": 2328973312,
+  "formal_pressure_coupling": true,
+  "production": false,
+  "space_reference": false,
+  "geometry_points": 373248,
+  "material_points": 4917248,
+  "rule": 7,
+  "drained": false,
+  "alpha": 1.0,
+  "transport": "constant reference hydraulic network",
+  "state_array_bytes": 17584
+}

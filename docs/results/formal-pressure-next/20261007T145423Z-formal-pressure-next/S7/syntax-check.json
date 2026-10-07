@@ -1,0 +1,22 @@
+{
+  "files": [
+    "engine/aniso_phase1/research_formal_pressure_next/__init__.py",
+    "engine/aniso_phase1/research_formal_pressure_next/geometry.py",
+    "engine/aniso_phase1/research_formal_pressure_next/material.py",
+    "engine/aniso_phase1/research_formal_pressure_next/state.py",
+    "engine/aniso_phase1/research_formal_pressure_next/solver.py",
+    "engine/aniso_phase1/research_formal_pressure_next/transaction.py",
+    "benchmarks/research_formal_pressure_next/__init__.py",
+    "benchmarks/research_formal_pressure_next/geometry_check.py",
+    "benchmarks/research_formal_pressure_next/operator_check.py",
+    "benchmarks/research_formal_pressure_next/coupled_short.py",
+    "benchmarks/research_formal_pressure_next/transaction_check.py",
+    "benchmarks/research_formal_pressure_next/replay.py",
+    "benchmarks/research_formal_pressure_next/visualize.py",
+    "benchmarks/research_formal_pressure_next/publication.py",
+    "benchmarks/research_formal_pressure_next/validation.py",
+    "tests/research_formal_pressure_next/__init__.py",
+    "tests/research_formal_pressure_next/test_contracts.py"
+  ],
+  "passed": true
+}

@@ -1,0 +1,332 @@
+{
+  "count": 20,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "ceb00fa928db4b6e17ba5b7c6b03e44c8429d2a77ea773da691efd600cf75320"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S0/physical-contract.json",
+          "sha256": "75e890a8940abf419ac632388e91908f4b96d295ee8b6bc4ac3278788361665d"
+        },
+        {
+          "path": "S0/checkpoint-sources.json",
+          "sha256": "58ab108e74d9dc523746e8ac0f1a82818cde97fcb831b7bba7a3677b2ee1e1e3"
+        },
+        {
+          "path": "S0/observation-contract.json",
+          "sha256": "ada97b3193201c2294e4ecd86751b4514247c11a23db43a6e37140d892f5c301"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "ec05fbd247e0a96951ff45fd62e99704463e9fb9b6a142aca6077e128f421d89"
+        },
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "f38f4ec3853dd5deeb9ed04bc3298eba805758de2ca8a0f4cfbb5ba29c940166"
+        },
+        {
+          "path": "S0/storage-migration.json",
+          "sha256": "13462ea3e6e1907e9915711caf21c632b17c98e6e1aeca5ddc9c82165020f1e1"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S1/reference-input.json",
+          "sha256": "848ac87ce3a8cd410fdb5a0561e87a469c2d8b06a0bf5eff4d5a5d697b62769d"
+        },
+        {
+          "path": "S1/operator-check.json",
+          "sha256": "d73dfd0631d9307f5442b46e0817a7b585ae947f038aecae777daf666dc4a974"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S1/reference-self-check.json",
+          "sha256": "d026db3616b69794ec3b854cd06c978e27298e896b3879ac245e049cc0e06021"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "status": "limited",
+      "reason": "engineering checks pass; raw startup interval flow and small-signal relative accuracy remain limited",
+      "evidence": [
+        {
+          "path": "S1/fixed-skeleton-time-review.json",
+          "sha256": "3f11eaf75d418a154368e601cdeed7fbb8757bd1c1aa34bab23321fdc4bf76d1"
+        }
+      ]
+    },
+    {
+      "step": "S1.4",
+      "status": "limited",
+      "reason": "small fixed-skeleton signal; moving-solid difference dominated by volume exchange",
+      "evidence": [
+        {
+          "path": "S1/window-and-time-decision.json",
+          "sha256": "be4c45ab9c3669efe2b582b058ebc0ab07b8abf32e8d13d35effd468b621c5b2"
+        },
+        {
+          "path": "S1/timescales.json",
+          "sha256": "48dca8ee2829fc76ac9130b9e1279741dc533abf253298dd046a3287e28a5a5b"
+        },
+        {
+          "path": "S1/coupled-model-difference.json",
+          "sha256": "37fb08a3df15ced5a061f9c5b2acecaf02ac001a9fa70fbdb980d360bc7f777b"
+        },
+        {
+          "path": "S1/geometric-volume-crosscheck.json",
+          "sha256": "7beecb2acbf9dc2afc443f0e89d9baff12108084648a809a52b2675a7262c4d1"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S2/backend-binding.json",
+          "sha256": "a8b2e41e72da831d4569a389eca404b393d43a4166769fd9e31204c02f04af3f"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S2/bridge-check.json",
+          "sha256": "c695a3f2664823fbff1886a80eaa174d46f2f42b2ca4e0ae189689507df951a7"
+        },
+        {
+          "path": "S2/recovery-scope.json",
+          "sha256": "6d4d9239335008f7716c5e67c795ecb8c56bd97b1b5a2d985681737d7308f8d4"
+        },
+        {
+          "path": "S5/load-check.json",
+          "sha256": "66ea1964a65ef204a0c019a91d5122ec15c93747f32c78d45a7e9e9b84d8df53"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "status": "not_triggered",
+      "reason": "fixed-skeleton extra signal below floor; coupled extension deferred until matched reference",
+      "evidence": [
+        {
+          "path": "S2/extension-review.json",
+          "sha256": "de2a843108f60c075ba77e5e1cd5addd330e5ac0ce1562da6daf51be67c6d0fd"
+        }
+      ]
+    },
+    {
+      "step": "S2.4",
+      "status": "not_triggered",
+      "reason": "engineering time passed; model difference explained by geometric volume exchange",
+      "evidence": [
+        {
+          "path": "S2/time-not-triggered.json",
+          "sha256": "2d48440403d3ed96b89bfa52faa2b4174e4aebecf1feaffe432d60c91daec0e4"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "status": "limited",
+      "reason": "local segment remains partly combined; construction and diagnostic counters kept separate",
+      "evidence": [
+        {
+          "path": "S3/DV-profile.json",
+          "sha256": "e1622e3baf19e6df228ebbdb24dcebd5e66135db463fa01902b6bd54ab9898da"
+        },
+        {
+          "path": "S3/DV-adjoint-profile.json",
+          "sha256": "a95ae0c57b9756917a10ba2660865cb09a4712cb96fb8d2630937493f1c691b3"
+        },
+        {
+          "path": "S3/profile-interpretation.json",
+          "sha256": "26c871df50663397fabb7ed60105d7cb0eb249cee1fa4ebfb7e5596778d2ca55"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S3/candidate-protocol.json",
+          "sha256": "84ed7a938429822f9bc935667cb878a8de090630730fb1ec1e0ae389c44fe4bc"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S3/operator-check.json",
+          "sha256": "79b05591a07ab575b721f3a5f57232b635facbb68760cf9239abff6e598a53ac"
+        },
+        {
+          "path": "S3/buffer-lifecycle.json",
+          "sha256": "272c8fd4601d067403043b80815ac0363003171b40ed9d7de0fe6a2e0118acd5"
+        }
+      ]
+    },
+    {
+      "step": "S3.4",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S3/paired-performance.json",
+          "sha256": "4e5c22e103a38291a0b97ff01a5cfb5474d874d180de36cf04aabbde49e56303"
+        },
+        {
+          "path": "S3/continuous-check.json",
+          "sha256": "afa277523b3f6a50cad2dd253c8da64160ec89dd53d15957030fd4793193e4be"
+        },
+        {
+          "path": "S3/backend-decision.json",
+          "sha256": "25156bc41c83c1d15feddf2e94fd351d9dbe91b504f31b258fcf69ff722514b4"
+        },
+        {
+          "path": "S5/selected-load-check.json",
+          "sha256": "872aa34727da22b8f137b4b26eaceb81301f6ab3e49cdd52070ec65d36229f2d"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "status": "not_triggered",
+      "reason": "no matched dynamic reference, retain144",
+      "evidence": [
+        {
+          "path": "S4/space-entry-decision.json",
+          "sha256": "1b51f2da1392092cc1d340890b4e4020396f98772a74cbc9eda391d86e325d68"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "status": "limited",
+      "reason": "entry contracts only, production extensions not executed",
+      "evidence": [
+        {
+          "path": "S4/next-entry-decisions.json",
+          "sha256": "fe68edd16b615fa02ce65b354526ec96c4355270128e2a1c0f2221034be50f9c"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S5/test-report.json",
+          "sha256": "bd9fa2b1e6f013219ce2fb4ae098241602b5f926e36a5453a0a76a6f7bea60e6"
+        },
+        {
+          "path": "S5/load-check.json",
+          "sha256": "66ea1964a65ef204a0c019a91d5122ec15c93747f32c78d45a7e9e9b84d8df53"
+        },
+        {
+          "path": "S5/daily-load-check.json",
+          "sha256": "1a19367ada14128807383240bc371dfaae07e91f62f365e9010dade1a7d4cb02"
+        },
+        {
+          "path": "S5/physical-ledger-audit.json",
+          "sha256": "53d1f92ad97dda7872fd9642f4e2cbb5668f8fe28ed354f4e0268c3f1f0fcc82"
+        },
+        {
+          "path": "S5/attempt-accounting.json",
+          "sha256": "10a76216631a40365fca4cc19ecb4926be0d0a1c1c2fffddb34029acbd0fe9bd"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "S5/visual-assets-check.json",
+          "sha256": "5f81918a77180a3a1b1379d8fb0d35412319e3e842373c4d6e1c3164c83acb20"
+        },
+        {
+          "path": "S5/visual-review.json",
+          "sha256": "a9af934acb3b9e6185070b2806e87cd1730a8f2c50bbd2f8f6db1661c4ea7239"
+        },
+        {
+          "path": "S5/cli-http-check.json",
+          "sha256": "a5f63ceed4202595fe33599e67b47fc9f72bc3cf26f808139d19a64fe8ecc347"
+        },
+        {
+          "path": "S5/visualization-origin.json",
+          "sha256": "967af6b24d08212d815517e61347b6ad154bee87f5233bd3ad7775838f2d7fdc"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "status": "passed_scoped",
+      "reason": "registered scope verified",
+      "evidence": [
+        {
+          "path": "capability-matrix.json",
+          "sha256": "ca97ddd256e03df316dd8eb0e6cdd2eee32b476d9b471528ef39580d9a3522c0"
+        },
+        {
+          "path": "documentation.json",
+          "sha256": "c9aa32f87953e32179f449355e0b143d680b68e9ff64c13dd22cf56f79f1dffe"
+        },
+        {
+          "path": "S5/numerical-source-audit.json",
+          "sha256": "ff4b0e3e3f2e3ee1427021485b1a3b7a1139f4b000334827acb47a8826daf755"
+        },
+        {
+          "path": "S5/final-resources.json",
+          "sha256": "9d43bdf6f5daf04394a5534443a6ee9194542f30f1701a5ab18b05c2cf75f93b"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_accuracy_goals_passed": false,
+  "sequential": true
+}

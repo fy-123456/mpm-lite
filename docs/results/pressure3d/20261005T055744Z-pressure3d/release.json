@@ -1,0 +1,58 @@
+{
+  "schema": "pressure3d-practical-v1",
+  "utc": "2026-10-05T06:40:39.218793+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/continuous-geometry/20261005T045737Z-continuous-geometry",
+  "application_parent_release_sha256": "a1780d7a4b5df88430f931b3119c3e0a070d27efc464d29da1744bf416d7c9fe",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "8721c7a03f2ae3748408deadd1b4c565fc9da57a2320c522c9409c5d0fdd4826",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "88e842154f7a00f9bf589b76368674153cff0ab600cb16ca43d0db73b8f7f3d8",
+    "count": 31
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "285f18217d4dce149bf1923373f0c197820962c6e601bb9a1e335a0f90d54fca",
+    "count": 660
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "af5494496146345587069ce3ec1569cb60c99c42751f18146878c94217e8291a"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "35683b66cea09465c6ac1eb00a9106424ee5c021327aa67033d87f3ec785a44d"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "5ddcd925c840a679ec65fba028a9d475eedd32b1eca340806da657f1180c49f5"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "new_display_frames": 6,
+  "inherited_display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited pure-solid q5; coupled fullq7",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "engineering_spatial_consistency": true,
+  "engineering_window_s": [
+    0.0,
+    7.5e-05
+  ],
+  "selected_geometry": "D3, research scope only"
+}

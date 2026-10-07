@@ -1,0 +1,59 @@
+{
+  "schema": "local-span-practical-v1",
+  "utc": "2026-10-01T14:12:15.709533+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/basis-allocation/20261001T120146Z-basis-allocation",
+  "application_parent_release_sha256": "8527c4c932795037791856384af82bebd7fefd04d244fe366c3a47383ba4726e",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "6b86b0d1d50304784090684d82799d54eac2c77cbf1dfd2d550c38ac94620f60",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "f7f85a4dec264682f484853cb674b24f53b78ad219c5769b2a5dc48ba158d5ad",
+    "count": 26
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "8bdb8344954297242b0574b0895ad7fca2f8bae807ca24b9d92b8d23abcc5760",
+    "count": 3043
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "24b5a5c3272ee7616211d6503f9e23bd2a61b06c3c391321cfaea14b31c8ad03"
+  },
+  "window_qualification": {
+    "path": "S3/window-0-release.json",
+    "sha256": "46f348e237dda52f70c0565737f25daa338ca9cf3720863883b45751f5da3fb9"
+  },
+  "adjacent_window_qualification": {
+    "path": "S3/window-1-release.json",
+    "sha256": "637518b3790ab7b6727cd0770288f5cfa56271a97136b27f76b6063713224d00"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "fd048ee81a7baa9ccd10bf3da08c4acd9c309d534f41fb0f937e86acdfa9a5e0"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "db01053880f63e7ff26d63b67b6464d7b691f94d22beb379ab739acf1fce9803"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "1a55cc66714c90f55e101aeb2a3d006460c11301ecf26aeb627299a9f40db3c2"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "5525b2f04d32e7721f74a87e25c415971d26c69b01e9f75ad4a67840e2cc1592"
+  },
+  "case_identity_sha256": "edff543c81e29f068a1de8912b7ece53beb59f0f92e8baab6cfcea28f7b3eb20",
+  "case_protocol_sha256": "cc2b54c143efc90bdca81f88c40a5b13f0cdd8af919b5d2be64247a1fe1014c1",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": "two-cell full-tensor RT0 four-step fixture; not general production coupling"
+}

@@ -1,0 +1,20 @@
+{
+  "formal144_static_mass": true,
+  "formal144_dynamic": false,
+  "gate_A": false,
+  "gate_B_small_model": true,
+  "gate_B_formal": false,
+  "gate_C": false,
+  "gate_D": false,
+  "bounded_continuous_reserve_history": true,
+  "material_only_retry": true,
+  "pressure_mass_geometry_unchanged": true,
+  "particle_free_frozen_retry": true,
+  "eulerian_lite_integration": false,
+  "gpu_tested_this_round": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "general_direction_distributions": false,
+  "paper_complete": false,
+  "production_default_replaced": false
+}

@@ -1,0 +1,329 @@
+{
+  "count": 29,
+  "steps": [
+    {
+      "step": "P0.1",
+      "title": "开工时重新核对最新有效发布。",
+      "status": "passed_scoped",
+      "evidence": [
+        "P0/version-audit.json",
+        "P0/compatibility.json",
+        "P0/resources.json"
+      ]
+    },
+    {
+      "step": "P0.2",
+      "title": "建立新来源适配器和最小兼容入口。",
+      "status": "passed_scoped",
+      "evidence": [
+        "P0/version-audit.json",
+        "P0/compatibility.json",
+        "P0/resources.json"
+      ]
+    },
+    {
+      "step": "P0.3",
+      "title": "登记资源、预算及异常处理。",
+      "status": "passed_scoped",
+      "evidence": [
+        "P0/version-audit.json",
+        "P0/compatibility.json",
+        "P0/resources.json"
+      ]
+    },
+    {
+      "step": "P1.1",
+      "title": "拆分当前默认入口的耗时和内存。",
+      "status": "adopted_equivalent_cost_changes",
+      "evidence": [
+        "P1/performance-decision.json",
+        "P1/compact-representation.json",
+        "P1/operator-equivalence.json",
+        "P1/transaction-check.json"
+      ]
+    },
+    {
+      "step": "P1.2",
+      "title": "优先消除同进程重复载入和重复只读构建。",
+      "status": "adopted_equivalent_cost_changes",
+      "evidence": [
+        "P1/performance-decision.json",
+        "P1/compact-representation.json",
+        "P1/operator-equivalence.json",
+        "P1/transaction-check.json"
+      ]
+    },
+    {
+      "step": "P1.3",
+      "title": "仅在热点仍存在时研究等价紧凑表示。",
+      "status": "adopted_equivalent_cost_changes",
+      "evidence": [
+        "P1/performance-decision.json",
+        "P1/compact-representation.json",
+        "P1/operator-equivalence.json",
+        "P1/transaction-check.json"
+      ]
+    },
+    {
+      "step": "P1.4",
+      "title": "在同一物理输入下验证实现与事务。",
+      "status": "adopted_equivalent_cost_changes",
+      "evidence": [
+        "P1/performance-decision.json",
+        "P1/compact-representation.json",
+        "P1/operator-equivalence.json",
+        "P1/transaction-check.json"
+      ]
+    },
+    {
+      "step": "P1.5",
+      "title": "按实际收益选择默认实现。",
+      "status": "adopted_equivalent_cost_changes",
+      "evidence": [
+        "P1/performance-decision.json",
+        "P1/compact-representation.json",
+        "P1/operator-equivalence.json",
+        "P1/transaction-check.json"
+      ]
+    },
+    {
+      "step": "P2.1",
+      "title": "复用已有轨迹，先定位未通过的物理量。",
+      "status": "retained_dt_accuracy_uncertified",
+      "evidence": [
+        "P2/reuse-audit.json",
+        "P2/phase-cause-analysis.json",
+        "P2/time-decision.json"
+      ]
+    },
+    {
+      "step": "P2.2",
+      "title": "用有限诊断区分相位、激励与求解影响。",
+      "status": "retained_dt_accuracy_uncertified",
+      "evidence": [
+        "P2/reuse-audit.json",
+        "P2/phase-cause-analysis.json",
+        "P2/time-decision.json"
+      ]
+    },
+    {
+      "step": "P2.3",
+      "title": "最多验证一个新的显式时间表。",
+      "status": "retained_dt_accuracy_uncertified",
+      "evidence": [
+        "P2/reuse-audit.json",
+        "P2/phase-cause-analysis.json",
+        "P2/time-decision.json"
+      ]
+    },
+    {
+      "step": "P2.4",
+      "title": "冻结临时时间方案并保留精度边界。",
+      "status": "retained_dt_accuracy_uncertified",
+      "evidence": [
+        "P2/reuse-audit.json",
+        "P2/phase-cause-analysis.json",
+        "P2/time-decision.json"
+      ]
+    },
+    {
+      "step": "P3.1",
+      "title": "先判断参考能否分辨本轮预期收益。",
+      "status": "reference_improved_candidates_not_promoted",
+      "evidence": [
+        "P3/R4/result.json",
+        "P3/reference-decision.json",
+        "P3/space-decision.json",
+        "P3/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "P3.2",
+      "title": "预登记至多两个候选和一个真正保留的工况。",
+      "status": "reference_improved_candidates_not_promoted",
+      "evidence": [
+        "P3/R4/result.json",
+        "P3/reference-decision.json",
+        "P3/space-decision.json",
+        "P3/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "P3.3",
+      "title": "核对完整算子后求主状态。",
+      "status": "reference_improved_candidates_not_promoted",
+      "evidence": [
+        "P3/R4/result.json",
+        "P3/reference-decision.json",
+        "P3/space-decision.json",
+        "P3/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "P3.4",
+      "title": "用参考可分辨的改善决定空间晋级。",
+      "status": "reference_improved_candidates_not_promoted",
+      "evidence": [
+        "P3/R4/result.json",
+        "P3/reference-decision.json",
+        "P3/space-decision.json",
+        "P3/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "P3.5",
+      "title": "空间变化后闭合时间与性能依赖。",
+      "status": "inherited_no_physical_space_change",
+      "evidence": [
+        "P3/R4/result.json",
+        "P3/reference-decision.json",
+        "P3/space-decision.json",
+        "P3/dynamic-qualification.json"
+      ]
+    },
+    {
+      "step": "P4.1",
+      "title": "复核已定位的半离散过冲，建立独立判据。",
+      "status": "passed_limited_pressure_fixture",
+      "evidence": [
+        "P4/monotonicity-and-time.json",
+        "P4/coupling-decision.json",
+        "P4/publication-check.json",
+        "P4/rollback-check.json"
+      ]
+    },
+    {
+      "step": "P4.2",
+      "title": "比较有限的压力分辨率与一种相容离散。",
+      "status": "passed_limited_pressure_fixture",
+      "evidence": [
+        "P4/monotonicity-and-time.json",
+        "P4/coupling-decision.json",
+        "P4/publication-check.json",
+        "P4/rollback-check.json"
+      ]
+    },
+    {
+      "step": "P4.3",
+      "title": "分别验收空间单调性和时间推进。",
+      "status": "passed_limited_pressure_fixture",
+      "evidence": [
+        "P4/monotonicity-and-time.json",
+        "P4/coupling-decision.json",
+        "P4/publication-check.json",
+        "P4/rollback-check.json"
+      ]
+    },
+    {
+      "step": "P4.4",
+      "title": "在最终固体空间恢复四步耦合验证。",
+      "status": "passed_limited_pressure_fixture",
+      "evidence": [
+        "P4/monotonicity-and-time.json",
+        "P4/coupling-decision.json",
+        "P4/publication-check.json",
+        "P4/rollback-check.json"
+      ]
+    },
+    {
+      "step": "P4.5",
+      "title": "验证完整事务并决定耦合能力。",
+      "status": "passed_limited_pressure_fixture",
+      "evidence": [
+        "P4/monotonicity-and-time.json",
+        "P4/coupling-decision.json",
+        "P4/publication-check.json",
+        "P4/rollback-check.json"
+      ]
+    },
+    {
+      "step": "P5.1",
+      "title": "冻结最终配置并判定哪些证据可继承。",
+      "status": "main_qualified_sensitive_window_only",
+      "evidence": [
+        "P5/qualification-final.json",
+        "P5/qualification-scope.json",
+        "P5/retry-restart.json",
+        "P5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "P5.2",
+      "title": "先确认充分规则，再确认 q5。",
+      "status": "main_qualified_sensitive_window_only",
+      "evidence": [
+        "P5/qualification-final.json",
+        "P5/qualification-scope.json",
+        "P5/retry-restart.json",
+        "P5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "P5.3",
+      "title": "完善范围拒绝与固定规则回退。",
+      "status": "main_qualified_sensitive_window_only",
+      "evidence": [
+        "P5/qualification-final.json",
+        "P5/qualification-scope.json",
+        "P5/retry-restart.json",
+        "P5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "P5.4",
+      "title": "只扩展一个有实际需求的敏感范围。",
+      "status": "main_qualified_sensitive_window_only",
+      "evidence": [
+        "P5/qualification-final.json",
+        "P5/qualification-scope.json",
+        "P5/retry-restart.json",
+        "P5/sensitive-scope.json"
+      ]
+    },
+    {
+      "step": "P6.1",
+      "title": "冻结最终数值代码并运行针对性回归。",
+      "status": "passed_final_source",
+      "evidence": [
+        "P6/final-tests-result.json",
+        "P6/final-scene.json",
+        "P6/physical-review.json",
+        "P6/cache-retry-check.json",
+        "P6/coupled-restart-check.json"
+      ]
+    },
+    {
+      "step": "P6.2",
+      "title": "只做最终必要的完整场景与图像检查。",
+      "status": "passed_final_source",
+      "evidence": [
+        "P6/final-tests-result.json",
+        "P6/final-scene.json",
+        "P6/physical-review.json",
+        "P6/cache-retry-check.json",
+        "P6/coupled-restart-check.json"
+      ]
+    },
+    {
+      "step": "P6.3",
+      "title": "更新文档、能力表和正式发布索引。",
+      "status": "passed_final_source",
+      "evidence": [
+        "P6/final-tests-result.json",
+        "P6/final-scene.json",
+        "P6/physical-review.json",
+        "P6/cache-retry-check.json",
+        "P6/coupled-restart-check.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "55070e37abbf8881c22525abe32b23df65fc031552e53844e31d1b8a1e786bc0",
+  "decisions": [
+    "two measured performance changes, exact arrays and same physical operators",
+    "existing time windows authenticated; proposed segmentation does not pass their existing joint gates",
+    "one R4 reference improves differences; both fixed-budget candidates rejected; new heldout not opened",
+    "new pressure discretization only for zero-transverse x fixture; no general three-dimensional pressure accuracy",
+    ".0075 q5 checked for one actual loaded short window, not a full cycle certificate"
+  ]
+}

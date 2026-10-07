@@ -1,0 +1,67 @@
+{
+  "schema": "restoring-rt0-practical-v1",
+  "utc": "2026-10-04T15:53:53.102182+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/candidate-observable/20261004T133432Z-candidate-observable",
+  "application_parent_release_sha256": "5f5606d48fddb611a1c5c15843cac089f1b15c45e374ddfe43627b4cb6302526",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "2d82da547d214a5884940b72abbd9cd23ba299290ab203e71a4c5836875e13af",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "467d46c813af11ad187104dd7a245bf494993167a44d98588f764583019b635b",
+    "count": 32
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "51e2bf43e84192b8b77aa634f48613a6a9c6700f89076e89e8415cf7c0ffbb7b",
+    "count": 1387
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "8e45424cd7b99d0dce970a4d85a5cc3f439e158739afac1209c1f88631cd3d8c"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "41aef240b112bce74fee46bd68cbd70ace1065b501633cd6de8bedc03f939c1d"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "ce1ae3f2388d4bf727fe6350c066071be64c597ae0dc66ff78e3578c28d6e482"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "display_frames": 12,
+  "new_display_frames": 8,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited parent q5_with_full_retry only",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited",
+    "two_grid_short_window_passed": false,
+    "complete_grids": 2,
+    "time_passed": true,
+    "grid_passed": false,
+    "actual_new_process_restart": true,
+    "checkpoint_reload": true,
+    "actual_observable_coupling": true,
+    "full_coupled_cycle": false,
+    "coupled_q5": false,
+    "production_C_E_integration": false,
+    "physically_calibrated": false,
+    "spatial_refinement_axes": "x only"
+  }
+}

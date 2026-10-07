@@ -1,0 +1,189 @@
+{
+  "label": "dry-compressed",
+  "steps": 1,
+  "dt": 0.025,
+  "coefficient": -0.0009999999999999998,
+  "state_digest": "b6488738906feded0fa74ae240b3d69b7c8373d6aae02a8b1d15d3c44ae824a8",
+  "rule": 5,
+  "minJ": 0.9999691594095768,
+  "max_pressure": 0.0,
+  "jv_calls": 0,
+  "fallbacks": 0,
+  "dry_check": {
+    "q_gap": 1.362703636658357e-10,
+    "velocity_gap": 1.0901629093158435e-08,
+    "time": 0.025,
+    "steps": 1
+  },
+  "peak_rss_bytes": 2340970496,
+  "budget": {
+    "seconds": 132.52612650487572,
+    "counts": {
+      "geometry": 5,
+      "material": 7
+    },
+    "component_seconds": {
+      "geometry": 37.14770513959229,
+      "material": 89.82313755713403
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 5.299171908758581
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.432978764176369,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 12.732186920009553
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.3386167930439115,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 20.07083929143846
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.4898780900985,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 27.57473161071539
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.285794209688902,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 38.86264883540571
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.809182011522353,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 50.67188783735037
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.443345237523317,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 58.11526569351554
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.442886254750192,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 65.55979463271797
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.467231022194028,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 77.02705963607877
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.15146136842668,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 89.18415848352015
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.575801642611623,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 108.95106999762356
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.78764673974365,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 120.74011514522135
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.746020562946796,
+        "success": true
+      }
+    ]
+  },
+  "production": false
+}

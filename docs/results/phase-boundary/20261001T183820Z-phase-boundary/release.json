@@ -1,0 +1,62 @@
+{
+  "schema": "phase-boundary-practical-v1",
+  "utc": "2026-10-01T19:29:09.831760+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/cross-direction/20261001T170848Z-cross-direction",
+  "application_parent_release_sha256": "c538cc62eb44a44476526d46adb0ebbd550f03aff94ee94b5e5c64dd9c21c9f0",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "afc0068e515ceac4ffe8276157aafdb55f33cc8e7e3f476692a9a5266ac12010",
+  "default_case": "daily-q5-retry",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "911cb7693361b0015dd61240494353cffc05e4953d27771c6b88bc3e96d3dfa9",
+    "count": 30
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "f8ec1e3a06a494936014ac7515a3cd35ee6419f70be4a28b4b9c92a80cce47e8",
+    "count": 3926
+  },
+  "qualification": {
+    "path": "S6/qualification-final.json",
+    "sha256": "32f1fe5466eca17f3f73fca8a2f7cae63e95d8aa1661b6d92af3088c85d26cf3"
+  },
+  "scene": {
+    "path": "S6/final-scene.json",
+    "sha256": "9291c285d97bd887d8fb1060a07f8418c19b7014b7c0ddce0300c844deda9357"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "bdfdf68b9e6728c444c23236906fa9ff5450cedb11bfb3eb3e4f4cfc8b762f21"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "39a572cc22348be74a762fa51b309fcda664ebca3ee05f76d2f32e4e5e1b2f9f"
+  },
+  "case_identity_sha256": "c139e7f0702ef992418382314877a5572401163867bc2924250296f34db36311",
+  "case_protocol_sha256": "03adc03c123d0c9ac2f68c7860fab4045d8350346fbd4311a6e11456b910febf",
+  "steps": 252,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited_research_scope",
+    "eligible_coupled": false,
+    "fixed_grid_passed": false,
+    "actual_coupled": false,
+    "pressure_spatial_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false,
+    "pure_solid_default": true,
+    "solid": "885a2870a9908f5fd5a0904173a5c1244695e4b7e5a80bf953ff445fda644a30",
+    "end_s": 7.594308444221303e-06,
+    "old_failure_retained": true
+  }
+}

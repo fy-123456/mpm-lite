@@ -1,0 +1,364 @@
+{
+  "count": 27,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工时再次核对最新发布",
+      "status": "passed_scoped",
+      "scope": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立增量命名空间和兼容入口",
+      "status": "passed_scoped",
+      "scope": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "冻结协议、资源和依赖失效表",
+      "status": "passed_scoped",
+      "scope": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "复用已完成轨迹，建立实际输出对照",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_local_outputs",
+      "evidence": [
+        "S1/output-baseline.json",
+        "S1/observable-importance.json",
+        "S1/local-reference-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "预登记高频事件的物理重要性",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_local_outputs",
+      "evidence": [
+        "S1/output-baseline.json",
+        "S1/observable-importance.json",
+        "S1/local-reference-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "只登记一个有范围限制的时间候选",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_local_outputs",
+      "evidence": [
+        "S1/output-baseline.json",
+        "S1/observable-importance.json",
+        "S1/local-reference-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "用共同初态和连续历史验证该候选",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_local_outputs",
+      "evidence": [
+        "S1/output-baseline.json",
+        "S1/observable-importance.json",
+        "S1/local-reference-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "作出可执行且不过度承诺的时间决定",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_local_outputs",
+      "evidence": [
+        "S1/output-baseline.json",
+        "S1/observable-importance.json",
+        "S1/local-reference-check.json",
+        "S1/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "正确重载已有 R5，而不是重新建设同一个参考",
+      "status": "passed_scoped",
+      "scope": "authenticated_R5_reload_without_new_main_solve",
+      "evidence": [
+        "S2/reference-input-audit.json",
+        "S2/search-correction.json",
+        "S2/direction-check.json",
+        "S2/space-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "预登记唯一 F60 静态变体",
+      "status": "passed_scoped",
+      "scope": "preregistered_F60_true_material_and_direction_read_back",
+      "evidence": [
+        "S2/reference-input-audit.json",
+        "S2/search-correction.json",
+        "S2/direction-check.json",
+        "S2/space-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "完成三次平衡求解并分辨参考误差",
+      "status": "limited",
+      "scope": "limited_F60_formal_stress",
+      "evidence": [
+        "S2/reference-input-audit.json",
+        "S2/search-correction.json",
+        "S2/direction-check.json",
+        "S2/space-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "冻结空间结论和下一轮触发条件",
+      "status": "passed_scoped",
+      "scope": "formal_space_retained_no_F60_qualification",
+      "evidence": [
+        "S2/reference-input-audit.json",
+        "S2/search-correction.json",
+        "S2/direction-check.json",
+        "S2/space-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "用实际松弛时间登记一张新压力时间表",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_pressure",
+      "evidence": [
+        "S3/pressure-time-protocol.json",
+        "S3/fixed-2.json",
+        "S3/two-cell-coupled.json",
+        "S3/rollback-restart.json",
+        "S3/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "先用固定固体检查新时间表",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_pressure",
+      "evidence": [
+        "S3/pressure-time-protocol.json",
+        "S3/fixed-2.json",
+        "S3/two-cell-coupled.json",
+        "S3/rollback-restart.json",
+        "S3/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "再完成两单元耦合与完整事务检查",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_pressure",
+      "evidence": [
+        "S3/pressure-time-protocol.json",
+        "S3/fixed-2.json",
+        "S3/two-cell-coupled.json",
+        "S3/rollback-restart.json",
+        "S3/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "实现明确受限的四单元拓扑适配",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_pressure",
+      "evidence": [
+        "S3/pressure-time-protocol.json",
+        "S3/fixed-2.json",
+        "S3/two-cell-coupled.json",
+        "S3/rollback-restart.json",
+        "S3/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.5",
+      "title": "在相同物理时间比较网格并限制能力声明",
+      "status": "limited",
+      "scope": "grid_sensitive_not_qualified",
+      "evidence": [
+        "S3/pressure-time-protocol.json",
+        "S3/fixed-2.json",
+        "S3/two-cell-coupled.json",
+        "S3/rollback-restart.json",
+        "S3/pressure-scope-decision.json",
+        "S3/common-time-grid-review.json",
+        "S3/grid-trigger-correction.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "对最终拟采用的路径测量成本",
+      "status": "passed_scoped",
+      "scope": "adopt_two_cell_pressure_only",
+      "evidence": [
+        "S4/current-profile.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json",
+        "S4/runtime-check.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "为一个有收益依据的热点设计一个候选",
+      "status": "passed_scoped",
+      "scope": "adopt_two_cell_pressure_only",
+      "evidence": [
+        "S4/current-profile.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json",
+        "S4/runtime-check.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "检查等价性、内存与配对净收益",
+      "status": "passed_scoped",
+      "scope": "adopt_two_cell_pressure_only",
+      "evidence": [
+        "S4/current-profile.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json",
+        "S4/runtime-check.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "区分证据继承与运行许可，冻结数值源码",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_current_certificates",
+      "evidence": [
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "有需要时重发敏感连续窗口资格并验证衔接",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_current_certificates",
+      "evidence": [
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "检查越界拒绝与整步回退",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_current_certificates",
+      "evidence": [
+        "S5/continuous-window-qualification.json",
+        "S5/window-runtime-final.json",
+        "S5/scope-boundaries.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "核对最终冻结状态，运行必要回归",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_final_scene",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/raw-physical-check.json",
+        "S6/physical-review.json",
+        "S6/parent-scene-review.json",
+        "S6/load-check.json",
+        "S6/time-transition-review.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "唯一充分周期与主 q5 资格",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_final_scene",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/raw-physical-check.json",
+        "S6/physical-review.json",
+        "S6/parent-scene-review.json",
+        "S6/load-check.json",
+        "S6/time-transition-review.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "条件执行唯一 q5 周期并检查实际视觉效果",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_final_scene",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/raw-physical-check.json",
+        "S6/physical-review.json",
+        "S6/parent-scene-review.json",
+        "S6/load-check.json",
+        "S6/time-transition-review.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "汇总 27 步状态、完整审计后封存",
+      "status": "passed_scoped",
+      "scope": "passed_scoped_final_scene",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/raw-physical-check.json",
+        "S6/physical-review.json",
+        "S6/parent-scene-review.json",
+        "S6/load-check.json",
+        "S6/time-transition-review.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "371663afd1a1ec79bd7c9c52aa27b26e8b9885c1265049a7bcee969d20b8cec9",
+  "bounded_limits": [
+    "F60 formal stress exceeds engineering budget despite resolved R4/R5 reference; formal space retained",
+    "local 252-step schedule improvement does not certify full-cycle temporal accuracy",
+    "four-cell cumulative boundary volume comparison exceeds grid budget; individually stable diagnostic, no grid qualification",
+    "pressure time scales derived from fixed-solid rest operator; limited aligned 2/4-cell scope, no production coupling",
+    "search-matrix repair changes static solver direction only, never physical model or residual budgets"
+  ]
+}

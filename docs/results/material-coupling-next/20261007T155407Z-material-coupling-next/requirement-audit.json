@@ -1,0 +1,102 @@
+{
+  "P0.1": {
+    "status": "passed-scoped",
+    "scope": "Latest local release re-discovered and audited; no Git claim",
+    "evidence": "S0/version-audit.json"
+  },
+  "P0.2": {
+    "status": "passed-scoped",
+    "scope": "One shared wall/material budget, real attempts logged; RSS measured rather than hard OS reservation",
+    "evidence": "S0/protocol.json"
+  },
+  "P1.1": {
+    "status": "passed-scoped",
+    "scope": "Three frozen nonzero states; inherited zero-state evidence; q7 is integration reference, not spatial truth",
+    "evidence": "S1/material-screen.json"
+  },
+  "P1.2": {
+    "status": "passed-scoped",
+    "scope": "Disjoint slab/regional constant and centered-linear moments; one random nonaxial tangent per state; loading/local-sensitive tangent set remains incomplete",
+    "evidence": "S1/material-screen.json"
+  },
+  "P1.3": {
+    "status": "passed-scoped",
+    "scope": "Three-state q5 plus guarded four-step and matched q7 step; ~4.5% first-step cost difference is one sample, no production acceleration claim",
+    "evidence": "S7/assessment.json"
+  },
+  "P2.1": {
+    "status": "passed-scoped",
+    "scope": "Unified transactional entry full/compressed; seven tests; actual alpha0 single step compared with same-time DryMidpoint",
+    "evidence": "S7/test-report.json"
+  },
+  "P2.2": {
+    "status": "passed-scoped",
+    "scope": "Actual q2 preflight rejection at local state then full q7 step; no actual post-trial endpoint rejection",
+    "evidence": "S2/retry-summary.json"
+  },
+  "P2.3": {
+    "status": "passed-scoped",
+    "scope": "Physical rollback and synthetic reserve failure/rule ledger; fresh restore to be reported; restored next-step residual not yet independently recomputed",
+    "evidence": "S7/test-report.json"
+  },
+  "P3.1": {
+    "status": "passed-scoped",
+    "scope": "Constant SPD H and positive capacity via modulus, residual/Jv/preconditioner/flux/dissipation/identity; zero external pressure only",
+    "evidence": "S7/test-report.json"
+  },
+  "P3.2": {
+    "status": "passed-scoped",
+    "scope": "Two pre-registered linear candidates, both below 1% screening target; selected slower, no parameter tuning",
+    "evidence": "S3/selection.json"
+  },
+  "P3.3": {
+    "status": "passed-scoped",
+    "scope": "Four-step closed q5/q7-guarded scene and matched controls stable; two-half-step impulse changes 2.914%, pressure 3.654%, probe displacement L2 7.658%; temporal accuracy and strong mechanical certification withheld",
+    "evidence": "S4/closed-compressed/summary.json"
+  },
+  "P4.1": {
+    "status": "deferred",
+    "scope": "All natural short physical steps have zero Jv; no strong nonlinear iteration qualification and no artificial expensive search",
+    "evidence": "S7/assessment.json"
+  },
+  "P4.2": {
+    "status": "passed-scoped",
+    "scope": "Free residual diagnostic passes without tolerance changes; bounded operator/solver reuse; material/geometry dominant, no speculative tangent optimization",
+    "evidence": "S7/assessment.json"
+  },
+  "P5.1": {
+    "status": "deferred",
+    "scope": "Production APIC/material-state ownership, projection energy and cross-cell contract unresolved; safe independent CPU retained",
+    "evidence": null
+  },
+  "P5.2": {
+    "status": "deferred",
+    "scope": "Depends on production ownership contract P5.1; no GPU or production replacement",
+    "evidence": null
+  },
+  "P6.1": {
+    "status": "deferred",
+    "scope": "Independent local h/p reference preserving original stabilization and pressure-volume meaning needs separate batch",
+    "evidence": null
+  },
+  "P6.2": {
+    "status": "deferred",
+    "scope": "Single45deg model only; A2/A4 sufficiency and nonuniform direction/history in unified coupling unqualified",
+    "evidence": null
+  },
+  "P6.3": {
+    "status": "deferred",
+    "scope": "Reference and generalized material qualifications absent; keep formal 144-space unchanged",
+    "evidence": null
+  },
+  "P7.1": {
+    "status": "deferred",
+    "scope": "Only bounded query/state evidence; actual three particle-count solve benchmark depends on production interface",
+    "evidence": null
+  },
+  "P7.2": {
+    "status": "passed-scoped",
+    "scope": "Final snapshot, result hashes, seven tests, fresh-process checkpoint/fields and viewer prepared; publication command enforces ancestry and seals, followed by read-only audit",
+    "evidence": "release.json"
+  }
+}

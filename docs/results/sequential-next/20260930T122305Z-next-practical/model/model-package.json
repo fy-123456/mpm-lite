@@ -1,0 +1,71 @@
+{
+  "schema": "sequential-next-common-model-v1",
+  "utc": "2026-09-30T13:01:51.713131+00:00",
+  "selected_space": "original144",
+  "parent_bundle_sha256": "55682a7b8e90b62c1306818cdf9c1f060b4286a174da069ce2217aa5b53b3c7c",
+  "parent_space_sha256": "7422b2b099127bebe9c144ea6cac94409bde861aadb94693b7fc650b397c0332",
+  "baseline_sha256": "d347abe0e92dc1a64f93a1ff7c762719e1c41acc004d187842e975730b07fdca",
+  "reduction_sha256": "a6ad71158e4b05d18de72857edfcb5b6f2e2bb16983740b01a53dfcb10d65393",
+  "files": {
+    "coordinates.npz": "41b61f3dbafbc62d78c62c8dcc96027e30b4599a4cecd9a426d78835fe284422"
+  },
+  "effective_protocol_path": "cases/gpu-q7-dt0025/execution-protocol.json",
+  "effective_protocol_sha256": "8f9d7966ea7b5d69a7e979092a7fb233f2810dae857782d7b62ad2339990fcaf",
+  "validating_source_sha256": {
+    "engine/aniso_phase1/research_sequential_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/aniso_phase1/research_sequential_next/integrator.py": "e17a6e88bca702979a78675bf449f351204c553233227d324ef61457c189e224",
+    "engine/aniso_phase1/research_sequential_next/model.py": "4b8c3467b361ff57de96bb0f704568fab29dd2ce81eaa71d2147834906de3397",
+    "engine/aniso_phase1/research_sequential_next/reference_space.py": "1b48bb30a34c313cc5f350ee6928e611dd6a77010fa7d8e05f51b6c1beb281b8",
+    "benchmarks/research_sequential_next/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "benchmarks/research_sequential_next/checkpoint.py": "7abc4e1dc198b94164efa18141e317d78330147d8a4dd75b1970f5daf9cbe523",
+    "benchmarks/research_sequential_next/compare.py": "6c5f1a8ac136fe2b742242690763093b7d2b5e1c30604cbb2370278a93ef78d3",
+    "benchmarks/research_sequential_next/config.py": "f26e44940bf5a93f3a9469f80c699be0bbbd8c47ec2ba0c71727e3aef82b5e19",
+    "benchmarks/research_sequential_next/diagnostics.py": "daa74c3707247ee038c47142128adc0093862723504410eaeb4a401cff2f4d45",
+    "benchmarks/research_sequential_next/model_package.py": "a6ad21e75b29461f7d86c855555862e91ef39985ddb8cc9c373eb2c886fa4008",
+    "benchmarks/research_sequential_next/provenance.py": "fdaf9e02184f1cb10a0dee2804dca6473621b127e101045485451c50f23543c9",
+    "benchmarks/research_sequential_next/run.py": "106e846cfa3968877a45f9f166ea35ec3d16f53fec1ed49b3103ebae688a4d21",
+    "benchmarks/research_sequential_next/spatial.py": "8b4452fbd69af64cbc47d4f3ac3c1e746902daf821a643e08474450722bc4cd9",
+    "benchmarks/research_sequential_next/time_study.py": "4e647e60a2175ea2f365a9569c7cc050620c5186cdacf08345a49bdd8e758f34"
+  },
+  "q_shape": [
+    366,
+    3
+  ],
+  "full_shape": [
+    369,
+    3
+  ],
+  "free_shape": [
+    216,
+    3
+  ],
+  "displacement": "q_full=P@w+offset",
+  "velocity": "v_full=P@wdot",
+  "force": "P.T @ positive potential gradient",
+  "tangent": "P.T @ H @ P; quadrature weights applied once",
+  "mass": "original complete M5 projected by P; all cross terms",
+  "probes": {
+    "shape": [
+      33,
+      7,
+      7
+    ],
+    "order": "Cartesian C order, xyz last",
+    "stress": "PK1, Pa"
+  },
+  "units": {
+    "length": "m",
+    "time": "s",
+    "stress": "Pa",
+    "energy": "J"
+  },
+  "capabilities": {
+    "scene_stable": true,
+    "material_bounded": true,
+    "CPU_GPU_static": true,
+    "temporal_accuracy": false,
+    "spatial_accuracy": false,
+    "physical_3D_poroelasticity": false
+  },
+  "source_policy": "This package binds mathematics and its validation lineage. Every numerical case separately binds its actual code and solver protocol."
+}

@@ -1,0 +1,16 @@
+{
+  "selected": "cross-direction-snapshot6",
+  "package": {
+    "path": "/root/autodl-tmp/mpm-lite-cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/space-package.json",
+    "sha256": "885a2870a9908f5fd5a0904173a5c1244695e4b7e5a80bf953ff445fda644a30",
+    "cache": {
+      "path": "/root/autodl-tmp/mpm-lite-cross-direction/20261001T170848Z-cross-direction/S1/candidates/cross-direction-snapshot6/uncompressed-space-cache/cache.json",
+      "sha256": "61e514d540888b16a3e25edc6dff566dd31d26bfbebb119e03840ea58bc47111"
+    }
+  },
+  "mass_order": 7,
+  "full_order": 7,
+  "spatial_accuracy": false,
+  "status": "qualified_final_scene",
+  "scope": "F45/F60 training, reserved52.5 static, eight-step smoke and one complete F45 q7/q5 cycle; no uniform space/time accuracy certificate"
+}

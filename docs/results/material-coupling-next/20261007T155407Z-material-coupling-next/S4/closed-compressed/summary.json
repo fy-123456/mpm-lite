@@ -1,0 +1,470 @@
+{
+  "label": "closed-compressed",
+  "steps": 4,
+  "dt": 0.025,
+  "coefficient": -0.0009999999999999998,
+  "state_digest": "3909b82c13bf720d94cbc0ac73d3c5e7ccb9d297e305bb51f0c6b83771ace2f9",
+  "rule": 5,
+  "minJ": 0.9998487926908974,
+  "max_pressure": 0.00014315238850255688,
+  "jv_calls": 0,
+  "fallbacks": 0,
+  "dry_check": null,
+  "peak_rss_bytes": 2345140224,
+  "budget": {
+    "seconds": 372.1139178937301,
+    "counts": {
+      "geometry": 17,
+      "material": 17
+    },
+    "component_seconds": {
+      "geometry": 132.3280096007511,
+      "material": 233.70240946672857
+    },
+    "events": [
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 5.315703423693776
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.765475873835385,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 13.08121633529663
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.846164780668914,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 20.927420075051486
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 8.119723908603191,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 29.061586586758494
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.035976209677756,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 41.10018466040492
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.543795260600746,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 53.644036683253944
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 8.239339856430888,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 61.88342694286257
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 8.367219539359212,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 70.25279586017132
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.58027003891766,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 81.8330944981426
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.993707489222288,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 93.83068977389485
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.753388700075448,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 113.74729075655341
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.7246441300958395,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 121.47196313273162
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.601997689343989,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 129.08731633611023
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.867022156715393,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 140.95640435628593
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 12.004102233797312,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 152.96055969502777
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.715688946656883,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 160.67627513129264
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.58997658174485,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 168.26790526509285
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.844109847210348,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 180.11643259134144
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.60078766103834,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 199.8830366358161
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.644606555812061,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 207.52767672296613
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.591827386058867,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 215.1328168772161
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.878445473499596,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 227.0133251491934
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.958803977817297,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 238.9721799902618
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.708461267873645,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 246.68067497666925
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.606514119543135,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 254.28884702455252
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.92325162794441,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 266.2139587625861
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.58078169822693,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 285.9604159826413
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.867131660692394,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 293.8275820380077
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.6269082725048065,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 301.4679923420772
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.895486362278461,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 313.36552578397095
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.903161646798253,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 325.2687359265983
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.679687441326678,
+        "success": true
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "begin",
+        "at": 332.9484572811052
+      },
+      {
+        "kind": "geometry",
+        "label": "response",
+        "event": "end",
+        "seconds": 7.632641590200365,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "begin",
+        "at": 340.58274152874947
+      },
+      {
+        "kind": "material",
+        "label": "q5:response",
+        "event": "end",
+        "seconds": 11.869596675038338,
+        "success": true
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "begin",
+        "at": 352.4542327988893
+      },
+      {
+        "kind": "material",
+        "label": "q7:response",
+        "event": "end",
+        "seconds": 19.469722407869995,
+        "success": true
+      }
+    ]
+  },
+  "production": false
+}

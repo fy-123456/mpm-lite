@@ -1,0 +1,61 @@
+{
+  "schema": "candidate-observable-practical-v1",
+  "utc": "2026-10-04T14:34:49.198448+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+  "application_parent_release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "b243d38c9eec4647d229abe63495461e47a7db643150d286064100a8ee675a6d",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "5401c6062d4ec49e4f46c917eeb1746cc16b45651c29b715eddeef9d012fbfac",
+    "count": 30
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "43b6b1189b734a6cc001f365709e699c68a18288e53912a08556ce089ba2558e",
+    "count": 1847
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "c13c72f313bec8e0bac01481ce7198ba7f0a05b0fb7ff33f210976e0caf030d8"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "3961f8bc45dd044e3ee71234d2d4a201b6ba4aee8b1824873b5a91a5866de083"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "af160b7d8e353c7228f870cbeb1e79df71c652fb2b941dba08689cac7ebca7a7"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited parent q5_with_full_retry only",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": {
+    "status": "limited",
+    "actual_observable_coupling": true,
+    "complete_grids": 1,
+    "full_coupled_cycle": false,
+    "coupled_q5": false,
+    "production_C_E_integration": false,
+    "formal_default_changed": false,
+    "physically_calibrated": false
+  }
+}

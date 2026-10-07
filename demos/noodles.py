@@ -10,7 +10,8 @@ from utils.sampling_utils import *
 from engine.solver3d import MPMSolver
 from engine.types import *
 from argparse import ArgumentParser
-import imageio, trimesh
+import trimesh
+from utils.viser_utils import ParticleViewer
 
 parser = ArgumentParser()
 parser.add_argument('--device', type=str, default='cuda')
@@ -20,7 +21,11 @@ parser.add_argument('--dx', type=float, default=0.008)
 parser.add_argument('--v_tol', type=float, default=1e-4)
 parser.add_argument('--max_iters', type=int, default=50)
 parser.add_argument('--out', type=str, default='output/noodles')
-parser.add_argument('--gui', default=False, action='store_true')
+parser.add_argument('--gui', default=False, action='store_true',
+                    help='deprecated; browser visualization is always enabled')
+parser.add_argument('--viser-host', type=str, default='127.0.0.1')
+parser.add_argument('--viser-port', type=int, default=8080)
+parser.add_argument('--viser-max-points', type=int, default=250000)
 parser.add_argument('--grid_size', type=int, default=355)
 parser.add_argument('--dim', type=int, default=3)
 parser.add_argument('--ppc', type=float, default=16)
@@ -170,29 +175,13 @@ def simulate():
 last_time = time.time()
 ui_frame_cnt = 0
 
-canvas = None
-from vispy import app
-app.use_app('glfw' if args.gui else 'egl')
-from vispy import scene
-w = 512
-h = 512
-canvas = scene.SceneCanvas(
-    title="3D MPM",
-    keys='interactive', show=args.gui, bgcolor=BG, size=(w, h))
-view = canvas.central_widget.add_view()
-view.camera = scene.cameras.TurntableCamera(
-    fov=45,
-    azimuth=0,
-    elevation=0,
-    distance=2.2,
-    center=(0.5,0.5,0.5)
+viewer = ParticleViewer(
+    host=args.viser_host,
+    port=args.viser_port,
+    max_points=args.viser_max_points,
+    point_size=0.005,
+    title="MPM Lite · Noodles",
 )
-scatter = scene.visuals.Markers(
-    antialias=0.0,
-    scaling=True,
-    spherical=True,
-)
-view.add(scatter)
 
 last_eqframe = -1
 
@@ -208,23 +197,8 @@ while True:
     last_time = now
 
     if solver.sim_steps % 10 == 0:
-        if canvas and solver.n_ptc > 0:
-            pts = solver.get_points()
-            scatter.set_data(
-                pos=pts,
-                size=0.005,
-                face_color=solver.ptc_color,
-                edge_color=solver.ptc_color,
-                edge_width=0,
-            )
-
-        if canvas and app:
-            canvas.update()
-            app.process_events()
-
-        out_path = os.path.join(OUTPUT_DIR, f"{cnt:05d}.png")
-        img = canvas.render()
-        imageio.imwrite(out_path, img)
+        if solver.n_ptc > 0:
+            viewer.update(solver.get_points(), solver.ptc_color, step=solver.sim_steps)
 
         cnt += 1
 

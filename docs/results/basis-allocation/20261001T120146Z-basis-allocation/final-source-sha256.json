@@ -1,0 +1,20 @@
+{
+  "benchmarks/research_basis_allocation_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+  "benchmarks/research_basis_allocation_next/provenance.py": "a086c57aacb4344c16312dc7283cb4274a4cb74ac67544d12468ea8bf90c2253",
+  "benchmarks/research_basis_allocation_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+  "benchmarks/research_basis_allocation_next/config.py": "02489a6d173430443f8269e5ed1e9ab1a8987807546c6af0d85fdf854cf70cee",
+  "benchmarks/research_basis_allocation_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+  "benchmarks/research_basis_allocation_next/run.py": "ce8af0783e7da88c61f05ec0b7798c07969401883aadb741877fba2bbef25940",
+  "benchmarks/research_basis_allocation_next/visualize.py": "663311c9aba0079cd1dd45ae83b5af574cb25bb14b752c3d5e9f7eae1b5c2212",
+  "benchmarks/research_basis_allocation_next/performance_study.py": "4385c83a787cd3251ebe7ac1c7c6237d7152d5a5bd1f50b75c021232ce1a7241",
+  "benchmarks/research_basis_allocation_next/time_study.py": "27e2416aeb9be1304c1345fda584efeba6dfedfd032207a13c557aec467b6bfa",
+  "benchmarks/research_basis_allocation_next/spatial_study.py": "09a431776a60afcfefb4161f3e736d6c071db3ca3eb58596be0d32c6cdd19d2c",
+  "benchmarks/research_basis_allocation_next/coupling_study.py": "b47cf79b26bb2ceeae4da64f873f92789b234a2ccba9ff220a991210c11ea6a4",
+  "benchmarks/research_basis_allocation_next/rule_study.py": "24ddcb0d589365efe9cd063d114af064a0dee7f3931075b3e02b0f37a4aa8de7",
+  "benchmarks/research_basis_allocation_next/finalize.py": "f3fbfbc37e6df089495025a2f24e4d84e72ddba5a6c60b751f0f7942626b1b5f",
+  "benchmarks/research_basis_allocation_next/publication.py": "24e8a0ef2c08a74ed55cd557683e98ee9d36f5fc9fd72290ece7b921cf858254",
+  "engine/aniso_phase1/research_basis_allocation_next/__init__.py": "c133c81a7fce03489ca60654daacb08d38e35b055103c74756b27521567f2b55",
+  "engine/aniso_phase1/research_basis_allocation_next/rules.py": "ce40884e6d2f81a820a9b32ea34ef8bf2d389f327a450bbeef07ac557d81d444",
+  "tests/research_basis_allocation_next/__init__.py": "c133c81a7fce03489ca60654daacb08d38e35b055103c74756b27521567f2b55",
+  "tests/research_basis_allocation_next/test_runtime.py": "0f54daa4fabfd66d896dc59b4a6cce85ccbe10d90ba875795a6f33c03fdf6ca2"
+}

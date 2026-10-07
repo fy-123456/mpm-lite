@@ -1,0 +1,60 @@
+{
+  "schema": "absolute-state-next-scoped-v1",
+  "utc": "2026-10-07T14:34:20.974011+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/constrained-history-next/20261007T131646Z-constrained-history-next",
+  "application_parent_release_sha256": "525a7d77d420347fbc182acd27fee5daba164a823db982e1485b6fc70b368448",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "164092d1d3b83461608b07b3dff02490408bc4469b85c341089d4507d19cce74",
+    "count": 12
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "fc693f1b1f7475c8708f7ed47846b3b1be5f6357033b5182e93da40aee1a6365",
+    "count": 49
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "05c1853a0194d3799de71616afa8f1f041ce6dea9831579c09d3986b97256587"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "edafbfbe9eb4c864a2e7519434a4f9d923ffeaf601bbfbb3d201432a6c2f2224"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "546a8622b0634fdad5eda328a803d9e8d1536e66952740e1a2715c389ac002aa"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU original formal material coordinates with corrected SH query contract; 4-step nonlinear dry midpoint",
+  "research_rule": "full q7 formal material, original constant full mass; no pressure coupling in new branch",
+  "original_kernel_transfer_tested": false,
+  "common_transfer_candidate": true,
+  "bounded_coupled_package": false,
+  "eulerian_lite_integration": false,
+  "formal_space_changed": false,
+  "gate_S_original_material_route": true,
+  "gate_M_original_material_small_window": true,
+  "formal_updated_SH_qualified": false,
+  "formal_pressure_coupling": false,
+  "inherited_small_model_bounded_retry": true,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "particle_decoupling_scope": "fixed-size original material q/v state and dry operator; corrected SH point queries remain point-dependent; prior small-model coupled evidence only inherited",
+  "scope": "original material absolute-state closure plus corrected SH CPU contract and four very small nonlinear dry midpoint steps; no updated C1 adoption, no formal pressure coupling or production replacement",
+  "audit": {
+    "ancestor_releases": 30,
+    "frozen_sources": 1348,
+    "new_sources": 12,
+    "unique_files_verified": 47681
+  }
+}

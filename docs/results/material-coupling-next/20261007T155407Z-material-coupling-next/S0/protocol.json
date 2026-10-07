@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-07T15:54:07.392093+00:00",
+  "first_batch": "P0-P4; P5/P6 prerequisite-gated",
+  "max_steps": 4,
+  "case_seconds": 600,
+  "max_material_calls": 24,
+  "max_newton": 6,
+  "max_krylov": 20,
+  "peak_rss_limit_GiB": 8,
+  "state_seed": 7117,
+  "states": [
+    "inherited final closed q",
+    "mixed: inherited q + free seed 1e-6",
+    "local: local original coefficients seed 1e-5"
+  ],
+  "primary_order": 5,
+  "reference_order": 7,
+  "diagnostic_order": 2,
+  "material_budget": 0.03,
+  "stress_floor_Pa": 1e-05,
+  "force_floor_N": 1e-08,
+  "energy_floor_J": 1e-10,
+  "geometry_order": 9,
+  "mass": "unchanged full original matrix",
+  "mechanical_candidates_dt": [
+    0.01,
+    0.025
+  ],
+  "final_displacement": -1e-05,
+  "steps": 4,
+  "candidate_selection": "linearized matched first-step closed/drained predicted reaction effect >=1%, prefer shorter dt; otherwise report weak",
+  "alpha": 1.0,
+  "storage_modulus": 100.0,
+  "hydraulic_resistance": 1.0,
+  "minJ": 0.1,
+  "online_check": "same-state endpoint q7; initial guard only for prescribed diagnostic retry",
+  "production": false
+}

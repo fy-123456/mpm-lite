@@ -1,0 +1,282 @@
+{
+  "count": 29,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "再次确认最新封存版本",
+      "status": "passed_scoped",
+      "reported_status": "passed",
+      "evidence": [
+        "S0/version-audit.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立真正继承当前版本的新入口",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S0/compatibility.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "冻结协议、三种输入范围及资源账",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S0/protocol.json",
+        "S0/scope-map.json",
+        "S0/storage-migration.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "重载可信参考和真实材料方向",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/reference-audit.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "登记训练目标、保留方向与母空间限制",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/design-protocol.json",
+        "S1/ambient-projection-review.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "在预算内构造最多两个真实新空间",
+      "status": "passed_scoped",
+      "reported_status": "new_span",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/conditioning-review.json",
+        "S1/second-candidate-decision.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "重建完整算子并验收空间物理含义",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/candidates/cross-direction-snapshot6/operator-audit.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "用真实F45/F60平衡筛选候选",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/training-comparison.json"
+      ]
+    },
+    {
+      "step": "S1.6",
+      "title": "一次保留方向验收，禁止看后再调",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/reserved-direction-check.json"
+      ]
+    },
+    {
+      "step": "S1.7",
+      "title": "短动力学检查并暂定最终固体空间",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S1/dynamic-smoke.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "复查父版时间证据和观测量",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S2/baseline-output-review.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "登记唯一延长窗口及正确初态关系",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S2/extension-protocol.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "执行两条有界延续并公平比较",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S2/propagation-comparison.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "冻结时间结论，本轮不更改正式252表",
+      "status": "passed_scoped",
+      "reported_status": "retain_formal_grid",
+      "evidence": [
+        "S2/time-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "复查两／四单元完整物理收支",
+      "status": "limited",
+      "reported_status": "grid_sensitive",
+      "evidence": [
+        "S3/grid-error-audit.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "条件实现八单元拓扑和几何积分",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S3/topology-operator-check.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "先用固定固体分离时间与空间误差",
+      "status": "limited",
+      "reported_status": "grid_sensitive",
+      "evidence": [
+        "S3/fixed-grid-comparison.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "通过固定固体门槛后做四步实际耦合",
+      "status": "not_triggered",
+      "reported_status": "not_triggered",
+      "evidence": [
+        "S3/coupled-grid-check.json",
+        "S3/transaction-check.json"
+      ]
+    },
+    {
+      "step": "S3.5",
+      "title": "冻结压力能力及未通过分支",
+      "status": "limited",
+      "reported_status": "limited_research_scope",
+      "evidence": [
+        "S3/pressure-scope-decision.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "测量当前实际实现的成本",
+      "status": "passed_scoped",
+      "reported_status": "measured",
+      "evidence": [
+        "S4/current-profile.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "预登记一个有收益依据的等价候选",
+      "status": "passed_scoped",
+      "reported_status": "registered_one_candidate",
+      "evidence": [
+        "S4/candidate-decision.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "两个代表状态配对验收并决定采用",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S4/paired-performance.json",
+        "S4/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "冻结实际数学实现及驱动来源",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S5/numeric-lock.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "预登记主q5资格样本，不提前签发",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S5/main-qualification-protocol.json",
+        "S6/qualification-final.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "敏感窗口条件分支与越界保护",
+      "status": "not_triggered",
+      "reported_status": "not_triggered",
+      "evidence": [
+        "S5/window-runtime-final.json",
+        "S5/scope-boundaries.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "必要回归与最终输入核对",
+      "status": "passed_scoped",
+      "reported_status": "passed",
+      "evidence": [
+        "S6/final-tests-result.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "唯一新q7完整周期与主资格",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S6/final-scene.json",
+        "S6/raw-physical-check.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "条件运行一次q5周期并补齐实际故障验收",
+      "status": "passed_scoped",
+      "reported_status": "qualified_main",
+      "evidence": [
+        "S6/material-decision.json",
+        "S5/fault-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "从保存数据验收视觉效果，完整审计后封存",
+      "status": "passed_scoped",
+      "reported_status": "passed_scoped",
+      "evidence": [
+        "S6/physical-review.json",
+        "S6/load-check.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "plan_sha256": "ae0e186ebd299c20c3eeda45635fd6f2995d6e800824ca705fffeeaf7655323d",
+  "sequential": true
+}

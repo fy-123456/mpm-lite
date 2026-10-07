@@ -1,0 +1,22 @@
+{
+  "benchmarks/research_material_coupling_next/__init__.py": "88b70fa254abe9f8a9e0f83c5884c8af5175f961bf0d17b25549ce013bd33529",
+  "benchmarks/research_material_coupling_next/assess.py": "6f6a457a426ec449731c8e88a0452feccfb287762f1eb8c6c85c6d0564d7b8d1",
+  "benchmarks/research_material_coupling_next/common.py": "6a7c5de72c7deae698c80b335c927eade063e7a3dea0d091c7549e741f73f098",
+  "benchmarks/research_material_coupling_next/linear_time_check.py": "85173246a76c09cf85ba705d10b9c90b662ad2b338b9e53ec98920ffc4e566f4",
+  "benchmarks/research_material_coupling_next/publication.py": "fa0326ccabbca1614095da7ff43bca70eaeefd20e20b1240c1f820014f764f58",
+  "benchmarks/research_material_coupling_next/replay.py": "de4b95450f0a4c4e30f22504d4d8b6e12313aa7c0d0508facb6d555edc42c58d",
+  "benchmarks/research_material_coupling_next/retry_check.py": "bc0f25706f4003bc91598a3c59677fcdd57bf61b7dcdaf59c2a851bcc9c06f40",
+  "benchmarks/research_material_coupling_next/run.py": "973c54d235f3f31b39cd17cf56adbbb7563ea506eab0a09661ea1dc5c45312fa",
+  "benchmarks/research_material_coupling_next/screen.py": "13a8ac7ce4449f3fcda66fb6e785b86f6a2fb1a668aa3b21076971ecf9a62ff6",
+  "benchmarks/research_material_coupling_next/select_case.py": "1da67efcd649fd39a4c632aad61952fbffd61a73d15d94f0571f71650719c4a1",
+  "benchmarks/research_material_coupling_next/validation.py": "54ad22056ab2758de14053048ad162c11a4299e5b60fa0142cc77407c33c558b",
+  "benchmarks/research_material_coupling_next/visualize.py": "e74df2ed5e66e31f7d08810dbc84dcbfd78ee0cc7c031d67f76e6a63a7663f8f",
+  "engine/aniso_phase1/research_material_coupling_next/__init__.py": "4cbd2fc1ecb4ad8339bce019ad7dbd4d37f732a599fe8dd23ef5a660d5960a96",
+  "engine/aniso_phase1/research_material_coupling_next/budget.py": "93057ef3c913eb7a4b5f4ddd38763ad468cac563ab7c2974ef22a9473afdfe66",
+  "engine/aniso_phase1/research_material_coupling_next/controller.py": "2b99f819f66a9d386f6419872387b000b76960f3add39d1f4d3f12036b332b6c",
+  "engine/aniso_phase1/research_material_coupling_next/driver.py": "5211430f5a9f385bccd16797b3324a4807e123e3d697a47268ce68bd85ccbecb",
+  "engine/aniso_phase1/research_material_coupling_next/operators.py": "3f1a8893fd8e6551a25b387eac0a4b8156f39120b29828acea571b1ccad51d19",
+  "engine/aniso_phase1/research_material_coupling_next/solver.py": "ca063b4f5b7835e9007747f8009cb52acc25bc3d7a3724a6192b1de8d1509bf2",
+  "tests/research_material_coupling_next/__init__.py": "c803858bc9781a14a88a9268a6e7deddae9f3a18b23772fd7fb2d948caaf7368",
+  "tests/research_material_coupling_next/test_contracts.py": "c78b6582e1a22ed34350564ced58beae3cf136473b5e353843f9aaf657a31527"
+}

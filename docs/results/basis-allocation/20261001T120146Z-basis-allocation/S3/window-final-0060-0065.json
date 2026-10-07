@@ -1,0 +1,80 @@
+{
+  "schema": "basis-allocation-q5-qualification-v1",
+  "utc": "2026-10-01T12:18:31.662240+00:00",
+  "qualified": true,
+  "sufficient_qualified": true,
+  "numerical_source_sha256": {
+    "benchmarks/research_basis_allocation_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+    "benchmarks/research_basis_allocation_next/provenance.py": "a086c57aacb4344c16312dc7283cb4274a4cb74ac67544d12468ea8bf90c2253",
+    "benchmarks/research_basis_allocation_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+    "benchmarks/research_basis_allocation_next/config.py": "02489a6d173430443f8269e5ed1e9ab1a8987807546c6af0d85fdf854cf70cee",
+    "benchmarks/research_basis_allocation_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+    "benchmarks/research_basis_allocation_next/run.py": "ce8af0783e7da88c61f05ec0b7798c07969401883aadb741877fba2bbef25940",
+    "engine/aniso_phase1/research_basis_allocation_next/__init__.py": "c133c81a7fce03489ca60654daacb08d38e35b055103c74756b27521567f2b55",
+    "engine/aniso_phase1/research_basis_allocation_next/rules.py": "ce40884e6d2f81a820a9b32ea34ef8bf2d389f327a450bbeef07ac557d81d444"
+  },
+  "reduction_sha256": "a98679d1cffdce20e428a8bf0c4bf292c719e8c590f5c3be6a9bc80c44b413f5",
+  "mass_sha256": "3d61b2e4fe81efb8cd6f1a32255b5d7eb1d4f349c3e3f783cba2e7b42a4822ca",
+  "compressed_model": {
+    "model": "a98679d1cffdce20e428a8bf0c4bf292c719e8c590f5c3be6a9bc80c44b413f5",
+    "material": "f9526a35d65bf6bad356abb92b4fac9062a6a2ea8400fb5563ff716ba4a8af9f",
+    "boundary": "4459a94d4953a310917db147d8c8b33bfd590d902db7df0bab09f63b37eb2c8c",
+    "device": "cuda:0",
+    "dtype": "float64"
+  },
+  "full_model": {
+    "model": "a98679d1cffdce20e428a8bf0c4bf292c719e8c590f5c3be6a9bc80c44b413f5",
+    "material": "8b0426a95aa2f1c90867631046746c1eb0079c8389f4cf9ffa36e7470ad6be24",
+    "boundary": "4459a94d4953a310917db147d8c8b33bfd590d902db7df0bab09f63b37eb2c8c",
+    "device": "cuda:0",
+    "dtype": "float64"
+  },
+  "source_case": "/root/workspace/mpm-lite/docs/results/phase-stress/20261001T072129Z-phase-stress/cases/sensitive-full-extension",
+  "evidence": {
+    "path": "/root/workspace/mpm-lite/docs/results/phase-stress/20261001T072129Z-phase-stress/S5/sensitive-scope.json",
+    "sha256": "bd4565648c04c52cd8c0cc934d6c431266d563464bdf04162255f94b58c20aa1",
+    "window": [
+      0.6,
+      0.65
+    ]
+  },
+  "scope": {
+    "time_grid_s": [
+      0.6,
+      0.6125,
+      0.625,
+      0.6375,
+      0.65
+    ],
+    "max_dt_s": 0.0125,
+    "peak_m": 0.0075,
+    "fiber_angle_degrees": 45.0,
+    "physical_space_sha256": "a271acf22f6efcca888b601df819aed3385a14973eba9d3ece43fd030d7c585d",
+    "mass_order": 7,
+    "full_order": 7,
+    "rest_start": false,
+    "initial_states": [
+      {
+        "time_s": 0.6,
+        "sha256": "797cb44bed15850c044d42fca643956e7dade5b64a3469d67183a9070bbf1bf6"
+      },
+      {
+        "time_s": 0.6125,
+        "sha256": "ce405436d9fce8e74002154fbc9ad364f50a965170fc271c8ed39f590fba7fbd"
+      },
+      {
+        "time_s": 0.625,
+        "sha256": "ff1537e7bca3cb9b2a33d4aab8dbb4ae265fbb43e98f160d1488b64bef5f8085"
+      },
+      {
+        "time_s": 0.6375,
+        "sha256": "d148ecf90eead41d715ffe313836b95d9ad773bb43365105ff6416c3b3973d5a"
+      }
+    ]
+  },
+  "scope_limit": "only exact contiguous window with authenticated sufficient-rule start; full sensitive cycle remains full_only",
+  "source_equivalence": {
+    "previous_certificate_sha256": "709824cba7b7bf2624af4054ec51c5d9eb79d0e0bac206a152294c3403177eb3",
+    "reason": "q5_fixed nonzero branch now constructs the sufficient model; q5_with_full_retry and q7 equations unchanged"
+  }
+}

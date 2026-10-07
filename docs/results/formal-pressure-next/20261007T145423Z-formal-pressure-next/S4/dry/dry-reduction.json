@@ -1,0 +1,6 @@
+{
+  "q_gap": 2.4271570627095677e-11,
+  "velocity_gap": 1.9417256504061786e-08,
+  "pressure_max": 0.0,
+  "reference": "unchanged absolute-state DryMidpoint same q7 operator"
+}

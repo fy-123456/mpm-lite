@@ -1,0 +1,43 @@
+{
+  "scene_stability": "passed_scoped",
+  "selected_space": "cross-direction-snapshot6",
+  "formal_space_changed": true,
+  "functions": 144,
+  "mass_order": 7,
+  "steps": 252,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "space_scope": "F45/F60 training plus reserved52.5 static and eight-step smoke; full F45 cycle separately checked",
+  "time_scope": "BASELINE local 1.1->1.125 continuation only; unchanged formal252 grid",
+  "pressure": {
+    "status": "limited_research_scope",
+    "four_eight_fixed": false,
+    "four_eight_coupled": false,
+    "pressure_spatial_accuracy": false,
+    "production_C_E_integration": false,
+    "coupled_q5": false,
+    "pure_solid_default": true,
+    "solid": "BASELINE",
+    "actual_end_s": 7.594308444221303e-06,
+    "old_2_4_failure_retained": true
+  },
+  "performance": {
+    "status": "adopt_pressure_determinant_scoped",
+    "explicit_determinant": true,
+    "pressure_fast_RT0": true,
+    "reuse_transpose_buffers": true,
+    "shared_reduction": true,
+    "field_cache": true,
+    "coarse_instrumentation": true,
+    "tangent_cache": false,
+    "candidate_count": 1,
+    "median_pressure_gain": 0.19438930586478997,
+    "solid_speedup_claim": false
+  },
+  "main_q5": true,
+  "sensitive_window": "not_triggered",
+  "sensitive_full_cycle_q5": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "pure_solid_default": true
+}

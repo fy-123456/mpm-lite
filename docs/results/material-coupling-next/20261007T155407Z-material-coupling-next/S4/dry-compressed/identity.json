@@ -1,0 +1,54 @@
+{
+  "schema": "material-coupling-budgeted-v1",
+  "material_model": {
+    "schema": "formal-material-absolute-with-corrected-SH-v1",
+    "package_sha256": "885a2870a9908f5fd5a0904173a5c1244695e4b7e5a80bf953ff445fda644a30",
+    "reduction_sha256": "ca38a03c4f06f4a23e80e595534b70972b8e01f1e27f33cfadb922ee9addb44c",
+    "physical_space": "original fixed material carrier plus 144 original local functions",
+    "stabilization": "original absolute Y quadratic",
+    "transfer": "SH carrier plus exact material residual; local evaluated in material coordinates",
+    "density": 1.0,
+    "time_layer": "committed-step-end",
+    "state_owner": "independent material coordinates",
+    "production": false
+  },
+  "geometry_order": 9,
+  "control_volumes": [
+    [
+      0.125,
+      0.5
+    ],
+    [
+      0.5,
+      0.875
+    ]
+  ],
+  "alpha": 0.0,
+  "capacity": [
+    0.000234375,
+    0.000234375
+  ],
+  "D": [
+    [
+      1.0
+    ],
+    [
+      -1.0
+    ]
+  ],
+  "H": [
+    [
+      1.0
+    ]
+  ],
+  "transport": "constant reference hydraulic network",
+  "pressure_boundary": 0.0,
+  "integrator": "midpoint with separate material path error",
+  "flux_coordinates": "reported physical z; internal exact Cholesky-whitened y",
+  "material_policy": {
+    "primary": 5,
+    "reserve": 7,
+    "limit": 0.03,
+    "check": "endpoint regional force/stress/energy; optional initial guard"
+  }
+}

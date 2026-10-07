@@ -1,0 +1,384 @@
+{
+  "count": 32,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工前重核最新发布及差异。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立新命名空间和真实可用的创建入口。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "先补齐“选项真的影响运行”的接口。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S0.4",
+      "title": "登记预算、保留样本与分支规则。",
+      "status": "passed_scoped",
+      "evidence": [
+        "S0/version-audit.json",
+        "S0/compatibility.json",
+        "S0/protocol.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "复核参考与当前空间误差的位置。",
+      "status": "adopted_new_span_scoped",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "检验候选是否提供真正的新方向。",
+      "status": "adopted_new_span_scoped",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "必要时只改变一组支撑，正确处理参考空间。",
+      "status": "first_candidate_support_measured_no_second_or_outside_R3_adapter",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "先查算子，再做真实非线性平衡。",
+      "status": "adopted_new_span_scoped",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.5",
+      "title": "合格者才打开保留幅值和短动态。",
+      "status": "adopted_new_span_scoped",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S1.6",
+      "title": "冻结选定空间并使依赖失效。",
+      "status": "adopted_new_span_scoped",
+      "evidence": [
+        "S1/novelty-audit.json",
+        "S1/main-decision.json",
+        "S1/heldout-check.json",
+        "S1/dynamic-qualification.json",
+        "S1/space-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "按选定空间重新识别重要输出。",
+      "status": "reference_extended_dt_retained",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/reference-resolution.json",
+        "S2/window-comparison.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "用相同初态建立两个真正新增的短参考。",
+      "status": "reference_extended_dt_retained",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/reference-resolution.json",
+        "S2/window-comparison.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "区分实际偏移、采样不足与匹配歧义。",
+      "status": "reference_extended_dt_retained",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/reference-resolution.json",
+        "S2/window-comparison.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "只有参考可辨才测试一张新时间表。",
+      "status": "not_triggered_reference_and_joint_gates_unresolved",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/reference-resolution.json",
+        "S2/window-comparison.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "冻结时间策略及其证据范围。",
+      "status": "reference_extended_dt_retained",
+      "evidence": [
+        "S2/modal-observable-map.json",
+        "S2/reference-resolution.json",
+        "S2/window-comparison.json",
+        "S2/time-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "整理最终证书、历史证据和待验证配置。",
+      "status": "adopted_current_space_windows",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-final.json",
+        "S3/scope-contract.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "只补一个相邻敏感窗，或先重证已有窗。",
+      "status": "adopted_current_space_windows",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-final.json",
+        "S3/scope-contract.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "验证初态桥接与范围边界。",
+      "status": "adopted_current_space_windows",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-final.json",
+        "S3/scope-contract.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "真实运行、失败回退及新进程恢复。",
+      "status": "adopted_current_space_windows",
+      "evidence": [
+        "S3/evidence-vs-permission.json",
+        "S3/local-material-check.json",
+        "S3/window-runtime-final.json",
+        "S3/scope-contract.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "确认转换调用来源和可复用对象。",
+      "status": "measured_candidate_decision",
+      "evidence": [
+        "S4/reuse-opportunity.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "仅对一个确定重复的固定算子做缓存。",
+      "status": "measured_candidate_decision",
+      "evidence": [
+        "S4/reuse-opportunity.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "做少量交替配对，判断实际净收益。",
+      "status": "measured_candidate_decision",
+      "evidence": [
+        "S4/reuse-opportunity.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S4.4",
+      "title": "完成事务回归并登记证书更新需求。",
+      "status": "measured_candidate_decision",
+      "evidence": [
+        "S4/reuse-opportunity.json",
+        "S4/operator-equivalence.json",
+        "S4/paired-performance.json",
+        "S4/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "冻结三维方法与压力功的离散定义。",
+      "status": "passed_scoped_two_cell_RT0",
+      "evidence": [
+        "S5/multicell-manufactured.json",
+        "S5/tensor-deformation-check.json",
+        "S5/fixed-solid-transient.json",
+        "S5/fixed-common-time.json",
+        "S5/conditioning-analysis.json",
+        "S5/coupled-closure.json",
+        "S5/rollback-restart.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "验证共享面组装与多方向制造解。",
+      "status": "passed_scoped_two_cell_RT0",
+      "evidence": [
+        "S5/multicell-manufactured.json",
+        "S5/tensor-deformation-check.json",
+        "S5/fixed-solid-transient.json",
+        "S5/fixed-common-time.json",
+        "S5/conditioning-analysis.json",
+        "S5/coupled-closure.json",
+        "S5/rollback-restart.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "固定固体下做正常／小储存四步。",
+      "status": "passed_scoped_two_cell_RT0",
+      "evidence": [
+        "S5/multicell-manufactured.json",
+        "S5/tensor-deformation-check.json",
+        "S5/fixed-solid-transient.json",
+        "S5/fixed-common-time.json",
+        "S5/conditioning-analysis.json",
+        "S5/coupled-closure.json",
+        "S5/rollback-restart.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "压力功定义通过才接四步真实固体耦合。",
+      "status": "passed_scoped_two_cell_RT0",
+      "evidence": [
+        "S5/multicell-manufactured.json",
+        "S5/tensor-deformation-check.json",
+        "S5/fixed-solid-transient.json",
+        "S5/fixed-common-time.json",
+        "S5/conditioning-analysis.json",
+        "S5/coupled-closure.json",
+        "S5/rollback-restart.json"
+      ]
+    },
+    {
+      "step": "S5.5",
+      "title": "检查耦合原子提交并独立声明能力。",
+      "status": "passed_scoped_two_cell_RT0",
+      "evidence": [
+        "S5/multicell-manufactured.json",
+        "S5/tensor-deformation-check.json",
+        "S5/fixed-solid-transient.json",
+        "S5/fixed-common-time.json",
+        "S5/conditioning-analysis.json",
+        "S5/coupled-closure.json",
+        "S5/rollback-restart.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "先冻结最终数值源码与验收配置。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "运行唯一充分周期，随后决定最终q5。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "验收日常场景、回退和真实可视化。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "逐项结案，封存新发布。",
+      "status": "passed_final_source",
+      "evidence": [
+        "S6/final-tests-result.json",
+        "S6/qualification-final.json",
+        "S6/final-scene.json",
+        "S6/physical-review.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "original_plan_sha256": "9bd491773b3edff01b0f28edb9a725c3c6dc03e19402c4f9454777bf98594284",
+  "deviations": [
+    "six new directions mix existing support groups; their actual support and boundary traces measured",
+    "one qualified space candidate; no second support/R5 experiment",
+    "two new short reference levels; time remains .0125 due event/reference and field limits",
+    "constructor subtype mismatch fixed before candidate integration",
+    "two extra uncommitted RT0 continuation steps used solely for genuine process restart witness",
+    "final plan audit corrected per-storage time grids with four additional fixed-solid normal-storage steps at already tested small-storage times; original records preserved"
+  ]
+}

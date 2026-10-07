@@ -1,0 +1,58 @@
+{
+  "schema": "cost-phase-practical-v1",
+  "utc": "2026-10-01T07:00:04.211828+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/spatial-phase/20261001T043604Z-spatial-phase",
+  "application_parent_release_sha256": "b9b458890a170998b57202fd1a926a2477d044e48f2a05909ba714d45d258cb6",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "67561172bf404fa067eb30f687d19a26edbca3fd7dbf5df2e9cefb0f8e86105c",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "e7a3539b45268280eccf0602f50155ef428c34af565ffb090e95965b640468fa",
+    "count": 19
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "2fe34985b8d1f77f1938d852417854af30f20d744e7f050be0e03a7325aed711",
+    "count": 1689
+  },
+  "qualification": {
+    "path": "P5/qualification-final.json",
+    "sha256": "aa11148260c4e29db2cc781a0d6a2f362d1442671f53a2155bc242bf955cdafb"
+  },
+  "sensitive_scope": {
+    "path": "P5/sensitive-scope.json",
+    "sha256": "241553fb97d996c1212afddfe0cac24d46d440b882e86cc1ff58a563654408d2"
+  },
+  "scene": {
+    "path": "P6/final-scene.json",
+    "sha256": "9e23a5dfb13a08911bb9c35a93b80e15f7a03058c02cc691b2729f1e39a32370"
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "1de7ce7a5f123f57bff583aadc16c7549e1342b687325f11d0ab90464140c218"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "31e14eadce1c8352da658be250dbbce3599b042c12fb728ce10737be39401b87"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "d498ac5d2e356da751c533d79856a183c9a6cd497186848bcc6eecbae361f8e5"
+  },
+  "case_identity_sha256": "7bfeb94f4f32732d4e5c1455dd42b7003efb855c1f3e74e667822bb0667dc2b5",
+  "case_protocol_sha256": "cd9a38f572480e4639163148e95215041190fd02cfa18aa7bcdd7cd81d0033ae",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "q5_with_full_retry",
+  "shared_reduction": true,
+  "space_array_cache": true,
+  "uncompressed_raw_archive": true,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupling_scope": "independent normal-storage two/four-cell conservative half-cell flux fixture; no general pressure continuum accuracy"
+}

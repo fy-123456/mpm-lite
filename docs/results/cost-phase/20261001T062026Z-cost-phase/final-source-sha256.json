@@ -1,0 +1,21 @@
+{
+  "benchmarks/research_cost_phase_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+  "benchmarks/research_cost_phase_next/provenance.py": "96e19fe6cc495898d75478f4682a3b1e70074ba47b2434f4e2db86694c50807d",
+  "benchmarks/research_cost_phase_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+  "benchmarks/research_cost_phase_next/config.py": "db75f5d3f3aec6b69260de741e6cd0dbbb7ac109ff0dd3495fbc4fe455a33cf9",
+  "benchmarks/research_cost_phase_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+  "benchmarks/research_cost_phase_next/run.py": "557b744fb040a4451a97318bfb61c8d395b33337356ad9b767d40bcd0d38883a",
+  "benchmarks/research_cost_phase_next/visualize.py": "ba85e2fdde4a1e661e01d9cd95c3f14197a6fec827f19355ac5cb6c58e23f97c",
+  "benchmarks/research_cost_phase_next/performance_study.py": "9760d995bf76d9b9ca05cf330a498f0eda3dd4c382255df45a064bd658e3aea9",
+  "benchmarks/research_cost_phase_next/time_study.py": "e5b54875ba95ed0a34f7a9d5fc4c9afc56bb00c352967ea9cf9429e28d585c94",
+  "benchmarks/research_cost_phase_next/spatial_study.py": "c5d5043d9bf80daaefe368c98b814dd4b96bdff5a3a65f2e8726b9b745ea9589",
+  "benchmarks/research_cost_phase_next/coupling_study.py": "6710e8ee1d32bf6b3ff98651d99cb5021321b5b9037dc438bbf879655904d72e",
+  "benchmarks/research_cost_phase_next/rule_study.py": "5c8272628087373075e6d96efb2032dee1414c4d6512fa166497c76c6d4eb81b",
+  "benchmarks/research_cost_phase_next/finalize.py": "720f87098bdd7dc608d1a38a52f41d74575907bfeacdc7069fc8d70b5286e0db",
+  "benchmarks/research_cost_phase_next/publication.py": "d12e24013b0a5b57a2fad977b6ee5dffe335c3a892f2b0578ef09c5dd1989dd2",
+  "engine/aniso_phase1/research_cost_phase_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+  "engine/aniso_phase1/research_cost_phase_next/shared.py": "d0cc639642990eb85ad9b14346c98492d46d12c8e712b460eb3410bd835502cd",
+  "engine/aniso_phase1/research_cost_phase_next/pressure.py": "03f5f451501e264174480d5d3d6a7e28e66113d7703a64b972de109938e6b66a",
+  "tests/research_cost_phase_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+  "tests/research_cost_phase_next/test_runtime.py": "e6dd98d087732a96565af7851224a3f83db43511f5d175db1c29c0623f9c1213"
+}

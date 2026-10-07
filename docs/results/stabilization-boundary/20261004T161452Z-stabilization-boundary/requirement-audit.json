@@ -1,0 +1,434 @@
+{
+  "count": 25,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "开工时再次确认直接父版",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "157ea3f9139fdf4a645b647458799a460711564e0cab5ac41c5becc1c152ff50"
+        },
+        {
+          "path": "S0/source-map.json",
+          "sha256": "41f84952bff243485ff0de9bac8c38d4cd6ad3a0c925311cdb25fb603567c809"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立独立研究入口与显式来源绑定",
+      "status": "inherited",
+      "reported_statuses": [
+        "inherited"
+      ],
+      "evidence": [
+        {
+          "path": "S0/impact-and-compatibility.json",
+          "sha256": "21c8b45951ea38fbe51f018ee0470b80cb8439442267a6716ce06716085bfb04"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "兼容与资源预检",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered",
+        "diagnostic"
+      ],
+      "evidence": [
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "498f03719a497529e5e8929b053f2ef70a8f44adf69c72f2c02e4d3cb109b349"
+        },
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "0a2efac65535f707defa95d81c18758a27898f57c9546443fddb31874accc637"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "固定五个节点和共同物理比较",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S1/state-map.json",
+          "sha256": "1b132fb98d773a46f143c526270246b0f07fbc19dd55b249a79742e76f112391"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "做“同刻投影／实际演化”的零步分解",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S1/projection-vs-history.json",
+          "sha256": "83007660aaf2c16571a2fab6810bb5c7553855ddacdda70090c5763e6b03abaf"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "检查稳定化的坐标变换与输出敏感方向",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S1/stabilization-chain.json",
+          "sha256": "c30045214ebc0ce42f818614f015882e478f3c07f8e5f974a3204a1079e0c7ee"
+        }
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "给出后续单一决定",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "diagnostic",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S1/output-sensitive-directions.json",
+          "sha256": "67cb55e3210dfd47a8afe85f3d5670fa23b9369df2569a6820fb191f09f88830"
+        },
+        {
+          "path": "S1/diagnosis-decision.json",
+          "sha256": "2a3c24b05f193e8ac985c4014e3c9a19ee9856dd0d02be5cc667071e3531f581"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "分方向核查边界通量与物理参数",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S2/boundary-attribution.json",
+          "sha256": "9c1c70e17227574d50943662d2d18729a10508bb3c961b6dfa02d280bb4a0caa"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "在32单元限制内筛选两套嵌套网格",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S2/grid-design.json",
+          "sha256": "5362735a7236d493a5487a5ceccc3c07049dbc6c0d336f0c822b29c6eebe78d2"
+        },
+        {
+          "path": "S2/topology-equivalence.json",
+          "sha256": "31b8fea42c9196ff56a95e270e09862aad25f7417956418a32f8eb032e18822c"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "用精确时间参考分开空间误差与时间误差",
+      "status": "limited",
+      "reported_statuses": [
+        "limited",
+        "limited"
+      ],
+      "evidence": [
+        {
+          "path": "S2/fixed-skeleton-reference.json",
+          "sha256": "953e63fba83c1d95664d9bc1e528d55a02af45352df2c5ba07d4295b33d58258"
+        },
+        {
+          "path": "S2/startup-layer-analysis.json",
+          "sha256": "799518bcf220b31fef644331cb8e408c01228e6b0a6a0c8d82caed417852be9b"
+        }
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "仅对一套胜出方案做四个实际短窗",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        {
+          "path": "S2/coupling-decision.json",
+          "sha256": "7a161809caa63d82d6cd0e1b868848bbe6526fc757c89c4e276d042f87edc39d"
+        }
+      ]
+    },
+    {
+      "step": "S2.5",
+      "title": "做保守跨网格比较，区分改进与认证",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        {
+          "path": "S2/coupling-decision.json",
+          "sha256": "7a161809caa63d82d6cd0e1b868848bbe6526fc757c89c4e276d042f87edc39d"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "登记共同初态与精确窗口",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered"
+      ],
+      "evidence": [
+        {
+          "path": "S3/short-reference-protocol.json",
+          "sha256": "922875e10bcf8e816612b8a87dc5e5632e118d7153b48cc4deb1b5e6260ebfbf"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "按原预算检查时间误差",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S3/short-reference-comparison.json",
+          "sha256": "f07615839b3655be7c22c8f64473891713a9745f3ed98f3b5e8b8a0a9cac487e"
+        },
+        {
+          "path": "S3/physical-check.json",
+          "sha256": "1a95508538ed04e41dadfe9acbb1b793383d7ff5b9cfe01593bf781e91a2d1d7"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "限定新资格，保留原负面结果",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S3/reference-scope-decision.json",
+          "sha256": "0b2be9552dfb2195e36b44393d0b43d84e2fea55592e88f6c503d1cb5ea6590e"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "先审查静态参考与设计信息",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S4/design-eligibility.json",
+          "sha256": "32281d0a82781fc2d53f66e619f5254125cbb61449759a31d82d2c483127e90c"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "固定138个函数，仅设计6个替换方向",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S4/candidate-package.json",
+          "sha256": "fc4fbe14a67c105bd89fc0aa47c6add53b4776f09fb83366351bc4735c7c2df3"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "先做零步算子与最多4个静态工况",
+      "status": "limited",
+      "reported_statuses": [
+        "passed_scoped",
+        "space_limited"
+      ],
+      "evidence": [
+        {
+          "path": "S4/operator-check.json",
+          "sha256": "492ebcd2abebf93f9692b8a6f3ee06c46b711ec6323c65709931145a32c4a9a3"
+        },
+        {
+          "path": "S4/static-comparison.json",
+          "sha256": "459f8e78c7fbb4e4c4f1093c17d0f464dcdd5841966ab3babbcea55d850b6f1d"
+        }
+      ]
+    },
+    {
+      "step": "S4.4",
+      "title": "仅在已分辨前缀做8/16步动力学",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "space_limited"
+      ],
+      "evidence": [
+        {
+          "path": "S4/space-decision.json",
+          "sha256": "64dc6620ae5ba8f47856aa247d694ecb4d8d89c7fb4f30918a1677ccc95557e8"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "对当前设备RT0路径做实际剖析",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S5/profile.json",
+          "sha256": "eb7a9d37abe65e01251eb194ee66b65f03e91bb30bcbac4675880c8b8457bd9a"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "实现一个有边界的候选并做等价检查",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S5/optimization-protocol.json",
+          "sha256": "bfa51a1409ac8ebf6b9c52b86826400fc306c6926a8332f7e98c65a0c411093b"
+        },
+        {
+          "path": "S5/operator-equivalence.json",
+          "sha256": "66315fbe1a94d1d12d7870685b95e21c4798a208ff08215716c3367585b004e7"
+        },
+        {
+          "path": "S5/ownership-fix.json",
+          "sha256": "55b0e47f5ed02700261e02344fdb42811c7993e72a97f2ced9339692adf770f7"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "用少量真实A/B步决定保留或否决",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "research_local_gradient_qualified",
+        "passed_scoped",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S5/performance-decision.json",
+          "sha256": "d899ee15d7d591b8831595a5d86b0a2224c38bfcb8ce496481db08591fcc1b0a"
+        },
+        {
+          "path": "S5/paired-performance.json",
+          "sha256": "48d857029b22ec48ab64ec7a66901edf6bb66bc2aa29134b516844011ddf1626"
+        },
+        {
+          "path": "S5/fault-B0/failure.json",
+          "sha256": "f09301fa9ac99e6e036aa3a7168ff7a4b7762aa4c8cf79c6aa854dd1066f117f"
+        },
+        {
+          "path": "S5/restart.json",
+          "sha256": "1ec0c0e4e2e93c1afab72f27d4ce1356b09a72f85d57c9bfa99a4b8e7c783d37"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "按实际改动列测试，不机械重跑旧实验",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S6/tests-result.json",
+          "sha256": "ff1ffae988f98e0c24fb7c521975b8adabeee2d9b9dd63417af2ae1b58678142"
+        },
+        {
+          "path": "S6/fallback-and-restart.json",
+          "sha256": "7ed446ab59178d555f344b7c56dfe3db7ec339efc993ddc0dba41334b2f8401b"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "检查实际默认来源、展示与资格标签",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "527dde6b2650302aaee5cef5e8ab20efc602bf7762b0efb99e29d5433658f009"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "逐项登记、冻结源码和产物",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "5e7cf4f569ee2e4ecf3547c180b28c6da959f16d29b027fe89e41cb7aeddb4e7"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "fc1fe1484b7f7d62730f871fb8f0f30940269a06f13dc5b798805ad33933fcc9"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "plan_sha256": "12f752743853ad476f1d57320bbfadd51696b6f971c7eabef33a792f84f12d4a",
+  "sequential": true,
+  "not_all_physical_gates_passed": true
+}

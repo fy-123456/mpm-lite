@@ -1,0 +1,16 @@
+{
+  "selected": "global-snapshot6",
+  "package": {
+    "path": "/root/autodl-tmp/mpm-lite-local-span/20261001T130726Z-local-span/S1/candidates/global-snapshot6/space-package.json",
+    "sha256": "286cd36dbd10f20deb96707267849fe9a0424180cc4b2ca810049ea4ed23c826",
+    "cache": {
+      "path": "/root/autodl-tmp/mpm-lite-local-span/20261001T130726Z-local-span/S1/candidates/global-snapshot6/uncompressed-space-cache/cache.json",
+      "sha256": "3bbb1fe0628d1250accb97216608f49936357c0db723a7b60c79714ec4d174f9"
+    }
+  },
+  "mass_order": 7,
+  "full_order": 7,
+  "status": "promoted_scoped",
+  "spatial_accuracy": false,
+  "scope": "two seen static snapshots, reserved .00425 static and eight dynamic steps; no continuum certificate"
+}

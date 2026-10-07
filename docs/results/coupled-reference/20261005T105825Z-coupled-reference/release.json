@@ -1,0 +1,51 @@
+{
+  "schema": "coupled-reference-practical-v1",
+  "utc": "2026-10-05T11:18:02.116702+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/transverse-reference/20261005T101215Z-transverse-reference",
+  "application_parent_release_sha256": "e948656e54181fd2cb3bfc35db518ae071c54898d638453cd4bd3922e46b83b1",
+  "input_lock_sha256": "a1f59b0ddc56f0cd6c251603232e48ae7f5b342ad66e05c61e1695c23b0ed68a",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "5266e9e25cce71a84f2768115aaa3a443d3adc86e83929d9795141a8f9b3a7f5",
+    "count": 20
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "0a174b057b190eae3517ee681ac249c34e69a18e273eb1fa24662c72879286e4",
+    "count": 478
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "76aff87d2ec12ee3738ef4577478ae61fea468bb686f8b123126ef2be89f7bb3"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "6d7930347ecddb94c3b1f4b41cd7b2f4609e0484e99463215dda5bf15b89d6d7"
+  },
+  "attempts": {
+    "path": "S5/attempt-accounting.json",
+    "sha256": "368f7c533171857e83a23cac0531ab8baa81e0f6ebdabb0b4886c1e445625057"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "new_display_frames": 0,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited pure-solid q5; coupled fullq7",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "coupled_affine_diagnostic": true,
+  "selected_geometry": "BD"
+}

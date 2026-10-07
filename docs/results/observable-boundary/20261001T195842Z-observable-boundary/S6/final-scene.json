@@ -1,0 +1,113 @@
+{
+  "status": "passed_scoped",
+  "default_case": "daily-q5-retry",
+  "steps": 252,
+  "frames": 12,
+  "summary": {
+    "status": "passed_scoped",
+    "utc": "2026-10-01T20:17:40.196766+00:00",
+    "case": "daily-q5-retry",
+    "steps": 252,
+    "end_s": 1.6,
+    "source_sha256": {
+      "benchmarks/research_observable_boundary_next/__init__.py": "325e03e7dd8a760e2579ee7e97970fa41bdff6e5170e087afb56a6bce0f1f959",
+      "benchmarks/research_observable_boundary_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+      "benchmarks/research_observable_boundary_next/config.py": "0f7eedd55d97fb99ffcfef7aaab686086144c83e8381b0f36951dd66a0bcd2ec",
+      "benchmarks/research_observable_boundary_next/physics.py": "9c01c93b31e3bdf92bed948d65254dbc3b1b6905c9052e3bf3b6fe4090153d8d",
+      "benchmarks/research_observable_boundary_next/provenance.py": "7f627ac8f0ab4fdd007ee91bfaf27bcdcac5dad2e6deed535f351fcf7855e650",
+      "benchmarks/research_observable_boundary_next/run.py": "6b85c5723dd5b8bd1e14d764dfccf7b6d764fa358989717e51631abcb0e40d07",
+      "benchmarks/research_observable_boundary_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+      "engine/aniso_phase1/research_observable_boundary_next/__init__.py": "4d6626d3f726a9577640f6d01072442ec46306fda474e83c9dd02663f20a0dc7",
+      "engine/aniso_phase1/research_observable_boundary_next/rt0.py": "6c7e1aa3ee2df17f085a36ef491884776d84f1f908e41ec291c269a5ca8075fa"
+    },
+    "protocol_sha256": "9fd15a6baedd02c3c429208c16187de2cecf262d98a29b59e409cba2cfc8c98f",
+    "min_detF": 0.9919399185485036,
+    "max_ledger_closure_J": 6.1953612821908785e-21,
+    "max_true_residual": 2.7205805677767795e-07,
+    "rule_policy": "q5_with_full_retry",
+    "active_rule": "f9526a35d65bf6bad356abb92b4fac9062a6a2ea8400fb5563ff716ba4a8af9f",
+    "material_attempts": 252,
+    "cumulative_rule_switch_error_J": 0.0,
+    "display_frames": 12,
+    "checkpoint_reload": true,
+    "temporal_certified": false,
+    "spatial_certified": false,
+    "this_segment": {
+      "build_seconds": 9.03448629565537,
+      "advance_and_publish_seconds": 35.25024903519079,
+      "includes_fields_and_checkpoint": true,
+      "wall_seconds": 44.42269801674411,
+      "accepted_steps": 252,
+      "peak_rss_GiB": 3.315692901611328
+    },
+    "field_cache": {
+      "bytes": 19132344,
+      "build_seconds": 0.41569092916324735,
+      "signature": "191845258c4037e99518e907c77b234dedb93d9f08920778ec1c5ceaafba4e79"
+    },
+    "gpu_memory": {
+      "initial_free_bytes": 33138868224,
+      "budget_bytes": 23197207756,
+      "cuda_async_pool_current_bytes": 5884156152,
+      "cuda_async_pool_process_high_bytes": 7680013956,
+      "initial_cuda_async_pool_high_bytes": 0,
+      "observed_device_free_decrease_bytes": 7853834240,
+      "conservative_peak_required_bytes": 9583071488,
+      "samples": 3159,
+      "peak_process_rss_GiB": 3.315692901611328,
+      "scope": "CUDA allocator reports exact process async-pool high water; free-memory samples additionally include non-pool/shared-device usage. Pool high water is process-wide, not per model; preallocation reserve is conservative."
+    }
+  },
+  "comparison_maxima": {
+    "displacement_m": 1.7472300151653854e-09,
+    "velocity_m_s": 8.805346109076169e-08,
+    "PK1_Pa": 1.026376463162865e-05,
+    "fiber_Pa": 1.0192476493016432e-05,
+    "reaction_N": 4.22950790270331e-08
+  },
+  "fallback_count": 0,
+  "sentinels": [
+    {
+      "time_s": 0.5,
+      "energy_difference_J": 2.679110552112826e-11,
+      "energy_budget_J": 1.1229599068474367e-06,
+      "force_difference_N": 5.612485766556707e-07,
+      "force_budget_N": 0.002585532738548661,
+      "passed": true
+    },
+    {
+      "time_s": 0.6,
+      "energy_difference_J": 2.6895741757598356e-11,
+      "energy_budget_J": 1.1223567483522995e-06,
+      "force_difference_N": 5.150023196744203e-07,
+      "force_budget_N": 0.001000312507781278,
+      "passed": true
+    },
+    {
+      "time_s": 1.1,
+      "energy_difference_J": 3.719107266178859e-16,
+      "energy_budget_J": 5.48826093566374e-09,
+      "force_difference_N": 3.4011657375105107e-08,
+      "force_budget_N": 0.003222054495268361,
+      "passed": true
+    }
+  ],
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "resources": {
+    "system_free_GiB": 5.27166748046875,
+    "data_free_GiB": 84.87184524536133,
+    "cgroup_memory_max": "96636764160"
+  },
+  "source_sha256": {
+    "benchmarks/research_observable_boundary_next/__init__.py": "325e03e7dd8a760e2579ee7e97970fa41bdff6e5170e087afb56a6bce0f1f959",
+    "benchmarks/research_observable_boundary_next/base_config.py": "1c24fbedc94f682b2a0f9fcdf2fc145df751eb1f5ddd478f9e58fbfb3f9ad034",
+    "benchmarks/research_observable_boundary_next/config.py": "0f7eedd55d97fb99ffcfef7aaab686086144c83e8381b0f36951dd66a0bcd2ec",
+    "benchmarks/research_observable_boundary_next/physics.py": "9c01c93b31e3bdf92bed948d65254dbc3b1b6905c9052e3bf3b6fe4090153d8d",
+    "benchmarks/research_observable_boundary_next/provenance.py": "7f627ac8f0ab4fdd007ee91bfaf27bcdcac5dad2e6deed535f351fcf7855e650",
+    "benchmarks/research_observable_boundary_next/run.py": "6b85c5723dd5b8bd1e14d764dfccf7b6d764fa358989717e51631abcb0e40d07",
+    "benchmarks/research_observable_boundary_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+    "engine/aniso_phase1/research_observable_boundary_next/__init__.py": "4d6626d3f726a9577640f6d01072442ec46306fda474e83c9dd02663f20a0dc7",
+    "engine/aniso_phase1/research_observable_boundary_next/rt0.py": "6c7e1aa3ee2df17f085a36ef491884776d84f1f908e41ec291c269a5ca8075fa"
+  }
+}

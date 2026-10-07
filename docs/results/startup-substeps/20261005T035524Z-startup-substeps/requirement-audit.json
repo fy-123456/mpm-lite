@@ -1,0 +1,361 @@
+{
+  "count": 21,
+  "steps": [
+    {
+      "step": "S0.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "8abf921eb9865cc594faa648ad1df89fffebbce4461bfbaa55b936c73a365d12"
+        },
+        {
+          "path": "input-lock.json",
+          "sha256": "68cd29b4dda1f45c547cf4c4e463700c856bed3ecf24a955e45cbc3b34c5e1d5"
+        }
+      ]
+    },
+    {
+      "step": "S0.2",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S0/physical-contract.json",
+          "sha256": "258fbc4e67098bd93278d2d194d71eb1121afa68a1fe2a989bd8ac693e43e2f8"
+        },
+        {
+          "path": "selected-space.json",
+          "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+        }
+      ]
+    },
+    {
+      "step": "S0.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "2c5928b88d9c7b70d89837b7f5d194134aa664a9222a6b7a2f1496bb0e59b182"
+        },
+        {
+          "path": "S0/resource-policy.json",
+          "sha256": "e02b9149f5b09bedcc5be09948f364b9d3f024547ff9009402fba7be31a9d9c7"
+        },
+        {
+          "path": "S0/storage-migration.json",
+          "sha256": "91a72c7bfc01821afaafbf57f58f9b38ae5a3590fc79a130130bd15a3a64651f"
+        }
+      ]
+    },
+    {
+      "step": "S1.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S1/time-protocol.json",
+          "sha256": "974901d3c718b7a793fd54ba677dffdb60c5e71716e6123e57bad374c4fbfdfe"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "a18f33b2096f2f7488ab04235c4fa52b0f7598bb0fb2b4c7544981922eb87b29"
+        }
+      ]
+    },
+    {
+      "step": "S1.2",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S1/observation-contract.json",
+          "sha256": "252ac824701ad8e2bae9e7a8599d0624b22b41db3bd5c328636b3a4bc454a297"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "a18f33b2096f2f7488ab04235c4fa52b0f7598bb0fb2b4c7544981922eb87b29"
+        }
+      ]
+    },
+    {
+      "step": "S1.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S1/transaction-contract.json",
+          "sha256": "0974f5e9b49b8a773684f66e84eda7326c27a81b17b490cadc27d954f15941f8"
+        },
+        {
+          "path": "S3/transaction-check.json",
+          "sha256": "d884e9d5645aecb57e1166af005ac2914fa844bebeb4e8b35cf9b8da8eddea4e"
+        }
+      ]
+    },
+    {
+      "step": "S2.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S2/screen-protocol.json",
+          "sha256": "158c5d21d0d0ed4c513f5314ad90c768e231310acc6deb90a7a974763290e0d7"
+        },
+        {
+          "path": "S2/reference-check.json",
+          "sha256": "e734c9183bb1b6e86248ac041d23e44e29ed41515345206b9612ea13f2b4ec2d"
+        },
+        {
+          "path": "S2/reference-binding.json",
+          "sha256": "44679b1546e8d2181d608fb3e0071d72352484c8ca123e0e49150a53ce0cd9b1"
+        }
+      ]
+    },
+    {
+      "step": "S2.2",
+      "status": "limited",
+      "reason": "U2 fails engineering gate, U4 passes; raw microstep time accuracy remains limited and is retained",
+      "evidence": [
+        {
+          "path": "S2/candidate-U2.json",
+          "sha256": "0bffca8f3e9f13d313cceb0518426bdfd1f2f6e76311aa16c74b0884a0754ad0"
+        },
+        {
+          "path": "S2/candidate-U4.json",
+          "sha256": "843128cddb09699706a8a4bdd6aa1632b0a9ad64fe44407638452fe88c00dbc6"
+        },
+        {
+          "path": "S2/baseline.json",
+          "sha256": "7402aef2df1cc51b6adc0854f4007d85eac9a111723365c724c50519b595c67d"
+        }
+      ]
+    },
+    {
+      "step": "S2.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S2/method-decision.json",
+          "sha256": "b7f87ecfa066b14974a1ed8a60509c1d88890176f39f4708360ff082913862fc"
+        },
+        {
+          "path": "S2/screen-accounting.json",
+          "sha256": "0d3df50d6bdc42307999324520e799a6a73b7492260f9e8f14f8b46d7b177576"
+        }
+      ]
+    },
+    {
+      "step": "S3.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S3/coupled-protocol.json",
+          "sha256": "e7c9bc521bd17be52411c47ff4cb662313b5a300beda482720a17a179936188d"
+        },
+        {
+          "path": "S3/operator-check.json",
+          "sha256": "46edddf255a25d6da140c52c21e1799f27bf3ad7411215b3479a40c3dd0a1f4d"
+        },
+        {
+          "path": "S3/memory-estimate.json",
+          "sha256": "778be902ec0891d38e5109e0a5a634fc63459a1cffa90df7022aafc50e68a24e"
+        }
+      ]
+    },
+    {
+      "step": "S3.2",
+      "status": "passed_scoped",
+      "reason": "same new32 grid engineering interval accuracy and stability only; raw and spatial accuracy separately limited",
+      "evidence": [
+        {
+          "path": "S3/engineering-comparison.json",
+          "sha256": "831644db16a84f709714c4e4a1b9305cef1cad31a355737a8667a8cfd7093bfc"
+        },
+        {
+          "path": "S3/raw-substep-diagnostics.json",
+          "sha256": "110b0df7f61f9f37063c0b7fba19cdcb25b2d7b919eb68f5a6624005dc510d2c"
+        },
+        {
+          "path": "cases/boundary32-h/summary.json",
+          "sha256": "af7b1087fabf1e9d611ecdf43d81db1bc530289690f5f957de9bb203a145905d"
+        },
+        {
+          "path": "cases/boundary32-half/summary.json",
+          "sha256": "1525287124edc3c56e73656f41a9dd17f8f54b7bd0dd5848ce934cf64eef954b"
+        }
+      ]
+    },
+    {
+      "step": "S3.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S3/transaction-check.json",
+          "sha256": "d884e9d5645aecb57e1166af005ac2914fa844bebeb4e8b35cf9b8da8eddea4e"
+        },
+        {
+          "path": "S3/grid-decision.json",
+          "sha256": "9b4a72c61f83cb2851d010912df3baf15de554ced4dc5ebc4b5328a9d5e7c517"
+        }
+      ]
+    },
+    {
+      "step": "S4.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S4/legacy/integration-protocol.json",
+          "sha256": "f3a60072e775da10c4cf414c8cd363d1f2ed46f60c1408407db35d83d52b5327"
+        },
+        {
+          "path": "S4/legacy/environment-check.json",
+          "sha256": "878c171066bb3558b155d9ff0cd3218ebb3852ca427c2d724d72fe1808326a2e"
+        }
+      ]
+    },
+    {
+      "step": "S4.2",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S4/legacy/paired-performance.json",
+          "sha256": "5bf13d273ec025fc83b48a8ddf3ea236fb26f2998cfcf89c908b22451b7728e6"
+        },
+        {
+          "path": "S4/legacy/setup-cost.json",
+          "sha256": "a532b22ecbe62ec238087b5d0cf31bff07fbd57c0ccf97fbd96bc5efcb99a74f"
+        }
+      ]
+    },
+    {
+      "step": "S4.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S4/backend-decision.json",
+          "sha256": "663895c35f8fbb1ae5b252ef5dc170cda14d9daaab007886bfe142104d8a25be"
+        },
+        {
+          "path": "S6/selected-backend-load.json",
+          "sha256": "222c4736e157f582c51e511a9ff536f150a6cc61c7d9d9cf11f3e1a5fc02fd2c"
+        },
+        {
+          "path": "S6/fallback-and-restart.json",
+          "sha256": "c1079c7e21f06de78ce3dc46a0bac03bcc0466422f5ddce27751777037e0e48c"
+        }
+      ]
+    },
+    {
+      "step": "S5.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S5/bottleneck-review.md",
+          "sha256": "3835c0abf753478ce3878bfb2232edf298fcb63c7c087710e0c0eaa57b6840a7"
+        },
+        {
+          "path": "S5/worst-errors.json",
+          "sha256": "d690461eda945ae90a35608edffa00d61e2e8effb7f2b3ac5b29ad551e2451c7"
+        }
+      ]
+    },
+    {
+      "step": "S5.2",
+      "status": "passed_scoped",
+      "reason": "future directions and missing entry conditions recorded; no expansion performed",
+      "evidence": [
+        {
+          "path": "S5/next-scope-decision.json",
+          "sha256": "bcb2d49667450a23b89c646280c8f4547f0cdf51f4468ac296faafc8deba5877"
+        }
+      ]
+    },
+    {
+      "step": "S5.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "implementation-report.md",
+          "sha256": "a814849b742b86d671475c99d65b710c000ee49b0861fe92785317d818198939"
+        }
+      ]
+    },
+    {
+      "step": "S6.1",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S6/test-report.json",
+          "sha256": "a18f33b2096f2f7488ab04235c4fa52b0f7598bb0fb2b4c7544981922eb87b29"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "02bb52e189b8dc44e88504072f0a43a44232348d2d5370962f8cf2e4b6580fe7"
+        },
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "40f725cacdc949d67af6740e21c9a96876b0bc1f93dc891ffbb0f56221d93222"
+        }
+      ]
+    },
+    {
+      "step": "S6.2",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "17cbe10da51b212d7c0143ae3b90acd0754aaa52f4d6c1e89af0be7c1a525a64"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "1a36e4ee4c0022947ab15ebd6db1702f43642d269b62a4e431aa0d90bde20805"
+        },
+        {
+          "path": "S6/visualization-origin.json",
+          "sha256": "49a065c081ed7f7a64e5ea34439ec80de8299d4d172e24e206ea4ce1b37a45ad"
+        }
+      ]
+    },
+    {
+      "step": "S6.3",
+      "status": "passed_scoped",
+      "reason": "required scoped evidence complete",
+      "evidence": [
+        {
+          "path": "S6/final-resources.json",
+          "sha256": "24574c096cacae3144921322ce69e7a31479f5e44efeaf5dfda9c73dc218b377"
+        },
+        {
+          "path": "capability-matrix.json",
+          "sha256": "5aa5f769af446ecee48078a41136859ed2b2dd1598ce88ad315ba364318f60e2"
+        },
+        {
+          "path": "documentation.json",
+          "sha256": "6e691e98ea892006dd80f1f73021241ffa05a5ed4b7cb7ea529b1b8f4a77228a"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_accuracy_goals_passed": false,
+  "scope_limit_reason": "raw startup interval bias, actual spatial convergence, full coupled cycle and full3D reference remain unqualified",
+  "plan_sha256": "c6829824260a5ef83a8fbe9055295de9870fcc98427b2427eacb09909ef0af0b",
+  "sequential": true
+}

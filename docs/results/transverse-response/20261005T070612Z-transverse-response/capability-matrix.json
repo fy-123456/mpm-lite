@@ -1,0 +1,44 @@
+{
+  "status": "scoped_transverse_response_delivery",
+  "implementation_equivalence": true,
+  "nonuniform_initial_identity": true,
+  "frame_aware_safe_publication": true,
+  "controlled_resource_recovery": true,
+  "real_driver_loss_recovery": false,
+  "engineering_z_subdivision_consistency": true,
+  "stable_nonuniform_cases": [
+    "Y64",
+    "Y128",
+    "YZ128"
+  ],
+  "physical_window_s": [
+    0,
+    7.5e-05
+  ],
+  "initial_profiles": "same Y field on64/128; separate unequal mixed YZ field",
+  "mechanical_relative_accuracy": false,
+  "spatial_continuum_accuracy": false,
+  "temporal_accuracy": false,
+  "raw_startup_peak_accuracy": false,
+  "full_coupled_cycle": false,
+  "coupled_q5": false,
+  "production_C_E_integration": false,
+  "solid_static_reference": "inherited R6 F45/.005m only",
+  "formal_space_changed": false,
+  "local_functions": 144,
+  "full_mass_order": 7,
+  "full_material_order": 7,
+  "selected_backend": {
+    "status": "selected_scoped",
+    "backend": "DV: device-cell-volume, specified research window",
+    "selected": true,
+    "reason": "four continuous equivalent steps and physical ledgers passed",
+    "gains": [
+      0.258197064663103,
+      0.24425907039431194
+    ],
+    "median_gain": 0.25122806752870747
+  },
+  "production_default": "inherited pure-solid daily-q5-retry,252steps,1.6s",
+  "new_formal_steps": 0
+}

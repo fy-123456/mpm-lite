@@ -1,0 +1,48 @@
+{
+  "http": {
+    "index.html": {
+      "status": 200,
+      "bytes": 49882
+    },
+    "diagnostics.png": {
+      "status": 200,
+      "bytes": 153882
+    },
+    "implementation-report.md": {
+      "status": 200,
+      "bytes": 8804
+    },
+    "requirement-audit.json": {
+      "status": 200,
+      "bytes": 4682
+    },
+    "S4/closed/metrics.json": {
+      "status": 200,
+      "bytes": 73322
+    }
+  },
+  "javascript": {
+    "passed": true,
+    "arcs": 4785,
+    "frames": [
+      0,
+      2,
+      4
+    ],
+    "modes": [
+      "p",
+      "u",
+      "J"
+    ],
+    "scales": [
+      1,
+      1000,
+      10000
+    ],
+    "playback": true,
+    "real_browser": false
+  },
+  "png_visually_inspected": true,
+  "persistent_server": false,
+  "gpu_test": false
+}

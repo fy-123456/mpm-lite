@@ -1,0 +1,47 @@
+{
+  "schema": "reference-next-practical-v1",
+  "utc": "2026-10-01T04:13:00.876776+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/post-release/20261001T013007Z-post-release",
+  "application_parent_release_sha256": "5c23b687fc8565f9764690c84f53456694c21588a963776ac735e6a5e6de2d18",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "96cd174a4637a367e38f5daf105906b40ea638bf40c872003040c28edddc590f",
+  "default_case": "daily-q5-retry-dt0125",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "32607d9a7989459c8a596b4838af6efd6adfcfbccdc8248e447b507b427e42e9",
+    "count": 20
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "be1ddbdb02b7fb4e64e740f3bba3cb5836fc67d082656e49a0638ac64ea5e8bf",
+    "count": 2254
+  },
+  "qualification": {
+    "path": "Q4/qualification.json",
+    "sha256": "ec5f428d914e9d66ab72caeece37021ae3adab3cc8222ed25bcdadd297f20025"
+  },
+  "sensitive_qualification": {
+    "path": "Q4/qualification-peak0075.json",
+    "sha256": "a61263eceb667097611149e267a43a74ac4d22bb25abc1ff6fbb6f02b0565432"
+  },
+  "scene": {
+    "path": "Q6/final-scene-result.json",
+    "sha256": "e488ab6b7aa9ee61756404b08025e8efea8794f945e17b3c0edaf761c4449558"
+  },
+  "case_identity_sha256": "fab11f22af8e0c1976393ef822ad648e5bb3a123af2398d06e1a703cf8144582",
+  "case_protocol_sha256": "433c490d08bed8d36c3e328b4bd02894be4137afa8e37e3adc5d44aee11609a1",
+  "dt_s": 0.0125,
+  "steps": 128,
+  "display_frames": 12,
+  "material_policy": "q5_with_full_retry",
+  "mass_order": 5,
+  "full_material_order": 7,
+  "field_cache": true,
+  "force_only": false,
+  "tangent_cache": false,
+  "temporal_accuracy": false,
+  "spatial_accuracy": false,
+  "physical_3D_coupling": true,
+  "coupling_scope": "independent one-pressure-cell four-step tests, pure-solid default retained"
+}

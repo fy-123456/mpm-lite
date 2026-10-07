@@ -1,0 +1,10 @@
+test_affine_volume_and_translation (tests.research_formal_pressure_next.test_contracts.Contracts.test_affine_volume_and_translation) ... ok
+test_checkpoint_all_ledgers_and_identity (tests.research_formal_pressure_next.test_contracts.Contracts.test_checkpoint_all_ledgers_and_identity) ... ok
+test_directional_cofactor_formula (tests.research_formal_pressure_next.test_contracts.Contracts.test_directional_cofactor_formula) ... ok
+test_mixed_work_and_rollback_in_affine_geometry (tests.research_formal_pressure_next.test_contracts.Contracts.test_mixed_work_and_rollback_in_affine_geometry) ... ok
+test_transaction_rejection_and_fault_control (tests.research_formal_pressure_next.test_contracts.Contracts.test_transaction_rejection_and_fault_control) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 13.581s
+
+OK

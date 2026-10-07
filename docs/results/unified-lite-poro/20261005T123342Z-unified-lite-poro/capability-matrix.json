@@ -1,0 +1,33 @@
+{
+  "status": "scoped_engineering_delivery",
+  "selected_research_rule": "fixed-positive",
+  "selected_research_backend": "CPU",
+  "actual_particle_history_loop": true,
+  "whole_step_transaction": true,
+  "full_mass_cross_terms": true,
+  "shared_volume_work": true,
+  "fixed_template_only": true,
+  "eulerian_lite_integration": false,
+  "production_144_integration": false,
+  "production_default_changed": false,
+  "spatial_continuum_accuracy": false,
+  "full_nonlinear_reference": false,
+  "temporal_accuracy": false,
+  "paper_complete": false,
+  "same_space_material_reference": true,
+  "fixed_skeleton_reference": true,
+  "inner_particle_decoupling": "owned frozen CPU operator; independent new-process coupled solve; per-call work at Np=16/54/128/1024",
+  "general_speedup": false,
+  "material_rule_points": 128,
+  "accepted_cycle_steps": 12,
+  "cycle_time_s": 0.06,
+  "max_particle_displacement_m": 0.0008875496330341554,
+  "common_site_ppc_difference": 0.01857477011870131,
+  "original_backend": "BD retained in original entry",
+  "original_space": "cross-direction-snapshot6 unchanged",
+  "original_coupled_window_s": [
+    0,
+    7.5e-05
+  ],
+  "reference_warning": "13.4% same-state material-force error at PPC4; full stress accuracy not certified"
+}

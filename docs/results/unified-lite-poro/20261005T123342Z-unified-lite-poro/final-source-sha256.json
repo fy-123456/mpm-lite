@@ -1,0 +1,15 @@
+{
+  "benchmarks/research_unified_lite_poro/__init__.py": "8e4621ddebeebb133fbf15ec74d197530eeeaeefb5f6dd5d8f36f38457c26afc",
+  "benchmarks/research_unified_lite_poro/analyze.py": "7ef6f7c998ad7bb7a15e357fff048eac1e142b32bf3bef184e0887276dd45eb7",
+  "benchmarks/research_unified_lite_poro/publication.py": "50e6d3603a8b85590ac786a22d29ef124f78bab0cbbcb816f2327d82de9f1681",
+  "benchmarks/research_unified_lite_poro/replay.py": "12703062c45a1a5b09a4668688daff4c94fad8846775765a91d1932b286f7d5e",
+  "benchmarks/research_unified_lite_poro/run.py": "2c8d8e45b263dae072ac99f50287825c16b3a1034b656e437982ecccb55f4f3e",
+  "benchmarks/research_unified_lite_poro/visualize.py": "073493a0890f497a77b6ec6ef2f777c601ac40b79739c225b2b46ab275b5c7b2",
+  "engine/aniso_phase1/research_unified_lite_poro/__init__.py": "1af890d90585b6c99a3be11d0dcc990ae17989985fdbe35d5c440fcc5a1dd7f0",
+  "engine/aniso_phase1/research_unified_lite_poro/checkpoint.py": "675c97e8b975aa88fcc69945fad581fe0bc9f980fe4e5ed39195ddb37c491c4b",
+  "engine/aniso_phase1/research_unified_lite_poro/model.py": "4d9287273d9088c2b6e9b611d0787c64b30332c4b4eb87e2b622095f5a8a8e5b",
+  "engine/aniso_phase1/research_unified_lite_poro/solve.py": "cee4d37c4362e40439c81598b37572ab9c5f3bd771cb3f40b78fb6d894a6945f",
+  "engine/aniso_phase1/research_unified_lite_poro/space.py": "d9fb34dd9142239bef467c974933b7ab542ff6f4dea66464b31119bd0a7a992a",
+  "tests/research_unified_lite_poro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests/research_unified_lite_poro/test_contracts.py": "33e26ccae5c632fe256eb9a75fa061b105b321ca72840adebf0e768af774645c"
+}

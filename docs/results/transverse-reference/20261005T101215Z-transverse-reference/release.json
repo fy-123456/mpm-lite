@@ -1,0 +1,53 @@
+{
+  "schema": "transverse-reference-practical-v1",
+  "utc": "2026-10-05T10:35:31.866279+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/transverse-response/20261005T070612Z-transverse-response",
+  "application_parent_release_sha256": "7d8fb00c01a7b1fb191d2ed327cd3a4eda3c4121f6d61cf19b43d15e914515d6",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "5b7461fd2326a575af0dbe33de0c1e45d1cdf9fa28a11268955ce5876a011174",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "efc8f2fed91268f77259a8d6cd24ff91d766ed2d8459da19e1f52b60e718c699",
+    "count": 23
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "e5ed5f290b649bd7b71ec2c784523554663b97075ab4a0a8ce294343965bed58",
+    "count": 623
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "ca97ddd256e03df316dd8eb0e6cdd2eee32b476d9b471528ef39580d9a3522c0"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "341d1cda8a94165136c504b6bb2c7ae6a1e2849bf1c8ae734688bb46ac0f0ff1"
+  },
+  "attempts": {
+    "path": "S5/attempt-accounting.json",
+    "sha256": "10a76216631a40365fca4cc19ecb4926be0d0a1c1c2fffddb34029acbd0fe9bd"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "new_display_frames": 0,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited pure-solid q5; coupled fullq7",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "fixed_skeleton_engineering_time_checks": true,
+  "selected_geometry": "BD: batched gradient download, specified research window"
+}

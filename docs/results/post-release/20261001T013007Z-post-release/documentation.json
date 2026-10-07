@@ -1,0 +1,9 @@
+{
+  "progress_path": "docs/MPM_LITE_POST_RELEASE_PROGRESS_20261001_ZH.md",
+  "progress_sha256": "e983a3b06bdffb490ecf866a9be3c90bfff20be502bd8c0ea3a1a3f14adf7b32",
+  "coupling_path": "docs/MPM_LITE_POST_RELEASE_COUPLING_INTERFACE_20261001_ZH.md",
+  "coupling_sha256": "c1463664fc6061d4d222a7cb89e02d0b01528aeb0d6bb1294dae75d03ff36e93",
+  "current_plan_path": "docs/MPM_LITE_POST_RELEASE_FIVE_PRIORITY_PLAN_20261001_ZH.md",
+  "current_plan_sha256": "c527b249eeab406858e83b51a83c8b9b34817df99bf9b6387a14a57946aa01cb",
+  "snapshot_link_base": "/root/workspace/mpm-lite/docs"
+}

@@ -1,0 +1,98 @@
+{
+  "S0.1": {
+    "status": "passed",
+    "evidence": "input-lock.json"
+  },
+  "S0.2": {
+    "status": "passed",
+    "evidence": "S0/physical-contract.json"
+  },
+  "S0.3": {
+    "status": "passed",
+    "evidence": "S0/experiment-protocol.json"
+  },
+  "S1.1": {
+    "status": "passed_scoped",
+    "evidence": "S1/state-map.md"
+  },
+  "S1.2": {
+    "status": "passed_scoped",
+    "evidence": "S1/mapping-decision.md"
+  },
+  "S1.3": {
+    "status": "passed_scoped",
+    "evidence": "S3/cycle24/metrics.json"
+  },
+  "S1.4": {
+    "status": "passed_scoped",
+    "evidence": "S1/kernel-probes.json"
+  },
+  "S2.1": {
+    "status": "partial",
+    "evidence": "S7/tests.log"
+  },
+  "S2.2": {
+    "status": "passed_scoped",
+    "evidence": "S2/independent-comparison.json"
+  },
+  "S2.3": {
+    "status": "partial",
+    "evidence": "S2/restart-comparison.json"
+  },
+  "S3.1": {
+    "status": "blocked_formal_adoption",
+    "evidence": "S3/formal144-entry-audit.json"
+  },
+  "S3.2": {
+    "status": "passed_small_model_only",
+    "evidence": "S3/G2-decision.json"
+  },
+  "S3.3": {
+    "status": "passed_short_window_only",
+    "evidence": "S3/phase-comparison.json"
+  },
+  "S4.1": {
+    "status": "not_started",
+    "evidence": null
+  },
+  "S4.2": {
+    "status": "not_started",
+    "evidence": null
+  },
+  "S4.3": {
+    "status": "G3_not_passed",
+    "evidence": null
+  },
+  "S5.1": {
+    "status": "not_triggered_G3",
+    "evidence": null
+  },
+  "S5.2": {
+    "status": "not_triggered_G3",
+    "evidence": null
+  },
+  "S5.3": {
+    "status": "not_triggered_G3",
+    "evidence": null
+  },
+  "S6.1": {
+    "status": "not_triggered_full_method",
+    "evidence": null
+  },
+  "S6.2": {
+    "status": "passed_per_call_and_frozen_step",
+    "evidence": "S2/scaling.json"
+  },
+  "S6.3": {
+    "status": "not_triggered_stable_formal_interface",
+    "evidence": null
+  },
+  "S7.1": {
+    "status": "partial_no_novelty_certification",
+    "evidence": null
+  },
+  "S7.2": {
+    "status": "stage_delivery_ready_for_seal",
+    "evidence": "S7/test-report.json"
+  }
+}

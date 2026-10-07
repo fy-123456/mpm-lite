@@ -1,0 +1,158 @@
+{
+  "count": 6,
+  "steps": [
+    {
+      "step": "R0",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S0/version-audit.json",
+          "sha256": "db20f763deef89985ee8f3369f8c7b56213d3a006cf33fa5d7bba7590883e581"
+        },
+        {
+          "path": "input-lock.json",
+          "sha256": "9155b50ffbd8c8cf07e45b78d4cb35d63abbd9b36cd23b1566b69da0419dd42e"
+        },
+        {
+          "path": "R0/input-contract.json",
+          "sha256": "43ceaa49dfd884a8933fcb7be577686fecb705b671eaa35454388b5e1a30f739"
+        },
+        {
+          "path": "S0/experiment-budget.json",
+          "sha256": "5454ccc21adc36fdc69cf2e454e2308dcf38c92d53cdbf19750b07f45d649654"
+        }
+      ]
+    },
+    {
+      "step": "R1",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "R1/reference-protocol.json",
+          "sha256": "66e60d4634967546ef44dad1cf6323354aff0cecbcbbd3612bb9ca5c81488ea2"
+        },
+        {
+          "path": "R1/scalar-reference.json",
+          "sha256": "6ea1b09a2ad59b7a3de4e8868b5a0ccf821f3748d525691d5dbb4bb775e2b9ff"
+        },
+        {
+          "path": "S6/test-report.json",
+          "sha256": "70a1f35c985164393917fd32ce71bf2116c674d1aa467dba0fa45efb4828aafd"
+        }
+      ]
+    },
+    {
+      "step": "R2",
+      "status": "spatial_passed_temporal_limited",
+      "evidence": [
+        {
+          "path": "R2/grid-screen-protocol.json",
+          "sha256": "5358930d9926fd49ff6a29d707207abc88efb99448c8d1f4eea9d7f0f4e0be97"
+        },
+        {
+          "path": "R2/grid-screen.json",
+          "sha256": "c53d026f0edebb48f2aea805c97c1c8d01b5d7a0d3a7a4d20377e7c620190b82"
+        },
+        {
+          "path": "R2/diagnosis.json",
+          "sha256": "c75be9dec146727929bed72e9c865b6148616f7146eb87899217374537d649fc"
+        }
+      ]
+    },
+    {
+      "step": "R3",
+      "status": "not_triggered",
+      "evidence": [
+        {
+          "path": "R3/coupling-decision.json",
+          "sha256": "b4ffb41ebf67652ed333ced36549e2ae5939484e0a1ad73c499dc2181b40f1e6"
+        }
+      ]
+    },
+    {
+      "step": "R4",
+      "status": "performance_inconclusive_fallback_A",
+      "evidence": [
+        {
+          "path": "R4/integration-protocol.json",
+          "sha256": "d0379bb12e2cde75c5d3d3beeca68361258a22e910dcd38c6547e26c426f2e0a"
+        },
+        {
+          "path": "R4/optimization-protocol.json",
+          "sha256": "050f1ac6d3e4bf3f2757dc6401a19b2279655d178fcd16b28999e1cc0117091b"
+        },
+        {
+          "path": "R4/operator-equivalence.json",
+          "sha256": "ddd15fac3b20db96146a98ba1b8dea28e6b07305aa38ec34793734cdbdf8d59d"
+        },
+        {
+          "path": "R4/implementation-bridge.json",
+          "sha256": "ee1b701297e96e6537dbbfb532933773162e06976222b746f73683a5be1d7304"
+        },
+        {
+          "path": "R4/paired-performance.json",
+          "sha256": "edaee84c35a8e1a7eecda8864bbb865af0953b08b1b39c37989d88cdba0f58f8"
+        },
+        {
+          "path": "R4/performance-decision.json",
+          "sha256": "c73ec85e02e44da553893f97b4fee79c0f7cf0a90d104e0b2e990d2ea3e651f1"
+        },
+        {
+          "path": "R4/performance-environment-review.json",
+          "sha256": "3ec2803d1e97cfb20d54ead3eea7171e348e6bd7273549c163d0670b93d177b7"
+        },
+        {
+          "path": "R4/fault-B0/failure.json",
+          "sha256": "f09301fa9ac99e6e036aa3a7168ff7a4b7762aa4c8cf79c6aa854dd1066f117f"
+        },
+        {
+          "path": "R4/restart.json",
+          "sha256": "bb0ae94fec372c75d1a710ac3328fd1c848f39fd413b76158f6b86eca2d1e568"
+        }
+      ]
+    },
+    {
+      "step": "R5",
+      "status": "passed_scoped",
+      "evidence": [
+        {
+          "path": "S6/physical-ledger-audit.json",
+          "sha256": "6ef037bd916119091a22debbb6800c80c8bc2d970330c0722a6c674682ab0b87"
+        },
+        {
+          "path": "S6/frame-equivalence.json",
+          "sha256": "b2941e525ef525b3393d25e8086d6a707ac208acc7b8b9e0a3cfb2b4c95522bc"
+        },
+        {
+          "path": "S6/load-check.json",
+          "sha256": "58e8f08f0cc737ced3756032d6c0ae50ede4d6e588fb3f3fe0e56268c233230b"
+        },
+        {
+          "path": "S6/attempt-accounting.json",
+          "sha256": "a99d21c4caeddbe86158de703bb0fdbf8aef6bc8d0875195e1a6047d64bcd36a"
+        },
+        {
+          "path": "S6/visual-assets-check.json",
+          "sha256": "3b0361809014024e8ff58a56a462476a83dda5015bf03bfe9b2de59ffceace7b"
+        },
+        {
+          "path": "S6/visual-review.json",
+          "sha256": "3e48b7aa9ff923e7425f30b556a867dc4e57cd15fb15fbbf1bfb5e19f8b189d8"
+        },
+        {
+          "path": "S6/regression-impact.json",
+          "sha256": "522aa1c929964ba5d56bbe1b1d7297b6bad384c14d412ab816603da48d25846b"
+        },
+        {
+          "path": "S6/fallback-and-restart.json",
+          "sha256": "58513b1c815d818d08e453c49fdcf6289f7db50bf4fe9dcb8055c5ee790c2b25"
+        }
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "all_requirements_passed": false,
+  "scope_limit_reason": "startup raw interval time accuracy fails on new boundary grids; conditional actual grid branch not triggered; full coupled space/time/cycle accuracy not certified",
+  "plan_sha256": "511294e62b59d349666f08b33113c9d16084ed2d602b94bd3cb2f1149f6399c1",
+  "sequential": true
+}

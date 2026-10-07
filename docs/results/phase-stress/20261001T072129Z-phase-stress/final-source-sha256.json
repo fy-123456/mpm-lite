@@ -1,0 +1,21 @@
+{
+  "benchmarks/research_phase_stress_next/__init__.py": "88d5279140ee4aab65260f87d47790bb7e79cc65a64d20ea24b6a17e302a1710",
+  "benchmarks/research_phase_stress_next/provenance.py": "8b5adce620c9c2fef7db55c789dca1d0fb79b640317803aef8bdd1b4392679ea",
+  "benchmarks/research_phase_stress_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+  "benchmarks/research_phase_stress_next/config.py": "02489a6d173430443f8269e5ed1e9ab1a8987807546c6af0d85fdf854cf70cee",
+  "benchmarks/research_phase_stress_next/spaces.py": "00ee57127b7066aed476f60f82096e2d6596aa25bfbe5ec8639a39cc93c0fa69",
+  "benchmarks/research_phase_stress_next/run.py": "7807123b008204b02b36d4a9032b9749509d412f6c99363960e839e4213bfd36",
+  "benchmarks/research_phase_stress_next/visualize.py": "ba85e2fdde4a1e661e01d9cd95c3f14197a6fec827f19355ac5cb6c58e23f97c",
+  "benchmarks/research_phase_stress_next/performance_study.py": "1c47d6bae6d2b374e24162d1c13d21b76fe784fd262dac68258093ade6ea847d",
+  "benchmarks/research_phase_stress_next/time_study.py": "d19d1b2dec64848f29c299b6f344dda0ac80fe9538bfdd9939049f448793c28e",
+  "benchmarks/research_phase_stress_next/spatial_study.py": "8637f917895a9bd4dfe4144dfb08f55982d06d05ce9da86f335b00989d600ad0",
+  "benchmarks/research_phase_stress_next/coupling_study.py": "755096319d9f3edd2144f9d5558e52621d9debd5ef946453f41ec6ed6f0fbbfd",
+  "benchmarks/research_phase_stress_next/rule_study.py": "f21677ea28a7f721be698108afbc828144724df37f8a48cf4296b7634a47c574",
+  "benchmarks/research_phase_stress_next/finalize.py": "3d7478b2c4cbc4f72ea332d4eeeae6981ad9123f8e10123bb042c5263cda81ce",
+  "benchmarks/research_phase_stress_next/publication.py": "33d36d69260c2e1644f86b2b047946504e00dcd036fecf72753f4d84bf71bf22",
+  "engine/aniso_phase1/research_phase_stress_next/__init__.py": "bd91d6e6270660a5e2156078591b13dca28a3454d61c11bbd800e2445c07cf47",
+  "engine/aniso_phase1/research_phase_stress_next/warm.py": "5e50d00a1833b817de025cb25568aaea274f8eb211dd5575ec9afe9ffe64497d",
+  "engine/aniso_phase1/research_phase_stress_next/coupled.py": "82775751118df9aa2180d02f21d753292ffc5a12ef7eef5dc898744ebfc49dad",
+  "tests/research_phase_stress_next/__init__.py": "bd91d6e6270660a5e2156078591b13dca28a3454d61c11bbd800e2445c07cf47",
+  "tests/research_phase_stress_next/test_runtime.py": "394c56de386d545d3dc3d90a152c710d06bab983eb4151466924996d00618945"
+}

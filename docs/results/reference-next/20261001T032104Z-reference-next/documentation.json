@@ -1,0 +1,10 @@
+{
+  "progress_path": "docs/MPM_LITE_REFERENCE_NEXT_PROGRESS_20261001_ZH.md",
+  "progress_sha256": "eb30ab21198fd4c199746537dcf8b7125c3d00455f5e21e749ab25340e321b0f",
+  "coupling_path": "docs/MPM_LITE_REFERENCE_NEXT_COUPLING_20261001_ZH.md",
+  "coupling_sha256": "2b07b5a206454513aeafe0f99f92a186b03b825e71d42934e887f3b5a8adcc03",
+  "current_plan_path": "docs/MPM_LITE_NEXT_REFERENCE_FIRST_OPTIMIZATION_PLAN_20261001_ZH.md",
+  "current_plan_sha256": "92b0ea46c988f09756393b7313be4380a84c98f094a8bbb052f40371f5f65a02",
+  "original_plan_sha256": "91a57a34add9791577de9fd49a154f43cc98882c98f7b4e25813b9743f9fda72",
+  "snapshot_link_base": "/root/workspace/mpm-lite/docs"
+}

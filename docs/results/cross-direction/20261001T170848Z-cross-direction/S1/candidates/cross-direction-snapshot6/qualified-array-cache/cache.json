@@ -1,0 +1,197 @@
+{
+  "schema": "qualified-space-array-cache-v1",
+  "source_package_sha256": "885a2870a9908f5fd5a0904173a5c1244695e4b7e5a80bf953ff445fda644a30",
+  "space_sha256": "687d62084a8cda7d8e305d4a085a54ac1c37eb2a722d5af0fa5a3e75cc275d7b",
+  "reduction_sha256": "ca38a03c4f06f4a23e80e595534b70972b8e01f1e27f33cfadb922ee9addb44c",
+  "scalars": {
+    "n": 225,
+    "p": 6,
+    "ndof": 369,
+    "nfree_carrier": 75
+  },
+  "shapes": {
+    "shape": [
+      337,
+      97,
+      97
+    ],
+    "oldshape": [
+      49,
+      17,
+      17
+    ],
+    "q_shape": [
+      219,
+      3
+    ]
+  },
+  "metadata": {
+    "schema_version": 1,
+    "producer": "research_sequential_next",
+    "baseline_source_sha256": "136529c866133aac10af77126c839f12a2769073ee5ec964f46dcadeca7adee4",
+    "producer_source_sha256": {
+      "benchmarks/research_a/__init__.py": "59eadfa4c871ec403fc0c70423609d3fe727c5a0f794d1755eae1ff126fc3ffd",
+      "benchmarks/research_a/acceptance.py": "271d734854b7678a98eaec1a8666a5276fcc8fd50174426319ca1c12a0f7313a",
+      "benchmarks/research_a/baseline.py": "d677c803eecc3b14b05bcebadfaca3baf5b6b1d36e5d98182f4694d6ba0a04cd",
+      "benchmarks/research_a/export.py": "56828f3a116d326cc6672a90e19b58221976ca4ac1c319bf01e5188eec5d37c9",
+      "benchmarks/research_a/nonlinear_audit.py": "27824d2d79a83f20e4a58d1f137f3a458cc1ac5d8227c6d792eec4d278a4de8f",
+      "benchmarks/research_a/protocol.py": "13ab1004e83ac5eedd06a695aeff13337d3c5eba298f5e0242bffa41b3534878",
+      "benchmarks/research_a/reference_certification.py": "e153074bcdc38a5c87d45d64c5f5e68bb2ebf8877f31d708e5c8fbf85c9b9f29",
+      "benchmarks/research_a/report.py": "6fdce69a4dd19f302a54888d1f8c9201bd81da2b0e1f0fe391deecdfd1768e66",
+      "benchmarks/research_a/suite.py": "58305a8fd079100c6d534357cc69ed71958a76cf164963eb29b83571b101c31a",
+      "benchmarks/research_a/support_ablation.py": "320682d82f927930d63f4ee929845c3e56ca28fdbe9585ff48b393c81a73c436",
+      "benchmarks/research_a/validate_package.py": "d233010d671b02bde91a93f2de89c95c79593e4916f2577cf5687d9131d1299d",
+      "engine/aniso_phase1/research_a/__init__.py": "beb9605355f9e946006d72a7529fb504cb6d0129853e3bc6a917be840dbb0eaf",
+      "engine/aniso_phase1/research_a/adaptive.py": "df76f3194e500cbf087d385a09fa356cf52de8d58f5b4e4a689fe6655131c0c1",
+      "engine/aniso_phase1/research_a/baseline_adapter.py": "7b8cbb25e9e5237e460096db2aca34b6810f8d153ad9404e981faeb23225aaf9",
+      "engine/aniso_phase1/research_a/estimators.py": "2d97092d356ab4f00e189b583d0a5915a65db7530b9bd89ba4476063b1082cb3",
+      "engine/aniso_phase1/research_a/export_adapter.py": "dfb118b6cdc3e626fbd88b9ddbd3e473c7c487f022e30c83d6fb7ebe17b3d66d",
+      "engine/aniso_phase1/research_a/package_loader.py": "fd79c72438373caa9d639a6254047e26616c0de64862aca50b0b63086a4c3393",
+      "engine/aniso_phase1/research_a/support_family.py": "0d24128657ec5b50be49f237fa0e0207c1405d507f67bee5212104e8d7cd36b3",
+      "engine/aniso_phase1/research_a/validation.py": "7c73010ba66b33e904ab9bc106a8d27f1b97a4a61ed5fff71847929fe94256ff",
+      "tests/research_a/__init__.py": "59b7aa51dafd0f87282a628cf11f6b4b529274dd7c863d87c7d5704f9fac8056",
+      "tests/research_a/helpers.py": "94a3806402d4dbee88b59bc5ca0bcd3003e41b5916172cf6025fed1f01dc23ea",
+      "tests/research_a/test_baseline_adapter.py": "b04cef42fe7b3de6d5d8428a4d76b87cd582f62d43f7ad1874a235e8429c168c",
+      "tests/research_a/test_space_invariants.py": "a235d655d24aa73a6339cb74df4208f1365299ca109b9ea164d57aa3c60179c7",
+      "tests/research_a/test_validation.py": "5633d9d15ac8db52a035499d85848648eaa98ecc793b02e3302dee834cc32b92"
+    },
+    "input_sha256": "55c0e3614b07026091572a4d6a5da319be1708887a1aacaa3952bada33e23a28",
+    "units": {
+      "length": "m",
+      "stress": "Pa",
+      "force": "N",
+      "energy": "J"
+    },
+    "dtype": "float64",
+    "device": "cpu",
+    "coordinate_system": "Cartesian reference",
+    "material": {
+      "mu": 10.0,
+      "lam": 20.0,
+      "k_f": 200.0,
+      "fiber_angle_degrees": 45.0
+    },
+    "boundary_conditions": {
+      "box": [
+        [
+          0.125,
+          0.875
+        ],
+        [
+          0.375,
+          0.625
+        ],
+        [
+          0.375,
+          0.625
+        ]
+      ],
+      "grips": [
+        0.25,
+        0.75
+      ],
+      "left_displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right_displacement": [
+        0.005,
+        0.0,
+        0.0
+      ],
+      "side_faces": "natural traction"
+    },
+    "q_shape": [
+      219,
+      3
+    ],
+    "dof_order": "rows: free carriers in original order, then local scalar basis; columns: x,y,z",
+    "displacement_convention": "x=X+u(q); F=I+grad(u)",
+    "constraint_lift": "right rigid volume .005 in x",
+    "scalar_component_closure": true,
+    "integration": "full positive reference-volume Gauss quadrature order p+1; no compression",
+    "region_labels": {
+      "global_": "entire original box",
+      "grip": "x<=.3125 or x>=.6875 including rigid volumes",
+      "interior": ".3125<x<.6875",
+      "deep_interior": ".375<x<.625"
+    },
+    "physical_volume": 0.046875,
+    "seed": 220930,
+    "basis_reconstruction": "interpolate bundled Q2 carrier basis to target Qp; local W=raw@transform",
+    "artificial_boundaries": "zero trace on artificial patch faces; overlap uses a global basis transform",
+    "nonlinear_mapping": "affine in q; no additional mapping Hessian",
+    "newton_rule": "fixed package/basis for the entire Newton or line search; no history commit",
+    "fixed_test_gates": {
+      "mapping_absolute": 1e-07,
+      "energy_relative": 1e-05,
+      "force_relative": 1e-05,
+      "tangent_relative": 0.0005
+    },
+    "applicability": "F45 original-box static spatial adapter; dynamics and B/C/D combinations untested",
+    "seconds": 26.68494680710137,
+    "files": {
+      "basis-raw.npz": "ee4d1c77d0597cb3fe82d9f708ae4b25a80bcea0e2ee048cf2bc7c3c6a8f259c",
+      "basis-transform.npz": "5f571bae81bea0b483983775174899c27ce808092a7ca0545ddfeda48b40e4ab",
+      "carrier-basis.npz": "3c73f77d94be41ef15ead19b5d34369b2707d1647c7a8bad86d5bfbebe1400c5",
+      "geometry.npz": "8fe3446ed3359eab1e61effda51e2c01825ae242d1fdde978c762afdb20a95bf",
+      "test-vectors.npz": "950ebaf478e4ba029c751b9c79677227ddeb0b7392e0a6232935883715a13990"
+    },
+    "parent_sha256": "bc18a352fb5d913fc73dcf76e38e98fe9164c80417c88536314738bca16b3879",
+    "derived_space_label": "cross-direction-snapshot6",
+    "ambient_refinement": "p",
+    "ambient_degree": 6,
+    "selected_cells": [
+      8,
+      45
+    ]
+  },
+  "boundary": {
+    "left_x": 0.25,
+    "right_x": 0.75,
+    "left_displacement": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_displacement": [
+      0.005,
+      0.0,
+      0.0
+    ]
+  },
+  "original_folder": "/root/workspace/mpm-lite/docs/results/parallel-v22/integration/20260930T054100Z-common-inputs/inputs",
+  "test_keys": [
+    "F",
+    "dF",
+    "direction",
+    "dx",
+    "energy_J",
+    "force",
+    "points0",
+    "points1",
+    "points2",
+    "q",
+    "tangent_action",
+    "x"
+  ],
+  "parameters": {
+    "mu": 10.0,
+    "lam": 20.0,
+    "k_f": 200.0,
+    "fiber_direction": [
+      0.7071067811865476,
+      0.7071067811865475,
+      0.0
+    ]
+  },
+  "files": {
+    "arrays.npz": "02bede9984fd43b058c76b0f4d18a0dc3ff7597f6cfbab635f74d6f3cd4a4657",
+    "prolong0.npz": "e197633c5daf5e0fc5bcab49dcc6ad5195e236b700cac0de9bebdd10749421f1",
+    "prolong1.npz": "a387ebbeb86fbcb8e15b67d53335799a6938707eb12b253175649862fc4a5f67",
+    "prolong2.npz": "a387ebbeb86fbcb8e15b67d53335799a6938707eb12b253175649862fc4a5f67",
+    "raw.npz": "0a79c1c0230557d1d9259c6f2cca0d8640d6688773c7e51978181c2f7e951d86"
+  },
+  "construction": "exact arrays from qualified slow reconstruction; no approximation or changed basis"
+}

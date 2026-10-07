@@ -1,0 +1,54 @@
+{
+  "schema": "zero-source-theta-practical-v1",
+  "utc": "2026-10-04T18:44:19.229847+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/pressure-startup/20261004T172139Z-pressure-startup",
+  "application_parent_release_sha256": "67ed5b403421fb8e833bc810f55e7c0518e18063e99185f7f1ab999beb33a100",
+  "mathematical_parent": "/root/workspace/mpm-lite/docs/results/sequential-next/20260930T122305Z-next-practical",
+  "mathematical_release_sha256": "ae8a1d2151056ab5472f8287d9bfbb950c78cb59a69f3b0f7763f0b3250d5296",
+  "input_lock_sha256": "83827cdcbadbd8326e38000d007ce77401761694770e99777486f738cc35aa09",
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "b4f16e7f5afa97b21acc7a24a88971bf7be5fc37def79938f81eac97667fa6c5",
+    "count": 25
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "7b5f143181eb3fc5c7e2f19bae0e08aa9fe4b5a7baf01386b13619c2766d7a34",
+    "count": 960
+  },
+  "space": {
+    "path": "selected-space.json",
+    "sha256": "7c6f03aef1810ea5ece2d6e209398ad41e23462c6b7714e91dcf27b77ce86b24"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "46e95d752bba4dd4b5c2d5ada4694bd9b369e77b300a422a7e69d811fcc6524e"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "9b07a0e83cf03703668fa3ff5e967b3611478fb20a73d13c6d6553d66aec74a5"
+  },
+  "attempts": {
+    "path": "S6/attempt-accounting.json",
+    "sha256": "cc2a4c16667ea03185bb3536418eb14ec50d50388b6647d45b79b2982680ba3a"
+  },
+  "formal_steps": 252,
+  "new_formal_steps": 0,
+  "inherited_display_frames": 12,
+  "new_display_frames": 8,
+  "mass_order": 7,
+  "full_material_order": 7,
+  "material_policy": "inherited solid q5_with_full_retry; coupled fullq7 only",
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "zero_source_full_window_us": 200,
+  "selected_method": "startup"
+}

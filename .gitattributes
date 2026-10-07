@@ -1,0 +1,1 @@
+# Byte-exact research cache parts are regular Git blobs; no fork-specific LFS dependency.

@@ -1,0 +1,94 @@
+{
+  "S0.1": {
+    "status": "passed_scoped",
+    "reason": "27 releases, full parent audit, 1307 frozen source inventory"
+  },
+  "S0.2": {
+    "status": "passed_scoped",
+    "reason": "small scene physical contract; formal space not loaded or changed"
+  },
+  "S0.3": {
+    "status": "passed_scoped",
+    "reason": "protocol written before new runs; common sites; 48 coupled attempts including tests"
+  },
+  "S1.1": {
+    "status": "passed_scoped",
+    "reason": "same-state direction/integration decomposition; original 13.43896% state recovered"
+  },
+  "S1.2": {
+    "status": "limited",
+    "reason": "128-site director-log improvement for smooth rank-one fields; nonplanar fallback not universally better"
+  },
+  "S1.3": {
+    "status": "passed_scoped",
+    "reason": "energy derivative, numerical tangent symmetry, moment contraction and rotation checks"
+  },
+  "S2.1": {
+    "status": "limited",
+    "reason": "C/L and current/reference maps established; advection/history discrepancy prevents unified geometry"
+  },
+  "S2.2": {
+    "status": "limited",
+    "reason": "material bridge transaction/restore and isolated operator pass; full original-Lite coupled freeze not implemented"
+  },
+  "S2.3": {
+    "status": "limited",
+    "reason": "5 actual kernel transfers, true block crossing and remap; nonaffine gradient gap 14.74848%"
+  },
+  "S3.1": {
+    "status": "not_triggered",
+    "reason": "G1 failed; formal144 adapter not connected"
+  },
+  "S3.2": {
+    "status": "not_triggered",
+    "reason": "G1 failed; new shared Eulerian volume chain not derived"
+  },
+  "S3.3": {
+    "status": "limited",
+    "reason": "44 accepted small material-coordinate steps only, not formal Eulerian coupled cycle"
+  },
+  "S4.1": {
+    "status": "not_executed",
+    "reason": "independent moving-skeleton spatial reference remains future work"
+  },
+  "S4.2": {
+    "status": "not_triggered",
+    "reason": "no independent spatial reference; short dt diagnostics are not spatial certification"
+  },
+  "S5.1": {
+    "status": "not_triggered",
+    "reason": "G1/G3 unmet; no formal72/144/288 ranking"
+  },
+  "S5.2": {
+    "status": "not_triggered",
+    "reason": "no new formal space selected"
+  },
+  "S5.3": {
+    "status": "not_triggered",
+    "reason": "nonplanar material diagnostic is not a hidden paper generalization set"
+  },
+  "S6.1": {
+    "status": "limited",
+    "reason": "material representation comparison only; joint three-contribution ablation deferred"
+  },
+  "S6.2": {
+    "status": "limited",
+    "reason": "per-call Np16/54/128/1024 counts and nested NumPy bytes; no process-peak or full Eulerian scaling"
+  },
+  "S6.3": {
+    "status": "limited",
+    "reason": "bounded per-call and short cycle costs; no speedup claim or GPU change"
+  },
+  "S6.4": {
+    "status": "not_executed",
+    "reason": "no new upstream baseline checkout or same-physics paper comparison"
+  },
+  "S7.1": {
+    "status": "limited",
+    "reason": "contribution/evidence limits documented; paper incomplete"
+  },
+  "S7.2": {
+    "status": "passed_scoped",
+    "reason": "new namespaces, progress, viewer and descendant audit; no production replacement"
+  }
+}

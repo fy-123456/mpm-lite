@@ -1,0 +1,139 @@
+{
+  "status": "passed_scoped",
+  "stage_attempts": {
+    "S0": 0,
+    "S1": 0,
+    "S2": 16,
+    "S3": 0,
+    "S4": 8,
+    "S5": 97,
+    "S6": 0
+  },
+  "total_attempts": 121,
+  "records": [
+    {
+      "path": "S4/A0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/A1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/B0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/B1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/fault-B0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "36f1f3f2b64485f3bc786a3027d52fe3a7cf8177d486fdc43ec2911d3303ad8e"
+    },
+    {
+      "path": "S4/first-state1/A1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/first-state1/B1/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S4/preliminary-profile/A0/attempt.json",
+      "attempts": 1,
+      "stage": "S4",
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/fault/attempt.json",
+      "attempts": 1,
+      "stage": "S5",
+      "sha256": "4588ed36428ddbd6b650a94d09b3d9d7a52a3f639f9826750e7d6b0f6fdb11eb"
+    },
+    {
+      "path": "S5/source-mismatch/cases/startup-coarse-h/attempts.json",
+      "attempts": 16,
+      "stage": "S5",
+      "sha256": "7643aeb823f3376b9d4083ac9b9c799b72afa953318f706093270798f2dce40b"
+    },
+    {
+      "path": "S5/source-mismatch/cases/startup-coarse-half/attempts.json",
+      "attempts": 32,
+      "stage": "S5",
+      "sha256": "1702171ff153b2172b7ee4d9dbd5d24b0cc9acd222f16db6513d01b75c7107c4"
+    },
+    {
+      "path": "S5/source-mismatch/cases/startup-fine-h/attempts.json",
+      "attempts": 12,
+      "stage": "S5",
+      "sha256": "9e4c62617798b36fde8f15521f828042eee55711bb6dfee66575e0a75f639eea"
+    },
+    {
+      "path": "cases/candidate-extended-half/attempts.json",
+      "attempts": 16,
+      "stage": "S2",
+      "sha256": "f0b877e63e77350f55e6feee9cb76e0ba3953c6eb85c78645bdd43b8cfe72502"
+    },
+    {
+      "path": "cases/startup-zero-coarse-h/attempts.json",
+      "attempts": 12,
+      "stage": "S5",
+      "sha256": "3a245154eeba148be69f7e9e5dede4ea8f0fd40b56dfd7c913dfcf399d246510"
+    },
+    {
+      "path": "cases/startup-zero-coarse-half/attempts.json",
+      "attempts": 24,
+      "stage": "S5",
+      "sha256": "dabf43e3ab059d1c600cda4edb9a23d61d032d9237920769cad3375a84b47e68"
+    }
+  ],
+  "max_attempts": 204,
+  "new_display_frames": 9,
+  "max_new_display_frames": 12,
+  "new_display_frame_paths": [
+    "S5/source-mismatch/cases/startup-coarse-h/generations/g-000016-97d974cd5814463491d8d709789c6426/frame.npz",
+    "S5/source-mismatch/cases/startup-coarse-half/generations/g-000032-3eea64f3f4b84b83a86e589641f98851/frame.npz",
+    "cases/candidate-extended-half/generations/g-000032-58e51716a0b14da1a99c1ef896e976f8/frame.npz",
+    "cases/startup-zero-coarse-h/generations/g-000012-36b0f6b2f430472685e873dc9f4eb56a/frame.npz",
+    "cases/startup-zero-coarse-half/generations/g-000024-74854ccd09674d6a8d477c1828b6a698/frame.npz",
+    "S4/first-state1/A1/generations/g-000004-014a5dcb8bf9404c8807f2f2c72e7f75/frame.npz",
+    "S4/first-state1/B1/generations/g-000004-ebc6149a02304a76bc7985d655b58c40/frame.npz",
+    "S4/A1/generations/g-000004-5582fd0e94814efeb28489a0832a0125/frame.npz",
+    "S4/B1/generations/g-000004-29c3b130965040ef93c1855279de63da/frame.npz"
+  ],
+  "inherited_daily_steps": 252,
+  "inherited_daily_frames": 12,
+  "new_formal_steps": 0,
+  "inherited_solid_coarse_steps": 16,
+  "inherited_solid_fine_steps": 16,
+  "new_solid_reference_steps": 16,
+  "corrected_zero_source_steps": 36,
+  "rejected_source_protocol_attempts": 60,
+  "rejected_source_protocol_commits": 59,
+  "interrupted_attempts": 1,
+  "injected_failure_attempts": 2,
+  "static_solves": 0,
+  "new_spaces": 0,
+  "CPU_pressure_screen": {
+    "algebra_assemblies": 6,
+    "spectral_exact_calls": 6,
+    "theta_matrix_steps": 384
+  },
+  "S2_attempt_log_is_precommit": true,
+  "S2_final_committed_step": 32
+}

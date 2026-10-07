@@ -1,0 +1,22 @@
+{
+  "benchmarks/research_spatial_phase_next/__init__.py": "1fd890c47b4d1ad29aca3af35f586bce737974abee35c493e280d4f7caebc221",
+  "benchmarks/research_spatial_phase_next/provenance.py": "764e9aff9fb11a97de44e14d6b151e8b9f1ee404cbe66e5431476275cc115077",
+  "benchmarks/research_spatial_phase_next/base_config.py": "8bc7715c3e20eb13a9d403bbb5695994842dc9411bb31847ca8bb3d689e7b30b",
+  "benchmarks/research_spatial_phase_next/config.py": "e14359ee94dcc5b7d8cf3babc6cf1722aecaf8e752912799900f1b680b9707ab",
+  "benchmarks/research_spatial_phase_next/spaces.py": "2665219e8a9b823c5c07440ab5d0cbbf557e768cde58b320bd59721971d1f32e",
+  "benchmarks/research_spatial_phase_next/run.py": "7de9bd26c040eb4b84a6236fd3f288f064c898a266fcef59df8cb7b1283f3a62",
+  "benchmarks/research_spatial_phase_next/visualize.py": "ba85e2fdde4a1e661e01d9cd95c3f14197a6fec827f19355ac5cb6c58e23f97c",
+  "benchmarks/research_spatial_phase_next/spatial_study.py": "4a7d2f0c86888b3f7628f36693027a42beedd94e8a2aef09be58f039ad57ca16",
+  "benchmarks/research_spatial_phase_next/time_study.py": "bbecb80e441a16c007125a49baf0c13950d1a130eff30895e44cea246becbc11",
+  "benchmarks/research_spatial_phase_next/rule_study.py": "7c1190469da6f91eb58f0c580452e854a7326b204a3fcc584f361648fa6f1470",
+  "benchmarks/research_spatial_phase_next/coupling_study.py": "28fabcf9f8fe119801c5d525d32f3d454e06c6a0fcef8d4f3ca2b9c5906f0112",
+  "benchmarks/research_spatial_phase_next/performance_study.py": "a43e54122a87b38e94d9e8f680ef5f57e02e3938f403fde3ac06c58224ef676a",
+  "benchmarks/research_spatial_phase_next/finalize.py": "8a62bee170a93fd9004fbd9d16ccfb9078192fe0e52a66b5fa530dcac37ffcc9",
+  "benchmarks/research_spatial_phase_next/publication.py": "ea4d737c3be4351ed247fe65fac8c8880b4d36ab0677a49a3d06931ba7b66ba0",
+  "engine/aniso_phase1/research_spatial_phase_next/__init__.py": "1fd890c47b4d1ad29aca3af35f586bce737974abee35c493e280d4f7caebc221",
+  "engine/aniso_phase1/research_spatial_phase_next/space.py": "2850dc97a939f79bd9a56f8baf2af972f5a06222cf602624148a56e4676b5958",
+  "engine/aniso_phase1/research_spatial_phase_next/multicell.py": "c0a1b63013616f58a7afc0c703ea62edce75ca304921967190ecbd1b1dfd5a92",
+  "engine/aniso_phase1/research_spatial_phase_next/performance.py": "f0e0ab07f2f431dfdbdc69f7dc4665b8107f26c31ef1a02cf7be843a23a33656",
+  "tests/research_spatial_phase_next/__init__.py": "1fd890c47b4d1ad29aca3af35f586bce737974abee35c493e280d4f7caebc221",
+  "tests/research_spatial_phase_next/test_runtime.py": "55d31798e7afb6913630de082278aafbaaee9a068e94bf9377588e593cb70f13"
+}

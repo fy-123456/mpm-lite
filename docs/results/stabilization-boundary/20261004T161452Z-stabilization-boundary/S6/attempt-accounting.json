@@ -1,0 +1,76 @@
+{
+  "status": "passed_scoped",
+  "records": [
+    {
+      "path": "S5/A0/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/A1/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/B0/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/B1/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/before-owned-host/B0/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/before-owned-host/B1/attempt.json",
+      "attempts": 1,
+      "sha256": "7ba421a54aa8bdcd1a964d8bd4ed9f2667b7c76f92b666803d629cba0808a1a0"
+    },
+    {
+      "path": "S5/before-owned-host/fault-B0/attempt.json",
+      "attempts": 1,
+      "sha256": "36f1f3f2b64485f3bc786a3027d52fe3a7cf8177d486fdc43ec2911d3303ad8e"
+    },
+    {
+      "path": "S5/fault-B0/attempt.json",
+      "attempts": 1,
+      "sha256": "36f1f3f2b64485f3bc786a3027d52fe3a7cf8177d486fdc43ec2911d3303ad8e"
+    },
+    {
+      "path": "cases/candidate-prefix-half/attempts.json",
+      "attempts": 16,
+      "sha256": "f9aad6e3f0955612f67bdb8f88f8f092cdcdb6cf5ba0e63edc5fcddca177f219"
+    }
+  ],
+  "total_attempts": 24,
+  "max_attempts": 172,
+  "new_display_frames": 4,
+  "new_display_frame_paths": [
+    "cases/candidate-prefix-half/generations/g-000016-781cd1a3fd0b45d9ae7aeedc75915f85/frame.npz",
+    "S5/A1/generations/g-000004-c977633e0d1942d1b463f29285f474c8/frame.npz",
+    "S5/before-owned-host/B1/generations/g-000004-cb8b1d7678f74590985854ed2db10d06/frame.npz",
+    "S5/B1/generations/g-000004-77c4913951bb402a81181c0fa1b166c5/frame.npz"
+  ],
+  "max_new_display_frames": 12,
+  "inherited_daily_steps": 252,
+  "new_full_cycle_steps": 0,
+  "inherited_daily_frames": 12,
+  "inherited_coarse_prefix_steps": 8,
+  "new_reference_steps": 16,
+  "new_coupled_grid_steps": 0,
+  "static_solves": 4,
+  "reference_solves": 0,
+  "CPU_pressure_screen": {
+    "algebra_assemblies": 12,
+    "spectral_exact_calls": 34,
+    "independent_scipy_expm_calls": 6,
+    "midpoint_matrix_steps": 384
+  },
+  "CPU_additional_diagnosis_algebra_assemblies": 4,
+  "injected_failures_included": true
+}

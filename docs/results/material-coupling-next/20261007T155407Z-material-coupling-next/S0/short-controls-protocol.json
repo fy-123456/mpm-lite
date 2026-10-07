@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-07T16:12:40.345902+00:00",
+  "main": "closed-compressed four steps unchanged",
+  "controls": [
+    "closed-full one step matched to first main step",
+    "drained-compressed one matched step",
+    "dry-compressed one alpha=0 step vs existing DryMidpoint",
+    "closed-compressed-half-dt two half steps at same first-step physical target"
+  ],
+  "purpose": "separate integration, boundary response and temporal uncertainty; not a long window",
+  "budget_per_case": {
+    "seconds": 600,
+    "material_calls": 24
+  }
+}

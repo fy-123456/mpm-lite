@@ -1,0 +1,22 @@
+{
+  "case": "dry",
+  "steps": 1,
+  "state_digest": "862f1e93c90dbbda7a084f1964eed635b0cfa57c5f77e8097924ab304f676bb0",
+  "seconds": 166.68299711402506,
+  "material_calls": 6,
+  "material_seconds": 119.71552446018904,
+  "jv_calls": 0,
+  "minJ": 0.999839767003318,
+  "max_pressure": 0.0,
+  "peak_rss_bytes": 2325737472,
+  "formal_pressure_coupling": true,
+  "production": false,
+  "space_reference": false,
+  "geometry_points": 373248,
+  "material_points": 4917248,
+  "rule": 7,
+  "drained": false,
+  "alpha": 0.0,
+  "transport": "constant reference hydraulic network",
+  "state_array_bytes": 17584
+}

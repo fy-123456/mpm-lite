@@ -1,0 +1,341 @@
+{
+  "count": 26,
+  "steps": [
+    {
+      "step": "S0.1",
+      "title": "再次确认开工时的版本",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S0/version-audit.json"
+      ]
+    },
+    {
+      "step": "S0.2",
+      "title": "建立独立研究子版本和来源解析",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "evidence_record"
+      ],
+      "evidence": [
+        "S0/default-source.json",
+        "S0/interface-contract.json"
+      ]
+    },
+    {
+      "step": "S0.3",
+      "title": "兼容、恢复和资源预检",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "registered"
+      ],
+      "evidence": [
+        "S0/compatibility.json",
+        "S0/resource-policy.json"
+      ]
+    },
+    {
+      "step": "S1.1",
+      "title": "登记准确的初态、网格与比较对象",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered"
+      ],
+      "evidence": [
+        "S1/reference-protocol.json"
+      ]
+    },
+    {
+      "step": "S1.2",
+      "title": "推进一个细参照并检查收缩趋势",
+      "status": "limited",
+      "reported_statuses": [
+        "limited",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/time-comparison.json",
+        "cases/candidate-quarter/summary.json"
+      ]
+    },
+    {
+      "step": "S1.3",
+      "title": "沿轨迹验证恢复力差异，避免只凭初态下结论",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "diagnostic",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S1/force-attribution.json",
+        "S1/candidate-diagnostic.json",
+        "S1/formal-diagnostic.json"
+      ]
+    },
+    {
+      "step": "S1.4",
+      "title": "给出单一后续决定",
+      "status": "limited",
+      "reported_statuses": [
+        "reference_limited"
+      ],
+      "evidence": [
+        "S1/candidate-reference-decision.json"
+      ]
+    },
+    {
+      "step": "S2.1",
+      "title": "分解现有热点，并冻结唯一优化路线",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "registered"
+      ],
+      "evidence": [
+        "S2/hotspot-breakdown.json",
+        "S2/optimization-protocol.json"
+      ]
+    },
+    {
+      "step": "S2.2",
+      "title": "实现当前状态的分块缩并，保持完整方程",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S2/operator-equivalence.json",
+        "S2/identity-fix.json"
+      ]
+    },
+    {
+      "step": "S2.3",
+      "title": "从真实父状态建立可审计的测试分支",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered",
+        "passed_scoped",
+        "root_cause_identified"
+      ],
+      "evidence": [
+        "S2/paired-protocol.json",
+        "S2/fault-B0/failure.json",
+        "S2/publication-anomaly.json"
+      ]
+    },
+    {
+      "step": "S2.4",
+      "title": "用少量真实步选择是否保留",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "research_device_qualified"
+      ],
+      "evidence": [
+        "S2/paired-performance.json",
+        "S2/performance-decision.json"
+      ]
+    },
+    {
+      "step": "S3.1",
+      "title": "冻结既有可观测工况，区分空间细化与时间细化",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "registered"
+      ],
+      "evidence": [
+        "S3/grid-protocol.json"
+      ]
+    },
+    {
+      "step": "S3.2",
+      "title": "做最小预检，再完整推进 16/32 步",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/operator-check.json",
+        "S3/pressure-schedule-check.json",
+        "cases/grid32-h/summary.json",
+        "cases/grid32-half/summary.json"
+      ]
+    },
+    {
+      "step": "S3.3",
+      "title": "先做同网格时间比较，再做保守跨网格比较",
+      "status": "limited",
+      "reported_statuses": [
+        "passed_scoped",
+        "limited",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S3/time-comparison.json",
+        "S3/grid-comparison.json",
+        "S3/grid-transfer-check.json"
+      ]
+    },
+    {
+      "step": "S3.4",
+      "title": "分开记录两网格证据、资源恢复和资格范围",
+      "status": "limited",
+      "reported_statuses": [
+        "limited",
+        "limited"
+      ],
+      "evidence": [
+        "S3/coupling-scope-decision.json",
+        "S3/grid-limitation-diagnostic.json"
+      ]
+    },
+    {
+      "step": "S4.1",
+      "title": "先分析完整输出，不再默认新增细步数",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S4/reaction-engineering.json"
+      ]
+    },
+    {
+      "step": "S4.2",
+      "title": "区分严格事件结论和工程影响结论",
+      "status": "limited",
+      "reported_statuses": [
+        "registered",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S4/engineering-protocol.json",
+        "S4/reaction-engineering.json"
+      ]
+    },
+    {
+      "step": "S4.3",
+      "title": "只在确有影响时提出下一次分段步长变更",
+      "status": "limited",
+      "reported_statuses": [
+        "retain_252_scoped"
+      ],
+      "evidence": [
+        "S4/time-decision.json"
+      ]
+    },
+    {
+      "step": "S5.1",
+      "title": "先判断是否已经具备设计依据",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S5.2",
+      "title": "只改变六个候选方向，评分包含交叉作用和恢复力",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S5.3",
+      "title": "静态和零步动力学检查先于新轨迹",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S5.4",
+      "title": "只做一个足够分辨的更短动态前缀",
+      "status": "not_triggered",
+      "reported_statuses": [
+        "not_triggered"
+      ],
+      "evidence": [
+        "S5/research-space-decision.json"
+      ]
+    },
+    {
+      "step": "S6.1",
+      "title": "核对改动传播范围，决定需要哪些测试",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/tests-result.json",
+        "S6/regression-impact.json",
+        "S6/fallback-and-restart.json"
+      ]
+    },
+    {
+      "step": "S6.2",
+      "title": "保留默认场景来源，验证展示语义",
+      "status": "inherited",
+      "reported_statuses": [
+        "inherited_passed_scoped",
+        "passed_scoped",
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/default-scene-decision.json",
+        "S6/load-check.json",
+        "S6/visualization-origin.json",
+        "S6/visual-review.json"
+      ]
+    },
+    {
+      "step": "S6.3",
+      "title": "逐项登记结果与限定资格",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped",
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/scope-summary.json",
+        "S6/attempt-accounting.json"
+      ]
+    },
+    {
+      "step": "S6.4",
+      "title": "封存最终源码与产物，给出最新 CLI",
+      "status": "passed_scoped",
+      "reported_statuses": [
+        "passed_scoped"
+      ],
+      "evidence": [
+        "S6/publication-preflight.json"
+      ]
+    }
+  ],
+  "all_steps_accounted_for": true,
+  "plan_sha256": "2151326c459475b49641981a0e1d15c9003484af0cf56b463aaa0a87e444bd1a",
+  "sequential": true,
+  "not_all_physical_gates_passed": true
+}

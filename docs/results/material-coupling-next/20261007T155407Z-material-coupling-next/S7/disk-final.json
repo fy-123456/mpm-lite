@@ -1,0 +1,16 @@
+{
+  "usage": {
+    "/": {
+      "total": 32212254720,
+      "used": 26778124288,
+      "free": 5434130432
+    },
+    "/root/autodl-tmp": {
+      "total": 332859965440,
+      "used": 230736228352,
+      "free": 102123737088
+    }
+  },
+  "migration_required": false,
+  "migrated": false
+}

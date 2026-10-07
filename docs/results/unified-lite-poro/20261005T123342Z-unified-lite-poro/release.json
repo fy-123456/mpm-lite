@@ -1,0 +1,52 @@
+{
+  "schema": "unified-lite-poro-scoped-v1",
+  "utc": "2026-10-05T13:03:15.815041+00:00",
+  "application_parent": "/root/workspace/mpm-lite/docs/results/coupled-reference/20261005T105825Z-coupled-reference",
+  "application_parent_release_sha256": "8428612da43ed943a47e4e3417d2439ba13d615a5fa29c15f29a3d53aaa43413",
+  "sources": {
+    "path": "final-source-sha256.json",
+    "sha256": "096c838c9aab5222662b88963442918127b2f5c0a316a5f9c505d257898d4456",
+    "count": 13
+  },
+  "artifacts": {
+    "path": "artifact-sha256.json",
+    "sha256": "fb71ef6d1e0837a7b481e6eace93ebbfa2fcbd89b2a5f507f7c37a524e2d89fd",
+    "count": 126
+  },
+  "input_lock": {
+    "path": "input-lock.json",
+    "sha256": "818d4549c12ffdf5e551ba07c3deae8953fd05679e72c107da549a69eb9d35fc"
+  },
+  "capabilities": {
+    "path": "capability-matrix.json",
+    "sha256": "f899f15f0ade0b3e733c5bee21168e22ba8bed3fb54d487c85d35c4a32bbdaee"
+  },
+  "step_audit": {
+    "path": "requirement-audit.json",
+    "sha256": "b6250dac6bf54e41db7c204ae88acefe71c5cf752c0a1efc216b76b993a5b006"
+  },
+  "default_case": "daily-q5-retry",
+  "default_case_source": {
+    "release_root": "/root/workspace/mpm-lite/docs/results/pressure-window/20261004T114530Z-pressure-window",
+    "release_sha256": "de3c5bf7bf94a77b7fe3fd1c7294abe8e0373379511882184f9456118897298b",
+    "case": "daily-q5-retry",
+    "identity_sha256": "fb574257c5738a7b2c96fe2e7e907fa8bd78633db51e6529b5fbb5e5be515f88",
+    "execution_protocol_sha256": "a67d91bf069242d05347fb62ed63a3b9b8ad0831c5f31d86ba92123efc318ea5"
+  },
+  "selected_geometry": "BD",
+  "research_backend": "CPU material-coordinate particle bridge",
+  "research_rule": "fixed-positive",
+  "formal_space_changed": false,
+  "spatial_accuracy": false,
+  "temporal_accuracy": false,
+  "eulerian_lite_integration": false,
+  "paper_complete": false,
+  "particle_decoupling_scope": "per-call frozen CPU operator, structured reference-particle template",
+  "scope": "engineering research delivery; no production replacement",
+  "audit": {
+    "ancestors": 25,
+    "old_sources": 1294,
+    "new_sources": 13,
+    "full": true
+  }
+}

@@ -288,10 +288,10 @@ class MPMSolver:
         # allocate boundary blocks
         boundary_ijk_wp = wp.array(boundary_ijk.astype(np.int32), dtype=wp.vec3i, device=self.device)
         boundary_wp = wp.array(boundary.astype(np.int32), dtype=int, device=self.device)
-        boundary_n_wp = wp.array(boundary_n.astype(np.float32), dtype=self.vecn, device=self.device) if boundary_n is not None else (
+        boundary_n_wp = wp.array(boundary_n.astype(scalar), dtype=self.vecn, device=self.device) if boundary_n is not None else (
             wp.zeros(boundary_ijk_wp.shape[0], dtype=self.vecn, device=self.device)
         )
-        boundary_v_wp = wp.array(boundary_v.astype(np.float32), dtype=self.vecn, device=self.device) if boundary_v is not None else (
+        boundary_v_wp = wp.array(boundary_v.astype(scalar), dtype=self.vecn, device=self.device) if boundary_v is not None else (
             wp.zeros(boundary_ijk_wp.shape[0], dtype=self.vecn, device=self.device)
         )
 
@@ -344,6 +344,7 @@ class MPMSolver:
                     self.bc_norm,
                     self.bc_velo,
                 ],
+                device=self.device,
             )
             break
         self.need_record_again = True
@@ -657,7 +658,8 @@ class MPMSolver:
                     self.dt,
                     self.n_psi,
                     0,
-                ]
+                ],
+                device=self.device,
             )
 
             self.pd_damping = 0.0
@@ -837,6 +839,14 @@ class MPMSolver:
 
             # check convergence
             dv_inf = float(self.max_update.numpy()[0])  # ||Δv_search||_∞ (pre-clip)
+            self.last_legacy_implicit_stats = {
+                "newton_iteration": int(it + 1),
+                "cg_iterations": int(n_cg_iters),
+                "cg_error": float(error),
+                "cg_tolerance": float(tol),
+                "residual_norm": float(r0),
+                "max_update": dv_inf,
+            }
             if alpha * dv_inf < v_tol:
                 print(f"\033[32m[Solver] sim_step={self.sim_steps:04d} newton_iters={it:04d} cg_iters={n_cg_iters:04d} R0={self.R0:.3e} r0={r0:.3e} ||Δv_search||_∞={alpha * dv_inf:.3e}\033[0m")
                 break

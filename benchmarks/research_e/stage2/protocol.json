@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "producer": "research_e.stage2",
+  "parent_bundle_sha256": "55682a7b8e90b62c1306818cdf9c1f060b4286a174da069ce2217aa5b53b3c7c",
+  "seed": 20260930,
+  "dtype": "float64",
+  "device": "cpu",
+  "space": "independent 2D unit-thickness plane-strain Q2 displacement/RT0 integrated face flux/P0 pressure; NOT 3D A space",
+  "model": "fixed reference small-strain quasistatic saturated Biot, Hencky plus quadratic-fiber linearization at F=I",
+  "units": {
+    "u": "m",
+    "p": "Pa",
+    "stress": "Pa",
+    "flux": "m^3/s",
+    "time": "s",
+    "energy": "J",
+    "mass_defect": "m^3",
+    "thickness": "m"
+  },
+  "stress": {
+    "tensor": "3x3 plane-strain including zz; p subtracted once on all diagonal entries",
+    "pressure_reconstruction": "cellwise constant P0",
+    "center": "cell center point value",
+    "cell_mean": "volume integral divided by cell volume",
+    "full_field": "same quadrature points and weights for numerical and analytic fields",
+    "order": 4,
+    "reference_check_order": 6,
+    "regions": "whole cells: boundary if any center coordinate <0.26 or >0.74; interior otherwise",
+    "near_zero_reference_rms": 1e-08,
+    "absolute_pressure_scale": 0.1
+  },
+  "acceptance": {
+    "polynomial": 1e-10,
+    "reference_integration": 1e-08,
+    "field_relative": 0.04,
+    "cycle_relative": 0.05,
+    "balance": 1e-06,
+    "true_residual": 1e-08,
+    "negative_roundoff": 1e-10,
+    "restart": 1e-10,
+    "time_linear_consistency": 1e-08,
+    "trend_roundoff": 1e-09
+  },
+  "normalization": "weighted Frobenius L2 relative error; only reference RMS <=1e-8 Pa uses fixed 0.1 Pa absolute RMS scale; no omitted regions",
+  "residual_scales": {
+    "mechanics_N": 0.1,
+    "mass_m3": 1.0,
+    "darcy_Pa": 0.1
+  },
+  "manufactured": {
+    "grids": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "stop_after_first_certified_grid_at_least": 16,
+    "final_time": 0.1,
+    "dt": 0.01,
+    "independent_time_dt": [
+      0.02,
+      0.01,
+      0.005
+    ],
+    "time_grid": 16,
+    "mu": 10,
+    "lam": 20,
+    "k_f": 200,
+    "direction": [
+      1,
+      1,
+      0
+    ],
+    "K_eigenvalues": [
+      0.01,
+      0.001
+    ],
+    "K_angle_deg": 45,
+    "storage": 0.001
+  },
+  "consolidation": {
+    "grids": [
+      8,
+      16,
+      32
+    ],
+    "spatial_dt": 0.0005,
+    "time_grid": 32,
+    "time_dt": [
+      0.02,
+      0.01,
+      0.005
+    ],
+    "final_time": 0.2
+  },
+  "cycle": {
+    "grid": 8,
+    "dt": [
+      0.04,
+      0.02,
+      0.01,
+      0.005
+    ],
+    "stage_ends": [
+      0.4,
+      0.8,
+      1.2,
+      1.6
+    ],
+    "sampling": 0.04,
+    "load": "linear load/hold/linear unload/final hold; compression traction 0.1 Pa",
+    "near_zero_scales": {
+      "pressure": 0.1,
+      "displacement": 0.0025,
+      "stress_total": 0.1,
+      "stress_effective": 0.1,
+      "reaction": 0.1,
+      "face_flux": 0.001
+    }
+  },
+  "robustness": {
+    "ratios": [
+      1,
+      10,
+      100,
+      1000
+    ],
+    "angles_deg": [
+      0,
+      45,
+      90
+    ],
+    "fiber_stiffness": [
+      0,
+      20,
+      200
+    ],
+    "grid_cycle": [
+      4,
+      6,
+      8
+    ],
+    "storage_cycle": [
+      0,
+      0.001,
+      0.01
+    ],
+    "rate_by_angle": [
+      0.5,
+      1,
+      2
+    ],
+    "pressure_cycle": [
+      0,
+      0.05
+    ],
+    "sensitivity_cases": [
+      0,
+      17,
+      35
+    ],
+    "sensitivity_refinement": 2,
+    "accuracy_certification": false
+  },
+  "solver": "sparse monolithic direct baseline; converged fixed-stress at tolerance 1e-11; raw nonsymmetric mixed matrix is NOT SPD; no PCG/MINRES claim",
+  "resources": {
+    "threads": 1,
+    "system_min_gib": 5,
+    "estimated_output_mb": 100,
+    "per_experiment_timeout_s": 300,
+    "total_budget_s": 1800,
+    "checkpoint": "completed experiment JSON and raw NPZ; restart in new run ID without overwriting failed evidence",
+    "timing": "shared-host observations only, no speedup claim"
+  },
+  "scope": {
+    "cuda": false,
+    "production": false,
+    "moving": false,
+    "finite_deformation": false,
+    "cross_group_dynamic": false
+  },
+  "D_adapter": {
+    "version": 1,
+    "reduction": "exact RT0 elimination only; reconstruct and check original three-block residual",
+    "source": "read-only copied current D MixedBlockContract; separately hash-bound",
+    "solver_backend_certified": false
+  }
+}

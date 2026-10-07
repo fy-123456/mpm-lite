@@ -1,0 +1,22 @@
+{
+  "engine/aniso_phase1/research_reference_next/__init__.py": "ceef763e98b9b1bcf13b43902b917639d0f4af4ed425e922b06f1f1ba2fa454c",
+  "engine/aniso_phase1/research_reference_next/coupling.py": "8dd7170458160ac0674cc209ad2f5d2f933efedf096d039319abd43decc394e5",
+  "engine/aniso_phase1/research_reference_next/force_only.py": "a5aec611e5467df24aeea28aeb694e79bef988c44f7b4d6115ac229be4f45c0b",
+  "engine/aniso_phase1/research_reference_next/reference.py": "eee077525de4b43d434275885c2a3b1f3739e1358607155f5d29b37598713c58",
+  "benchmarks/research_reference_next/__init__.py": "cadcbecb7ddba58ae8285cd233122b0e90d8538258a68d2422f8fed2aa3e89cf",
+  "benchmarks/research_reference_next/budget_study.py": "168d449e91dc95f3272b9f0de82d90f92b56e4ed1e2b29fac1ea6a33cef397ae",
+  "benchmarks/research_reference_next/config.py": "1549f0f539350689c404515c642280a803b0d3b6625833ff928e115349167347",
+  "benchmarks/research_reference_next/coupling_study.py": "876848ea84f6dd747bc8aa87828b4a08f85f0e4a25f5ad320c2719e86fe57cd2",
+  "benchmarks/research_reference_next/field_audit.py": "5816453211272142019a25b960cb6a692be4059cbff760ba8c62f78f213ed486",
+  "benchmarks/research_reference_next/finalize.py": "a7343e2547703e5901319a779cf27c6dacb81906db8ded6888c7f265606d01ed",
+  "benchmarks/research_reference_next/performance_study.py": "56af3b9344ca2b09dfc190d4bd8975284033d946ad3ef7ae2c7529d30415f938",
+  "benchmarks/research_reference_next/provenance.py": "bd6f37408415527dbef87453f05e9e1ec4c97837c12d1375dec1758d14807919",
+  "benchmarks/research_reference_next/publication.py": "67cac35f7741fe40fe606c2aec941af0873dc0c16572be07d75cba49465be445",
+  "benchmarks/research_reference_next/reference_study.py": "2026d726c1393bef514ba471566cd4c16cc90c0c7907248c920574952d3ffce8",
+  "benchmarks/research_reference_next/rule_study.py": "109dfb2ae9d856121493786af383423569d1d574eaec44a8b7af84dd630648a3",
+  "benchmarks/research_reference_next/run.py": "73a315e4d5182e6ffc33d3d34a8d40362202be54b870faa6b04cef41390c4e56",
+  "benchmarks/research_reference_next/time_study.py": "8bc9001d0ed8174c939354da96a1d37552058c2d15d054c02d576465913dbeef",
+  "benchmarks/research_reference_next/visualize.py": "8b0e9e56d2743031f3c449bb706dd47c49b1fe9676a9118ce162965843ed15d6",
+  "tests/research_reference_next/__init__.py": "65afe86e23309f883dca7107f68e73704e9e097d17cfcca1ac07c763b6ba5be7",
+  "tests/research_reference_next/test_runtime.py": "ac5ffc61d277bd1f5f49fef43ccbbdad47a7e42ae80bc0bc3e75f9accd553448"
+}

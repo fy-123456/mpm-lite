@@ -1,0 +1,19 @@
+{
+  "benchmarks/research_formal_pressure_next/__init__.py": "f5adf7ab51991d615446b85961e70b467dedcce37a8bac7f0b8d4f52f8a51826",
+  "benchmarks/research_formal_pressure_next/coupled_short.py": "924e11f1bb903c7e69a13176f19fbe96e41940881bcdf27417524297a14ae88c",
+  "benchmarks/research_formal_pressure_next/geometry_check.py": "1d6199b53b85f535ca2ebef854715a546e8581312b033598a8f253e7ca0e4b2c",
+  "benchmarks/research_formal_pressure_next/operator_check.py": "4e7fc754005e375865687446178fe1cf70389564f940577e0cc539f617e629d2",
+  "benchmarks/research_formal_pressure_next/publication.py": "fd12db559b6ab00eb1956b7507cef4c4dc4beb2cb9139bcd70b522916405fa85",
+  "benchmarks/research_formal_pressure_next/replay.py": "9907df6de1c2d991e7a8891c098feeceaeda2e43b8bcd5d156862b4e3876091e",
+  "benchmarks/research_formal_pressure_next/transaction_check.py": "0b331ffb2847930eee4ccc0f92ee0836b46170134e9afdb07081ca0367c0b69c",
+  "benchmarks/research_formal_pressure_next/validation.py": "4da7613ecfe4a7653e8a41c6f44a59dcfba265c7fc1d169a28e8899b5ba535b1",
+  "benchmarks/research_formal_pressure_next/visualize.py": "d9f91d28287a019eda85014c57dad5193978566dcdc9b8970635fcfd6d42cb9e",
+  "engine/aniso_phase1/research_formal_pressure_next/__init__.py": "0d84d3c4c0ad9546a589e3aa5d9c2308afaa1bfccbfcc2c540a4fc5463909871",
+  "engine/aniso_phase1/research_formal_pressure_next/geometry.py": "562299173d7f4663590187a36d99bfcfd6defcc98e545a4c582132428d5a5fcc",
+  "engine/aniso_phase1/research_formal_pressure_next/material.py": "f646ed613b3c5711d51dccd3152c7beb3b5b9dedc271faf3d24ad6d4be771488",
+  "engine/aniso_phase1/research_formal_pressure_next/solver.py": "8dcd422fb9e96e2b17a7dd97015d350a26059e45519ae800e1fc885b402eb8d3",
+  "engine/aniso_phase1/research_formal_pressure_next/state.py": "291dda300b56d095795ffd17b3b9526298bc48157e39a56c22f3149237346ef1",
+  "engine/aniso_phase1/research_formal_pressure_next/transaction.py": "56511be81071ee7f8041213ffca995a1b029b044470eca3792b620469534bb8a",
+  "tests/research_formal_pressure_next/__init__.py": "caa1e4338004a0737557e29b59587efc1551f5c941e61b367488f2d6a280edaa",
+  "tests/research_formal_pressure_next/test_contracts.py": "b870b4f976b18e62c989f271772a55267449a38972963b3976217415891f3bc1"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "scheduling",
+    "result": "cancelled before gate acceptance",
+    "reason": "coupled process started early, paused and terminated so official case is rerun sequentially after Jv gate; no accepted case overwritten"
+  },
+  {
+    "stage": "publication-script",
+    "result": "automatic review rejected first generation command; old source SHA checked unchanged; resolved by add-only patch",
+    "physics_affected": false
+  },
+  {
+    "stage": "transaction-test",
+    "result": "test harness assertion failed; numerical q7 trajectory unchanged",
+    "cause": "unconditional equality to q7 was wrong when q2 passed the 3 percent material budget; matched q7 endpoint diagnostic force .2748 percent, weak stress .6015 percent",
+    "fix": "compare direct q7 only after a real retry; write attempts before assertions; do not force failure by lowering tolerances"
+  }
+]
